@@ -1,0 +1,5 @@
+#import "x_org_objectweb_asm_tree_analysis_SourceInterpreter.h"
+
+@implementation x_org_objectweb_asm_tree_analysis_SourceInterpreter
+
+@end

@@ -1,0 +1,5 @@
+#import "x_org_objectweb_asm_tree_analysis_BasicVerifier.h"
+
+@implementation x_org_objectweb_asm_tree_analysis_BasicVerifier
+
+@end

@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="baf379a5-cf24-427c-9c00-353a9e7b55ce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/asm-all-5.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_all_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/Attribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/ByteVector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/ClassReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/ClassWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/Handle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/Label.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/TypePath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/TypeReference.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/AnalyzerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/AnnotationRemapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/ClassRemapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/CodeSizeEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/FieldRemapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/GeneratorAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/InstructionAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/JSRInlinerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/LocalVariablesSorter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/Method.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/MethodRemapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/RemappingAnnotationAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/RemappingClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/RemappingFieldAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/RemappingMethodAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/RemappingSignatureAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/SerialVersionUIDAdder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/SignatureRemapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/SimpleRemapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/StaticInitMerger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/TryCatchBlockSorter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/signature/SignatureReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/signature/SignatureWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/AnnotationNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/ClassNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/FieldInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/FieldNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/FrameNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/IincInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/InnerClassNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/InsnList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/InsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/IntInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/InvokeDynamicInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/JumpInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/LabelNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/LdcInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/LineNumberNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/LocalVariableAnnotationNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/LocalVariableNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/LookupSwitchInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/MethodInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/MethodNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/MultiANewArrayInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/ParameterNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/TableSwitchInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/TryCatchBlockNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/TypeAnnotationNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/TypeInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/VarInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/Analyzer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/AnalyzerException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicInterpreter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicVerifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/Frame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SimpleVerifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SourceInterpreter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SourceValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/ASMifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/CheckAnnotationAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/CheckClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/CheckFieldAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/CheckMethodAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/CheckSignatureAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/Textifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/TraceAnnotationVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/TraceClassVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/TraceFieldVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/TraceMethodVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/TraceSignatureVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/ASMContentHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/Processor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/SAXAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/SAXAnnotationAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/SAXClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/SAXCodeAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/SAXFieldAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Attribute.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Attribute.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ByteVector.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ByteVector.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ClassReader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ClassReader.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ClassWriter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ClassWriter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Handle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Handle.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Label.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Label.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Type.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Type.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_TypePath.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_TypePath.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_TypeReference.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_TypeReference.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_AnalyzerAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_AnalyzerAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_AnnotationRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_AnnotationRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_ClassRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_ClassRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_CodeSizeEvaluator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_CodeSizeEvaluator.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_FieldRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_FieldRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_GeneratorAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_GeneratorAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_InstructionAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_InstructionAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_JSRInlinerAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_JSRInlinerAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_LocalVariablesSorter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_LocalVariablesSorter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_Method.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_Method.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_MethodRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_MethodRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingAnnotationAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingAnnotationAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingClassAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingClassAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingFieldAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingFieldAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingMethodAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingMethodAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingSignatureAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingSignatureAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SerialVersionUIDAdder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SerialVersionUIDAdder.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SignatureRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SignatureRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SimpleRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SimpleRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_StaticInitMerger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_StaticInitMerger.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_TryCatchBlockSorter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_TryCatchBlockSorter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_signature_SignatureReader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_signature_SignatureReader.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_signature_SignatureWriter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_signature_SignatureWriter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_AnnotationNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_AnnotationNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_ClassNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_ClassNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FieldInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FieldInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FieldNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FieldNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FrameNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FrameNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_IincInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_IincInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InnerClassNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InnerClassNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InsnList.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InsnList.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_IntInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_IntInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InvokeDynamicInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InvokeDynamicInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_JumpInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_JumpInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LabelNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LabelNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LdcInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LdcInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LineNumberNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LineNumberNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LocalVariableAnnotationNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LocalVariableAnnotationNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LocalVariableNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LocalVariableNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LookupSwitchInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LookupSwitchInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MethodInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MethodInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MethodNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MethodNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MultiANewArrayInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MultiANewArrayInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_ParameterNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_ParameterNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TableSwitchInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TableSwitchInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TryCatchBlockNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TryCatchBlockNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TypeAnnotationNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TypeAnnotationNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TypeInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TypeInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_VarInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_VarInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_Analyzer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_Analyzer.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_AnalyzerException.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_AnalyzerException.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicInterpreter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicInterpreter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicValue.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicVerifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_Frame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_Frame.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SimpleVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SimpleVerifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SourceInterpreter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SourceInterpreter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SourceValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SourceValue.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_ASMifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_ASMifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckAnnotationAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckAnnotationAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckClassAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckClassAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckFieldAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckFieldAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckMethodAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckMethodAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckSignatureAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckSignatureAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_Textifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_Textifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceAnnotationVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceAnnotationVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceClassVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceClassVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceFieldVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceFieldVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceMethodVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceMethodVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceSignatureVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceSignatureVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_ASMContentHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_ASMContentHandler.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_Processor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_Processor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXAnnotationAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXAnnotationAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXClassAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXClassAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXCodeAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXCodeAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXFieldAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXFieldAdapter.m" />
+    </list>
+    <ignored path="bind_asm_all_5_1.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bind_asm_all_5_1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Processor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/Processor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicVerifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicVerifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Textifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/Textifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ASMifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/ASMifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleVerifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SimpleVerifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicInterpreter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicInterpreter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SourceInterpreter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SourceInterpreter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3215637">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="bind_asm_all_5_1" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="bind_asm_all_5_1" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans a MOE application project" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanMoe" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'bind_asm_all_5_1'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'bind_asm_all_5_1'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'bind_asm_all_5_1'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'bind_asm_all_5_1'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Builds a MOE application project" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="moe" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="moeIpaProperties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="moeListDevices" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="moeListSimulators" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="moeMainProductName" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="moeXcodeProjectPath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="moeXcodeProperties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes JVM resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes JVM resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'bind_asm_all_5_1'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'bind_asm_all_5_1'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'bind_asm_all_5_1'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1464183371000" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="/Applications/Intel/multi_os_engine/sdk/intel-moe-ios.jar" />
+                            <option value="/Applications/Intel/multi_os_engine/sdk/intel-moe-core.jar" />
+                            <option value="/Applications/Intel/multi_os_engine/gradle/com/intel/gradle/moeGradlePlugin/1.1.0.final-1/moeGradlePlugin-1.1.0.final-1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar" />
+                            <option value="/Applications/Intel/multi_os_engine/gradle/com/intel/common/moeCommonUtils/1.1.3.final-1/moeCommonUtils-1.1.3.final-1.jar" />
+                            <option value="/Applications/Intel/multi_os_engine/gradle/com/intel/moeProjectGenerator/1.3.1.final-1/moeProjectGenerator-1.3.1.final-1.jar" />
+                            <option value="/Applications/Intel/multi_os_engine/gradle/com/intel/moeDocumentPbxproj/1.1.1.final-1/moeDocumentPbxproj-1.1.1.final-1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="bind_asm_all_5_1" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/Processor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicVerifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/Textifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/ASMifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SimpleVerifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicInterpreter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SourceInterpreter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="229" />
+    <option name="y" value="31" />
+    <option name="width" value="1609" />
+    <option name="height" value="937" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_asm_all_5_1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_asm_all_5_1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_asm_all_5_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_asm_all_5_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_asm_all_5_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bind_json_simple_1_1_1" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Multi-OS Engine iOS Application.bind_asm_all_5_1">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intel.xrt.idea.runconfig.configuration.local.XRTRunConfigurationTypeLocal" factoryName="Multi-OS Engine iOS Application">
+      <option name="moduleName" value="" />
+      <option name="sdkVersion" value="" />
+      <option name="architecture" value="" />
+      <option name="configuration" value="Debug" />
+      <option name="deviceUdid" value="" />
+      <option name="debugPort" value="8000" />
+      <option name="debugRemotePort" value="8000" />
+      <option name="buildTargetVariant" value="APP" />
+      <option name="simulatorUdid" value="" />
+      <option name="runOnSimulator" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bind_asm_all_5_1" type="com.intel.xrt.idea.runconfig.configuration.local.XRTRunConfigurationTypeLocal" factoryName="Multi-OS Engine iOS Application">
+      <option name="moduleName" value="bind_asm_all_5_1" />
+      <option name="sdkVersion" value="9.3" />
+      <option name="architecture" value="i386" />
+      <option name="configuration" value="Debug" />
+      <option name="deviceUdid" value="" />
+      <option name="debugPort" value="8000" />
+      <option name="debugRemotePort" value="8000" />
+      <option name="buildTargetVariant" value="APP" />
+      <option name="simulatorUdid" value="647BF1FE-E0A4-4020-9875-562785177942" />
+      <option name="runOnSimulator" value="true" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Multi-OS Engine iOS Application.bind_asm_all_5_1" />
+    </list>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baf379a5-cf24-427c-9c00-353a9e7b55ce" name="Default" comment="" />
+      <created>1464183368763</created>
+      <option name="number" value="Default" />
+      <updated>1464183368763</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="229" y="31" width="1609" height="937" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.104750305" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24952137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104750305" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mattakiskft/bind_asm_all_5_1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/asm-all-5.1.jar!/org/objectweb/asm/tree/analysis/BasicVerifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78038377">
+          <caret line="482" column="36" selection-start-line="482" selection-start-column="36" selection-end-line="482" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicVerifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/Textifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/ASMifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SimpleVerifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/BasicInterpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/analysis/SourceInterpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3215637">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>iOS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bind_asm_all_5_1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>asm-all-5.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
