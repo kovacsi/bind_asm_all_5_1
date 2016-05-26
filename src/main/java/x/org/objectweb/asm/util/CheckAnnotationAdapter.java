@@ -18,8 +18,8 @@ public class CheckAnnotationAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public CheckAnnotationAdapter valueWithId(org.objectweb.asm.AnnotationVisitor arg0) {
+	@Selector("valueWithAnnotationVisitor:")
+	public CheckAnnotationAdapter valueWithAnnotationVisitor(org.objectweb.asm.AnnotationVisitor arg0) {
 		CheckAnnotationAdapter self = (CheckAnnotationAdapter) CheckAnnotationAdapter.alloc().init();
 		self.original = new org.objectweb.asm.util.CheckAnnotationAdapter(arg0);
 		return self;

@@ -18,8 +18,8 @@ public class CheckSignatureAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIntWithId::")
-	public CheckSignatureAdapter valueWithIntWithId(int arg0, org.objectweb.asm.signature.SignatureVisitor arg1) {
+	@Selector("valueWithIntWithSignatureVisitor::")
+	public CheckSignatureAdapter valueWithIntWithSignatureVisitor(int arg0, org.objectweb.asm.signature.SignatureVisitor arg1) {
 		CheckSignatureAdapter self = (CheckSignatureAdapter) CheckSignatureAdapter.alloc().init();
 		self.original = new org.objectweb.asm.util.CheckSignatureAdapter(arg0, arg1);
 		return self;

@@ -2,11 +2,11 @@
 
 @implementation x_org_objectweb_asm_tree_analysis_Analyzer
 
-+ (x_org_objectweb_asm_tree_analysis_Analyzer*) valueWithId:(id) arg0 {
++ (x_org_objectweb_asm_tree_analysis_Analyzer*) valueWithInterpreter:(id) arg0 {
 	return nil;
 }
 
-- (id) analyzeWithStringWithId:(NSString*) arg0 :(id) arg1 {
+- (id) analyzeWithStringWithMethodNode:(NSString*) arg0 :(id) arg1 {
 	return nil;
 }
 

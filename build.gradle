@@ -42,7 +42,7 @@ test { exclude '**' }
 moe {
     xcode.mainTarget = 'bind_asm_all_5_1'
     xcode.testTarget = 'bind_asm_all_5_1-Test'
-    xcode.packageName = 'com.mattakiskft.bind_asm_all_5_1'
+    xcode.packageName = 'com.migeran.bind'
     xcode.launchScreenFilePath = 'src/main/resources/LaunchScreen.xib'
     xcode.bundleID = 'com.migeran.bind-asm-all-5-1'
     xcode.generateProject false

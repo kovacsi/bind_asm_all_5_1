@@ -25,20 +25,20 @@ public class Method extends NSObject {
 		return self;
 	}
 
-	@Selector("valueWithStringWithIdWithId:::")
-	public Method valueWithStringWithIdWithId(String arg0, org.objectweb.asm.Type arg1, org.objectweb.asm.Type[] arg2) {
+	@Selector("valueWithStringWithTypeWithType:::")
+	public Method valueWithStringWithTypeWithType(String arg0, org.objectweb.asm.Type arg1, org.objectweb.asm.Type[] arg2) {
 		Method self = (Method) Method.alloc().init();
 		self.original = new org.objectweb.asm.commons.Method(arg0, arg1, arg2);
 		return self;
 	}
 
-	@Selector("getMethodWithId:")
-	public static org.objectweb.asm.commons.Method getMethodWithId(java.lang.reflect.Method arg0) {
+	@Selector("getMethodWithMethod:")
+	public static org.objectweb.asm.commons.Method getMethodWithMethod(java.lang.reflect.Method arg0) {
 		return org.objectweb.asm.commons.Method.getMethod(arg0);
 	}
 
-	@Selector("getMethodWithId:")
-	public static org.objectweb.asm.commons.Method getMethodWithId(java.lang.reflect.Constructor arg0) {
+	@Selector("getMethodWithConstructor:")
+	public static org.objectweb.asm.commons.Method getMethodWithConstructor(java.lang.reflect.Constructor arg0) {
 		return org.objectweb.asm.commons.Method.getMethod(arg0);
 	}
 
@@ -47,8 +47,8 @@ public class Method extends NSObject {
 		return org.objectweb.asm.commons.Method.getMethod(arg0);
 	}
 
-	@Selector("getMethodWithStringWithBool::")
-	public static org.objectweb.asm.commons.Method getMethodWithStringWithBool(String arg0, boolean arg1) throws IllegalArgumentException {
+	@Selector("getMethodWithStringWithBoolean::")
+	public static org.objectweb.asm.commons.Method getMethodWithStringWithBoolean(String arg0, boolean arg1) throws IllegalArgumentException {
 		return org.objectweb.asm.commons.Method.getMethod(arg0, arg1);
 	}
 

@@ -18,22 +18,22 @@ public class LocalVariableAnnotationNode extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIntWithIdWithIdWithIdWithIdWithString::::::")
-	public LocalVariableAnnotationNode valueWithIntWithIdWithIdWithIdWithIdWithString(int arg0, org.objectweb.asm.TypePath arg1, org.objectweb.asm.tree.LabelNode[] arg2, org.objectweb.asm.tree.LabelNode[] arg3, int[] arg4, String arg5) {
+	@Selector("valueWithIntWithTypePathWithLabelNodeWithLabelNodeWithIntWithString::::::")
+	public LocalVariableAnnotationNode valueWithIntWithTypePathWithLabelNodeWithLabelNodeWithIntWithString(int arg0, org.objectweb.asm.TypePath arg1, org.objectweb.asm.tree.LabelNode[] arg2, org.objectweb.asm.tree.LabelNode[] arg3, int[] arg4, String arg5) {
 		LocalVariableAnnotationNode self = (LocalVariableAnnotationNode) LocalVariableAnnotationNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.LocalVariableAnnotationNode(arg0, arg1, arg2, arg3, arg4, arg5);
 		return self;
 	}
 
-	@Selector("valueWithIntWithIntWithIdWithIdWithIdWithIdWithString:::::::")
-	public LocalVariableAnnotationNode valueWithIntWithIntWithIdWithIdWithIdWithIdWithString(int arg0, int arg1, org.objectweb.asm.TypePath arg2, org.objectweb.asm.tree.LabelNode[] arg3, org.objectweb.asm.tree.LabelNode[] arg4, int[] arg5, String arg6) {
+	@Selector("valueWithIntWithIntWithTypePathWithLabelNodeWithLabelNodeWithIntWithString:::::::")
+	public LocalVariableAnnotationNode valueWithIntWithIntWithTypePathWithLabelNodeWithLabelNodeWithIntWithString(int arg0, int arg1, org.objectweb.asm.TypePath arg2, org.objectweb.asm.tree.LabelNode[] arg3, org.objectweb.asm.tree.LabelNode[] arg4, int[] arg5, String arg6) {
 		LocalVariableAnnotationNode self = (LocalVariableAnnotationNode) LocalVariableAnnotationNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.LocalVariableAnnotationNode(arg0, arg1, arg2, arg3, arg4, arg5, arg6);
 		return self;
 	}
 
-	@Selector("acceptWithIdWithBool::")
-	public void acceptWithIdWithBool(org.objectweb.asm.MethodVisitor arg0, boolean arg1) {
+	@Selector("acceptWithMethodVisitorWithBoolean::")
+	public void acceptWithMethodVisitorWithBoolean(org.objectweb.asm.MethodVisitor arg0, boolean arg1) {
 		original.accept(arg0, arg1);
 	}
 

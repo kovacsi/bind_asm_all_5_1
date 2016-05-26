@@ -18,13 +18,13 @@ public class Textifier extends NSObject {
 		super(peer);
 	}
 
-	@Selector("mainWithId:")
-	public static void mainWithId(String[] arg0) throws Exception {
+	@Selector("mainWithString:")
+	public static void mainWithString(String[] arg0) throws Exception {
 		org.objectweb.asm.util.Textifier.main(arg0);
 	}
 
-	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithId::::::")
-	public void visitWithIntWithIntWithStringWithStringWithStringWithId(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithString::::::")
+	public void visitWithIntWithIntWithStringWithStringWithStringWithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);
 	}
 
@@ -38,19 +38,34 @@ public class Textifier extends NSObject {
 		original.visitOuterClass(arg0, arg1, arg2);
 	}
 
-	@Selector("visitClassTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.util.Printer visitClassTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitClassAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.util.Textifier visitClassAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
+		return original.visitClassAnnotation(arg0, arg1);
+	}
+
+	@Selector("visitClassTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.util.Printer visitClassTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitClassTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitClassAttributeWithId:")
-	public void visitClassAttributeWithId(org.objectweb.asm.Attribute arg0) {
+	@Selector("visitClassAttributeWithAttribute:")
+	public void visitClassAttributeWithAttribute(org.objectweb.asm.Attribute arg0) {
 		original.visitClassAttribute(arg0);
 	}
 
 	@Selector("visitInnerClassWithStringWithStringWithStringWithInt::::")
 	public void visitInnerClassWithStringWithStringWithStringWithInt(String arg0, String arg1, String arg2, int arg3) {
 		original.visitInnerClass(arg0, arg1, arg2, arg3);
+	}
+
+	@Selector("visitFieldWithIntWithStringWithStringWithStringWithObject:::::")
+	public org.objectweb.asm.util.Textifier visitFieldWithIntWithStringWithStringWithStringWithObject(int arg0, String arg1, String arg2, String arg3, Object arg4) {
+		return original.visitField(arg0, arg1, arg2, arg3, arg4);
+	}
+
+	@Selector("visitMethodWithIntWithStringWithStringWithStringWithString:::::")
+	public org.objectweb.asm.util.Textifier visitMethodWithIntWithStringWithStringWithStringWithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
+		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);
 	}
 
 	@Selector("visitClassEnd")
@@ -68,18 +83,33 @@ public class Textifier extends NSObject {
 		original.visitEnum(arg0, arg1, arg2);
 	}
 
+	@Selector("visitAnnotationWithStringWithString::")
+	public org.objectweb.asm.util.Textifier visitAnnotationWithStringWithString(String arg0, String arg1) {
+		return original.visitAnnotation(arg0, arg1);
+	}
+
+	@Selector("visitArrayWithString:")
+	public org.objectweb.asm.util.Textifier visitArrayWithString(String arg0) {
+		return original.visitArray(arg0);
+	}
+
 	@Selector("visitAnnotationEnd")
 	public void visitAnnotationEnd() {
 		original.visitAnnotationEnd();
 	}
 
-	@Selector("visitFieldTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.util.Printer visitFieldTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitFieldAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.util.Textifier visitFieldAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
+		return original.visitFieldAnnotation(arg0, arg1);
+	}
+
+	@Selector("visitFieldTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.util.Printer visitFieldTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitFieldTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitFieldAttributeWithId:")
-	public void visitFieldAttributeWithId(org.objectweb.asm.Attribute arg0) {
+	@Selector("visitFieldAttributeWithAttribute:")
+	public void visitFieldAttributeWithAttribute(org.objectweb.asm.Attribute arg0) {
 		original.visitFieldAttribute(arg0);
 	}
 
@@ -93,13 +123,28 @@ public class Textifier extends NSObject {
 		original.visitParameter(arg0, arg1);
 	}
 
-	@Selector("visitMethodTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.util.Printer visitMethodTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitAnnotationDefault")
+	public org.objectweb.asm.util.Textifier visitAnnotationDefault() {
+		return original.visitAnnotationDefault();
+	}
+
+	@Selector("visitMethodAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.util.Textifier visitMethodAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
+		return original.visitMethodAnnotation(arg0, arg1);
+	}
+
+	@Selector("visitMethodTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.util.Printer visitMethodTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitMethodTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitMethodAttributeWithId:")
-	public void visitMethodAttributeWithId(org.objectweb.asm.Attribute arg0) {
+	@Selector("visitParameterAnnotationWithIntWithStringWithBoolean:::")
+	public org.objectweb.asm.util.Textifier visitParameterAnnotationWithIntWithStringWithBoolean(int arg0, String arg1, boolean arg2) {
+		return original.visitParameterAnnotation(arg0, arg1, arg2);
+	}
+
+	@Selector("visitMethodAttributeWithAttribute:")
+	public void visitMethodAttributeWithAttribute(org.objectweb.asm.Attribute arg0) {
 		original.visitMethodAttribute(arg0);
 	}
 
@@ -108,8 +153,8 @@ public class Textifier extends NSObject {
 		original.visitCode();
 	}
 
-	@Selector("visitFrameWithIntWithIntWithIdWithIntWithId:::::")
-	public void visitFrameWithIntWithIntWithIdWithIntWithId(int arg0, int arg1, Object[] arg2, int arg3, Object[] arg4) {
+	@Selector("visitFrameWithIntWithIntWithObjectWithIntWithObject:::::")
+	public void visitFrameWithIntWithIntWithObjectWithIntWithObject(int arg0, int arg1, Object[] arg2, int arg3, Object[] arg4) {
 		original.visitFrame(arg0, arg1, arg2, arg3, arg4);
 	}
 
@@ -143,23 +188,23 @@ public class Textifier extends NSObject {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitMethodInsnWithIntWithStringWithStringWithStringWithBool:::::")
-	public void visitMethodInsnWithIntWithStringWithStringWithStringWithBool(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
+	@Selector("visitMethodInsnWithIntWithStringWithStringWithStringWithBoolean:::::")
+	public void visitMethodInsnWithIntWithStringWithStringWithStringWithBoolean(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3, arg4);
 	}
 
-	@Selector("visitInvokeDynamicInsnWithStringWithStringWithIdWithId::::")
-	public void visitInvokeDynamicInsnWithStringWithStringWithIdWithId(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
+	@Selector("visitInvokeDynamicInsnWithStringWithStringWithHandleWithObject::::")
+	public void visitInvokeDynamicInsnWithStringWithStringWithHandleWithObject(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
 		original.visitInvokeDynamicInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitJumpInsnWithIntWithId::")
-	public void visitJumpInsnWithIntWithId(int arg0, org.objectweb.asm.Label arg1) {
+	@Selector("visitJumpInsnWithIntWithLabel::")
+	public void visitJumpInsnWithIntWithLabel(int arg0, org.objectweb.asm.Label arg1) {
 		original.visitJumpInsn(arg0, arg1);
 	}
 
-	@Selector("visitLabelWithId:")
-	public void visitLabelWithId(org.objectweb.asm.Label arg0) {
+	@Selector("visitLabelWithLabel:")
+	public void visitLabelWithLabel(org.objectweb.asm.Label arg0) {
 		original.visitLabel(arg0);
 	}
 
@@ -173,13 +218,13 @@ public class Textifier extends NSObject {
 		original.visitIincInsn(arg0, arg1);
 	}
 
-	@Selector("visitTableSwitchInsnWithIntWithIntWithIdWithId::::")
-	public void visitTableSwitchInsnWithIntWithIntWithIdWithId(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {
+	@Selector("visitTableSwitchInsnWithIntWithIntWithLabelWithLabel::::")
+	public void visitTableSwitchInsnWithIntWithIntWithLabelWithLabel(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {
 		original.visitTableSwitchInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitLookupSwitchInsnWithIdWithIdWithId:::")
-	public void visitLookupSwitchInsnWithIdWithIdWithId(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {
+	@Selector("visitLookupSwitchInsnWithLabelWithIntWithLabel:::")
+	public void visitLookupSwitchInsnWithLabelWithIntWithLabel(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {
 		original.visitLookupSwitchInsn(arg0, arg1, arg2);
 	}
 
@@ -188,33 +233,33 @@ public class Textifier extends NSObject {
 		original.visitMultiANewArrayInsn(arg0, arg1);
 	}
 
-	@Selector("visitInsnAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.util.Printer visitInsnAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitInsnAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.util.Printer visitInsnAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitInsnAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitTryCatchBlockWithIdWithIdWithIdWithString::::")
-	public void visitTryCatchBlockWithIdWithIdWithIdWithString(org.objectweb.asm.Label arg0, org.objectweb.asm.Label arg1, org.objectweb.asm.Label arg2, String arg3) {
+	@Selector("visitTryCatchBlockWithLabelWithLabelWithLabelWithString::::")
+	public void visitTryCatchBlockWithLabelWithLabelWithLabelWithString(org.objectweb.asm.Label arg0, org.objectweb.asm.Label arg1, org.objectweb.asm.Label arg2, String arg3) {
 		original.visitTryCatchBlock(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitTryCatchAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.util.Printer visitTryCatchAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitTryCatchAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.util.Printer visitTryCatchAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitTryCatchAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitLocalVariableWithStringWithStringWithStringWithIdWithIdWithInt::::::")
-	public void visitLocalVariableWithStringWithStringWithStringWithIdWithIdWithInt(String arg0, String arg1, String arg2, org.objectweb.asm.Label arg3, org.objectweb.asm.Label arg4, int arg5) {
+	@Selector("visitLocalVariableWithStringWithStringWithStringWithLabelWithLabelWithInt::::::")
+	public void visitLocalVariableWithStringWithStringWithStringWithLabelWithLabelWithInt(String arg0, String arg1, String arg2, org.objectweb.asm.Label arg3, org.objectweb.asm.Label arg4, int arg5) {
 		original.visitLocalVariable(arg0, arg1, arg2, arg3, arg4, arg5);
 	}
 
-	@Selector("visitLocalVariableAnnotationWithIntWithIdWithIdWithIdWithIdWithStringWithBool:::::::")
-	public org.objectweb.asm.util.Printer visitLocalVariableAnnotationWithIntWithIdWithIdWithIdWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, org.objectweb.asm.Label[] arg2, org.objectweb.asm.Label[] arg3, int[] arg4, String arg5, boolean arg6) {
+	@Selector("visitLocalVariableAnnotationWithIntWithTypePathWithLabelWithLabelWithIntWithStringWithBoolean:::::::")
+	public org.objectweb.asm.util.Printer visitLocalVariableAnnotationWithIntWithTypePathWithLabelWithLabelWithIntWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, org.objectweb.asm.Label[] arg2, org.objectweb.asm.Label[] arg3, int[] arg4, String arg5, boolean arg6) {
 		return original.visitLocalVariableAnnotation(arg0, arg1, arg2, arg3, arg4, arg5, arg6);
 	}
 
-	@Selector("visitLineNumberWithIntWithId::")
-	public void visitLineNumberWithIntWithId(int arg0, org.objectweb.asm.Label arg1) {
+	@Selector("visitLineNumberWithIntWithLabel::")
+	public void visitLineNumberWithIntWithLabel(int arg0, org.objectweb.asm.Label arg1) {
 		original.visitLineNumber(arg0, arg1);
 	}
 
@@ -228,64 +273,19 @@ public class Textifier extends NSObject {
 		original.visitMethodEnd();
 	}
 
-	@Selector("visitAnnotationWithStringWithBool::")
-	public org.objectweb.asm.util.Textifier visitAnnotationWithStringWithBool(String arg0, boolean arg1) {
+	@Selector("visitAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.util.Textifier visitAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
 		return original.visitAnnotation(arg0, arg1);
 	}
 
-	@Selector("visitTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.util.Textifier visitTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.util.Textifier visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitAttributeWithId:")
-	public void visitAttributeWithId(org.objectweb.asm.Attribute arg0) {
+	@Selector("visitAttributeWithAttribute:")
+	public void visitAttributeWithAttribute(org.objectweb.asm.Attribute arg0) {
 		original.visitAttribute(arg0);
-	}
-
-	@Selector("visitParameterAnnotationWithIntWithStringWithBool:::")
-	public org.objectweb.asm.util.Printer visitParameterAnnotationWithIntWithStringWithBool(int arg0, String arg1, boolean arg2) {
-		return original.visitParameterAnnotation(arg0, arg1, arg2);
-	}
-
-	@Selector("visitMethodAnnotationWithStringWithBool::")
-	public org.objectweb.asm.util.Printer visitMethodAnnotationWithStringWithBool(String arg0, boolean arg1) {
-		return original.visitMethodAnnotation(arg0, arg1);
-	}
-
-	@Selector("visitAnnotationDefault")
-	public org.objectweb.asm.util.Printer visitAnnotationDefault() {
-		return original.visitAnnotationDefault();
-	}
-
-	@Selector("visitFieldAnnotationWithStringWithBool::")
-	public org.objectweb.asm.util.Printer visitFieldAnnotationWithStringWithBool(String arg0, boolean arg1) {
-		return original.visitFieldAnnotation(arg0, arg1);
-	}
-
-	@Selector("visitArrayWithString:")
-	public org.objectweb.asm.util.Printer visitArrayWithString(String arg0) {
-		return original.visitArray(arg0);
-	}
-
-	@Selector("visitAnnotationWithStringWithString::")
-	public org.objectweb.asm.util.Printer visitAnnotationWithStringWithString(String arg0, String arg1) {
-		return original.visitAnnotation(arg0, arg1);
-	}
-
-	@Selector("visitMethodWithIntWithStringWithStringWithStringWithId:::::")
-	public org.objectweb.asm.util.Printer visitMethodWithIntWithStringWithStringWithStringWithId(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
-		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);
-	}
-
-	@Selector("visitFieldWithIntWithStringWithStringWithStringWithObject:::::")
-	public org.objectweb.asm.util.Printer visitFieldWithIntWithStringWithStringWithStringWithObject(int arg0, String arg1, String arg2, String arg3, Object arg4) {
-		return original.visitField(arg0, arg1, arg2, arg3, arg4);
-	}
-
-	@Selector("visitClassAnnotationWithStringWithBool::")
-	public org.objectweb.asm.util.Printer visitClassAnnotationWithStringWithBool(String arg0, boolean arg1) {
-		return original.visitClassAnnotation(arg0, arg1);
 	}
 
 }

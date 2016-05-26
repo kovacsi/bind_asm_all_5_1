@@ -18,8 +18,8 @@ public class InvokeDynamicInsnNode extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithStringWithStringWithIdWithId::::")
-	public InvokeDynamicInsnNode valueWithStringWithStringWithIdWithId(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
+	@Selector("valueWithStringWithStringWithHandleWithObject::::")
+	public InvokeDynamicInsnNode valueWithStringWithStringWithHandleWithObject(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
 		InvokeDynamicInsnNode self = (InvokeDynamicInsnNode) InvokeDynamicInsnNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.InvokeDynamicInsnNode(arg0, arg1, arg2, arg3);
 		return self;
@@ -30,13 +30,13 @@ public class InvokeDynamicInsnNode extends NSObject {
 		return original.getType();
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.MethodVisitor arg0) {
+	@Selector("acceptWithMethodVisitor:")
+	public void acceptWithMethodVisitor(org.objectweb.asm.MethodVisitor arg0) {
 		original.accept(arg0);
 	}
 
-	@Selector("cloneWithId:")
-	public org.objectweb.asm.tree.AbstractInsnNode cloneWithId(java.util.Map arg0) {
+	@Selector("cloneWithMap:")
+	public org.objectweb.asm.tree.AbstractInsnNode cloneWithMap(java.util.Map arg0) {
 		return original.clone(arg0);
 	}
 

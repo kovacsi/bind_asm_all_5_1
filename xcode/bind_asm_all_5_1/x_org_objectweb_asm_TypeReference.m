@@ -38,6 +38,10 @@
 	return nil;
 }
 
+- (int) getSort {
+	return 0;
+}
+
 - (int) getTypeParameterIndex {
 	return 0;
 }

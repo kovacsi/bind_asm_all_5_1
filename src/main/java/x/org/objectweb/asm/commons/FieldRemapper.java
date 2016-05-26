@@ -18,20 +18,20 @@ public class FieldRemapper extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithId::")
-	public FieldRemapper valueWithIdWithId(org.objectweb.asm.FieldVisitor arg0, org.objectweb.asm.commons.Remapper arg1) {
+	@Selector("valueWithFieldVisitorWithRemapper::")
+	public FieldRemapper valueWithFieldVisitorWithRemapper(org.objectweb.asm.FieldVisitor arg0, org.objectweb.asm.commons.Remapper arg1) {
 		FieldRemapper self = (FieldRemapper) FieldRemapper.alloc().init();
 		self.original = new org.objectweb.asm.commons.FieldRemapper(arg0, arg1);
 		return self;
 	}
 
-	@Selector("visitAnnotationWithStringWithBool::")
-	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBool(String arg0, boolean arg1) {
+	@Selector("visitAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
 		return original.visitAnnotation(arg0, arg1);
 	}
 
-	@Selector("visitTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 

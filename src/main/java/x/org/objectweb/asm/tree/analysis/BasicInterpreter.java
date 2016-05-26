@@ -18,79 +18,79 @@ public class BasicInterpreter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("copyOperationWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.BasicValue copyOperationWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.copyOperation(arg0, arg1);
+	@Selector("newValueWithType:")
+	public org.objectweb.asm.tree.analysis.BasicValue newValueWithType(org.objectweb.asm.Type arg0) {
+		return original.newValue(arg0);
 	}
 
-	@Selector("unaryOperationWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.BasicValue unaryOperationWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.unaryOperation(arg0, arg1);
-	}
-
-	@Selector("binaryOperationWithIdWithIdWithId:::")
-	public org.objectweb.asm.tree.analysis.BasicValue binaryOperationWithIdWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1, org.objectweb.asm.tree.analysis.BasicValue arg2) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.binaryOperation(arg0, arg1, arg2);
-	}
-
-	@Selector("ternaryOperationWithIdWithIdWithIdWithId::::")
-	public org.objectweb.asm.tree.analysis.BasicValue ternaryOperationWithIdWithIdWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1, org.objectweb.asm.tree.analysis.BasicValue arg2, org.objectweb.asm.tree.analysis.BasicValue arg3) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.ternaryOperation(arg0, arg1, arg2, arg3);
-	}
-
-	@Selector("returnOperationWithIdWithIdWithId:::")
-	public void returnOperationWithIdWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1, org.objectweb.asm.tree.analysis.BasicValue arg2) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		original.returnOperation(arg0, arg1, arg2);
-	}
-
-	@Selector("mergeWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.BasicValue mergeWithIdWithId(org.objectweb.asm.tree.analysis.BasicValue arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) {
-		return original.merge(arg0, arg1);
-	}
-
-	@Selector("mergeWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.Value mergeWithIdWithId(org.objectweb.asm.tree.analysis.Value arg0, org.objectweb.asm.tree.analysis.Value arg1) {
-		return original.merge(arg0, arg1);
-	}
-
-	@Selector("returnOperationWithIdWithIdWithId:::")
-	public void returnOperationWithIdWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1, org.objectweb.asm.tree.analysis.Value arg2) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		original.returnOperation(arg0, arg1, arg2);
-	}
-
-	@Selector("naryOperationWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.Value naryOperationWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, java.util.List arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.naryOperation(arg0, arg1);
-	}
-
-	@Selector("ternaryOperationWithIdWithIdWithIdWithId::::")
-	public org.objectweb.asm.tree.analysis.Value ternaryOperationWithIdWithIdWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1, org.objectweb.asm.tree.analysis.Value arg2, org.objectweb.asm.tree.analysis.Value arg3) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.ternaryOperation(arg0, arg1, arg2, arg3);
-	}
-
-	@Selector("binaryOperationWithIdWithIdWithId:::")
-	public org.objectweb.asm.tree.analysis.Value binaryOperationWithIdWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1, org.objectweb.asm.tree.analysis.Value arg2) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.binaryOperation(arg0, arg1, arg2);
-	}
-
-	@Selector("unaryOperationWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.Value unaryOperationWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.unaryOperation(arg0, arg1);
-	}
-
-	@Selector("copyOperationWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.Value copyOperationWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.copyOperation(arg0, arg1);
-	}
-
-	@Selector("newOperationWithId:")
-	public org.objectweb.asm.tree.analysis.Value newOperationWithId(org.objectweb.asm.tree.AbstractInsnNode arg0) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+	@Selector("newOperationWithAbstractInsnNode:")
+	public org.objectweb.asm.tree.analysis.BasicValue newOperationWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0) throws org.objectweb.asm.tree.analysis.AnalyzerException {
 		return original.newOperation(arg0);
 	}
 
-	@Selector("newValueWithId:")
-	public org.objectweb.asm.tree.analysis.Value newValueWithId(org.objectweb.asm.Type arg0) {
-		return original.newValue(arg0);
+	@Selector("copyOperationWithAbstractInsnNodeWithBasicValue::")
+	public org.objectweb.asm.tree.analysis.BasicValue copyOperationWithAbstractInsnNodeWithBasicValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.copyOperation(arg0, arg1);
+	}
+
+	@Selector("unaryOperationWithAbstractInsnNodeWithBasicValue::")
+	public org.objectweb.asm.tree.analysis.BasicValue unaryOperationWithAbstractInsnNodeWithBasicValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.unaryOperation(arg0, arg1);
+	}
+
+	@Selector("binaryOperationWithAbstractInsnNodeWithBasicValueWithBasicValue:::")
+	public org.objectweb.asm.tree.analysis.BasicValue binaryOperationWithAbstractInsnNodeWithBasicValueWithBasicValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1, org.objectweb.asm.tree.analysis.BasicValue arg2) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.binaryOperation(arg0, arg1, arg2);
+	}
+
+	@Selector("ternaryOperationWithAbstractInsnNodeWithBasicValueWithBasicValueWithBasicValue::::")
+	public org.objectweb.asm.tree.analysis.BasicValue ternaryOperationWithAbstractInsnNodeWithBasicValueWithBasicValueWithBasicValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1, org.objectweb.asm.tree.analysis.BasicValue arg2, org.objectweb.asm.tree.analysis.BasicValue arg3) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.ternaryOperation(arg0, arg1, arg2, arg3);
+	}
+
+	@Selector("naryOperationWithAbstractInsnNodeWithList::")
+	public org.objectweb.asm.tree.analysis.BasicValue naryOperationWithAbstractInsnNodeWithList(org.objectweb.asm.tree.AbstractInsnNode arg0, java.util.List arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.naryOperation(arg0, arg1);
+	}
+
+	@Selector("returnOperationWithAbstractInsnNodeWithBasicValueWithBasicValue:::")
+	public void returnOperationWithAbstractInsnNodeWithBasicValueWithBasicValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.BasicValue arg1, org.objectweb.asm.tree.analysis.BasicValue arg2) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		original.returnOperation(arg0, arg1, arg2);
+	}
+
+	@Selector("mergeWithBasicValueWithBasicValue::")
+	public org.objectweb.asm.tree.analysis.BasicValue mergeWithBasicValueWithBasicValue(org.objectweb.asm.tree.analysis.BasicValue arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) {
+		return original.merge(arg0, arg1);
+	}
+
+	@Selector("mergeWithValueWithValue::")
+	public org.objectweb.asm.tree.analysis.Value mergeWithValueWithValue(org.objectweb.asm.tree.analysis.Value arg0, org.objectweb.asm.tree.analysis.Value arg1) {
+		return original.merge(arg0, arg1);
+	}
+
+	@Selector("returnOperationWithAbstractInsnNodeWithValueWithValue:::")
+	public void returnOperationWithAbstractInsnNodeWithValueWithValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1, org.objectweb.asm.tree.analysis.Value arg2) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		original.returnOperation(arg0, arg1, arg2);
+	}
+
+	@Selector("ternaryOperationWithAbstractInsnNodeWithValueWithValueWithValue::::")
+	public org.objectweb.asm.tree.analysis.Value ternaryOperationWithAbstractInsnNodeWithValueWithValueWithValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1, org.objectweb.asm.tree.analysis.Value arg2, org.objectweb.asm.tree.analysis.Value arg3) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.ternaryOperation(arg0, arg1, arg2, arg3);
+	}
+
+	@Selector("binaryOperationWithAbstractInsnNodeWithValueWithValue:::")
+	public org.objectweb.asm.tree.analysis.Value binaryOperationWithAbstractInsnNodeWithValueWithValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1, org.objectweb.asm.tree.analysis.Value arg2) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.binaryOperation(arg0, arg1, arg2);
+	}
+
+	@Selector("unaryOperationWithAbstractInsnNodeWithValue::")
+	public org.objectweb.asm.tree.analysis.Value unaryOperationWithAbstractInsnNodeWithValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.unaryOperation(arg0, arg1);
+	}
+
+	@Selector("copyOperationWithAbstractInsnNodeWithValue::")
+	public org.objectweb.asm.tree.analysis.Value copyOperationWithAbstractInsnNodeWithValue(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Value arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.copyOperation(arg0, arg1);
 	}
 
 }

@@ -18,15 +18,15 @@ public class LocalVariableNode extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithStringWithStringWithStringWithIdWithIdWithInt::::::")
-	public LocalVariableNode valueWithStringWithStringWithStringWithIdWithIdWithInt(String arg0, String arg1, String arg2, org.objectweb.asm.tree.LabelNode arg3, org.objectweb.asm.tree.LabelNode arg4, int arg5) {
+	@Selector("valueWithStringWithStringWithStringWithLabelNodeWithLabelNodeWithInt::::::")
+	public LocalVariableNode valueWithStringWithStringWithStringWithLabelNodeWithLabelNodeWithInt(String arg0, String arg1, String arg2, org.objectweb.asm.tree.LabelNode arg3, org.objectweb.asm.tree.LabelNode arg4, int arg5) {
 		LocalVariableNode self = (LocalVariableNode) LocalVariableNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.LocalVariableNode(arg0, arg1, arg2, arg3, arg4, arg5);
 		return self;
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.MethodVisitor arg0) {
+	@Selector("acceptWithMethodVisitor:")
+	public void acceptWithMethodVisitor(org.objectweb.asm.MethodVisitor arg0) {
 		original.accept(arg0);
 	}
 

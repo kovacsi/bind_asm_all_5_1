@@ -25,8 +25,8 @@ public class ClassNode extends NSObject {
 		return self;
 	}
 
-	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithId::::::")
-	public void visitWithIntWithIntWithStringWithStringWithStringWithId(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithString::::::")
+	public void visitWithIntWithIntWithStringWithStringWithStringWithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);
 	}
 
@@ -40,18 +40,18 @@ public class ClassNode extends NSObject {
 		original.visitOuterClass(arg0, arg1, arg2);
 	}
 
-	@Selector("visitAnnotationWithStringWithBool::")
-	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBool(String arg0, boolean arg1) {
+	@Selector("visitAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
 		return original.visitAnnotation(arg0, arg1);
 	}
 
-	@Selector("visitTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitAttributeWithId:")
-	public void visitAttributeWithId(org.objectweb.asm.Attribute arg0) {
+	@Selector("visitAttributeWithAttribute:")
+	public void visitAttributeWithAttribute(org.objectweb.asm.Attribute arg0) {
 		original.visitAttribute(arg0);
 	}
 
@@ -65,8 +65,8 @@ public class ClassNode extends NSObject {
 		return original.visitField(arg0, arg1, arg2, arg3, arg4);
 	}
 
-	@Selector("visitMethodWithIntWithStringWithStringWithStringWithId:::::")
-	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithId(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
+	@Selector("visitMethodWithIntWithStringWithStringWithStringWithString:::::")
+	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
 		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);
 	}
 
@@ -80,8 +80,8 @@ public class ClassNode extends NSObject {
 		original.check(arg0);
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.ClassVisitor arg0) {
+	@Selector("acceptWithClassVisitor:")
+	public void acceptWithClassVisitor(org.objectweb.asm.ClassVisitor arg0) {
 		original.accept(arg0);
 	}
 

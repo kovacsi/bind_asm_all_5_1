@@ -6,4 +6,8 @@
 	return nil;
 }
 
+- (void) acceptWithClassVisitor:(id) arg0 {
+
+}
+
 @end

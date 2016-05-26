@@ -6,4 +6,8 @@
 	return 0;
 }
 
+- (NSString*) toString {
+	return nil;
+}
+
 @end

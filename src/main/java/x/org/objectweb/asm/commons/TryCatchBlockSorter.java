@@ -18,8 +18,8 @@ public class TryCatchBlockSorter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithIntWithStringWithStringWithStringWithId::::::")
-	public TryCatchBlockSorter valueWithIdWithIntWithStringWithStringWithStringWithId(org.objectweb.asm.MethodVisitor arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	@Selector("valueWithMethodVisitorWithIntWithStringWithStringWithStringWithString::::::")
+	public TryCatchBlockSorter valueWithMethodVisitorWithIntWithStringWithStringWithStringWithString(org.objectweb.asm.MethodVisitor arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		TryCatchBlockSorter self = (TryCatchBlockSorter) TryCatchBlockSorter.alloc().init();
 		self.original = new org.objectweb.asm.commons.TryCatchBlockSorter(arg0, arg1, arg2, arg3, arg4, arg5);
 		return self;

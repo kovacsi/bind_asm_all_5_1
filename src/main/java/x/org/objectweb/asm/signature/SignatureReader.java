@@ -25,13 +25,13 @@ public class SignatureReader extends NSObject {
 		return self;
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.signature.SignatureVisitor arg0) {
+	@Selector("acceptWithSignatureVisitor:")
+	public void acceptWithSignatureVisitor(org.objectweb.asm.signature.SignatureVisitor arg0) {
 		original.accept(arg0);
 	}
 
-	@Selector("acceptTypeWithId:")
-	public void acceptTypeWithId(org.objectweb.asm.signature.SignatureVisitor arg0) {
+	@Selector("acceptTypeWithSignatureVisitor:")
+	public void acceptTypeWithSignatureVisitor(org.objectweb.asm.signature.SignatureVisitor arg0) {
 		original.acceptType(arg0);
 	}
 

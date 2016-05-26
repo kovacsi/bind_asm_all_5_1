@@ -25,15 +25,15 @@ public class SourceValue extends NSObject {
 		return self;
 	}
 
-	@Selector("valueWithIntWithId::")
-	public SourceValue valueWithIntWithId(int arg0, org.objectweb.asm.tree.AbstractInsnNode arg1) {
+	@Selector("valueWithIntWithAbstractInsnNode::")
+	public SourceValue valueWithIntWithAbstractInsnNode(int arg0, org.objectweb.asm.tree.AbstractInsnNode arg1) {
 		SourceValue self = (SourceValue) SourceValue.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.SourceValue(arg0, arg1);
 		return self;
 	}
 
-	@Selector("valueWithIntWithId::")
-	public SourceValue valueWithIntWithId(int arg0, java.util.Set arg1) {
+	@Selector("valueWithIntWithSet::")
+	public SourceValue valueWithIntWithSet(int arg0, java.util.Set arg1) {
 		SourceValue self = (SourceValue) SourceValue.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.SourceValue(arg0, arg1);
 		return self;

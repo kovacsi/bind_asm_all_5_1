@@ -38,18 +38,18 @@ public class InsnList extends NSObject {
 		return original.get(arg0);
 	}
 
-	@Selector("containsWithId:")
-	public boolean containsWithId(org.objectweb.asm.tree.AbstractInsnNode arg0) {
+	@Selector("containsWithAbstractInsnNode:")
+	public boolean containsWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0) {
 		return original.contains(arg0);
 	}
 
-	@Selector("indexOfWithId:")
-	public int indexOfWithId(org.objectweb.asm.tree.AbstractInsnNode arg0) {
+	@Selector("indexOfWithAbstractInsnNode:")
+	public int indexOfWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0) {
 		return original.indexOf(arg0);
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.MethodVisitor arg0) {
+	@Selector("acceptWithMethodVisitor:")
+	public void acceptWithMethodVisitor(org.objectweb.asm.MethodVisitor arg0) {
 		original.accept(arg0);
 	}
 
@@ -68,53 +68,53 @@ public class InsnList extends NSObject {
 		return original.toArray();
 	}
 
-	@Selector("setWithIdWithId::")
-	public void setWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.AbstractInsnNode arg1) {
+	@Selector("setWithAbstractInsnNodeWithAbstractInsnNode::")
+	public void setWithAbstractInsnNodeWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.AbstractInsnNode arg1) {
 		original.set(arg0, arg1);
 	}
 
-	@Selector("addWithId:")
-	public void addWithId(org.objectweb.asm.tree.AbstractInsnNode arg0) {
+	@Selector("addWithAbstractInsnNode:")
+	public void addWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0) {
 		original.add(arg0);
 	}
 
-	@Selector("addWithId:")
-	public void addWithId(org.objectweb.asm.tree.InsnList arg0) {
+	@Selector("addWithInsnList:")
+	public void addWithInsnList(org.objectweb.asm.tree.InsnList arg0) {
 		original.add(arg0);
 	}
 
-	@Selector("insertWithId:")
-	public void insertWithId(org.objectweb.asm.tree.AbstractInsnNode arg0) {
+	@Selector("insertWithAbstractInsnNode:")
+	public void insertWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0) {
 		original.insert(arg0);
 	}
 
-	@Selector("insertWithId:")
-	public void insertWithId(org.objectweb.asm.tree.InsnList arg0) {
+	@Selector("insertWithInsnList:")
+	public void insertWithInsnList(org.objectweb.asm.tree.InsnList arg0) {
 		original.insert(arg0);
 	}
 
-	@Selector("insertWithIdWithId::")
-	public void insertWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.AbstractInsnNode arg1) {
+	@Selector("insertWithAbstractInsnNodeWithAbstractInsnNode::")
+	public void insertWithAbstractInsnNodeWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.AbstractInsnNode arg1) {
 		original.insert(arg0, arg1);
 	}
 
-	@Selector("insertWithIdWithId::")
-	public void insertWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.InsnList arg1) {
+	@Selector("insertWithAbstractInsnNodeWithInsnList::")
+	public void insertWithAbstractInsnNodeWithInsnList(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.InsnList arg1) {
 		original.insert(arg0, arg1);
 	}
 
-	@Selector("insertBeforeWithIdWithId::")
-	public void insertBeforeWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.AbstractInsnNode arg1) {
+	@Selector("insertBeforeWithAbstractInsnNodeWithAbstractInsnNode::")
+	public void insertBeforeWithAbstractInsnNodeWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.AbstractInsnNode arg1) {
 		original.insertBefore(arg0, arg1);
 	}
 
-	@Selector("insertBeforeWithIdWithId::")
-	public void insertBeforeWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.InsnList arg1) {
+	@Selector("insertBeforeWithAbstractInsnNodeWithInsnList::")
+	public void insertBeforeWithAbstractInsnNodeWithInsnList(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.InsnList arg1) {
 		original.insertBefore(arg0, arg1);
 	}
 
-	@Selector("removeWithId:")
-	public void removeWithId(org.objectweb.asm.tree.AbstractInsnNode arg0) {
+	@Selector("removeWithAbstractInsnNode:")
+	public void removeWithAbstractInsnNode(org.objectweb.asm.tree.AbstractInsnNode arg0) {
 		original.remove(arg0);
 	}
 

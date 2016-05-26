@@ -18,8 +18,8 @@ public class RemappingSignatureAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithId::")
-	public RemappingSignatureAdapter valueWithIdWithId(org.objectweb.asm.signature.SignatureVisitor arg0, org.objectweb.asm.commons.Remapper arg1) {
+	@Selector("valueWithSignatureVisitorWithRemapper::")
+	public RemappingSignatureAdapter valueWithSignatureVisitorWithRemapper(org.objectweb.asm.signature.SignatureVisitor arg0, org.objectweb.asm.commons.Remapper arg1) {
 		RemappingSignatureAdapter self = (RemappingSignatureAdapter) RemappingSignatureAdapter.alloc().init();
 		self.original = new org.objectweb.asm.commons.RemappingSignatureAdapter(arg0, arg1);
 		return self;

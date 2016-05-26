@@ -18,8 +18,8 @@ public class TryCatchBlockNode extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithIdWithIdWithString::::")
-	public TryCatchBlockNode valueWithIdWithIdWithIdWithString(org.objectweb.asm.tree.LabelNode arg0, org.objectweb.asm.tree.LabelNode arg1, org.objectweb.asm.tree.LabelNode arg2, String arg3) {
+	@Selector("valueWithLabelNodeWithLabelNodeWithLabelNodeWithString::::")
+	public TryCatchBlockNode valueWithLabelNodeWithLabelNodeWithLabelNodeWithString(org.objectweb.asm.tree.LabelNode arg0, org.objectweb.asm.tree.LabelNode arg1, org.objectweb.asm.tree.LabelNode arg2, String arg3) {
 		TryCatchBlockNode self = (TryCatchBlockNode) TryCatchBlockNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.TryCatchBlockNode(arg0, arg1, arg2, arg3);
 		return self;
@@ -30,8 +30,8 @@ public class TryCatchBlockNode extends NSObject {
 		original.updateIndex(arg0);
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.MethodVisitor arg0) {
+	@Selector("acceptWithMethodVisitor:")
+	public void acceptWithMethodVisitor(org.objectweb.asm.MethodVisitor arg0) {
 		original.accept(arg0);
 	}
 

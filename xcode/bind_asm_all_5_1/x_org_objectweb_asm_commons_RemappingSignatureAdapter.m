@@ -2,7 +2,7 @@
 
 @implementation x_org_objectweb_asm_commons_RemappingSignatureAdapter
 
-+ (x_org_objectweb_asm_commons_RemappingSignatureAdapter*) valueWithIdWithId:(id) arg0 :(id) arg1 {
++ (x_org_objectweb_asm_commons_RemappingSignatureAdapter*) valueWithSignatureVisitorWithRemapper:(id) arg0 :(id) arg1 {
 	return nil;
 }
 
@@ -64,6 +64,10 @@
 
 - (id) visitTypeArgumentWithChar:(char) arg0 {
 	return nil;
+}
+
+- (void) visitEnd {
+
 }
 
 @end

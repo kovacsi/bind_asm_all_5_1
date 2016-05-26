@@ -33,23 +33,23 @@ public class Type extends NSObject {
 		return org.objectweb.asm.Type.getMethodType(arg0);
 	}
 
-	@Selector("getMethodTypeWithIdWithId::")
-	public static org.objectweb.asm.Type getMethodTypeWithIdWithId(org.objectweb.asm.Type arg0, org.objectweb.asm.Type[] arg1) {
+	@Selector("getMethodTypeWithTypeWithType::")
+	public static org.objectweb.asm.Type getMethodTypeWithTypeWithType(org.objectweb.asm.Type arg0, org.objectweb.asm.Type[] arg1) {
 		return org.objectweb.asm.Type.getMethodType(arg0, arg1);
 	}
 
-	@Selector("getTypeWithId:")
-	public static org.objectweb.asm.Type getTypeWithId(Class arg0) {
+	@Selector("getTypeWithClass:")
+	public static org.objectweb.asm.Type getTypeWithClass(Class arg0) {
 		return org.objectweb.asm.Type.getType(arg0);
 	}
 
-	@Selector("getTypeWithId:")
-	public static org.objectweb.asm.Type getTypeWithId(java.lang.reflect.Constructor arg0) {
+	@Selector("getTypeWithConstructor:")
+	public static org.objectweb.asm.Type getTypeWithConstructor(java.lang.reflect.Constructor arg0) {
 		return org.objectweb.asm.Type.getType(arg0);
 	}
 
-	@Selector("getTypeWithId:")
-	public static org.objectweb.asm.Type getTypeWithId(java.lang.reflect.Method arg0) {
+	@Selector("getTypeWithMethod:")
+	public static org.objectweb.asm.Type getTypeWithMethod(java.lang.reflect.Method arg0) {
 		return org.objectweb.asm.Type.getType(arg0);
 	}
 
@@ -58,8 +58,8 @@ public class Type extends NSObject {
 		return org.objectweb.asm.Type.getArgumentTypes(arg0);
 	}
 
-	@Selector("getArgumentTypesWithId:")
-	public static org.objectweb.asm.Type[] getArgumentTypesWithId(java.lang.reflect.Method arg0) {
+	@Selector("getArgumentTypesWithMethod:")
+	public static org.objectweb.asm.Type[] getArgumentTypesWithMethod(java.lang.reflect.Method arg0) {
 		return org.objectweb.asm.Type.getArgumentTypes(arg0);
 	}
 
@@ -68,8 +68,8 @@ public class Type extends NSObject {
 		return org.objectweb.asm.Type.getReturnType(arg0);
 	}
 
-	@Selector("getReturnTypeWithId:")
-	public static org.objectweb.asm.Type getReturnTypeWithId(java.lang.reflect.Method arg0) {
+	@Selector("getReturnTypeWithMethod:")
+	public static org.objectweb.asm.Type getReturnTypeWithMethod(java.lang.reflect.Method arg0) {
 		return org.objectweb.asm.Type.getReturnType(arg0);
 	}
 
@@ -123,28 +123,28 @@ public class Type extends NSObject {
 		return original.getDescriptor();
 	}
 
-	@Selector("getMethodDescriptorWithIdWithId::")
-	public static String getMethodDescriptorWithIdWithId(org.objectweb.asm.Type arg0, org.objectweb.asm.Type[] arg1) {
+	@Selector("getMethodDescriptorWithTypeWithType::")
+	public static String getMethodDescriptorWithTypeWithType(org.objectweb.asm.Type arg0, org.objectweb.asm.Type[] arg1) {
 		return org.objectweb.asm.Type.getMethodDescriptor(arg0, arg1);
 	}
 
-	@Selector("getInternalNameWithId:")
-	public static String getInternalNameWithId(Class arg0) {
+	@Selector("getInternalNameWithClass:")
+	public static String getInternalNameWithClass(Class arg0) {
 		return org.objectweb.asm.Type.getInternalName(arg0);
 	}
 
-	@Selector("getDescriptorWithId:")
-	public static String getDescriptorWithId(Class arg0) {
+	@Selector("getDescriptorWithClass:")
+	public static String getDescriptorWithClass(Class arg0) {
 		return org.objectweb.asm.Type.getDescriptor(arg0);
 	}
 
-	@Selector("getConstructorDescriptorWithId:")
-	public static String getConstructorDescriptorWithId(java.lang.reflect.Constructor arg0) {
+	@Selector("getConstructorDescriptorWithConstructor:")
+	public static String getConstructorDescriptorWithConstructor(java.lang.reflect.Constructor arg0) {
 		return org.objectweb.asm.Type.getConstructorDescriptor(arg0);
 	}
 
-	@Selector("getMethodDescriptorWithId:")
-	public static String getMethodDescriptorWithId(java.lang.reflect.Method arg0) {
+	@Selector("getMethodDescriptorWithMethod:")
+	public static String getMethodDescriptorWithMethod(java.lang.reflect.Method arg0) {
 		return org.objectweb.asm.Type.getMethodDescriptor(arg0);
 	}
 

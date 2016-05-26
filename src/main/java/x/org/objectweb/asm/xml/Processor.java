@@ -18,8 +18,8 @@ public class Processor extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIntWithIntWithIdWithIdWithId:::::")
-	public Processor valueWithIntWithIntWithIdWithIdWithId(int arg0, int arg1, java.io.InputStream arg2, java.io.OutputStream arg3, javax.xml.transform.Source arg4) {
+	@Selector("valueWithIntWithIntWithInputStreamWithOutputStreamWithSource:::::")
+	public Processor valueWithIntWithIntWithInputStreamWithOutputStreamWithSource(int arg0, int arg1, java.io.InputStream arg2, java.io.OutputStream arg3, javax.xml.transform.Source arg4) {
 		Processor self = (Processor) Processor.alloc().init();
 		self.original = new org.objectweb.asm.xml.Processor(arg0, arg1, arg2, arg3, arg4);
 		return self;
@@ -30,8 +30,8 @@ public class Processor extends NSObject {
 		return original.process();
 	}
 
-	@Selector("mainWithId:")
-	public static void mainWithId(String[] arg0) throws Exception {
+	@Selector("mainWithString:")
+	public static void mainWithString(String[] arg0) throws Exception {
 		org.objectweb.asm.xml.Processor.main(arg0);
 	}
 

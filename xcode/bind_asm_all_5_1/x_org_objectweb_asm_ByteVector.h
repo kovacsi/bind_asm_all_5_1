@@ -7,5 +7,5 @@
 - (id) putIntWithInt:(int) arg0;
 - (id) putLongWithLong:(long) arg0;
 - (id) putUTF8WithString:(NSString*) arg0;
-- (id) putByteArrayWithIdWithIntWithInt:(id) arg0 :(int) arg1 :(int) arg2;
+- (id) putByteArrayWithByteWithIntWithInt:(id) arg0 :(int) arg1 :(int) arg2;
 @end

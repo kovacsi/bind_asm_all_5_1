@@ -50,8 +50,8 @@ public class ByteVector extends NSObject {
 		return original.putUTF8(arg0);
 	}
 
-	@Selector("putByteArrayWithIdWithIntWithInt:::")
-	public org.objectweb.asm.ByteVector putByteArrayWithIdWithIntWithInt(byte[] arg0, int arg1, int arg2) {
+	@Selector("putByteArrayWithByteWithIntWithInt:::")
+	public org.objectweb.asm.ByteVector putByteArrayWithByteWithIntWithInt(byte[] arg0, int arg1, int arg2) {
 		return original.putByteArray(arg0, arg1, arg2);
 	}
 

@@ -6,11 +6,11 @@
 	return nil;
 }
 
-+ (x_org_objectweb_asm_ClassWriter*) valueWithIdWithInt:(id) arg0 :(int) arg1 {
++ (x_org_objectweb_asm_ClassWriter*) valueWithClassReaderWithInt:(id) arg0 :(int) arg1 {
 	return nil;
 }
 
-- (void) visitWithIntWithIntWithStringWithStringWithStringWithId:(int) arg0 :(int) arg1 :(NSString*) arg2 :(NSString*) arg3 :(NSString*) arg4 :(id) arg5 {
+- (void) visitWithIntWithIntWithStringWithStringWithStringWithString:(int) arg0 :(int) arg1 :(NSString*) arg2 :(NSString*) arg3 :(NSString*) arg4 :(id) arg5 {
 
 }
 
@@ -22,15 +22,15 @@
 
 }
 
-- (id) visitAnnotationWithStringWithBool:(NSString*) arg0 :(bool) arg1 {
+- (id) visitAnnotationWithStringWithBoolean:(NSString*) arg0 :(bool) arg1 {
 	return nil;
 }
 
-- (id) visitTypeAnnotationWithIntWithIdWithStringWithBool:(int) arg0 :(id) arg1 :(NSString*) arg2 :(bool) arg3 {
+- (id) visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean:(int) arg0 :(id) arg1 :(NSString*) arg2 :(bool) arg3 {
 	return nil;
 }
 
-- (void) visitAttributeWithId:(id) arg0 {
+- (void) visitAttributeWithAttribute:(id) arg0 {
 
 }
 
@@ -42,7 +42,7 @@
 	return nil;
 }
 
-- (id) visitMethodWithIntWithStringWithStringWithStringWithId:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(id) arg4 {
+- (id) visitMethodWithIntWithStringWithStringWithStringWithString:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(id) arg4 {
 	return nil;
 }
 
@@ -74,11 +74,11 @@
 	return 0;
 }
 
-- (int) newHandleWithIntWithStringWithStringWithStringWithBool:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(bool) arg4 {
+- (int) newHandleWithIntWithStringWithStringWithStringWithBoolean:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(bool) arg4 {
 	return 0;
 }
 
-- (int) newInvokeDynamicWithStringWithStringWithIdWithId:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
+- (int) newInvokeDynamicWithStringWithStringWithHandleWithObject:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
 	return 0;
 }
 
@@ -86,7 +86,7 @@
 	return 0;
 }
 
-- (int) newMethodWithStringWithStringWithStringWithBool:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 :(bool) arg3 {
+- (int) newMethodWithStringWithStringWithStringWithBoolean:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 :(bool) arg3 {
 	return 0;
 }
 

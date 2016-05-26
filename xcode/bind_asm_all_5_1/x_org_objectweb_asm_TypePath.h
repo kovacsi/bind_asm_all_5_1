@@ -5,4 +5,5 @@
 - (int) getStepWithInt:(int) arg0;
 - (int) getStepArgumentWithInt:(int) arg0;
 + (id) fromStringWithString:(NSString*) arg0;
+- (NSString*) toString;
 @end

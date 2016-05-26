@@ -18,8 +18,8 @@ public class BasicValue extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public BasicValue valueWithId(org.objectweb.asm.Type arg0) {
+	@Selector("valueWithType:")
+	public BasicValue valueWithType(org.objectweb.asm.Type arg0) {
 		BasicValue self = (BasicValue) BasicValue.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.BasicValue(arg0);
 		return self;

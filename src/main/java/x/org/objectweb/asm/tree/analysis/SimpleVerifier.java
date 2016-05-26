@@ -18,38 +18,38 @@ public class SimpleVerifier extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithIdWithBool:::")
-	public SimpleVerifier valueWithIdWithIdWithBool(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1, boolean arg2) {
+	@Selector("valueWithTypeWithTypeWithBoolean:::")
+	public SimpleVerifier valueWithTypeWithTypeWithBoolean(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1, boolean arg2) {
 		SimpleVerifier self = (SimpleVerifier) SimpleVerifier.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.SimpleVerifier(arg0, arg1, arg2);
 		return self;
 	}
 
-	@Selector("valueWithIdWithIdWithIdWithBool::::")
-	public SimpleVerifier valueWithIdWithIdWithIdWithBool(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1, java.util.List arg2, boolean arg3) {
+	@Selector("valueWithTypeWithTypeWithListWithBoolean::::")
+	public SimpleVerifier valueWithTypeWithTypeWithListWithBoolean(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1, java.util.List arg2, boolean arg3) {
 		SimpleVerifier self = (SimpleVerifier) SimpleVerifier.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.SimpleVerifier(arg0, arg1, arg2, arg3);
 		return self;
 	}
 
-	@Selector("setClassLoaderWithId:")
-	public void setClassLoaderWithId(ClassLoader arg0) {
+	@Selector("setClassLoaderWithClassLoader:")
+	public void setClassLoaderWithClassLoader(ClassLoader arg0) {
 		original.setClassLoader(arg0);
 	}
 
-	@Selector("mergeWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.BasicValue mergeWithIdWithId(org.objectweb.asm.tree.analysis.BasicValue arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) {
-		return original.merge(arg0, arg1);
-	}
-
-	@Selector("mergeWithIdWithId::")
-	public org.objectweb.asm.tree.analysis.Value mergeWithIdWithId(org.objectweb.asm.tree.analysis.Value arg0, org.objectweb.asm.tree.analysis.Value arg1) {
-		return original.merge(arg0, arg1);
-	}
-
-	@Selector("newValueWithId:")
-	public org.objectweb.asm.tree.analysis.Value newValueWithId(org.objectweb.asm.Type arg0) {
+	@Selector("newValueWithType:")
+	public org.objectweb.asm.tree.analysis.BasicValue newValueWithType(org.objectweb.asm.Type arg0) {
 		return original.newValue(arg0);
+	}
+
+	@Selector("mergeWithBasicValueWithBasicValue::")
+	public org.objectweb.asm.tree.analysis.BasicValue mergeWithBasicValueWithBasicValue(org.objectweb.asm.tree.analysis.BasicValue arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) {
+		return original.merge(arg0, arg1);
+	}
+
+	@Selector("mergeWithValueWithValue::")
+	public org.objectweb.asm.tree.analysis.Value mergeWithValueWithValue(org.objectweb.asm.tree.analysis.Value arg0, org.objectweb.asm.tree.analysis.Value arg1) {
+		return original.merge(arg0, arg1);
 	}
 
 }

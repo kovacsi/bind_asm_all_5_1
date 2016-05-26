@@ -18,15 +18,15 @@ public class Analyzer extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public Analyzer valueWithId(org.objectweb.asm.tree.analysis.Interpreter arg0) {
+	@Selector("valueWithInterpreter:")
+	public Analyzer valueWithInterpreter(org.objectweb.asm.tree.analysis.Interpreter arg0) {
 		Analyzer self = (Analyzer) Analyzer.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.Analyzer(arg0);
 		return self;
 	}
 
-	@Selector("analyzeWithStringWithId::")
-	public org.objectweb.asm.tree.analysis.Frame[] analyzeWithStringWithId(String arg0, org.objectweb.asm.tree.MethodNode arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+	@Selector("analyzeWithStringWithMethodNode::")
+	public org.objectweb.asm.tree.analysis.Frame[] analyzeWithStringWithMethodNode(String arg0, org.objectweb.asm.tree.MethodNode arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
 		return original.analyze(arg0, arg1);
 	}
 

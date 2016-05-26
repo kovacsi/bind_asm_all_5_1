@@ -30,13 +30,13 @@ public class IincInsnNode extends NSObject {
 		return original.getType();
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.MethodVisitor arg0) {
+	@Selector("acceptWithMethodVisitor:")
+	public void acceptWithMethodVisitor(org.objectweb.asm.MethodVisitor arg0) {
 		original.accept(arg0);
 	}
 
-	@Selector("cloneWithId:")
-	public org.objectweb.asm.tree.AbstractInsnNode cloneWithId(java.util.Map arg0) {
+	@Selector("cloneWithMap:")
+	public org.objectweb.asm.tree.AbstractInsnNode cloneWithMap(java.util.Map arg0) {
 		return original.clone(arg0);
 	}
 

@@ -18,15 +18,15 @@ public class TypeAnnotationNode extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIntWithIdWithString:::")
-	public TypeAnnotationNode valueWithIntWithIdWithString(int arg0, org.objectweb.asm.TypePath arg1, String arg2) {
+	@Selector("valueWithIntWithTypePathWithString:::")
+	public TypeAnnotationNode valueWithIntWithTypePathWithString(int arg0, org.objectweb.asm.TypePath arg1, String arg2) {
 		TypeAnnotationNode self = (TypeAnnotationNode) TypeAnnotationNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.TypeAnnotationNode(arg0, arg1, arg2);
 		return self;
 	}
 
-	@Selector("valueWithIntWithIntWithIdWithString::::")
-	public TypeAnnotationNode valueWithIntWithIntWithIdWithString(int arg0, int arg1, org.objectweb.asm.TypePath arg2, String arg3) {
+	@Selector("valueWithIntWithIntWithTypePathWithString::::")
+	public TypeAnnotationNode valueWithIntWithIntWithTypePathWithString(int arg0, int arg1, org.objectweb.asm.TypePath arg2, String arg3) {
 		TypeAnnotationNode self = (TypeAnnotationNode) TypeAnnotationNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.TypeAnnotationNode(arg0, arg1, arg2, arg3);
 		return self;

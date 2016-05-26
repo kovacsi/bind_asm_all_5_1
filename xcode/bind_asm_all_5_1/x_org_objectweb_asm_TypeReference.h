@@ -10,6 +10,7 @@
 + (id) newExceptionReferenceWithInt:(int) arg0;
 + (id) newTryCatchReferenceWithInt:(int) arg0;
 + (id) newTypeArgumentReferenceWithIntWithInt:(int) arg0 :(int) arg1;
+- (int) getSort;
 - (int) getTypeParameterIndex;
 - (int) getTypeParameterBoundIndex;
 - (int) getSuperTypeIndex;

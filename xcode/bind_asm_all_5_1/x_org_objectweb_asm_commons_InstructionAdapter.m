@@ -2,8 +2,68 @@
 
 @implementation x_org_objectweb_asm_commons_InstructionAdapter
 
-+ (x_org_objectweb_asm_commons_InstructionAdapter*) valueWithId:(id) arg0 {
++ (x_org_objectweb_asm_commons_InstructionAdapter*) valueWithMethodVisitor:(id) arg0 {
 	return nil;
+}
+
+- (void) visitInsnWithInt:(int) arg0 {
+
+}
+
+- (void) visitIntInsnWithIntWithInt:(int) arg0 :(int) arg1 {
+
+}
+
+- (void) visitVarInsnWithIntWithInt:(int) arg0 :(int) arg1 {
+
+}
+
+- (void) visitTypeInsnWithIntWithString:(int) arg0 :(NSString*) arg1 {
+
+}
+
+- (void) visitFieldInsnWithIntWithStringWithStringWithString:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 {
+
+}
+
+- (void) visitMethodInsnWithIntWithStringWithStringWithString:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 {
+
+}
+
+- (void) visitMethodInsnWithIntWithStringWithStringWithStringWithBoolean:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(bool) arg4 {
+
+}
+
+- (void) visitInvokeDynamicInsnWithStringWithStringWithHandleWithObject:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
+
+}
+
+- (void) visitJumpInsnWithIntWithLabel:(int) arg0 :(id) arg1 {
+
+}
+
+- (void) visitLabelWithLabel:(id) arg0 {
+
+}
+
+- (void) visitLdcInsnWithObject:(NSObject*) arg0 {
+
+}
+
+- (void) visitIincInsnWithIntWithInt:(int) arg0 :(int) arg1 {
+
+}
+
+- (void) visitTableSwitchInsnWithIntWithIntWithLabelWithLabel:(int) arg0 :(int) arg1 :(id) arg2 :(id) arg3 {
+
+}
+
+- (void) visitLookupSwitchInsnWithLabelWithIntWithLabel:(id) arg0 :(id) arg1 :(id) arg2 {
+
+}
+
+- (void) visitMultiANewArrayInsnWithStringWithInt:(NSString*) arg0 :(int) arg1 {
+
 }
 
 - (void) nop {
@@ -30,75 +90,119 @@
 
 }
 
-- (void) tconstWithId:(id) arg0 {
+- (void) tconstWithType:(id) arg0 {
 
 }
 
-- (void) hconstWithId:(id) arg0 {
+- (void) hconstWithHandle:(id) arg0 {
 
 }
 
-- (void) loadWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) loadWithIntWithType:(int) arg0 :(id) arg1 {
 
 }
 
-- (void) aloadWithId:(id) arg0 {
+- (void) aloadWithType:(id) arg0 {
 
 }
 
-- (void) storeWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) storeWithIntWithType:(int) arg0 :(id) arg1 {
 
 }
 
-- (void) astoreWithId:(id) arg0 {
+- (void) astoreWithType:(id) arg0 {
 
 }
 
-- (void) addWithId:(id) arg0 {
+- (void) pop {
 
 }
 
-- (void) subWithId:(id) arg0 {
+- (void) pop2 {
 
 }
 
-- (void) mulWithId:(id) arg0 {
+- (void) dup {
 
 }
 
-- (void) divWithId:(id) arg0 {
+- (void) dup2 {
 
 }
 
-- (void) remWithId:(id) arg0 {
+- (void) dupX1 {
 
 }
 
-- (void) negWithId:(id) arg0 {
+- (void) dupX2 {
 
 }
 
-- (void) shlWithId:(id) arg0 {
+- (void) dup2X1 {
 
 }
 
-- (void) shrWithId:(id) arg0 {
+- (void) dup2X2 {
 
 }
 
-- (void) ushrWithId:(id) arg0 {
+- (void) swap {
 
 }
 
-- (void) andWithId:(id) arg0 {
+- (void) addWithType:(id) arg0 {
 
 }
 
-- (void) orWithId:(id) arg0 {
+- (void) subWithType:(id) arg0 {
 
 }
 
-- (void) xorWithId:(id) arg0 {
+- (void) mulWithType:(id) arg0 {
+
+}
+
+- (void) divWithType:(id) arg0 {
+
+}
+
+- (void) remWithType:(id) arg0 {
+
+}
+
+- (void) negWithType:(id) arg0 {
+
+}
+
+- (void) shlWithType:(id) arg0 {
+
+}
+
+- (void) shrWithType:(id) arg0 {
+
+}
+
+- (void) ushrWithType:(id) arg0 {
+
+}
+
+- (void) andWithType:(id) arg0 {
+
+}
+
+- (void) orWithType:(id) arg0 {
+
+}
+
+- (void) xorWithType:(id) arg0 {
+
+}
+
+- (void) iincWithIntWithInt:(int) arg0 :(int) arg1 {
+
+}
+
+- (void) castWithTypeWithType:(id) arg0 :(id) arg1 {
 
 }
 
@@ -106,83 +210,91 @@
 
 }
 
-- (void) cmplWithId:(id) arg0 {
+- (void) cmplWithType:(id) arg0 {
 
 }
 
-- (void) cmpgWithId:(id) arg0 {
+- (void) cmpgWithType:(id) arg0 {
 
 }
 
-- (void) ifeqWithId:(id) arg0 {
+- (void) ifeqWithLabel:(id) arg0 {
 
 }
 
-- (void) ifneWithId:(id) arg0 {
+- (void) ifneWithLabel:(id) arg0 {
 
 }
 
-- (void) ifltWithId:(id) arg0 {
+- (void) ifltWithLabel:(id) arg0 {
 
 }
 
-- (void) ifgeWithId:(id) arg0 {
+- (void) ifgeWithLabel:(id) arg0 {
 
 }
 
-- (void) ifgtWithId:(id) arg0 {
+- (void) ifgtWithLabel:(id) arg0 {
 
 }
 
-- (void) ifleWithId:(id) arg0 {
+- (void) ifleWithLabel:(id) arg0 {
 
 }
 
-- (void) ificmpeqWithId:(id) arg0 {
+- (void) ificmpeqWithLabel:(id) arg0 {
 
 }
 
-- (void) ificmpneWithId:(id) arg0 {
+- (void) ificmpneWithLabel:(id) arg0 {
 
 }
 
-- (void) ificmpltWithId:(id) arg0 {
+- (void) ificmpltWithLabel:(id) arg0 {
 
 }
 
-- (void) ificmpgeWithId:(id) arg0 {
+- (void) ificmpgeWithLabel:(id) arg0 {
 
 }
 
-- (void) ificmpgtWithId:(id) arg0 {
+- (void) ificmpgtWithLabel:(id) arg0 {
 
 }
 
-- (void) ificmpleWithId:(id) arg0 {
+- (void) ificmpleWithLabel:(id) arg0 {
 
 }
 
-- (void) ifacmpeqWithId:(id) arg0 {
+- (void) ifacmpeqWithLabel:(id) arg0 {
 
 }
 
-- (void) ifacmpneWithId:(id) arg0 {
+- (void) ifacmpneWithLabel:(id) arg0 {
 
 }
 
-- (void) jsrWithId:(id) arg0 {
+- (void) goToWithLabel:(id) arg0 {
 
 }
 
-- (void) tableswitchWithIntWithIntWithIdWithId:(int) arg0 :(int) arg1 :(id) arg2 :(id) arg3 {
+- (void) jsrWithLabel:(id) arg0 {
 
 }
 
-- (void) lookupswitchWithIdWithIdWithId:(id) arg0 :(id) arg1 :(id) arg2 {
+- (void) retWithInt:(int) arg0 {
 
 }
 
-- (void) areturnWithId:(id) arg0 {
+- (void) tableswitchWithIntWithIntWithLabelWithLabel:(int) arg0 :(int) arg1 :(id) arg2 :(id) arg3 {
+
+}
+
+- (void) lookupswitchWithLabelWithIntWithLabel:(id) arg0 :(id) arg1 :(id) arg2 {
+
+}
+
+- (void) areturnWithType:(id) arg0 {
 
 }
 
@@ -206,7 +318,7 @@
 
 }
 
-- (void) invokevirtualWithStringWithStringWithStringWithBool:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 :(bool) arg3 {
+- (void) invokevirtualWithStringWithStringWithStringWithBoolean:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 :(bool) arg3 {
 
 }
 
@@ -214,7 +326,7 @@
 
 }
 
-- (void) invokespecialWithStringWithStringWithStringWithBool:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 :(bool) arg3 {
+- (void) invokespecialWithStringWithStringWithStringWithBoolean:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 :(bool) arg3 {
 
 }
 
@@ -222,7 +334,7 @@
 
 }
 
-- (void) invokestaticWithStringWithStringWithStringWithBool:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 :(bool) arg3 {
+- (void) invokestaticWithStringWithStringWithStringWithBoolean:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 :(bool) arg3 {
 
 }
 
@@ -230,15 +342,15 @@
 
 }
 
-- (void) invokedynamicWithStringWithStringWithIdWithId:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
+- (void) invokedynamicWithStringWithStringWithHandleWithObject:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
 
 }
 
-- (void) anewWithId:(id) arg0 {
+- (void) anewWithType:(id) arg0 {
 
 }
 
-- (void) newarrayWithId:(id) arg0 {
+- (void) newarrayWithType:(id) arg0 {
 
 }
 
@@ -250,7 +362,11 @@
 
 }
 
-- (void) checkcastWithId:(id) arg0 {
+- (void) checkcastWithType:(id) arg0 {
+
+}
+
+- (void) instanceOfWithType:(id) arg0 {
 
 }
 
@@ -266,11 +382,15 @@
 
 }
 
-- (void) ifnullWithId:(id) arg0 {
+- (void) ifnullWithLabel:(id) arg0 {
 
 }
 
-- (void) ifnonnullWithId:(id) arg0 {
+- (void) ifnonnullWithLabel:(id) arg0 {
+
+}
+
+- (void) markWithLabel:(id) arg0 {
 
 }
 

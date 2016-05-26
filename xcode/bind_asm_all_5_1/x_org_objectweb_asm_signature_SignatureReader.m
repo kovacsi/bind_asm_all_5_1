@@ -6,11 +6,11 @@
 	return nil;
 }
 
-- (void) acceptWithId:(id) arg0 {
+- (void) acceptWithSignatureVisitor:(id) arg0 {
 
 }
 
-- (void) acceptTypeWithId:(id) arg0 {
+- (void) acceptTypeWithSignatureVisitor:(id) arg0 {
 
 }
 

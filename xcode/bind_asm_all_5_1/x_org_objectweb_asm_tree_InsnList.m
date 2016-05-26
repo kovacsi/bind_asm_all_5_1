@@ -18,12 +18,16 @@
 	return nil;
 }
 
-- (bool) containsWithId:(id) arg0 {
+- (bool) containsWithAbstractInsnNode:(id) arg0 {
 	return nil;
 }
 
-- (int) indexOfWithId:(id) arg0 {
+- (int) indexOfWithAbstractInsnNode:(id) arg0 {
 	return 0;
+}
+
+- (void) acceptWithMethodVisitor:(id) arg0 {
+
 }
 
 - (id) iterator {
@@ -38,23 +42,43 @@
 	return nil;
 }
 
-- (void) setWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) setWithAbstractInsnNodeWithAbstractInsnNode:(id) arg0 :(id) arg1 {
 
 }
 
-- (void) insertWithId:(id) arg0 {
+- (void) addWithAbstractInsnNode:(id) arg0 {
 
 }
 
-- (void) insertWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) addWithInsnList:(id) arg0 {
 
 }
 
-- (void) insertBeforeWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) insertWithAbstractInsnNode:(id) arg0 {
 
 }
 
-- (void) removeWithId:(id) arg0 {
+- (void) insertWithInsnList:(id) arg0 {
+
+}
+
+- (void) insertWithAbstractInsnNodeWithAbstractInsnNode:(id) arg0 :(id) arg1 {
+
+}
+
+- (void) insertWithAbstractInsnNodeWithInsnList:(id) arg0 :(id) arg1 {
+
+}
+
+- (void) insertBeforeWithAbstractInsnNodeWithAbstractInsnNode:(id) arg0 :(id) arg1 {
+
+}
+
+- (void) insertBeforeWithAbstractInsnNodeWithInsnList:(id) arg0 :(id) arg1 {
+
+}
+
+- (void) removeWithAbstractInsnNode:(id) arg0 {
 
 }
 

@@ -25,8 +25,8 @@ public class Handle extends NSObject {
 		return self;
 	}
 
-	@Selector("valueWithIntWithStringWithStringWithStringWithBool:::::")
-	public Handle valueWithIntWithStringWithStringWithStringWithBool(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
+	@Selector("valueWithIntWithStringWithStringWithStringWithBoolean:::::")
+	public Handle valueWithIntWithStringWithStringWithStringWithBoolean(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
 		Handle self = (Handle) Handle.alloc().init();
 		self.original = new org.objectweb.asm.Handle(arg0, arg1, arg2, arg3, arg4);
 		return self;

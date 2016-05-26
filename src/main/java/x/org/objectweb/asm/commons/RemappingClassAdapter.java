@@ -18,25 +18,25 @@ public class RemappingClassAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithId::")
-	public RemappingClassAdapter valueWithIdWithId(org.objectweb.asm.ClassVisitor arg0, org.objectweb.asm.commons.Remapper arg1) {
+	@Selector("valueWithClassVisitorWithRemapper::")
+	public RemappingClassAdapter valueWithClassVisitorWithRemapper(org.objectweb.asm.ClassVisitor arg0, org.objectweb.asm.commons.Remapper arg1) {
 		RemappingClassAdapter self = (RemappingClassAdapter) RemappingClassAdapter.alloc().init();
 		self.original = new org.objectweb.asm.commons.RemappingClassAdapter(arg0, arg1);
 		return self;
 	}
 
-	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithId::::::")
-	public void visitWithIntWithIntWithStringWithStringWithStringWithId(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithString::::::")
+	public void visitWithIntWithIntWithStringWithStringWithStringWithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);
 	}
 
-	@Selector("visitAnnotationWithStringWithBool::")
-	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBool(String arg0, boolean arg1) {
+	@Selector("visitAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
 		return original.visitAnnotation(arg0, arg1);
 	}
 
-	@Selector("visitTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 
@@ -45,8 +45,8 @@ public class RemappingClassAdapter extends NSObject {
 		return original.visitField(arg0, arg1, arg2, arg3, arg4);
 	}
 
-	@Selector("visitMethodWithIntWithStringWithStringWithStringWithId:::::")
-	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithId(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
+	@Selector("visitMethodWithIntWithStringWithStringWithStringWithString:::::")
+	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
 		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);
 	}
 

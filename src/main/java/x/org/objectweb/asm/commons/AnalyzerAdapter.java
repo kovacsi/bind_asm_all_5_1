@@ -18,15 +18,15 @@ public class AnalyzerAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithStringWithIntWithStringWithStringWithId:::::")
-	public AnalyzerAdapter valueWithStringWithIntWithStringWithStringWithId(String arg0, int arg1, String arg2, String arg3, org.objectweb.asm.MethodVisitor arg4) {
+	@Selector("valueWithStringWithIntWithStringWithStringWithMethodVisitor:::::")
+	public AnalyzerAdapter valueWithStringWithIntWithStringWithStringWithMethodVisitor(String arg0, int arg1, String arg2, String arg3, org.objectweb.asm.MethodVisitor arg4) {
 		AnalyzerAdapter self = (AnalyzerAdapter) AnalyzerAdapter.alloc().init();
 		self.original = new org.objectweb.asm.commons.AnalyzerAdapter(arg0, arg1, arg2, arg3, arg4);
 		return self;
 	}
 
-	@Selector("visitFrameWithIntWithIntWithIdWithIntWithId:::::")
-	public void visitFrameWithIntWithIntWithIdWithIntWithId(int arg0, int arg1, Object[] arg2, int arg3, Object[] arg4) {
+	@Selector("visitFrameWithIntWithIntWithObjectWithIntWithObject:::::")
+	public void visitFrameWithIntWithIntWithObjectWithIntWithObject(int arg0, int arg1, Object[] arg2, int arg3, Object[] arg4) {
 		original.visitFrame(arg0, arg1, arg2, arg3, arg4);
 	}
 
@@ -60,23 +60,23 @@ public class AnalyzerAdapter extends NSObject {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitMethodInsnWithIntWithStringWithStringWithStringWithBool:::::")
-	public void visitMethodInsnWithIntWithStringWithStringWithStringWithBool(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
+	@Selector("visitMethodInsnWithIntWithStringWithStringWithStringWithBoolean:::::")
+	public void visitMethodInsnWithIntWithStringWithStringWithStringWithBoolean(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3, arg4);
 	}
 
-	@Selector("visitInvokeDynamicInsnWithStringWithStringWithIdWithId::::")
-	public void visitInvokeDynamicInsnWithStringWithStringWithIdWithId(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
+	@Selector("visitInvokeDynamicInsnWithStringWithStringWithHandleWithObject::::")
+	public void visitInvokeDynamicInsnWithStringWithStringWithHandleWithObject(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
 		original.visitInvokeDynamicInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitJumpInsnWithIntWithId::")
-	public void visitJumpInsnWithIntWithId(int arg0, org.objectweb.asm.Label arg1) {
+	@Selector("visitJumpInsnWithIntWithLabel::")
+	public void visitJumpInsnWithIntWithLabel(int arg0, org.objectweb.asm.Label arg1) {
 		original.visitJumpInsn(arg0, arg1);
 	}
 
-	@Selector("visitLabelWithId:")
-	public void visitLabelWithId(org.objectweb.asm.Label arg0) {
+	@Selector("visitLabelWithLabel:")
+	public void visitLabelWithLabel(org.objectweb.asm.Label arg0) {
 		original.visitLabel(arg0);
 	}
 
@@ -90,13 +90,13 @@ public class AnalyzerAdapter extends NSObject {
 		original.visitIincInsn(arg0, arg1);
 	}
 
-	@Selector("visitTableSwitchInsnWithIntWithIntWithIdWithId::::")
-	public void visitTableSwitchInsnWithIntWithIntWithIdWithId(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {
+	@Selector("visitTableSwitchInsnWithIntWithIntWithLabelWithLabel::::")
+	public void visitTableSwitchInsnWithIntWithIntWithLabelWithLabel(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {
 		original.visitTableSwitchInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitLookupSwitchInsnWithIdWithIdWithId:::")
-	public void visitLookupSwitchInsnWithIdWithIdWithId(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {
+	@Selector("visitLookupSwitchInsnWithLabelWithIntWithLabel:::")
+	public void visitLookupSwitchInsnWithLabelWithIntWithLabel(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {
 		original.visitLookupSwitchInsn(arg0, arg1, arg2);
 	}
 

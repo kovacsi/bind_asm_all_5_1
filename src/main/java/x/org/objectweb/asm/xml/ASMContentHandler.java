@@ -18,15 +18,15 @@ public class ASMContentHandler extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public ASMContentHandler valueWithId(org.objectweb.asm.ClassVisitor arg0) {
+	@Selector("valueWithClassVisitor:")
+	public ASMContentHandler valueWithClassVisitor(org.objectweb.asm.ClassVisitor arg0) {
 		ASMContentHandler self = (ASMContentHandler) ASMContentHandler.alloc().init();
 		self.original = new org.objectweb.asm.xml.ASMContentHandler(arg0);
 		return self;
 	}
 
-	@Selector("startElementWithStringWithStringWithStringWithId::::")
-	public void startElementWithStringWithStringWithStringWithId(String arg0, String arg1, String arg2, org.xml.sax.Attributes arg3) throws org.xml.sax.SAXException {
+	@Selector("startElementWithStringWithStringWithStringWithAttributes::::")
+	public void startElementWithStringWithStringWithStringWithAttributes(String arg0, String arg1, String arg2, org.xml.sax.Attributes arg3) throws org.xml.sax.SAXException {
 		original.startElement(arg0, arg1, arg2, arg3);
 	}
 

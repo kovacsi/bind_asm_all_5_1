@@ -18,25 +18,25 @@ public class CheckFieldAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public CheckFieldAdapter valueWithId(org.objectweb.asm.FieldVisitor arg0) {
+	@Selector("valueWithFieldVisitor:")
+	public CheckFieldAdapter valueWithFieldVisitor(org.objectweb.asm.FieldVisitor arg0) {
 		CheckFieldAdapter self = (CheckFieldAdapter) CheckFieldAdapter.alloc().init();
 		self.original = new org.objectweb.asm.util.CheckFieldAdapter(arg0);
 		return self;
 	}
 
-	@Selector("visitAnnotationWithStringWithBool::")
-	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBool(String arg0, boolean arg1) {
+	@Selector("visitAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
 		return original.visitAnnotation(arg0, arg1);
 	}
 
-	@Selector("visitTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitAttributeWithId:")
-	public void visitAttributeWithId(org.objectweb.asm.Attribute arg0) {
+	@Selector("visitAttributeWithAttribute:")
+	public void visitAttributeWithAttribute(org.objectweb.asm.Attribute arg0) {
 		original.visitAttribute(arg0);
 	}
 

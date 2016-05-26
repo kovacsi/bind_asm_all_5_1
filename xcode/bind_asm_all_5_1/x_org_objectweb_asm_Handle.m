@@ -6,7 +6,7 @@
 	return nil;
 }
 
-+ (x_org_objectweb_asm_Handle*) valueWithIntWithStringWithStringWithStringWithBool:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(bool) arg4 {
++ (x_org_objectweb_asm_Handle*) valueWithIntWithStringWithStringWithStringWithBoolean:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(bool) arg4 {
 	return nil;
 }
 

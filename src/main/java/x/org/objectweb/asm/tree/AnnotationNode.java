@@ -62,8 +62,8 @@ public class AnnotationNode extends NSObject {
 		original.check(arg0);
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.AnnotationVisitor arg0) {
+	@Selector("acceptWithAnnotationVisitor:")
+	public void acceptWithAnnotationVisitor(org.objectweb.asm.AnnotationVisitor arg0) {
 		original.accept(arg0);
 	}
 

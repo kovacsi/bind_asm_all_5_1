@@ -2,19 +2,19 @@
 
 @implementation x_org_objectweb_asm_commons_GeneratorAdapter
 
-+ (x_org_objectweb_asm_commons_GeneratorAdapter*) valueWithIdWithIntWithStringWithString:(id) arg0 :(int) arg1 :(NSString*) arg2 :(NSString*) arg3 {
++ (x_org_objectweb_asm_commons_GeneratorAdapter*) valueWithMethodVisitorWithIntWithStringWithString:(id) arg0 :(int) arg1 :(NSString*) arg2 :(NSString*) arg3 {
 	return nil;
 }
 
-+ (x_org_objectweb_asm_commons_GeneratorAdapter*) valueWithIntWithIdWithId:(int) arg0 :(id) arg1 :(id) arg2 {
++ (x_org_objectweb_asm_commons_GeneratorAdapter*) valueWithIntWithMethodWithMethodVisitor:(int) arg0 :(id) arg1 :(id) arg2 {
 	return nil;
 }
 
-+ (x_org_objectweb_asm_commons_GeneratorAdapter*) valueWithIntWithIdWithStringWithIdWithId:(int) arg0 :(id) arg1 :(NSString*) arg2 :(id) arg3 :(id) arg4 {
++ (x_org_objectweb_asm_commons_GeneratorAdapter*) valueWithIntWithMethodWithStringWithTypeWithClassVisitor:(int) arg0 :(id) arg1 :(NSString*) arg2 :(id) arg3 :(id) arg4 {
 	return nil;
 }
 
-- (void) pushWithBool:(bool) arg0 {
+- (void) pushWithBoolean:(bool) arg0 {
 
 }
 
@@ -38,7 +38,11 @@
 
 }
 
-- (void) pushWithId:(id) arg0 {
+- (void) pushWithType:(id) arg0 {
+
+}
+
+- (void) pushWithHandle:(id) arg0 {
 
 }
 
@@ -74,7 +78,7 @@
 
 }
 
-- (void) loadLocalWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) loadLocalWithIntWithType:(int) arg0 :(id) arg1 {
 
 }
 
@@ -82,15 +86,15 @@
 
 }
 
-- (void) storeLocalWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) storeLocalWithIntWithType:(int) arg0 :(id) arg1 {
 
 }
 
-- (void) arrayLoadWithId:(id) arg0 {
+- (void) arrayLoadWithType:(id) arg0 {
 
 }
 
-- (void) arrayStoreWithId:(id) arg0 {
+- (void) arrayStoreWithType:(id) arg0 {
 
 }
 
@@ -130,11 +134,11 @@
 
 }
 
-- (void) swapWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) swapWithTypeWithType:(id) arg0 :(id) arg1 {
 
 }
 
-- (void) mathWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) mathWithIntWithType:(int) arg0 :(id) arg1 {
 
 }
 
@@ -146,19 +150,19 @@
 
 }
 
-- (void) castWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) castWithTypeWithType:(id) arg0 :(id) arg1 {
 
 }
 
-- (void) boxWithId:(id) arg0 {
+- (void) boxWithType:(id) arg0 {
 
 }
 
-- (void) valueOfWithId:(id) arg0 {
+- (void) valueOfWithType:(id) arg0 {
 
 }
 
-- (void) unboxWithId:(id) arg0 {
+- (void) unboxWithType:(id) arg0 {
 
 }
 
@@ -166,7 +170,7 @@
 	return nil;
 }
 
-- (void) markWithId:(id) arg0 {
+- (void) markWithLabel:(id) arg0 {
 
 }
 
@@ -174,27 +178,27 @@
 	return nil;
 }
 
-- (void) ifCmpWithIdWithIntWithId:(id) arg0 :(int) arg1 :(id) arg2 {
+- (void) ifCmpWithTypeWithIntWithLabel:(id) arg0 :(int) arg1 :(id) arg2 {
 
 }
 
-- (void) ifICmpWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) ifICmpWithIntWithLabel:(int) arg0 :(id) arg1 {
 
 }
 
-- (void) ifZCmpWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) ifZCmpWithIntWithLabel:(int) arg0 :(id) arg1 {
 
 }
 
-- (void) ifNullWithId:(id) arg0 {
+- (void) ifNullWithLabel:(id) arg0 {
 
 }
 
-- (void) ifNonNullWithId:(id) arg0 {
+- (void) ifNonNullWithLabel:(id) arg0 {
 
 }
 
-- (void) goToWithId:(id) arg0 {
+- (void) goToWithLabel:(id) arg0 {
 
 }
 
@@ -202,11 +206,11 @@
 
 }
 
-- (void) tableSwitchWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) tableSwitchWithIntWithTableSwitchGenerator:(id) arg0 :(id) arg1 {
 
 }
 
-- (void) tableSwitchWithIdWithIdWithBool:(id) arg0 :(id) arg1 :(bool) arg2 {
+- (void) tableSwitchWithIntWithTableSwitchGeneratorWithBoolean:(id) arg0 :(id) arg1 :(bool) arg2 {
 
 }
 
@@ -214,47 +218,47 @@
 
 }
 
-- (void) getStaticWithIdWithStringWithId:(id) arg0 :(NSString*) arg1 :(id) arg2 {
+- (void) getStaticWithTypeWithStringWithType:(id) arg0 :(NSString*) arg1 :(id) arg2 {
 
 }
 
-- (void) putStaticWithIdWithStringWithId:(id) arg0 :(NSString*) arg1 :(id) arg2 {
+- (void) putStaticWithTypeWithStringWithType:(id) arg0 :(NSString*) arg1 :(id) arg2 {
 
 }
 
-- (void) getFieldWithIdWithStringWithId:(id) arg0 :(NSString*) arg1 :(id) arg2 {
+- (void) getFieldWithTypeWithStringWithType:(id) arg0 :(NSString*) arg1 :(id) arg2 {
 
 }
 
-- (void) putFieldWithIdWithStringWithId:(id) arg0 :(NSString*) arg1 :(id) arg2 {
+- (void) putFieldWithTypeWithStringWithType:(id) arg0 :(NSString*) arg1 :(id) arg2 {
 
 }
 
-- (void) invokeVirtualWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) invokeVirtualWithTypeWithMethod:(id) arg0 :(id) arg1 {
 
 }
 
-- (void) invokeConstructorWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) invokeConstructorWithTypeWithMethod:(id) arg0 :(id) arg1 {
 
 }
 
-- (void) invokeStaticWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) invokeStaticWithTypeWithMethod:(id) arg0 :(id) arg1 {
 
 }
 
-- (void) invokeInterfaceWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) invokeInterfaceWithTypeWithMethod:(id) arg0 :(id) arg1 {
 
 }
 
-- (void) invokeDynamicWithStringWithStringWithIdWithId:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
+- (void) invokeDynamicWithStringWithStringWithHandleWithObject:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
 
 }
 
-- (void) newInstanceWithId:(id) arg0 {
+- (void) newInstanceWithType:(id) arg0 {
 
 }
 
-- (void) newArrayWithId:(id) arg0 {
+- (void) newArrayWithType:(id) arg0 {
 
 }
 
@@ -266,15 +270,15 @@
 
 }
 
-- (void) throwExceptionWithIdWithString:(id) arg0 :(NSString*) arg1 {
+- (void) throwExceptionWithTypeWithString:(id) arg0 :(NSString*) arg1 {
 
 }
 
-- (void) checkCastWithId:(id) arg0 {
+- (void) checkCastWithType:(id) arg0 {
 
 }
 
-- (void) instanceOfWithId:(id) arg0 {
+- (void) instanceOfWithType:(id) arg0 {
 
 }
 
@@ -290,7 +294,7 @@
 
 }
 
-- (void) catchExceptionWithIdWithIdWithId:(id) arg0 :(id) arg1 :(id) arg2 {
+- (void) catchExceptionWithLabelWithLabelWithType:(id) arg0 :(id) arg1 :(id) arg2 {
 
 }
 

@@ -18,8 +18,8 @@ public class FrameNode extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIntWithIntWithIdWithIntWithId:::::")
-	public FrameNode valueWithIntWithIntWithIdWithIntWithId(int arg0, int arg1, Object[] arg2, int arg3, Object[] arg4) {
+	@Selector("valueWithIntWithIntWithObjectWithIntWithObject:::::")
+	public FrameNode valueWithIntWithIntWithObjectWithIntWithObject(int arg0, int arg1, Object[] arg2, int arg3, Object[] arg4) {
 		FrameNode self = (FrameNode) FrameNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.FrameNode(arg0, arg1, arg2, arg3, arg4);
 		return self;
@@ -30,13 +30,13 @@ public class FrameNode extends NSObject {
 		return original.getType();
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.MethodVisitor arg0) {
+	@Selector("acceptWithMethodVisitor:")
+	public void acceptWithMethodVisitor(org.objectweb.asm.MethodVisitor arg0) {
 		original.accept(arg0);
 	}
 
-	@Selector("cloneWithId:")
-	public org.objectweb.asm.tree.AbstractInsnNode cloneWithId(java.util.Map arg0) {
+	@Selector("cloneWithMap:")
+	public org.objectweb.asm.tree.AbstractInsnNode cloneWithMap(java.util.Map arg0) {
 		return original.clone(arg0);
 	}
 

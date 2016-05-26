@@ -25,7 +25,7 @@
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>Intel.MOE.Main.Class</key>
-	<string>com.mattakiskft.bind_asm_all_5_1.Main</string>
+	<string>com.migeran.bind.Main</string>
 	<key>UIApplicationExitsOnSuspend</key>
 	<false/>
 	<key>UIRequiredDeviceCapabilities</key>

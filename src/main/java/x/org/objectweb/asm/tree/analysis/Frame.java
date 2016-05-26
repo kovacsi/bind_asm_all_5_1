@@ -25,20 +25,20 @@ public class Frame extends NSObject {
 		return self;
 	}
 
-	@Selector("valueWithId:")
-	public Frame valueWithId(org.objectweb.asm.tree.analysis.Frame arg0) {
+	@Selector("valueWithFrame:")
+	public Frame valueWithFrame(org.objectweb.asm.tree.analysis.Frame arg0) {
 		Frame self = (Frame) Frame.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.Frame(arg0);
 		return self;
 	}
 
-	@Selector("initWithId:")
-	public org.objectweb.asm.tree.analysis.Frame initWithId(org.objectweb.asm.tree.analysis.Frame arg0) {
+	@Selector("initWithFrame:")
+	public org.objectweb.asm.tree.analysis.Frame initWithFrame(org.objectweb.asm.tree.analysis.Frame arg0) {
 		return original.init(arg0);
 	}
 
-	@Selector("setReturnWithId:")
-	public void setReturnWithId(org.objectweb.asm.tree.analysis.Value arg0) {
+	@Selector("setReturnWithValue:")
+	public void setReturnWithValue(org.objectweb.asm.tree.analysis.Value arg0) {
 		original.setReturn(arg0);
 	}
 
@@ -57,8 +57,8 @@ public class Frame extends NSObject {
 		return original.getLocal(arg0);
 	}
 
-	@Selector("setLocalWithIntWithId::")
-	public void setLocalWithIntWithId(int arg0, org.objectweb.asm.tree.analysis.Value arg1) throws IndexOutOfBoundsException {
+	@Selector("setLocalWithIntWithValue::")
+	public void setLocalWithIntWithValue(int arg0, org.objectweb.asm.tree.analysis.Value arg1) throws IndexOutOfBoundsException {
 		original.setLocal(arg0, arg1);
 	}
 
@@ -82,23 +82,23 @@ public class Frame extends NSObject {
 		return original.pop();
 	}
 
-	@Selector("pushWithId:")
-	public void pushWithId(org.objectweb.asm.tree.analysis.Value arg0) throws IndexOutOfBoundsException {
+	@Selector("pushWithValue:")
+	public void pushWithValue(org.objectweb.asm.tree.analysis.Value arg0) throws IndexOutOfBoundsException {
 		original.push(arg0);
 	}
 
-	@Selector("executeWithIdWithId::")
-	public void executeWithIdWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Interpreter arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+	@Selector("executeWithAbstractInsnNodeWithInterpreter::")
+	public void executeWithAbstractInsnNodeWithInterpreter(org.objectweb.asm.tree.AbstractInsnNode arg0, org.objectweb.asm.tree.analysis.Interpreter arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
 		original.execute(arg0, arg1);
 	}
 
-	@Selector("mergeWithIdWithId::")
-	public boolean mergeWithIdWithId(org.objectweb.asm.tree.analysis.Frame arg0, org.objectweb.asm.tree.analysis.Interpreter arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+	@Selector("mergeWithFrameWithInterpreter::")
+	public boolean mergeWithFrameWithInterpreter(org.objectweb.asm.tree.analysis.Frame arg0, org.objectweb.asm.tree.analysis.Interpreter arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
 		return original.merge(arg0, arg1);
 	}
 
-	@Selector("mergeWithIdWithId::")
-	public boolean mergeWithIdWithId(org.objectweb.asm.tree.analysis.Frame arg0, boolean[] arg1) {
+	@Selector("mergeWithFrameWithBoolean::")
+	public boolean mergeWithFrameWithBoolean(org.objectweb.asm.tree.analysis.Frame arg0, boolean[] arg1) {
 		return original.merge(arg0, arg1);
 	}
 

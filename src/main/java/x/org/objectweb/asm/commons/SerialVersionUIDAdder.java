@@ -18,20 +18,20 @@ public class SerialVersionUIDAdder extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public SerialVersionUIDAdder valueWithId(org.objectweb.asm.ClassVisitor arg0) {
+	@Selector("valueWithClassVisitor:")
+	public SerialVersionUIDAdder valueWithClassVisitor(org.objectweb.asm.ClassVisitor arg0) {
 		SerialVersionUIDAdder self = (SerialVersionUIDAdder) SerialVersionUIDAdder.alloc().init();
 		self.original = new org.objectweb.asm.commons.SerialVersionUIDAdder(arg0);
 		return self;
 	}
 
-	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithId::::::")
-	public void visitWithIntWithIntWithStringWithStringWithStringWithId(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithString::::::")
+	public void visitWithIntWithIntWithStringWithStringWithStringWithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);
 	}
 
-	@Selector("visitMethodWithIntWithStringWithStringWithStringWithId:::::")
-	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithId(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
+	@Selector("visitMethodWithIntWithStringWithStringWithStringWithString:::::")
+	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
 		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);
 	}
 

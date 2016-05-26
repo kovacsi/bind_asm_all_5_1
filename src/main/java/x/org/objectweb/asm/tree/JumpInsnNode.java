@@ -18,8 +18,8 @@ public class JumpInsnNode extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIntWithId::")
-	public JumpInsnNode valueWithIntWithId(int arg0, org.objectweb.asm.tree.LabelNode arg1) {
+	@Selector("valueWithIntWithLabelNode::")
+	public JumpInsnNode valueWithIntWithLabelNode(int arg0, org.objectweb.asm.tree.LabelNode arg1) {
 		JumpInsnNode self = (JumpInsnNode) JumpInsnNode.alloc().init();
 		self.original = new org.objectweb.asm.tree.JumpInsnNode(arg0, arg1);
 		return self;
@@ -35,13 +35,13 @@ public class JumpInsnNode extends NSObject {
 		return original.getType();
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.MethodVisitor arg0) {
+	@Selector("acceptWithMethodVisitor:")
+	public void acceptWithMethodVisitor(org.objectweb.asm.MethodVisitor arg0) {
 		original.accept(arg0);
 	}
 
-	@Selector("cloneWithId:")
-	public org.objectweb.asm.tree.AbstractInsnNode cloneWithId(java.util.Map arg0) {
+	@Selector("cloneWithMap:")
+	public org.objectweb.asm.tree.AbstractInsnNode cloneWithMap(java.util.Map arg0) {
 		return original.clone(arg0);
 	}
 

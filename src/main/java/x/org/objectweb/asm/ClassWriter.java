@@ -25,15 +25,15 @@ public class ClassWriter extends NSObject {
 		return self;
 	}
 
-	@Selector("valueWithIdWithInt::")
-	public ClassWriter valueWithIdWithInt(org.objectweb.asm.ClassReader arg0, int arg1) {
+	@Selector("valueWithClassReaderWithInt::")
+	public ClassWriter valueWithClassReaderWithInt(org.objectweb.asm.ClassReader arg0, int arg1) {
 		ClassWriter self = (ClassWriter) ClassWriter.alloc().init();
 		self.original = new org.objectweb.asm.ClassWriter(arg0, arg1);
 		return self;
 	}
 
-	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithId::::::")
-	public void visitWithIntWithIntWithStringWithStringWithStringWithId(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithString::::::")
+	public void visitWithIntWithIntWithStringWithStringWithStringWithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);
 	}
 
@@ -47,18 +47,18 @@ public class ClassWriter extends NSObject {
 		original.visitOuterClass(arg0, arg1, arg2);
 	}
 
-	@Selector("visitAnnotationWithStringWithBool::")
-	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBool(String arg0, boolean arg1) {
+	@Selector("visitAnnotationWithStringWithBoolean::")
+	public org.objectweb.asm.AnnotationVisitor visitAnnotationWithStringWithBoolean(String arg0, boolean arg1) {
 		return original.visitAnnotation(arg0, arg1);
 	}
 
-	@Selector("visitTypeAnnotationWithIntWithIdWithStringWithBool::::")
-	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithIdWithStringWithBool(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+	@Selector("visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean::::")
+	public org.objectweb.asm.AnnotationVisitor visitTypeAnnotationWithIntWithTypePathWithStringWithBoolean(int arg0, org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
 		return original.visitTypeAnnotation(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitAttributeWithId:")
-	public void visitAttributeWithId(org.objectweb.asm.Attribute arg0) {
+	@Selector("visitAttributeWithAttribute:")
+	public void visitAttributeWithAttribute(org.objectweb.asm.Attribute arg0) {
 		original.visitAttribute(arg0);
 	}
 
@@ -72,8 +72,8 @@ public class ClassWriter extends NSObject {
 		return original.visitField(arg0, arg1, arg2, arg3, arg4);
 	}
 
-	@Selector("visitMethodWithIntWithStringWithStringWithStringWithId:::::")
-	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithId(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
+	@Selector("visitMethodWithIntWithStringWithStringWithStringWithString:::::")
+	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
 		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);
 	}
 
@@ -112,13 +112,13 @@ public class ClassWriter extends NSObject {
 		return original.newHandle(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("newHandleWithIntWithStringWithStringWithStringWithBool:::::")
-	public int newHandleWithIntWithStringWithStringWithStringWithBool(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
+	@Selector("newHandleWithIntWithStringWithStringWithStringWithBoolean:::::")
+	public int newHandleWithIntWithStringWithStringWithStringWithBoolean(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
 		return original.newHandle(arg0, arg1, arg2, arg3, arg4);
 	}
 
-	@Selector("newInvokeDynamicWithStringWithStringWithIdWithId::::")
-	public int newInvokeDynamicWithStringWithStringWithIdWithId(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
+	@Selector("newInvokeDynamicWithStringWithStringWithHandleWithObject::::")
+	public int newInvokeDynamicWithStringWithStringWithHandleWithObject(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
 		return original.newInvokeDynamic(arg0, arg1, arg2, arg3);
 	}
 
@@ -127,8 +127,8 @@ public class ClassWriter extends NSObject {
 		return original.newField(arg0, arg1, arg2);
 	}
 
-	@Selector("newMethodWithStringWithStringWithStringWithBool::::")
-	public int newMethodWithStringWithStringWithStringWithBool(String arg0, String arg1, String arg2, boolean arg3) {
+	@Selector("newMethodWithStringWithStringWithStringWithBoolean::::")
+	public int newMethodWithStringWithStringWithStringWithBoolean(String arg0, String arg1, String arg2, boolean arg3) {
 		return original.newMethod(arg0, arg1, arg2, arg3);
 	}
 

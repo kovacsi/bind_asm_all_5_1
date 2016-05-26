@@ -1,4 +1,4 @@
-package com.mattakiskft.bind_asm_all_5_1.ui;
+package com.migeran.bind.ui;
 
 import com.intel.moe.natj.general.Pointer;
 import com.intel.moe.natj.general.ann.Owned;

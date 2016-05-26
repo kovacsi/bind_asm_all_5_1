@@ -18,15 +18,15 @@ public class TraceAnnotationVisitor extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public TraceAnnotationVisitor valueWithId(org.objectweb.asm.util.Printer arg0) {
+	@Selector("valueWithPrinter:")
+	public TraceAnnotationVisitor valueWithPrinter(org.objectweb.asm.util.Printer arg0) {
 		TraceAnnotationVisitor self = (TraceAnnotationVisitor) TraceAnnotationVisitor.alloc().init();
 		self.original = new org.objectweb.asm.util.TraceAnnotationVisitor(arg0);
 		return self;
 	}
 
-	@Selector("valueWithIdWithId::")
-	public TraceAnnotationVisitor valueWithIdWithId(org.objectweb.asm.AnnotationVisitor arg0, org.objectweb.asm.util.Printer arg1) {
+	@Selector("valueWithAnnotationVisitorWithPrinter::")
+	public TraceAnnotationVisitor valueWithAnnotationVisitorWithPrinter(org.objectweb.asm.AnnotationVisitor arg0, org.objectweb.asm.util.Printer arg1) {
 		TraceAnnotationVisitor self = (TraceAnnotationVisitor) TraceAnnotationVisitor.alloc().init();
 		self.original = new org.objectweb.asm.util.TraceAnnotationVisitor(arg0, arg1);
 		return self;

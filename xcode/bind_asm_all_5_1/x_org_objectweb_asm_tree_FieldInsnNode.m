@@ -14,7 +14,11 @@
 	return 0;
 }
 
-- (id) cloneWithId:(id) arg0 {
+- (void) acceptWithMethodVisitor:(id) arg0 {
+
+}
+
+- (id) cloneWithMap:(id) arg0 {
 	return nil;
 }
 

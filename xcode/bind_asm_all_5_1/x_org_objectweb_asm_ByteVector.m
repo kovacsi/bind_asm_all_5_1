@@ -26,7 +26,7 @@
 	return nil;
 }
 
-- (id) putByteArrayWithIdWithIntWithInt:(id) arg0 :(int) arg1 :(int) arg2 {
+- (id) putByteArrayWithByteWithIntWithInt:(id) arg0 :(int) arg1 :(int) arg2 {
 	return nil;
 }
 

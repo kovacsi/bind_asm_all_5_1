@@ -18,8 +18,8 @@ public class SimpleRemapper extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public SimpleRemapper valueWithId(java.util.Map arg0) {
+	@Selector("valueWithMap:")
+	public SimpleRemapper valueWithMap(java.util.Map arg0) {
 		SimpleRemapper self = (SimpleRemapper) SimpleRemapper.alloc().init();
 		self.original = new org.objectweb.asm.commons.SimpleRemapper(arg0);
 		return self;

@@ -2,7 +2,7 @@
 
 @implementation x_org_objectweb_asm_commons_SimpleRemapper
 
-+ (x_org_objectweb_asm_commons_SimpleRemapper*) valueWithId:(id) arg0 {
++ (x_org_objectweb_asm_commons_SimpleRemapper*) valueWithMap:(id) arg0 {
 	return nil;
 }
 

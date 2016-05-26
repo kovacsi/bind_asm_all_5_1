@@ -18,8 +18,8 @@ public class InstructionAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public InstructionAdapter valueWithId(org.objectweb.asm.MethodVisitor arg0) {
+	@Selector("valueWithMethodVisitor:")
+	public InstructionAdapter valueWithMethodVisitor(org.objectweb.asm.MethodVisitor arg0) {
 		InstructionAdapter self = (InstructionAdapter) InstructionAdapter.alloc().init();
 		self.original = new org.objectweb.asm.commons.InstructionAdapter(arg0);
 		return self;
@@ -55,23 +55,23 @@ public class InstructionAdapter extends NSObject {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitMethodInsnWithIntWithStringWithStringWithStringWithBool:::::")
-	public void visitMethodInsnWithIntWithStringWithStringWithStringWithBool(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
+	@Selector("visitMethodInsnWithIntWithStringWithStringWithStringWithBoolean:::::")
+	public void visitMethodInsnWithIntWithStringWithStringWithStringWithBoolean(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3, arg4);
 	}
 
-	@Selector("visitInvokeDynamicInsnWithStringWithStringWithIdWithId::::")
-	public void visitInvokeDynamicInsnWithStringWithStringWithIdWithId(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
+	@Selector("visitInvokeDynamicInsnWithStringWithStringWithHandleWithObject::::")
+	public void visitInvokeDynamicInsnWithStringWithStringWithHandleWithObject(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
 		original.visitInvokeDynamicInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitJumpInsnWithIntWithId::")
-	public void visitJumpInsnWithIntWithId(int arg0, org.objectweb.asm.Label arg1) {
+	@Selector("visitJumpInsnWithIntWithLabel::")
+	public void visitJumpInsnWithIntWithLabel(int arg0, org.objectweb.asm.Label arg1) {
 		original.visitJumpInsn(arg0, arg1);
 	}
 
-	@Selector("visitLabelWithId:")
-	public void visitLabelWithId(org.objectweb.asm.Label arg0) {
+	@Selector("visitLabelWithLabel:")
+	public void visitLabelWithLabel(org.objectweb.asm.Label arg0) {
 		original.visitLabel(arg0);
 	}
 
@@ -85,13 +85,13 @@ public class InstructionAdapter extends NSObject {
 		original.visitIincInsn(arg0, arg1);
 	}
 
-	@Selector("visitTableSwitchInsnWithIntWithIntWithIdWithId::::")
-	public void visitTableSwitchInsnWithIntWithIntWithIdWithId(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {
+	@Selector("visitTableSwitchInsnWithIntWithIntWithLabelWithLabel::::")
+	public void visitTableSwitchInsnWithIntWithIntWithLabelWithLabel(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {
 		original.visitTableSwitchInsn(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("visitLookupSwitchInsnWithIdWithIdWithId:::")
-	public void visitLookupSwitchInsnWithIdWithIdWithId(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {
+	@Selector("visitLookupSwitchInsnWithLabelWithIntWithLabel:::")
+	public void visitLookupSwitchInsnWithLabelWithIntWithLabel(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {
 		original.visitLookupSwitchInsn(arg0, arg1, arg2);
 	}
 
@@ -130,33 +130,33 @@ public class InstructionAdapter extends NSObject {
 		original.dconst(arg0);
 	}
 
-	@Selector("tconstWithId:")
-	public void tconstWithId(org.objectweb.asm.Type arg0) {
+	@Selector("tconstWithType:")
+	public void tconstWithType(org.objectweb.asm.Type arg0) {
 		original.tconst(arg0);
 	}
 
-	@Selector("hconstWithId:")
-	public void hconstWithId(org.objectweb.asm.Handle arg0) {
+	@Selector("hconstWithHandle:")
+	public void hconstWithHandle(org.objectweb.asm.Handle arg0) {
 		original.hconst(arg0);
 	}
 
-	@Selector("loadWithIntWithId::")
-	public void loadWithIntWithId(int arg0, org.objectweb.asm.Type arg1) {
+	@Selector("loadWithIntWithType::")
+	public void loadWithIntWithType(int arg0, org.objectweb.asm.Type arg1) {
 		original.load(arg0, arg1);
 	}
 
-	@Selector("aloadWithId:")
-	public void aloadWithId(org.objectweb.asm.Type arg0) {
+	@Selector("aloadWithType:")
+	public void aloadWithType(org.objectweb.asm.Type arg0) {
 		original.aload(arg0);
 	}
 
-	@Selector("storeWithIntWithId::")
-	public void storeWithIntWithId(int arg0, org.objectweb.asm.Type arg1) {
+	@Selector("storeWithIntWithType::")
+	public void storeWithIntWithType(int arg0, org.objectweb.asm.Type arg1) {
 		original.store(arg0, arg1);
 	}
 
-	@Selector("astoreWithId:")
-	public void astoreWithId(org.objectweb.asm.Type arg0) {
+	@Selector("astoreWithType:")
+	public void astoreWithType(org.objectweb.asm.Type arg0) {
 		original.astore(arg0);
 	}
 
@@ -205,63 +205,63 @@ public class InstructionAdapter extends NSObject {
 		original.swap();
 	}
 
-	@Selector("addWithId:")
-	public void addWithId(org.objectweb.asm.Type arg0) {
+	@Selector("addWithType:")
+	public void addWithType(org.objectweb.asm.Type arg0) {
 		original.add(arg0);
 	}
 
-	@Selector("subWithId:")
-	public void subWithId(org.objectweb.asm.Type arg0) {
+	@Selector("subWithType:")
+	public void subWithType(org.objectweb.asm.Type arg0) {
 		original.sub(arg0);
 	}
 
-	@Selector("mulWithId:")
-	public void mulWithId(org.objectweb.asm.Type arg0) {
+	@Selector("mulWithType:")
+	public void mulWithType(org.objectweb.asm.Type arg0) {
 		original.mul(arg0);
 	}
 
-	@Selector("divWithId:")
-	public void divWithId(org.objectweb.asm.Type arg0) {
+	@Selector("divWithType:")
+	public void divWithType(org.objectweb.asm.Type arg0) {
 		original.div(arg0);
 	}
 
-	@Selector("remWithId:")
-	public void remWithId(org.objectweb.asm.Type arg0) {
+	@Selector("remWithType:")
+	public void remWithType(org.objectweb.asm.Type arg0) {
 		original.rem(arg0);
 	}
 
-	@Selector("negWithId:")
-	public void negWithId(org.objectweb.asm.Type arg0) {
+	@Selector("negWithType:")
+	public void negWithType(org.objectweb.asm.Type arg0) {
 		original.neg(arg0);
 	}
 
-	@Selector("shlWithId:")
-	public void shlWithId(org.objectweb.asm.Type arg0) {
+	@Selector("shlWithType:")
+	public void shlWithType(org.objectweb.asm.Type arg0) {
 		original.shl(arg0);
 	}
 
-	@Selector("shrWithId:")
-	public void shrWithId(org.objectweb.asm.Type arg0) {
+	@Selector("shrWithType:")
+	public void shrWithType(org.objectweb.asm.Type arg0) {
 		original.shr(arg0);
 	}
 
-	@Selector("ushrWithId:")
-	public void ushrWithId(org.objectweb.asm.Type arg0) {
+	@Selector("ushrWithType:")
+	public void ushrWithType(org.objectweb.asm.Type arg0) {
 		original.ushr(arg0);
 	}
 
-	@Selector("andWithId:")
-	public void andWithId(org.objectweb.asm.Type arg0) {
+	@Selector("andWithType:")
+	public void andWithType(org.objectweb.asm.Type arg0) {
 		original.and(arg0);
 	}
 
-	@Selector("orWithId:")
-	public void orWithId(org.objectweb.asm.Type arg0) {
+	@Selector("orWithType:")
+	public void orWithType(org.objectweb.asm.Type arg0) {
 		original.or(arg0);
 	}
 
-	@Selector("xorWithId:")
-	public void xorWithId(org.objectweb.asm.Type arg0) {
+	@Selector("xorWithType:")
+	public void xorWithType(org.objectweb.asm.Type arg0) {
 		original.xor(arg0);
 	}
 
@@ -270,8 +270,8 @@ public class InstructionAdapter extends NSObject {
 		original.iinc(arg0, arg1);
 	}
 
-	@Selector("castWithIdWithId::")
-	public void castWithIdWithId(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1) {
+	@Selector("castWithTypeWithType::")
+	public void castWithTypeWithType(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1) {
 		original.cast(arg0, arg1);
 	}
 
@@ -280,93 +280,93 @@ public class InstructionAdapter extends NSObject {
 		original.lcmp();
 	}
 
-	@Selector("cmplWithId:")
-	public void cmplWithId(org.objectweb.asm.Type arg0) {
+	@Selector("cmplWithType:")
+	public void cmplWithType(org.objectweb.asm.Type arg0) {
 		original.cmpl(arg0);
 	}
 
-	@Selector("cmpgWithId:")
-	public void cmpgWithId(org.objectweb.asm.Type arg0) {
+	@Selector("cmpgWithType:")
+	public void cmpgWithType(org.objectweb.asm.Type arg0) {
 		original.cmpg(arg0);
 	}
 
-	@Selector("ifeqWithId:")
-	public void ifeqWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifeqWithLabel:")
+	public void ifeqWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifeq(arg0);
 	}
 
-	@Selector("ifneWithId:")
-	public void ifneWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifneWithLabel:")
+	public void ifneWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifne(arg0);
 	}
 
-	@Selector("ifltWithId:")
-	public void ifltWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifltWithLabel:")
+	public void ifltWithLabel(org.objectweb.asm.Label arg0) {
 		original.iflt(arg0);
 	}
 
-	@Selector("ifgeWithId:")
-	public void ifgeWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifgeWithLabel:")
+	public void ifgeWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifge(arg0);
 	}
 
-	@Selector("ifgtWithId:")
-	public void ifgtWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifgtWithLabel:")
+	public void ifgtWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifgt(arg0);
 	}
 
-	@Selector("ifleWithId:")
-	public void ifleWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifleWithLabel:")
+	public void ifleWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifle(arg0);
 	}
 
-	@Selector("ificmpeqWithId:")
-	public void ificmpeqWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ificmpeqWithLabel:")
+	public void ificmpeqWithLabel(org.objectweb.asm.Label arg0) {
 		original.ificmpeq(arg0);
 	}
 
-	@Selector("ificmpneWithId:")
-	public void ificmpneWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ificmpneWithLabel:")
+	public void ificmpneWithLabel(org.objectweb.asm.Label arg0) {
 		original.ificmpne(arg0);
 	}
 
-	@Selector("ificmpltWithId:")
-	public void ificmpltWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ificmpltWithLabel:")
+	public void ificmpltWithLabel(org.objectweb.asm.Label arg0) {
 		original.ificmplt(arg0);
 	}
 
-	@Selector("ificmpgeWithId:")
-	public void ificmpgeWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ificmpgeWithLabel:")
+	public void ificmpgeWithLabel(org.objectweb.asm.Label arg0) {
 		original.ificmpge(arg0);
 	}
 
-	@Selector("ificmpgtWithId:")
-	public void ificmpgtWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ificmpgtWithLabel:")
+	public void ificmpgtWithLabel(org.objectweb.asm.Label arg0) {
 		original.ificmpgt(arg0);
 	}
 
-	@Selector("ificmpleWithId:")
-	public void ificmpleWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ificmpleWithLabel:")
+	public void ificmpleWithLabel(org.objectweb.asm.Label arg0) {
 		original.ificmple(arg0);
 	}
 
-	@Selector("ifacmpeqWithId:")
-	public void ifacmpeqWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifacmpeqWithLabel:")
+	public void ifacmpeqWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifacmpeq(arg0);
 	}
 
-	@Selector("ifacmpneWithId:")
-	public void ifacmpneWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifacmpneWithLabel:")
+	public void ifacmpneWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifacmpne(arg0);
 	}
 
-	@Selector("goToWithId:")
-	public void goToWithId(org.objectweb.asm.Label arg0) {
+	@Selector("goToWithLabel:")
+	public void goToWithLabel(org.objectweb.asm.Label arg0) {
 		original.goTo(arg0);
 	}
 
-	@Selector("jsrWithId:")
-	public void jsrWithId(org.objectweb.asm.Label arg0) {
+	@Selector("jsrWithLabel:")
+	public void jsrWithLabel(org.objectweb.asm.Label arg0) {
 		original.jsr(arg0);
 	}
 
@@ -375,18 +375,18 @@ public class InstructionAdapter extends NSObject {
 		original.ret(arg0);
 	}
 
-	@Selector("tableswitchWithIntWithIntWithIdWithId::::")
-	public void tableswitchWithIntWithIntWithIdWithId(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {
+	@Selector("tableswitchWithIntWithIntWithLabelWithLabel::::")
+	public void tableswitchWithIntWithIntWithLabelWithLabel(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {
 		original.tableswitch(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("lookupswitchWithIdWithIdWithId:::")
-	public void lookupswitchWithIdWithIdWithId(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {
+	@Selector("lookupswitchWithLabelWithIntWithLabel:::")
+	public void lookupswitchWithLabelWithIntWithLabel(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {
 		original.lookupswitch(arg0, arg1, arg2);
 	}
 
-	@Selector("areturnWithId:")
-	public void areturnWithId(org.objectweb.asm.Type arg0) {
+	@Selector("areturnWithType:")
+	public void areturnWithType(org.objectweb.asm.Type arg0) {
 		original.areturn(arg0);
 	}
 
@@ -415,8 +415,8 @@ public class InstructionAdapter extends NSObject {
 		original.invokevirtual(arg0, arg1, arg2);
 	}
 
-	@Selector("invokevirtualWithStringWithStringWithStringWithBool::::")
-	public void invokevirtualWithStringWithStringWithStringWithBool(String arg0, String arg1, String arg2, boolean arg3) {
+	@Selector("invokevirtualWithStringWithStringWithStringWithBoolean::::")
+	public void invokevirtualWithStringWithStringWithStringWithBoolean(String arg0, String arg1, String arg2, boolean arg3) {
 		original.invokevirtual(arg0, arg1, arg2, arg3);
 	}
 
@@ -425,8 +425,8 @@ public class InstructionAdapter extends NSObject {
 		original.invokespecial(arg0, arg1, arg2);
 	}
 
-	@Selector("invokespecialWithStringWithStringWithStringWithBool::::")
-	public void invokespecialWithStringWithStringWithStringWithBool(String arg0, String arg1, String arg2, boolean arg3) {
+	@Selector("invokespecialWithStringWithStringWithStringWithBoolean::::")
+	public void invokespecialWithStringWithStringWithStringWithBoolean(String arg0, String arg1, String arg2, boolean arg3) {
 		original.invokespecial(arg0, arg1, arg2, arg3);
 	}
 
@@ -435,8 +435,8 @@ public class InstructionAdapter extends NSObject {
 		original.invokestatic(arg0, arg1, arg2);
 	}
 
-	@Selector("invokestaticWithStringWithStringWithStringWithBool::::")
-	public void invokestaticWithStringWithStringWithStringWithBool(String arg0, String arg1, String arg2, boolean arg3) {
+	@Selector("invokestaticWithStringWithStringWithStringWithBoolean::::")
+	public void invokestaticWithStringWithStringWithStringWithBoolean(String arg0, String arg1, String arg2, boolean arg3) {
 		original.invokestatic(arg0, arg1, arg2, arg3);
 	}
 
@@ -445,18 +445,18 @@ public class InstructionAdapter extends NSObject {
 		original.invokeinterface(arg0, arg1, arg2);
 	}
 
-	@Selector("invokedynamicWithStringWithStringWithIdWithId::::")
-	public void invokedynamicWithStringWithStringWithIdWithId(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
+	@Selector("invokedynamicWithStringWithStringWithHandleWithObject::::")
+	public void invokedynamicWithStringWithStringWithHandleWithObject(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
 		original.invokedynamic(arg0, arg1, arg2, arg3);
 	}
 
-	@Selector("anewWithId:")
-	public void anewWithId(org.objectweb.asm.Type arg0) {
+	@Selector("anewWithType:")
+	public void anewWithType(org.objectweb.asm.Type arg0) {
 		original.anew(arg0);
 	}
 
-	@Selector("newarrayWithId:")
-	public void newarrayWithId(org.objectweb.asm.Type arg0) {
+	@Selector("newarrayWithType:")
+	public void newarrayWithType(org.objectweb.asm.Type arg0) {
 		original.newarray(arg0);
 	}
 
@@ -470,13 +470,13 @@ public class InstructionAdapter extends NSObject {
 		original.athrow();
 	}
 
-	@Selector("checkcastWithId:")
-	public void checkcastWithId(org.objectweb.asm.Type arg0) {
+	@Selector("checkcastWithType:")
+	public void checkcastWithType(org.objectweb.asm.Type arg0) {
 		original.checkcast(arg0);
 	}
 
-	@Selector("instanceOfWithId:")
-	public void instanceOfWithId(org.objectweb.asm.Type arg0) {
+	@Selector("instanceOfWithType:")
+	public void instanceOfWithType(org.objectweb.asm.Type arg0) {
 		original.instanceOf(arg0);
 	}
 
@@ -495,18 +495,18 @@ public class InstructionAdapter extends NSObject {
 		original.multianewarray(arg0, arg1);
 	}
 
-	@Selector("ifnullWithId:")
-	public void ifnullWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifnullWithLabel:")
+	public void ifnullWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifnull(arg0);
 	}
 
-	@Selector("ifnonnullWithId:")
-	public void ifnonnullWithId(org.objectweb.asm.Label arg0) {
+	@Selector("ifnonnullWithLabel:")
+	public void ifnonnullWithLabel(org.objectweb.asm.Label arg0) {
 		original.ifnonnull(arg0);
 	}
 
-	@Selector("markWithId:")
-	public void markWithId(org.objectweb.asm.Label arg0) {
+	@Selector("markWithLabel:")
+	public void markWithLabel(org.objectweb.asm.Label arg0) {
 		original.mark(arg0);
 	}
 

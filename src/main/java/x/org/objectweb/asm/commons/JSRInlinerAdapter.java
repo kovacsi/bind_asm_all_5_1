@@ -18,15 +18,15 @@ public class JSRInlinerAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithIntWithStringWithStringWithStringWithId::::::")
-	public JSRInlinerAdapter valueWithIdWithIntWithStringWithStringWithStringWithId(org.objectweb.asm.MethodVisitor arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	@Selector("valueWithMethodVisitorWithIntWithStringWithStringWithStringWithString::::::")
+	public JSRInlinerAdapter valueWithMethodVisitorWithIntWithStringWithStringWithStringWithString(org.objectweb.asm.MethodVisitor arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		JSRInlinerAdapter self = (JSRInlinerAdapter) JSRInlinerAdapter.alloc().init();
 		self.original = new org.objectweb.asm.commons.JSRInlinerAdapter(arg0, arg1, arg2, arg3, arg4, arg5);
 		return self;
 	}
 
-	@Selector("visitJumpInsnWithIntWithId::")
-	public void visitJumpInsnWithIntWithId(int arg0, org.objectweb.asm.Label arg1) {
+	@Selector("visitJumpInsnWithIntWithLabel::")
+	public void visitJumpInsnWithIntWithLabel(int arg0, org.objectweb.asm.Label arg1) {
 		original.visitJumpInsn(arg0, arg1);
 	}
 

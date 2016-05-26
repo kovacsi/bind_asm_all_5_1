@@ -6,4 +6,8 @@
 	return nil;
 }
 
+- (void) acceptWithMethodVisitor:(id) arg0 {
+
+}
+
 @end

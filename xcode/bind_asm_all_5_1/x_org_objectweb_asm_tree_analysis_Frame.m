@@ -6,15 +6,15 @@
 	return nil;
 }
 
-+ (x_org_objectweb_asm_tree_analysis_Frame*) valueWithId:(id) arg0 {
++ (x_org_objectweb_asm_tree_analysis_Frame*) valueWithFrame:(id) arg0 {
 	return nil;
 }
 
-- (id) initWithId:(id) arg0 {
+- (id) initWithFrame:(id) arg0 {
 	return nil;
 }
 
-- (void) setReturnWithId:(id) arg0 {
+- (void) setReturnWithValue:(id) arg0 {
 
 }
 
@@ -30,7 +30,7 @@
 	return nil;
 }
 
-- (void) setLocalWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) setLocalWithIntWithValue:(int) arg0 :(id) arg1 {
 
 }
 
@@ -46,11 +46,27 @@
 
 }
 
-- (void) executeWithIdWithId:(id) arg0 :(id) arg1 {
+- (id) pop {
+	return nil;
+}
+
+- (void) pushWithValue:(id) arg0 {
 
 }
 
-- (bool) mergeWithIdWithId:(id) arg0 :(id) arg1 {
+- (void) executeWithAbstractInsnNodeWithInterpreter:(id) arg0 :(id) arg1 {
+
+}
+
+- (bool) mergeWithFrameWithInterpreter:(id) arg0 :(id) arg1 {
+	return nil;
+}
+
+- (bool) mergeWithFrameWithBoolean:(id) arg0 :(id) arg1 {
+	return nil;
+}
+
+- (NSString*) toString {
 	return nil;
 }
 

@@ -2,39 +2,63 @@
 
 @implementation x_org_objectweb_asm_tree_analysis_BasicInterpreter
 
-- (id) newValueWithId:(id) arg0 {
+- (id) newValueWithType:(id) arg0 {
 	return nil;
 }
 
-- (id) newOperationWithId:(id) arg0 {
+- (id) newOperationWithAbstractInsnNode:(id) arg0 {
 	return nil;
 }
 
-- (id) copyOperationWithIdWithId:(id) arg0 :(id) arg1 {
+- (id) copyOperationWithAbstractInsnNodeWithBasicValue:(id) arg0 :(id) arg1 {
 	return nil;
 }
 
-- (id) unaryOperationWithIdWithId:(id) arg0 :(id) arg1 {
+- (id) unaryOperationWithAbstractInsnNodeWithBasicValue:(id) arg0 :(id) arg1 {
 	return nil;
 }
 
-- (id) binaryOperationWithIdWithIdWithId:(id) arg0 :(id) arg1 :(id) arg2 {
+- (id) binaryOperationWithAbstractInsnNodeWithBasicValueWithBasicValue:(id) arg0 :(id) arg1 :(id) arg2 {
 	return nil;
 }
 
-- (id) ternaryOperationWithIdWithIdWithIdWithId:(id) arg0 :(id) arg1 :(id) arg2 :(id) arg3 {
+- (id) ternaryOperationWithAbstractInsnNodeWithBasicValueWithBasicValueWithBasicValue:(id) arg0 :(id) arg1 :(id) arg2 :(id) arg3 {
 	return nil;
 }
 
-- (id) naryOperationWithIdWithId:(id) arg0 :(id) arg1 {
+- (id) naryOperationWithAbstractInsnNodeWithList:(id) arg0 :(id) arg1 {
 	return nil;
 }
 
-- (void) returnOperationWithIdWithIdWithId:(id) arg0 :(id) arg1 :(id) arg2 {
+- (void) returnOperationWithAbstractInsnNodeWithBasicValueWithBasicValue:(id) arg0 :(id) arg1 :(id) arg2 {
 
 }
 
-- (id) mergeWithIdWithId:(id) arg0 :(id) arg1 {
+- (id) mergeWithBasicValueWithBasicValue:(id) arg0 :(id) arg1 {
+	return nil;
+}
+
+- (id) mergeWithValueWithValue:(id) arg0 :(id) arg1 {
+	return nil;
+}
+
+- (void) returnOperationWithAbstractInsnNodeWithValueWithValue:(id) arg0 :(id) arg1 :(id) arg2 {
+
+}
+
+- (id) ternaryOperationWithAbstractInsnNodeWithValueWithValueWithValue:(id) arg0 :(id) arg1 :(id) arg2 :(id) arg3 {
+	return nil;
+}
+
+- (id) binaryOperationWithAbstractInsnNodeWithValueWithValue:(id) arg0 :(id) arg1 :(id) arg2 {
+	return nil;
+}
+
+- (id) unaryOperationWithAbstractInsnNodeWithValue:(id) arg0 :(id) arg1 {
+	return nil;
+}
+
+- (id) copyOperationWithAbstractInsnNodeWithValue:(id) arg0 :(id) arg1 {
 	return nil;
 }
 

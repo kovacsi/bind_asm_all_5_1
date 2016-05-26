@@ -18,15 +18,15 @@ public class ClassReader extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithId:")
-	public ClassReader valueWithId(byte[] arg0) {
+	@Selector("valueWithByte:")
+	public ClassReader valueWithByte(byte[] arg0) {
 		ClassReader self = (ClassReader) ClassReader.alloc().init();
 		self.original = new org.objectweb.asm.ClassReader(arg0);
 		return self;
 	}
 
-	@Selector("valueWithIdWithIntWithInt:::")
-	public ClassReader valueWithIdWithIntWithInt(byte[] arg0, int arg1, int arg2) {
+	@Selector("valueWithByteWithIntWithInt:::")
+	public ClassReader valueWithByteWithIntWithInt(byte[] arg0, int arg1, int arg2) {
 		ClassReader self = (ClassReader) ClassReader.alloc().init();
 		self.original = new org.objectweb.asm.ClassReader(arg0, arg1, arg2);
 		return self;
@@ -52,8 +52,8 @@ public class ClassReader extends NSObject {
 		return original.getInterfaces();
 	}
 
-	@Selector("valueWithId:")
-	public ClassReader valueWithId(java.io.InputStream arg0) throws java.io.IOException {
+	@Selector("valueWithInputStream:")
+	public ClassReader valueWithInputStream(java.io.InputStream arg0) throws java.io.IOException {
 		ClassReader self = (ClassReader) ClassReader.alloc().init();
 		self.original = new org.objectweb.asm.ClassReader(arg0);
 		return self;
@@ -66,13 +66,13 @@ public class ClassReader extends NSObject {
 		return self;
 	}
 
-	@Selector("acceptWithIdWithInt::")
-	public void acceptWithIdWithInt(org.objectweb.asm.ClassVisitor arg0, int arg1) {
+	@Selector("acceptWithClassVisitorWithInt::")
+	public void acceptWithClassVisitorWithInt(org.objectweb.asm.ClassVisitor arg0, int arg1) {
 		original.accept(arg0, arg1);
 	}
 
-	@Selector("acceptWithIdWithIdWithInt:::")
-	public void acceptWithIdWithIdWithInt(org.objectweb.asm.ClassVisitor arg0, org.objectweb.asm.Attribute[] arg1, int arg2) {
+	@Selector("acceptWithClassVisitorWithAttributeWithInt:::")
+	public void acceptWithClassVisitorWithAttributeWithInt(org.objectweb.asm.ClassVisitor arg0, org.objectweb.asm.Attribute[] arg1, int arg2) {
 		original.accept(arg0, arg1, arg2);
 	}
 
@@ -116,18 +116,18 @@ public class ClassReader extends NSObject {
 		return original.readLong(arg0);
 	}
 
-	@Selector("readUTF8WithIntWithId::")
-	public String readUTF8WithIntWithId(int arg0, char[] arg1) {
+	@Selector("readUTF8WithIntWithChar::")
+	public String readUTF8WithIntWithChar(int arg0, char[] arg1) {
 		return original.readUTF8(arg0, arg1);
 	}
 
-	@Selector("readClassWithIntWithId::")
-	public String readClassWithIntWithId(int arg0, char[] arg1) {
+	@Selector("readClassWithIntWithChar::")
+	public String readClassWithIntWithChar(int arg0, char[] arg1) {
 		return original.readClass(arg0, arg1);
 	}
 
-	@Selector("readConstWithIntWithId::")
-	public Object readConstWithIntWithId(int arg0, char[] arg1) {
+	@Selector("readConstWithIntWithChar::")
+	public Object readConstWithIntWithChar(int arg0, char[] arg1) {
 		return original.readConst(arg0, arg1);
 	}
 

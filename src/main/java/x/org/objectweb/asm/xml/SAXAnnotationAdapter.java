@@ -18,29 +18,29 @@ public class SAXAnnotationAdapter extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithStringWithIntWithStringWithString:::::")
-	public SAXAnnotationAdapter valueWithIdWithStringWithIntWithStringWithString(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4) {
+	@Selector("valueWithSAXAdapterWithStringWithIntWithStringWithString:::::")
+	public SAXAnnotationAdapter valueWithSAXAdapterWithStringWithIntWithStringWithString(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4) {
 		SAXAnnotationAdapter self = (SAXAnnotationAdapter) SAXAnnotationAdapter.alloc().init();
 		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0, arg1, arg2, arg3, arg4);
 		return self;
 	}
 
-	@Selector("valueWithIdWithStringWithIntWithIntWithString:::::")
-	public SAXAnnotationAdapter valueWithIdWithStringWithIntWithIntWithString(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, int arg3, String arg4) {
+	@Selector("valueWithSAXAdapterWithStringWithIntWithIntWithString:::::")
+	public SAXAnnotationAdapter valueWithSAXAdapterWithStringWithIntWithIntWithString(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, int arg3, String arg4) {
 		SAXAnnotationAdapter self = (SAXAnnotationAdapter) SAXAnnotationAdapter.alloc().init();
 		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0, arg1, arg2, arg3, arg4);
 		return self;
 	}
 
-	@Selector("valueWithIdWithStringWithIntWithStringWithStringWithIntWithId:::::::")
-	public SAXAnnotationAdapter valueWithIdWithStringWithIntWithStringWithStringWithIntWithId(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4, int arg5, org.objectweb.asm.TypePath arg6) {
+	@Selector("valueWithSAXAdapterWithStringWithIntWithStringWithStringWithIntWithTypePath:::::::")
+	public SAXAnnotationAdapter valueWithSAXAdapterWithStringWithIntWithStringWithStringWithIntWithTypePath(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4, int arg5, org.objectweb.asm.TypePath arg6) {
 		SAXAnnotationAdapter self = (SAXAnnotationAdapter) SAXAnnotationAdapter.alloc().init();
 		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0, arg1, arg2, arg3, arg4, arg5, arg6);
 		return self;
 	}
 
-	@Selector("valueWithIdWithStringWithIntWithStringWithStringWithIntWithIdWithIdWithIdWithId::::::::::")
-	public SAXAnnotationAdapter valueWithIdWithStringWithIntWithStringWithStringWithIntWithIdWithIdWithIdWithId(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4, int arg5, org.objectweb.asm.TypePath arg6, String[] arg7, String[] arg8, int[] arg9) {
+	@Selector("valueWithSAXAdapterWithStringWithIntWithStringWithStringWithIntWithTypePathWithStringWithStringWithInt::::::::::")
+	public SAXAnnotationAdapter valueWithSAXAdapterWithStringWithIntWithStringWithStringWithIntWithTypePathWithStringWithStringWithInt(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4, int arg5, org.objectweb.asm.TypePath arg6, String[] arg7, String[] arg8, int[] arg9) {
 		SAXAnnotationAdapter self = (SAXAnnotationAdapter) SAXAnnotationAdapter.alloc().init();
 		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
 		return self;

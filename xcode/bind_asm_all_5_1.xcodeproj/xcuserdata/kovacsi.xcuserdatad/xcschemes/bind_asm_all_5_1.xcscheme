@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9B768F3C08586AD0AB91708A"
+               BlueprintIdentifier = "B960A32A18A62E26CB367C5B"
                BuildableName = "bind_asm_all_5_1.app"
                BlueprintName = "bind_asm_all_5_1"
                ReferencedContainer = "container:bind_asm_all_5_1.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B768F3C08586AD0AB91708A"
+            BlueprintIdentifier = "B960A32A18A62E26CB367C5B"
             BuildableName = "bind_asm_all_5_1.app"
             BlueprintName = "bind_asm_all_5_1"
             ReferencedContainer = "container:bind_asm_all_5_1.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B768F3C08586AD0AB91708A"
+            BlueprintIdentifier = "B960A32A18A62E26CB367C5B"
             BuildableName = "bind_asm_all_5_1.app"
             BlueprintName = "bind_asm_all_5_1"
             ReferencedContainer = "container:bind_asm_all_5_1.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B768F3C08586AD0AB91708A"
+            BlueprintIdentifier = "B960A32A18A62E26CB367C5B"
             BuildableName = "bind_asm_all_5_1.app"
             BlueprintName = "bind_asm_all_5_1"
             ReferencedContainer = "container:bind_asm_all_5_1.xcodeproj">

@@ -18,8 +18,8 @@ public class AnnotationRemapper extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithId::")
-	public AnnotationRemapper valueWithIdWithId(org.objectweb.asm.AnnotationVisitor arg0, org.objectweb.asm.commons.Remapper arg1) {
+	@Selector("valueWithAnnotationVisitorWithRemapper::")
+	public AnnotationRemapper valueWithAnnotationVisitorWithRemapper(org.objectweb.asm.AnnotationVisitor arg0, org.objectweb.asm.commons.Remapper arg1) {
 		AnnotationRemapper self = (AnnotationRemapper) AnnotationRemapper.alloc().init();
 		self.original = new org.objectweb.asm.commons.AnnotationRemapper(arg0, arg1);
 		return self;

@@ -2,7 +2,7 @@
 
 @implementation x_org_objectweb_asm_commons_AnnotationRemapper
 
-+ (x_org_objectweb_asm_commons_AnnotationRemapper*) valueWithIdWithId:(id) arg0 :(id) arg1 {
++ (x_org_objectweb_asm_commons_AnnotationRemapper*) valueWithAnnotationVisitorWithRemapper:(id) arg0 :(id) arg1 {
 	return nil;
 }
 

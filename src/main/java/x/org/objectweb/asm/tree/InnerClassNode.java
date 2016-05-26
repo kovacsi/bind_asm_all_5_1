@@ -25,8 +25,8 @@ public class InnerClassNode extends NSObject {
 		return self;
 	}
 
-	@Selector("acceptWithId:")
-	public void acceptWithId(org.objectweb.asm.ClassVisitor arg0) {
+	@Selector("acceptWithClassVisitor:")
+	public void acceptWithClassVisitor(org.objectweb.asm.ClassVisitor arg0) {
 		original.accept(arg0);
 	}
 

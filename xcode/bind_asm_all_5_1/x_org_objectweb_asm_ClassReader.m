@@ -2,11 +2,11 @@
 
 @implementation x_org_objectweb_asm_ClassReader
 
-+ (x_org_objectweb_asm_ClassReader*) valueWithId:(id) arg0 {
++ (x_org_objectweb_asm_ClassReader*) valueWithByte:(id) arg0 {
 	return nil;
 }
 
-+ (x_org_objectweb_asm_ClassReader*) valueWithIdWithIntWithInt:(id) arg0 :(int) arg1 :(int) arg2 {
++ (x_org_objectweb_asm_ClassReader*) valueWithByteWithIntWithInt:(id) arg0 :(int) arg1 :(int) arg2 {
 	return nil;
 }
 
@@ -26,15 +26,19 @@
 	return nil;
 }
 
++ (x_org_objectweb_asm_ClassReader*) valueWithInputStream:(id) arg0 {
+	return nil;
+}
+
 + (x_org_objectweb_asm_ClassReader*) valueWithString:(NSString*) arg0 {
 	return nil;
 }
 
-- (void) acceptWithIdWithInt:(id) arg0 :(int) arg1 {
+- (void) acceptWithClassVisitorWithInt:(id) arg0 :(int) arg1 {
 
 }
 
-- (void) acceptWithIdWithIdWithInt:(id) arg0 :(id) arg1 :(int) arg2 {
+- (void) acceptWithClassVisitorWithAttributeWithInt:(id) arg0 :(id) arg1 :(int) arg2 {
 
 }
 
@@ -70,15 +74,15 @@
 	return 0;
 }
 
-- (NSString*) readUTF8WithIntWithId:(int) arg0 :(id) arg1 {
+- (NSString*) readUTF8WithIntWithChar:(int) arg0 :(id) arg1 {
 	return nil;
 }
 
-- (NSString*) readClassWithIntWithId:(int) arg0 :(id) arg1 {
+- (NSString*) readClassWithIntWithChar:(int) arg0 :(id) arg1 {
 	return nil;
 }
 
-- (NSObject*) readConstWithIntWithId:(int) arg0 :(id) arg1 {
+- (NSObject*) readConstWithIntWithChar:(int) arg0 :(id) arg1 {
 	return nil;
 }
 

@@ -14,11 +14,19 @@
 	return nil;
 }
 
-+ (id) getMethodTypeWithIdWithId:(id) arg0 :(id) arg1 {
++ (id) getMethodTypeWithTypeWithType:(id) arg0 :(id) arg1 {
 	return nil;
 }
 
-+ (id) getTypeWithId:(id) arg0 {
++ (id) getTypeWithClass:(id) arg0 {
+	return nil;
+}
+
++ (id) getTypeWithConstructor:(id) arg0 {
+	return nil;
+}
+
++ (id) getTypeWithMethod:(id) arg0 {
 	return nil;
 }
 
@@ -26,7 +34,7 @@
 	return nil;
 }
 
-+ (id) getArgumentTypesWithId:(id) arg0 {
++ (id) getArgumentTypesWithMethod:(id) arg0 {
 	return nil;
 }
 
@@ -34,7 +42,7 @@
 	return nil;
 }
 
-+ (id) getReturnTypeWithId:(id) arg0 {
++ (id) getReturnTypeWithMethod:(id) arg0 {
 	return nil;
 }
 
@@ -51,6 +59,10 @@
 }
 
 - (id) getElementType {
+	return nil;
+}
+
+- (NSString*) getClassName {
 	return nil;
 }
 
@@ -74,23 +86,23 @@
 	return nil;
 }
 
-+ (NSString*) getMethodDescriptorWithIdWithId:(id) arg0 :(id) arg1 {
++ (NSString*) getMethodDescriptorWithTypeWithType:(id) arg0 :(id) arg1 {
 	return nil;
 }
 
-+ (NSString*) getInternalNameWithId:(id) arg0 {
++ (NSString*) getInternalNameWithClass:(id) arg0 {
 	return nil;
 }
 
-+ (NSString*) getDescriptorWithId:(id) arg0 {
++ (NSString*) getDescriptorWithClass:(id) arg0 {
 	return nil;
 }
 
-+ (NSString*) getConstructorDescriptorWithId:(id) arg0 {
++ (NSString*) getConstructorDescriptorWithConstructor:(id) arg0 {
 	return nil;
 }
 
-+ (NSString*) getMethodDescriptorWithId:(id) arg0 {
++ (NSString*) getMethodDescriptorWithMethod:(id) arg0 {
 	return nil;
 }
 
@@ -100,6 +112,18 @@
 
 - (int) getOpcodeWithInt:(int) arg0 {
 	return 0;
+}
+
+- (bool) equalsWithObject:(NSObject*) arg0 {
+	return nil;
+}
+
+- (int) hashCode {
+	return 0;
+}
+
+- (NSString*) toString {
+	return nil;
 }
 
 @end

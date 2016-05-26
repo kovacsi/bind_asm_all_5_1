@@ -10,7 +10,31 @@
 	return nil;
 }
 
+- (void) visitWithStringWithObject:(NSString*) arg0 :(NSObject*) arg1 {
+
+}
+
+- (void) visitEnumWithStringWithStringWithString:(NSString*) arg0 :(NSString*) arg1 :(NSString*) arg2 {
+
+}
+
+- (id) visitAnnotationWithStringWithString:(NSString*) arg0 :(NSString*) arg1 {
+	return nil;
+}
+
+- (id) visitArrayWithString:(NSString*) arg0 {
+	return nil;
+}
+
+- (void) visitEnd {
+
+}
+
 - (void) checkWithInt:(int) arg0 {
+
+}
+
+- (void) acceptWithAnnotationVisitor:(id) arg0 {
 
 }
 

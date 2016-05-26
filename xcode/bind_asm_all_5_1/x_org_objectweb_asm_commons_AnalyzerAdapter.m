@@ -2,11 +2,11 @@
 
 @implementation x_org_objectweb_asm_commons_AnalyzerAdapter
 
-+ (x_org_objectweb_asm_commons_AnalyzerAdapter*) valueWithStringWithIntWithStringWithStringWithId:(NSString*) arg0 :(int) arg1 :(NSString*) arg2 :(NSString*) arg3 :(id) arg4 {
++ (x_org_objectweb_asm_commons_AnalyzerAdapter*) valueWithStringWithIntWithStringWithStringWithMethodVisitor:(NSString*) arg0 :(int) arg1 :(NSString*) arg2 :(NSString*) arg3 :(id) arg4 {
 	return nil;
 }
 
-- (void) visitFrameWithIntWithIntWithIdWithIntWithId:(int) arg0 :(int) arg1 :(id) arg2 :(int) arg3 :(id) arg4 {
+- (void) visitFrameWithIntWithIntWithObjectWithIntWithObject:(int) arg0 :(int) arg1 :(id) arg2 :(int) arg3 :(id) arg4 {
 
 }
 
@@ -34,19 +34,19 @@
 
 }
 
-- (void) visitMethodInsnWithIntWithStringWithStringWithStringWithBool:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(bool) arg4 {
+- (void) visitMethodInsnWithIntWithStringWithStringWithStringWithBoolean:(int) arg0 :(NSString*) arg1 :(NSString*) arg2 :(NSString*) arg3 :(bool) arg4 {
 
 }
 
-- (void) visitInvokeDynamicInsnWithStringWithStringWithIdWithId:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
+- (void) visitInvokeDynamicInsnWithStringWithStringWithHandleWithObject:(NSString*) arg0 :(NSString*) arg1 :(id) arg2 :(id) arg3 {
 
 }
 
-- (void) visitJumpInsnWithIntWithId:(int) arg0 :(id) arg1 {
+- (void) visitJumpInsnWithIntWithLabel:(int) arg0 :(id) arg1 {
 
 }
 
-- (void) visitLabelWithId:(id) arg0 {
+- (void) visitLabelWithLabel:(id) arg0 {
 
 }
 
@@ -58,11 +58,11 @@
 
 }
 
-- (void) visitTableSwitchInsnWithIntWithIntWithIdWithId:(int) arg0 :(int) arg1 :(id) arg2 :(id) arg3 {
+- (void) visitTableSwitchInsnWithIntWithIntWithLabelWithLabel:(int) arg0 :(int) arg1 :(id) arg2 :(id) arg3 {
 
 }
 
-- (void) visitLookupSwitchInsnWithIdWithIdWithId:(id) arg0 :(id) arg1 :(id) arg2 {
+- (void) visitLookupSwitchInsnWithLabelWithIntWithLabel:(id) arg0 :(id) arg1 :(id) arg2 {
 
 }
 

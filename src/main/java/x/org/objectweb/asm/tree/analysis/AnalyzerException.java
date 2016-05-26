@@ -18,22 +18,22 @@ public class AnalyzerException extends NSObject {
 		super(peer);
 	}
 
-	@Selector("valueWithIdWithString::")
-	public AnalyzerException valueWithIdWithString(org.objectweb.asm.tree.AbstractInsnNode arg0, String arg1) {
+	@Selector("valueWithAbstractInsnNodeWithString::")
+	public AnalyzerException valueWithAbstractInsnNodeWithString(org.objectweb.asm.tree.AbstractInsnNode arg0, String arg1) {
 		AnalyzerException self = (AnalyzerException) AnalyzerException.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.AnalyzerException(arg0, arg1);
 		return self;
 	}
 
-	@Selector("valueWithIdWithStringWithId:::")
-	public AnalyzerException valueWithIdWithStringWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, String arg1, Throwable arg2) {
+	@Selector("valueWithAbstractInsnNodeWithStringWithThrowable:::")
+	public AnalyzerException valueWithAbstractInsnNodeWithStringWithThrowable(org.objectweb.asm.tree.AbstractInsnNode arg0, String arg1, Throwable arg2) {
 		AnalyzerException self = (AnalyzerException) AnalyzerException.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.AnalyzerException(arg0, arg1, arg2);
 		return self;
 	}
 
-	@Selector("valueWithIdWithStringWithObjectWithId::::")
-	public AnalyzerException valueWithIdWithStringWithObjectWithId(org.objectweb.asm.tree.AbstractInsnNode arg0, String arg1, Object arg2, org.objectweb.asm.tree.analysis.Value arg3) {
+	@Selector("valueWithAbstractInsnNodeWithStringWithObjectWithValue::::")
+	public AnalyzerException valueWithAbstractInsnNodeWithStringWithObjectWithValue(org.objectweb.asm.tree.AbstractInsnNode arg0, String arg1, Object arg2, org.objectweb.asm.tree.analysis.Value arg3) {
 		AnalyzerException self = (AnalyzerException) AnalyzerException.alloc().init();
 		self.original = new org.objectweb.asm.tree.analysis.AnalyzerException(arg0, arg1, arg2, arg3);
 		return self;
