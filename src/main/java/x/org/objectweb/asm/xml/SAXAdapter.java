@@ -7,15 +7,14 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("x_org_objectweb_asm_xml_SAXAdapter")
+@ObjCClassName("org_objectweb_asm_xml_SAXAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
-public class SAXAdapter extends NSObject {
-
-	private org.objectweb.asm.xml.SAXAdapter original;
-
-	protected SAXAdapter(Pointer peer) {
-		super(peer);
-	}
-
+public class SAXAdapter extends NSObject {	
+	
+	public org.objectweb.asm.xml.SAXAdapter original;	
+	
+	protected SAXAdapter(Pointer peer) {		
+		super(peer);		
+	}	
 }

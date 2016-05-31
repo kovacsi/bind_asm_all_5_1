@@ -7,37 +7,24 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("x_org_objectweb_asm_commons_StaticInitMerger")
+@ObjCClassName("org_objectweb_asm_commons_StaticInitMerger")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
-public class StaticInitMerger extends NSObject {
-
-	private org.objectweb.asm.commons.StaticInitMerger original;
-
-	protected StaticInitMerger(Pointer peer) {
-		super(peer);
-	}
-
-	@Selector("valueWithStringWithClassVisitor::")
-	public StaticInitMerger valueWithStringWithClassVisitor(String arg0, org.objectweb.asm.ClassVisitor arg1) {
-		StaticInitMerger self = (StaticInitMerger) StaticInitMerger.alloc().init();
-		self.original = new org.objectweb.asm.commons.StaticInitMerger(arg0, arg1);
-		return self;
-	}
-
-	@Selector("visitWithIntWithIntWithStringWithStringWithStringWithString::::::")
-	public void visitWithIntWithIntWithStringWithStringWithStringWithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
-		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);
-	}
-
-	@Selector("visitMethodWithIntWithStringWithStringWithStringWithString:::::")
-	public org.objectweb.asm.MethodVisitor visitMethodWithIntWithStringWithStringWithStringWithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
-		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);
-	}
-
-	@Selector("visitEnd")
-	public void visitEnd() {
-		original.visitEnd();
-	}
-
+public class StaticInitMerger extends NSObject {	
+	
+	public org.objectweb.asm.commons.StaticInitMerger original;	
+	
+	protected StaticInitMerger(Pointer peer) {		
+		super(peer);		
+	}	
+	
+	@Selector("visitWithInt:withInt:withString:withString:withString:withString:")	
+	public void visit(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);		
+	}	
+	
+	@Selector("visitEnd")	
+	public void visitEnd() {		
+		original.visitEnd();		
+	}	
 }

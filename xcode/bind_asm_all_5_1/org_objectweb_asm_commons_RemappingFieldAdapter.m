@@ -1,0 +1,5 @@
+#import "org_objectweb_asm_commons_RemappingFieldAdapter.h"
+
+@implementation org_objectweb_asm_commons_RemappingFieldAdapter
+
+@end
