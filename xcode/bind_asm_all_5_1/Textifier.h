@@ -4,6 +4,16 @@
 #import "Handle.h"
 #import "Label.h"
 
+#define INTERNAL_NAME 0
+#define FIELD_DESCRIPTOR 1
+#define FIELD_SIGNATURE 2
+#define METHOD_DESCRIPTOR 3
+#define METHOD_SIGNATURE 4
+#define CLASS_SIGNATURE 5
+#define TYPE_DECLARATION 6
+#define CLASS_DECLARATION 7
+#define PARAMETERS_DECLARATION 8
+#define HANDLE_DESCRIPTOR 9
 @interface Textifier : NSObject
 
 + (Textifier*)value;

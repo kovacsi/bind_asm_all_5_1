@@ -4,6 +4,24 @@
 #import "Handle.h"
 #import "Label.h"
 
+#define ADD 96
+#define SUB 100
+#define MUL 104
+#define DIV 108
+#define REM 112
+#define NEG 116
+#define SHL 120
+#define SHR 122
+#define USHR 124
+#define AND 126
+#define OR 128
+#define XOR 130
+#define EQ 153
+#define NE 154
+#define LT 155
+#define GE 156
+#define GT 157
+#define LE 158
 @interface GeneratorAdapter : NSObject
 
 + (GeneratorAdapter*)valueWithMethodVisitor:(id)arg0 withInt:(int)arg1 withString:(NSString*)arg2 withString:(NSString*)arg3;

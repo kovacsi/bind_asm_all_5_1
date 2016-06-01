@@ -1,5 +1,8 @@
 #import <Foundation/Foundation.h>
 
+#define CLASS_SIGNATURE 0
+#define METHOD_SIGNATURE 1
+#define TYPE_SIGNATURE 2
 @interface CheckSignatureAdapter : NSObject
 
 + (CheckSignatureAdapter*)valueWithInt:(int)arg0 withSignatureVisitor:(id)arg1;

@@ -4,6 +4,8 @@
 #import "Attribute.h"
 #import "Handle.h"
 
+#define COMPUTE_MAXS 1
+#define COMPUTE_FRAMES 2
 @interface ClassWriter : NSObject
 
 + (ClassWriter*)valueWithInt:(int)arg0;

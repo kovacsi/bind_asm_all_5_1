@@ -1,5 +1,17 @@
 #import <Foundation/Foundation.h>
 
+#define VOID 0
+#define BOOLEAN 1
+#define CHAR 2
+#define BYTE 3
+#define SHORT 4
+#define INT 5
+#define FLOAT 6
+#define LONG 7
+#define DOUBLE 8
+#define ARRAY 9
+#define OBJECT 10
+#define METHOD 11
 @interface Type : NSObject
 
 + (Type*)getTypeWithString:(NSString*)arg0;

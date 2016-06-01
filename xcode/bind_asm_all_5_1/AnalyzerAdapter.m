@@ -1,4 +1,5 @@
 #import "AnalyzerAdapter.h"
+#import "Handle.h"
 
 @implementation AnalyzerAdapter
 

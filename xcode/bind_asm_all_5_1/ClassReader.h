@@ -1,5 +1,9 @@
 #import <Foundation/Foundation.h>
 
+#define SKIP_CODE 1
+#define SKIP_DEBUG 2
+#define SKIP_FRAMES 4
+#define EXPAND_FRAMES 8
 @interface ClassReader : NSObject
 
 + (ClassReader*)valueWithByte:(id)arg0;
