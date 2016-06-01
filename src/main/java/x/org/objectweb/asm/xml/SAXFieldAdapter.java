@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_xml_SAXFieldAdapter")
+@ObjCClassName("SAXFieldAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SAXFieldAdapter extends NSObject {	
@@ -19,10 +19,20 @@ public class SAXFieldAdapter extends NSObject {
 	}	
 	
 	@Selector("valueWithSAXAdapter:withAttributes:")	
-	public SAXFieldAdapter value(org.objectweb.asm.xml.SAXAdapter arg0, org.xml.sax.Attributes arg1) {		
+	public SAXFieldAdapter valueWithSAXAdapterwithAttributes(SAXAdapter arg0, org.xml.sax.Attributes arg1) {
 		SAXFieldAdapter self = (SAXFieldAdapter) SAXFieldAdapter.alloc().init();		
-		self.original = new org.objectweb.asm.xml.SAXFieldAdapter(arg0, arg1);		
+		self.original = new org.objectweb.asm.xml.SAXFieldAdapter(arg0.original, arg1);		
 		return self;		
+	}	
+	
+	@Selector("visitAnnotationWithString:withBoolean:")	
+	public Object visitAnnotationWithStringwithBoolean(String arg0, boolean arg1) {
+		return original.visitAnnotation(arg0, arg1);		
+	}	
+	
+	@Selector("visitTypeAnnotationWithInt:withTypePath:withString:withBoolean:")	
+	public Object visitTypeAnnotationWithIntwithTypePathwithStringwithBoolean(int arg0, x.org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+		return original.visitTypeAnnotation(arg0, arg1.original, arg2, arg3);		
 	}	
 	
 	@Selector("visitEnd")	

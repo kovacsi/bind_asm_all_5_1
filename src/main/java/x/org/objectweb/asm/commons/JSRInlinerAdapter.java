@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_JSRInlinerAdapter")
+@ObjCClassName("JSRInlinerAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class JSRInlinerAdapter extends NSObject {	
@@ -18,9 +18,16 @@ public class JSRInlinerAdapter extends NSObject {
 		super(peer);		
 	}	
 	
+	@Selector("valueWithMethodVisitor:withInt:withString:withString:withString:withString:")	
+	public JSRInlinerAdapter valueWithMethodVisitorwithIntwithStringwithStringwithStringwithString(Object arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+		JSRInlinerAdapter self = (JSRInlinerAdapter) JSRInlinerAdapter.alloc().init();		
+		self.original = new org.objectweb.asm.commons.JSRInlinerAdapter((org.objectweb.asm.MethodVisitor) arg0, arg1, arg2, arg3, arg4, arg5);		
+		return self;		
+	}	
+	
 	@Selector("visitJumpInsnWithInt:withLabel:")	
-	public void visitJumpInsn(int arg0, org.objectweb.asm.Label arg1) {		
-		original.visitJumpInsn(arg0, arg1);		
+	public void visitJumpInsnWithIntwithLabel(int arg0, x.org.objectweb.asm.Label arg1) {		
+		original.visitJumpInsn(arg0, arg1.original);		
 	}	
 	
 	@Selector("visitEnd")	

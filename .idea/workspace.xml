@@ -2,354 +2,355 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe97bdc-f2b0-4000-8aef-0ed6f3caa1b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Attribute.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Attribute.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ByteVector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ByteVector.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ClassReader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ClassReader.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ClassWriter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ClassWriter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Handle.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Handle.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Label.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Label.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Type.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Type.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_TypePath.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_TypePath.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_TypeReference.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_TypeReference.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_AnalyzerAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_AnalyzerAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_AnnotationRemapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_AnnotationRemapper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_ClassRemapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_ClassRemapper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_CodeSizeEvaluator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_CodeSizeEvaluator.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_FieldRemapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_FieldRemapper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_GeneratorAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_GeneratorAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_InstructionAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_InstructionAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_JSRInlinerAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_JSRInlinerAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_LocalVariablesSorter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_LocalVariablesSorter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_Method.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_Method.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_MethodRemapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_MethodRemapper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingAnnotationAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingAnnotationAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingClassAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingClassAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingFieldAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingFieldAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingMethodAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingMethodAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingSignatureAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingSignatureAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SerialVersionUIDAdder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SerialVersionUIDAdder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SignatureRemapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SignatureRemapper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SimpleRemapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SimpleRemapper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_StaticInitMerger.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_StaticInitMerger.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_TryCatchBlockSorter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_TryCatchBlockSorter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_signature_SignatureReader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_signature_SignatureReader.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_signature_SignatureWriter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_signature_SignatureWriter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_AnnotationNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_AnnotationNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_ClassNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_ClassNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FieldInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FieldInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FieldNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FieldNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FrameNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FrameNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_IincInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_IincInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InnerClassNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InnerClassNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InsnList.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InsnList.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_IntInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_IntInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InvokeDynamicInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InvokeDynamicInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_JumpInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_JumpInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LabelNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LabelNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LdcInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LdcInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LineNumberNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LineNumberNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LocalVariableAnnotationNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LocalVariableAnnotationNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LocalVariableNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LocalVariableNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LookupSwitchInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LookupSwitchInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MethodInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MethodInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MethodNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MethodNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MultiANewArrayInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MultiANewArrayInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_ParameterNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_ParameterNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TableSwitchInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TableSwitchInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TryCatchBlockNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TryCatchBlockNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TypeAnnotationNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TypeAnnotationNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TypeInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TypeInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_VarInsnNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_VarInsnNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_Analyzer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_Analyzer.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_AnalyzerException.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_AnalyzerException.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicInterpreter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicInterpreter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicValue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicValue.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicVerifier.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicVerifier.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_Frame.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_Frame.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SimpleVerifier.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SimpleVerifier.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SourceInterpreter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SourceInterpreter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SourceValue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SourceValue.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_ASMifier.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_ASMifier.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckAnnotationAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckAnnotationAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckClassAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckClassAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckFieldAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckFieldAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckMethodAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckMethodAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckSignatureAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckSignatureAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_Textifier.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_Textifier.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceAnnotationVisitor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceAnnotationVisitor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceClassVisitor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceClassVisitor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceFieldVisitor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceFieldVisitor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceMethodVisitor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceMethodVisitor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceSignatureVisitor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceSignatureVisitor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_ASMContentHandler.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_ASMContentHandler.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_Processor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_Processor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXAnnotationAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXAnnotationAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXClassAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXClassAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXCodeAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXCodeAdapter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXFieldAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXFieldAdapter.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Attribute.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Attribute.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ByteVector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ByteVector.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ClassReader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ClassReader.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ClassWriter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_ClassWriter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Handle.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Handle.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Label.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Label.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Type.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_Type.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_TypePath.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_TypePath.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_TypeReference.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_TypeReference.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_AnalyzerAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_AnalyzerAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_AnnotationRemapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_AnnotationRemapper.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_ClassRemapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_ClassRemapper.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_CodeSizeEvaluator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_CodeSizeEvaluator.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_FieldRemapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_FieldRemapper.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_GeneratorAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_GeneratorAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_InstructionAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_InstructionAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_JSRInlinerAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_JSRInlinerAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_LocalVariablesSorter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_LocalVariablesSorter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_Method.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_Method.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_MethodRemapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_MethodRemapper.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingAnnotationAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingAnnotationAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingClassAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingClassAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingFieldAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingFieldAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingMethodAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingMethodAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingSignatureAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_RemappingSignatureAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SerialVersionUIDAdder.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SerialVersionUIDAdder.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SignatureRemapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SignatureRemapper.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SimpleRemapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_SimpleRemapper.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_StaticInitMerger.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_StaticInitMerger.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_TryCatchBlockSorter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_commons_TryCatchBlockSorter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_signature_SignatureReader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_signature_SignatureReader.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_signature_SignatureWriter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_signature_SignatureWriter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_AnnotationNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_AnnotationNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_ClassNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_ClassNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FieldInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FieldInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FieldNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FieldNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FrameNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_FrameNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_IincInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_IincInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InnerClassNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InnerClassNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InsnList.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InsnList.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_IntInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_IntInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InvokeDynamicInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_InvokeDynamicInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_JumpInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_JumpInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LabelNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LabelNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LdcInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LdcInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LineNumberNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LineNumberNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LocalVariableAnnotationNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LocalVariableAnnotationNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LocalVariableNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LocalVariableNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LookupSwitchInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_LookupSwitchInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MethodInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MethodInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MethodNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MethodNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MultiANewArrayInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_MultiANewArrayInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_ParameterNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_ParameterNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TableSwitchInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TableSwitchInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TryCatchBlockNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TryCatchBlockNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TypeAnnotationNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TypeAnnotationNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TypeInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_TypeInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_VarInsnNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_VarInsnNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_Analyzer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_Analyzer.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_AnalyzerException.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_AnalyzerException.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicInterpreter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicInterpreter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicValue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicValue.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicVerifier.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_BasicVerifier.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_Frame.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_Frame.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SimpleVerifier.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SimpleVerifier.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SourceInterpreter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SourceInterpreter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SourceValue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_tree_analysis_SourceValue.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_ASMifier.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_ASMifier.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckAnnotationAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckAnnotationAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckClassAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckClassAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckFieldAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckFieldAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckMethodAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckMethodAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckSignatureAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_CheckSignatureAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_Textifier.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_Textifier.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceAnnotationVisitor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceAnnotationVisitor.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceClassVisitor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceClassVisitor.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceFieldVisitor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceFieldVisitor.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceMethodVisitor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceMethodVisitor.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceSignatureVisitor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_util_TraceSignatureVisitor.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_ASMContentHandler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_ASMContentHandler.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_Processor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_Processor.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXAnnotationAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXAnnotationAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXClassAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXClassAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXCodeAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXCodeAdapter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXFieldAdapter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/x_org_objectweb_asm_xml_SAXFieldAdapter.m" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ASMContentHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ASMContentHandler.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ASMifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ASMifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Analyzer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Analyzer.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/AnalyzerAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/AnalyzerAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/AnalyzerException.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/AnalyzerException.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/AnnotationNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/AnnotationNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/AnnotationRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/AnnotationRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Attribute.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Attribute.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/BasicInterpreter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/BasicInterpreter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/BasicValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/BasicValue.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/BasicVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/BasicVerifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ByteVector.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ByteVector.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckAnnotationAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckAnnotationAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckClassAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckClassAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckFieldAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckFieldAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckMethodAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckMethodAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckSignatureAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CheckSignatureAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ClassNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ClassNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ClassReader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ClassReader.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ClassRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ClassRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ClassWriter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ClassWriter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CodeSizeEvaluator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/CodeSizeEvaluator.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/FieldInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/FieldInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/FieldNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/FieldNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/FieldRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/FieldRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Frame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Frame.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/FrameNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/FrameNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/GeneratorAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/GeneratorAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Handle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Handle.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/IincInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/IincInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InnerClassNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InnerClassNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InsnList.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InsnList.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InstructionAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InstructionAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/IntInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/IntInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InvokeDynamicInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/InvokeDynamicInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/JSRInlinerAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/JSRInlinerAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/JumpInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/JumpInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Label.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Label.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LabelNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LabelNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LdcInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LdcInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LineNumberNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LineNumberNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LocalVariableAnnotationNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LocalVariableAnnotationNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LocalVariableNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LocalVariableNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LocalVariablesSorter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LocalVariablesSorter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LookupSwitchInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/LookupSwitchInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Method.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Method.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/MethodInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/MethodInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/MethodNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/MethodNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/MethodRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/MethodRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/MultiANewArrayInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/MultiANewArrayInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Opcodes.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ParameterNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/ParameterNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Processor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Processor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingAnnotationAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingAnnotationAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingClassAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingClassAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingFieldAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingFieldAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingMethodAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingMethodAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingSignatureAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/RemappingSignatureAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXAnnotationAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXAnnotationAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXClassAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXClassAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXCodeAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXCodeAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXFieldAdapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SAXFieldAdapter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SerialVersionUIDAdder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SerialVersionUIDAdder.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SignatureReader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SignatureReader.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SignatureRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SignatureRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SignatureWriter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SignatureWriter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SimpleRemapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SimpleRemapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SimpleVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SimpleVerifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SourceInterpreter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SourceInterpreter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SourceValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/SourceValue.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/StaticInitMerger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/StaticInitMerger.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TableSwitchInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TableSwitchInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Textifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Textifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceAnnotationVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceAnnotationVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceClassVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceClassVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceFieldVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceFieldVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceMethodVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceMethodVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceSignatureVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TraceSignatureVisitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TryCatchBlockNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TryCatchBlockNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TryCatchBlockSorter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TryCatchBlockSorter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Type.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/Type.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TypeAnnotationNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TypeAnnotationNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TypeInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TypeInsnNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TypePath.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TypePath.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TypeReference.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/TypeReference.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/VarInsnNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/VarInsnNode.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Attribute.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Attribute.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ByteVector.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ByteVector.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ClassReader.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ClassReader.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ClassWriter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_ClassWriter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Handle.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Handle.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Label.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Label.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Type.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_Type.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_TypePath.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_TypePath.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_TypeReference.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_TypeReference.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_AnalyzerAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_AnalyzerAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_AnnotationRemapper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_AnnotationRemapper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_ClassRemapper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_ClassRemapper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_CodeSizeEvaluator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_CodeSizeEvaluator.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_FieldRemapper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_FieldRemapper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_GeneratorAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_GeneratorAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_InstructionAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_InstructionAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_JSRInlinerAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_JSRInlinerAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_LocalVariablesSorter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_LocalVariablesSorter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_Method.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_Method.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_MethodRemapper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_MethodRemapper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingAnnotationAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingAnnotationAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingClassAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingClassAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingFieldAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingFieldAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingMethodAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingMethodAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingSignatureAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_RemappingSignatureAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SerialVersionUIDAdder.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SerialVersionUIDAdder.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SignatureRemapper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SignatureRemapper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SimpleRemapper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_SimpleRemapper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_StaticInitMerger.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_StaticInitMerger.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_TryCatchBlockSorter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_commons_TryCatchBlockSorter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_signature_SignatureReader.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_signature_SignatureReader.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_signature_SignatureWriter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_signature_SignatureWriter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_AnnotationNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_AnnotationNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_ClassNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_ClassNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FieldInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FieldInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FieldNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FieldNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FrameNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_FrameNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_IincInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_IincInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InnerClassNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InnerClassNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InsnList.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InsnList.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_IntInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_IntInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InvokeDynamicInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_InvokeDynamicInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_JumpInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_JumpInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LabelNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LabelNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LdcInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LdcInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LineNumberNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LineNumberNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LocalVariableAnnotationNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LocalVariableAnnotationNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LocalVariableNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LocalVariableNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LookupSwitchInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_LookupSwitchInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MethodInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MethodInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MethodNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MethodNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MultiANewArrayInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_MultiANewArrayInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_ParameterNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_ParameterNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TableSwitchInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TableSwitchInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TryCatchBlockNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TryCatchBlockNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TypeAnnotationNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TypeAnnotationNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TypeInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_TypeInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_VarInsnNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_VarInsnNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_Analyzer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_Analyzer.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_AnalyzerException.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_AnalyzerException.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicInterpreter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicInterpreter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicValue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicValue.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicVerifier.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_BasicVerifier.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_Frame.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_Frame.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SimpleVerifier.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SimpleVerifier.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SourceInterpreter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SourceInterpreter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SourceValue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_tree_analysis_SourceValue.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_ASMifier.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_ASMifier.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckAnnotationAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckAnnotationAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckClassAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckClassAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckFieldAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckFieldAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckMethodAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckMethodAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckSignatureAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_CheckSignatureAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_Textifier.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_Textifier.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceAnnotationVisitor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceAnnotationVisitor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceClassVisitor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceClassVisitor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceFieldVisitor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceFieldVisitor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceMethodVisitor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceMethodVisitor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceSignatureVisitor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_util_TraceSignatureVisitor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_ASMContentHandler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_ASMContentHandler.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_Processor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_Processor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXAnnotationAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXAnnotationAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXClassAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXClassAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXCodeAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXCodeAdapter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXFieldAdapter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/org_objectweb_asm_xml_SAXFieldAdapter.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
@@ -357,7 +358,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/xcode/bind_asm_all_5_1.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/build/xcode/bind_asm_all_5_1.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/Attribute.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/Attribute.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/ByteVector.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/ByteVector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/ClassReader.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/ClassReader.java" />
@@ -447,7 +447,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/SAXFieldAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/SAXFieldAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/MainUI.storyboard" afterPath="$PROJECT_DIR$/src/main/resources/MainUI.storyboard" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/main.cpp" afterPath="$PROJECT_DIR$/xcode/bind_asm_all_5_1/main.cpp" />
     </list>
     <ignored path="bind_asm_all_5_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -463,6 +462,13 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="bind_asm_all_5_1" />
   </component>
@@ -472,7 +478,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/Processor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="27" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -796,13 +802,15 @@
         <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/util/Textifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/TypeAnnotationNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/commons/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/ClassReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/tree/MethodNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/Processor.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="23" />
+    <option name="x" value="424" />
+    <option name="y" value="59" />
     <option name="width" value="1609" />
     <option name="height" value="937" />
   </component>
@@ -831,8 +839,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_asm_all_5_1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_asm_all_5_1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -853,21 +873,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_asm_all_5_1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_asm_all_5_1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1148,31 +1156,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="23" width="1609" height="937" extended-state="0" />
-    <editor active="false" />
+    <frame x="424" y="59" width="1609" height="937" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32356533" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31912303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26866624" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28142947" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1189,15 +1197,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/objectweb/asm/xml/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="27" />
           <folding />
         </state>
       </provider>

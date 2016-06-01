@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_InstructionAdapter")
+@ObjCClassName("InstructionAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class InstructionAdapter extends NSObject {	
@@ -18,78 +18,85 @@ public class InstructionAdapter extends NSObject {
 		super(peer);		
 	}	
 	
+	@Selector("valueWithMethodVisitor:")	
+	public InstructionAdapter valueWithMethodVisitor(Object arg0) {
+		InstructionAdapter self = (InstructionAdapter) InstructionAdapter.alloc().init();		
+		self.original = new org.objectweb.asm.commons.InstructionAdapter((org.objectweb.asm.MethodVisitor) arg0);		
+		return self;		
+	}	
+	
 	@Selector("visitInsnWithInt:")	
-	public void visitInsn(int arg0) {		
+	public void visitInsnWithInt(int arg0) {		
 		original.visitInsn(arg0);		
 	}	
 	
 	@Selector("visitIntInsnWithInt:withInt:")	
-	public void visitIntInsn(int arg0, int arg1) {		
+	public void visitIntInsnWithIntwithInt(int arg0, int arg1) {		
 		original.visitIntInsn(arg0, arg1);		
 	}	
 	
 	@Selector("visitVarInsnWithInt:withInt:")	
-	public void visitVarInsn(int arg0, int arg1) {		
+	public void visitVarInsnWithIntwithInt(int arg0, int arg1) {		
 		original.visitVarInsn(arg0, arg1);		
 	}	
 	
 	@Selector("visitTypeInsnWithInt:withString:")	
-	public void visitTypeInsn(int arg0, String arg1) {
+	public void visitTypeInsnWithIntwithString(int arg0, String arg1) {
 		original.visitTypeInsn(arg0, arg1);		
 	}	
 	
 	@Selector("visitFieldInsnWithInt:withString:withString:withString:")	
-	public void visitFieldInsn(int arg0, String arg1, String arg2, String arg3) {
+	public void visitFieldInsnWithIntwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3) {
 		original.visitFieldInsn(arg0, arg1, arg2, arg3);		
 	}	
 	
 	@Selector("visitMethodInsnWithInt:withString:withString:withString:")	
-	public void visitMethodInsn(int arg0, String arg1, String arg2, String arg3) {
+	public void visitMethodInsnWithIntwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3) {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3);		
 	}	
 	
 	@Selector("visitMethodInsnWithInt:withString:withString:withString:withBoolean:")	
-	public void visitMethodInsn(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
+	public void visitMethodInsnWithIntwithStringwithStringwithStringwithBoolean(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3, arg4);		
 	}	
 	
 	@Selector("visitInvokeDynamicInsnWithString:withString:withHandle:withObject:")	
-	public void visitInvokeDynamicInsn(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
-		original.visitInvokeDynamicInsn(arg0, arg1, arg2, arg3);		
+	public void visitInvokeDynamicInsnWithStringwithStringwithHandlewithObject(String arg0, String arg1, x.org.objectweb.asm.Handle arg2, Object[] arg3) {
+		original.visitInvokeDynamicInsn(arg0, arg1, arg2.original, arg3);		
 	}	
 	
 	@Selector("visitJumpInsnWithInt:withLabel:")	
-	public void visitJumpInsn(int arg0, org.objectweb.asm.Label arg1) {		
-		original.visitJumpInsn(arg0, arg1);		
+	public void visitJumpInsnWithIntwithLabel(int arg0, x.org.objectweb.asm.Label arg1) {		
+		original.visitJumpInsn(arg0, arg1.original);		
 	}	
 	
 	@Selector("visitLabelWithLabel:")	
-	public void visitLabel(org.objectweb.asm.Label arg0) {		
-		original.visitLabel(arg0);		
+	public void visitLabelWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.visitLabel(arg0.original);		
 	}	
 	
 	@Selector("visitLdcInsnWithObject:")	
-	public void visitLdcInsn(Object arg0) {
+	public void visitLdcInsnWithObject(Object arg0) {
 		original.visitLdcInsn(arg0);		
 	}	
 	
 	@Selector("visitIincInsnWithInt:withInt:")	
-	public void visitIincInsn(int arg0, int arg1) {		
+	public void visitIincInsnWithIntwithInt(int arg0, int arg1) {		
 		original.visitIincInsn(arg0, arg1);		
 	}	
 	
 	@Selector("visitTableSwitchInsnWithInt:withInt:withLabel:withLabel:")	
-	public void visitTableSwitchInsn(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {		
-		original.visitTableSwitchInsn(arg0, arg1, arg2, arg3);		
+	public void visitTableSwitchInsnWithIntwithIntwithLabelwithLabel(int arg0, int arg1, x.org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {		
+		original.visitTableSwitchInsn(arg0, arg1, arg2.original, arg3);		
 	}	
 	
 	@Selector("visitLookupSwitchInsnWithLabel:withInt:withLabel:")	
-	public void visitLookupSwitchInsn(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {		
-		original.visitLookupSwitchInsn(arg0, arg1, arg2);		
+	public void visitLookupSwitchInsnWithLabelwithIntwithLabel(x.org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {		
+		original.visitLookupSwitchInsn(arg0.original, arg1, arg2);		
 	}	
 	
 	@Selector("visitMultiANewArrayInsnWithString:withInt:")	
-	public void visitMultiANewArrayInsn(String arg0, int arg1) {
+	public void visitMultiANewArrayInsnWithStringwithInt(String arg0, int arg1) {
 		original.visitMultiANewArrayInsn(arg0, arg1);		
 	}	
 	
@@ -99,58 +106,58 @@ public class InstructionAdapter extends NSObject {
 	}	
 	
 	@Selector("aconstWithObject:")	
-	public void aconst(Object arg0) {
+	public void aconstWithObject(Object arg0) {
 		original.aconst(arg0);		
 	}	
 	
 	@Selector("iconstWithInt:")	
-	public void iconst(int arg0) {		
+	public void iconstWithInt(int arg0) {		
 		original.iconst(arg0);		
 	}	
 	
 	@Selector("lconstWithLong:")	
-	public void lconst(long arg0) {		
+	public void lconstWithLong(long arg0) {		
 		original.lconst(arg0);		
 	}	
 	
 	@Selector("fconstWithFloat:")	
-	public void fconst(float arg0) {		
+	public void fconstWithFloat(float arg0) {		
 		original.fconst(arg0);		
 	}	
 	
 	@Selector("dconstWithDouble:")	
-	public void dconst(double arg0) {		
+	public void dconstWithDouble(double arg0) {		
 		original.dconst(arg0);		
 	}	
 	
 	@Selector("tconstWithType:")	
-	public void tconst(org.objectweb.asm.Type arg0) {		
-		original.tconst(arg0);		
+	public void tconstWithType(x.org.objectweb.asm.Type arg0) {		
+		original.tconst(arg0.original);		
 	}	
 	
 	@Selector("hconstWithHandle:")	
-	public void hconst(org.objectweb.asm.Handle arg0) {		
-		original.hconst(arg0);		
+	public void hconstWithHandle(x.org.objectweb.asm.Handle arg0) {		
+		original.hconst(arg0.original);		
 	}	
 	
 	@Selector("loadWithInt:withType:")	
-	public void load(int arg0, org.objectweb.asm.Type arg1) {		
-		original.load(arg0, arg1);		
+	public void loadWithIntwithType(int arg0, x.org.objectweb.asm.Type arg1) {		
+		original.load(arg0, arg1.original);		
 	}	
 	
 	@Selector("aloadWithType:")	
-	public void aload(org.objectweb.asm.Type arg0) {		
-		original.aload(arg0);		
+	public void aloadWithType(x.org.objectweb.asm.Type arg0) {		
+		original.aload(arg0.original);		
 	}	
 	
 	@Selector("storeWithInt:withType:")	
-	public void store(int arg0, org.objectweb.asm.Type arg1) {		
-		original.store(arg0, arg1);		
+	public void storeWithIntwithType(int arg0, x.org.objectweb.asm.Type arg1) {		
+		original.store(arg0, arg1.original);		
 	}	
 	
 	@Selector("astoreWithType:")	
-	public void astore(org.objectweb.asm.Type arg0) {		
-		original.astore(arg0);		
+	public void astoreWithType(x.org.objectweb.asm.Type arg0) {		
+		original.astore(arg0.original);		
 	}	
 	
 	@Selector("pop")	
@@ -199,73 +206,73 @@ public class InstructionAdapter extends NSObject {
 	}	
 	
 	@Selector("addWithType:")	
-	public void add(org.objectweb.asm.Type arg0) {		
-		original.add(arg0);		
+	public void addWithType(x.org.objectweb.asm.Type arg0) {		
+		original.add(arg0.original);		
 	}	
 	
 	@Selector("subWithType:")	
-	public void sub(org.objectweb.asm.Type arg0) {		
-		original.sub(arg0);		
+	public void subWithType(x.org.objectweb.asm.Type arg0) {		
+		original.sub(arg0.original);		
 	}	
 	
 	@Selector("mulWithType:")	
-	public void mul(org.objectweb.asm.Type arg0) {		
-		original.mul(arg0);		
+	public void mulWithType(x.org.objectweb.asm.Type arg0) {		
+		original.mul(arg0.original);		
 	}	
 	
 	@Selector("divWithType:")	
-	public void div(org.objectweb.asm.Type arg0) {		
-		original.div(arg0);		
+	public void divWithType(x.org.objectweb.asm.Type arg0) {		
+		original.div(arg0.original);		
 	}	
 	
 	@Selector("remWithType:")	
-	public void rem(org.objectweb.asm.Type arg0) {		
-		original.rem(arg0);		
+	public void remWithType(x.org.objectweb.asm.Type arg0) {		
+		original.rem(arg0.original);		
 	}	
 	
 	@Selector("negWithType:")	
-	public void neg(org.objectweb.asm.Type arg0) {		
-		original.neg(arg0);		
+	public void negWithType(x.org.objectweb.asm.Type arg0) {		
+		original.neg(arg0.original);		
 	}	
 	
 	@Selector("shlWithType:")	
-	public void shl(org.objectweb.asm.Type arg0) {		
-		original.shl(arg0);		
+	public void shlWithType(x.org.objectweb.asm.Type arg0) {		
+		original.shl(arg0.original);		
 	}	
 	
 	@Selector("shrWithType:")	
-	public void shr(org.objectweb.asm.Type arg0) {		
-		original.shr(arg0);		
+	public void shrWithType(x.org.objectweb.asm.Type arg0) {		
+		original.shr(arg0.original);		
 	}	
 	
 	@Selector("ushrWithType:")	
-	public void ushr(org.objectweb.asm.Type arg0) {		
-		original.ushr(arg0);		
+	public void ushrWithType(x.org.objectweb.asm.Type arg0) {		
+		original.ushr(arg0.original);		
 	}	
 	
 	@Selector("andWithType:")	
-	public void and(org.objectweb.asm.Type arg0) {		
-		original.and(arg0);		
+	public void andWithType(x.org.objectweb.asm.Type arg0) {		
+		original.and(arg0.original);		
 	}	
 	
 	@Selector("orWithType:")	
-	public void or(org.objectweb.asm.Type arg0) {		
-		original.or(arg0);		
+	public void orWithType(x.org.objectweb.asm.Type arg0) {		
+		original.or(arg0.original);		
 	}	
 	
 	@Selector("xorWithType:")	
-	public void xor(org.objectweb.asm.Type arg0) {		
-		original.xor(arg0);		
+	public void xorWithType(x.org.objectweb.asm.Type arg0) {		
+		original.xor(arg0.original);		
 	}	
 	
 	@Selector("iincWithInt:withInt:")	
-	public void iinc(int arg0, int arg1) {		
+	public void iincWithIntwithInt(int arg0, int arg1) {		
 		original.iinc(arg0, arg1);		
 	}	
 	
 	@Selector("castWithType:withType:")	
-	public void cast(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1) {		
-		original.cast(arg0, arg1);		
+	public void castWithTypewithType(x.org.objectweb.asm.Type arg0, x.org.objectweb.asm.Type arg1) {		
+		original.cast(arg0.original, arg1.original);		
 	}	
 	
 	@Selector("lcmp")	
@@ -274,183 +281,183 @@ public class InstructionAdapter extends NSObject {
 	}	
 	
 	@Selector("cmplWithType:")	
-	public void cmpl(org.objectweb.asm.Type arg0) {		
-		original.cmpl(arg0);		
+	public void cmplWithType(x.org.objectweb.asm.Type arg0) {		
+		original.cmpl(arg0.original);		
 	}	
 	
 	@Selector("cmpgWithType:")	
-	public void cmpg(org.objectweb.asm.Type arg0) {		
-		original.cmpg(arg0);		
+	public void cmpgWithType(x.org.objectweb.asm.Type arg0) {		
+		original.cmpg(arg0.original);		
 	}	
 	
 	@Selector("ifeqWithLabel:")	
-	public void ifeq(org.objectweb.asm.Label arg0) {		
-		original.ifeq(arg0);		
+	public void ifeqWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifeq(arg0.original);		
 	}	
 	
 	@Selector("ifneWithLabel:")	
-	public void ifne(org.objectweb.asm.Label arg0) {		
-		original.ifne(arg0);		
+	public void ifneWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifne(arg0.original);		
 	}	
 	
 	@Selector("ifltWithLabel:")	
-	public void iflt(org.objectweb.asm.Label arg0) {		
-		original.iflt(arg0);		
+	public void ifltWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.iflt(arg0.original);		
 	}	
 	
 	@Selector("ifgeWithLabel:")	
-	public void ifge(org.objectweb.asm.Label arg0) {		
-		original.ifge(arg0);		
+	public void ifgeWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifge(arg0.original);		
 	}	
 	
 	@Selector("ifgtWithLabel:")	
-	public void ifgt(org.objectweb.asm.Label arg0) {		
-		original.ifgt(arg0);		
+	public void ifgtWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifgt(arg0.original);		
 	}	
 	
 	@Selector("ifleWithLabel:")	
-	public void ifle(org.objectweb.asm.Label arg0) {		
-		original.ifle(arg0);		
+	public void ifleWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifle(arg0.original);		
 	}	
 	
 	@Selector("ificmpeqWithLabel:")	
-	public void ificmpeq(org.objectweb.asm.Label arg0) {		
-		original.ificmpeq(arg0);		
+	public void ificmpeqWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ificmpeq(arg0.original);		
 	}	
 	
 	@Selector("ificmpneWithLabel:")	
-	public void ificmpne(org.objectweb.asm.Label arg0) {		
-		original.ificmpne(arg0);		
+	public void ificmpneWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ificmpne(arg0.original);		
 	}	
 	
 	@Selector("ificmpltWithLabel:")	
-	public void ificmplt(org.objectweb.asm.Label arg0) {		
-		original.ificmplt(arg0);		
+	public void ificmpltWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ificmplt(arg0.original);		
 	}	
 	
 	@Selector("ificmpgeWithLabel:")	
-	public void ificmpge(org.objectweb.asm.Label arg0) {		
-		original.ificmpge(arg0);		
+	public void ificmpgeWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ificmpge(arg0.original);		
 	}	
 	
 	@Selector("ificmpgtWithLabel:")	
-	public void ificmpgt(org.objectweb.asm.Label arg0) {		
-		original.ificmpgt(arg0);		
+	public void ificmpgtWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ificmpgt(arg0.original);		
 	}	
 	
 	@Selector("ificmpleWithLabel:")	
-	public void ificmple(org.objectweb.asm.Label arg0) {		
-		original.ificmple(arg0);		
+	public void ificmpleWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ificmple(arg0.original);		
 	}	
 	
 	@Selector("ifacmpeqWithLabel:")	
-	public void ifacmpeq(org.objectweb.asm.Label arg0) {		
-		original.ifacmpeq(arg0);		
+	public void ifacmpeqWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifacmpeq(arg0.original);		
 	}	
 	
 	@Selector("ifacmpneWithLabel:")	
-	public void ifacmpne(org.objectweb.asm.Label arg0) {		
-		original.ifacmpne(arg0);		
+	public void ifacmpneWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifacmpne(arg0.original);		
 	}	
 	
 	@Selector("goToWithLabel:")	
-	public void goTo(org.objectweb.asm.Label arg0) {		
-		original.goTo(arg0);		
+	public void goToWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.goTo(arg0.original);		
 	}	
 	
 	@Selector("jsrWithLabel:")	
-	public void jsr(org.objectweb.asm.Label arg0) {		
-		original.jsr(arg0);		
+	public void jsrWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.jsr(arg0.original);		
 	}	
 	
 	@Selector("retWithInt:")	
-	public void ret(int arg0) {		
+	public void retWithInt(int arg0) {		
 		original.ret(arg0);		
 	}	
 	
 	@Selector("tableswitchWithInt:withInt:withLabel:withLabel:")	
-	public void tableswitch(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {		
-		original.tableswitch(arg0, arg1, arg2, arg3);		
+	public void tableswitchWithIntwithIntwithLabelwithLabel(int arg0, int arg1, x.org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {		
+		original.tableswitch(arg0, arg1, arg2.original, arg3);		
 	}	
 	
 	@Selector("lookupswitchWithLabel:withInt:withLabel:")	
-	public void lookupswitch(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {		
-		original.lookupswitch(arg0, arg1, arg2);		
+	public void lookupswitchWithLabelwithIntwithLabel(x.org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {		
+		original.lookupswitch(arg0.original, arg1, arg2);		
 	}	
 	
 	@Selector("areturnWithType:")	
-	public void areturn(org.objectweb.asm.Type arg0) {		
-		original.areturn(arg0);		
+	public void areturnWithType(x.org.objectweb.asm.Type arg0) {		
+		original.areturn(arg0.original);		
 	}	
 	
 	@Selector("getstaticWithString:withString:withString:")	
-	public void getstatic(String arg0, String arg1, String arg2) {
+	public void getstaticWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.getstatic(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("putstaticWithString:withString:withString:")	
-	public void putstatic(String arg0, String arg1, String arg2) {
+	public void putstaticWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.putstatic(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("getfieldWithString:withString:withString:")	
-	public void getfield(String arg0, String arg1, String arg2) {
+	public void getfieldWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.getfield(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("putfieldWithString:withString:withString:")	
-	public void putfield(String arg0, String arg1, String arg2) {
+	public void putfieldWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.putfield(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("invokevirtualWithString:withString:withString:")	
-	public void invokevirtual(String arg0, String arg1, String arg2) {
+	public void invokevirtualWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.invokevirtual(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("invokevirtualWithString:withString:withString:withBoolean:")	
-	public void invokevirtual(String arg0, String arg1, String arg2, boolean arg3) {
+	public void invokevirtualWithStringwithStringwithStringwithBoolean(String arg0, String arg1, String arg2, boolean arg3) {
 		original.invokevirtual(arg0, arg1, arg2, arg3);		
 	}	
 	
 	@Selector("invokespecialWithString:withString:withString:")	
-	public void invokespecial(String arg0, String arg1, String arg2) {
+	public void invokespecialWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.invokespecial(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("invokespecialWithString:withString:withString:withBoolean:")	
-	public void invokespecial(String arg0, String arg1, String arg2, boolean arg3) {
+	public void invokespecialWithStringwithStringwithStringwithBoolean(String arg0, String arg1, String arg2, boolean arg3) {
 		original.invokespecial(arg0, arg1, arg2, arg3);		
 	}	
 	
 	@Selector("invokestaticWithString:withString:withString:")	
-	public void invokestatic(String arg0, String arg1, String arg2) {
+	public void invokestaticWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.invokestatic(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("invokestaticWithString:withString:withString:withBoolean:")	
-	public void invokestatic(String arg0, String arg1, String arg2, boolean arg3) {
+	public void invokestaticWithStringwithStringwithStringwithBoolean(String arg0, String arg1, String arg2, boolean arg3) {
 		original.invokestatic(arg0, arg1, arg2, arg3);		
 	}	
 	
 	@Selector("invokeinterfaceWithString:withString:withString:")	
-	public void invokeinterface(String arg0, String arg1, String arg2) {
+	public void invokeinterfaceWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.invokeinterface(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("invokedynamicWithString:withString:withHandle:withObject:")	
-	public void invokedynamic(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
-		original.invokedynamic(arg0, arg1, arg2, arg3);		
+	public void invokedynamicWithStringwithStringwithHandlewithObject(String arg0, String arg1, x.org.objectweb.asm.Handle arg2, Object[] arg3) {
+		original.invokedynamic(arg0, arg1, arg2.original, arg3);		
 	}	
 	
 	@Selector("anewWithType:")	
-	public void anew(org.objectweb.asm.Type arg0) {		
-		original.anew(arg0);		
+	public void anewWithType(x.org.objectweb.asm.Type arg0) {		
+		original.anew(arg0.original);		
 	}	
 	
 	@Selector("newarrayWithType:")	
-	public void newarray(org.objectweb.asm.Type arg0) {		
-		original.newarray(arg0);		
+	public void newarrayWithType(x.org.objectweb.asm.Type arg0) {		
+		original.newarray(arg0.original);		
 	}	
 	
 	@Selector("arraylength")	
@@ -464,13 +471,13 @@ public class InstructionAdapter extends NSObject {
 	}	
 	
 	@Selector("checkcastWithType:")	
-	public void checkcast(org.objectweb.asm.Type arg0) {		
-		original.checkcast(arg0);		
+	public void checkcastWithType(x.org.objectweb.asm.Type arg0) {		
+		original.checkcast(arg0.original);		
 	}	
 	
 	@Selector("instanceOfWithType:")	
-	public void instanceOf(org.objectweb.asm.Type arg0) {		
-		original.instanceOf(arg0);		
+	public void instanceOfWithType(x.org.objectweb.asm.Type arg0) {		
+		original.instanceOf(arg0.original);		
 	}	
 	
 	@Selector("monitorenter")	
@@ -484,22 +491,22 @@ public class InstructionAdapter extends NSObject {
 	}	
 	
 	@Selector("multianewarrayWithString:withInt:")	
-	public void multianewarray(String arg0, int arg1) {
+	public void multianewarrayWithStringwithInt(String arg0, int arg1) {
 		original.multianewarray(arg0, arg1);		
 	}	
 	
 	@Selector("ifnullWithLabel:")	
-	public void ifnull(org.objectweb.asm.Label arg0) {		
-		original.ifnull(arg0);		
+	public void ifnullWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifnull(arg0.original);		
 	}	
 	
 	@Selector("ifnonnullWithLabel:")	
-	public void ifnonnull(org.objectweb.asm.Label arg0) {		
-		original.ifnonnull(arg0);		
+	public void ifnonnullWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifnonnull(arg0.original);		
 	}	
 	
 	@Selector("markWithLabel:")	
-	public void mark(org.objectweb.asm.Label arg0) {		
-		original.mark(arg0);		
+	public void markWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.mark(arg0.original);		
 	}	
 }

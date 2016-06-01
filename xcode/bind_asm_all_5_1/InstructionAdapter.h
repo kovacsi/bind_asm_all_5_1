@@ -1,0 +1,107 @@
+#import <Foundation/Foundation.h>
+#import "Handle.h"
+#import "Label.h"
+#import "Type.h"
+
+@interface InstructionAdapter : NSObject
+
++ (InstructionAdapter*)valueWithMethodVisitor:(id)arg0;
+- (void)visitInsnWithInt:(int)arg0;
+- (void)visitIntInsnWithInt:(int)arg0 withInt:(int)arg1;
+- (void)visitVarInsnWithInt:(int)arg0 withInt:(int)arg1;
+- (void)visitTypeInsnWithInt:(int)arg0 withString:(NSString*)arg1;
+- (void)visitFieldInsnWithInt:(int)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2 withString:(NSString*)arg3;
+- (void)visitMethodInsnWithInt:(int)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2 withString:(NSString*)arg3;
+- (void)visitMethodInsnWithInt:(int)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2 withString:(NSString*)arg3 withBoolean:(bool)arg4;
+- (void)visitInvokeDynamicInsnWithString:(NSString*)arg0 withString:(NSString*)arg1 withHandle:(org_objectweb_asm_Handle*)arg2 withObject:(id)arg3;
+- (void)visitJumpInsnWithInt:(int)arg0 withLabel:(Label*)arg1;
+- (void)visitLabelWithLabel:(Label*)arg0;
+- (void)visitLdcInsnWithObject:(id)arg0;
+- (void)visitIincInsnWithInt:(int)arg0 withInt:(int)arg1;
+- (void)visitTableSwitchInsnWithInt:(int)arg0 withInt:(int)arg1 withLabel:(Label*)arg2 withLabel:(id)arg3;
+- (void)visitLookupSwitchInsnWithLabel:(Label*)arg0 withInt:(id)arg1 withLabel:(id)arg2;
+- (void)visitMultiANewArrayInsnWithString:(NSString*)arg0 withInt:(int)arg1;
+- (void)nop;
+- (void)aconstWithObject:(id)arg0;
+- (void)iconstWithInt:(int)arg0;
+- (void)lconstWithLong:(long)arg0;
+- (void)fconstWithFloat:(float)arg0;
+- (void)dconstWithDouble:(double)arg0;
+- (void)tconstWithType:(Type*)arg0;
+- (void)hconstWithHandle:(org_objectweb_asm_Handle*)arg0;
+- (void)loadWithInt:(int)arg0 withType:(Type*)arg1;
+- (void)aloadWithType:(Type*)arg0;
+- (void)storeWithInt:(int)arg0 withType:(Type*)arg1;
+- (void)astoreWithType:(Type*)arg0;
+- (void)pop;
+- (void)pop2;
+- (void)dup;
+- (void)dup2;
+- (void)dupX1;
+- (void)dupX2;
+- (void)dup2X1;
+- (void)dup2X2;
+- (void)swap;
+- (void)addWithType:(Type*)arg0;
+- (void)subWithType:(Type*)arg0;
+- (void)mulWithType:(Type*)arg0;
+- (void)divWithType:(Type*)arg0;
+- (void)remWithType:(Type*)arg0;
+- (void)negWithType:(Type*)arg0;
+- (void)shlWithType:(Type*)arg0;
+- (void)shrWithType:(Type*)arg0;
+- (void)ushrWithType:(Type*)arg0;
+- (void)andWithType:(Type*)arg0;
+- (void)orWithType:(Type*)arg0;
+- (void)xorWithType:(Type*)arg0;
+- (void)iincWithInt:(int)arg0 withInt:(int)arg1;
+- (void)castWithType:(Type*)arg0 withType:(Type*)arg1;
+- (void)lcmp;
+- (void)cmplWithType:(Type*)arg0;
+- (void)cmpgWithType:(Type*)arg0;
+- (void)ifeqWithLabel:(Label*)arg0;
+- (void)ifneWithLabel:(Label*)arg0;
+- (void)ifltWithLabel:(Label*)arg0;
+- (void)ifgeWithLabel:(Label*)arg0;
+- (void)ifgtWithLabel:(Label*)arg0;
+- (void)ifleWithLabel:(Label*)arg0;
+- (void)ificmpeqWithLabel:(Label*)arg0;
+- (void)ificmpneWithLabel:(Label*)arg0;
+- (void)ificmpltWithLabel:(Label*)arg0;
+- (void)ificmpgeWithLabel:(Label*)arg0;
+- (void)ificmpgtWithLabel:(Label*)arg0;
+- (void)ificmpleWithLabel:(Label*)arg0;
+- (void)ifacmpeqWithLabel:(Label*)arg0;
+- (void)ifacmpneWithLabel:(Label*)arg0;
+- (void)goToWithLabel:(Label*)arg0;
+- (void)jsrWithLabel:(Label*)arg0;
+- (void)retWithInt:(int)arg0;
+- (void)tableswitchWithInt:(int)arg0 withInt:(int)arg1 withLabel:(Label*)arg2 withLabel:(id)arg3;
+- (void)lookupswitchWithLabel:(Label*)arg0 withInt:(id)arg1 withLabel:(id)arg2;
+- (void)areturnWithType:(Type*)arg0;
+- (void)getstaticWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2;
+- (void)putstaticWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2;
+- (void)getfieldWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2;
+- (void)putfieldWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2;
+- (void)invokevirtualWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2;
+- (void)invokevirtualWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2 withBoolean:(bool)arg3;
+- (void)invokespecialWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2;
+- (void)invokespecialWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2 withBoolean:(bool)arg3;
+- (void)invokestaticWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2;
+- (void)invokestaticWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2 withBoolean:(bool)arg3;
+- (void)invokeinterfaceWithString:(NSString*)arg0 withString:(NSString*)arg1 withString:(NSString*)arg2;
+- (void)invokedynamicWithString:(NSString*)arg0 withString:(NSString*)arg1 withHandle:(org_objectweb_asm_Handle*)arg2 withObject:(id)arg3;
+- (void)anewWithType:(Type*)arg0;
+- (void)newarrayWithType:(Type*)arg0;
+- (void)arraylength;
+- (void)athrow;
+- (void)checkcastWithType:(Type*)arg0;
+- (void)instanceOfWithType:(Type*)arg0;
+- (void)monitorenter;
+- (void)monitorexit;
+- (void)multianewarrayWithString:(NSString*)arg0 withInt:(int)arg1;
+- (void)ifnullWithLabel:(Label*)arg0;
+- (void)ifnonnullWithLabel:(Label*)arg0;
+- (void)markWithLabel:(Label*)arg0;
+
+@end

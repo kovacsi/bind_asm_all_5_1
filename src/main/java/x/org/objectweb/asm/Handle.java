@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_Handle")
+@ObjCClassName("Handle")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Handle extends NSObject {	
@@ -19,14 +19,14 @@ public class Handle extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withString:withString:withString:")	
-	public Handle value(int arg0, String arg1, String arg2, String arg3) {
+	public Handle valueWithIntwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3) {
 		Handle self = (Handle) Handle.alloc().init();		
 		self.original = new org.objectweb.asm.Handle(arg0, arg1, arg2, arg3);		
 		return self;		
 	}	
 	
 	@Selector("valueWithInt:withString:withString:withString:withBoolean:")	
-	public Handle value(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
+	public Handle valueWithIntwithStringwithStringwithStringwithBoolean(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
 		Handle self = (Handle) Handle.alloc().init();		
 		self.original = new org.objectweb.asm.Handle(arg0, arg1, arg2, arg3, arg4);		
 		return self;		
@@ -58,7 +58,7 @@ public class Handle extends NSObject {
 	}	
 	
 	@Selector("equalsWithObject:")	
-	public boolean equals(Object arg0) {
+	public boolean equalsWithObject(Object arg0) {
 		return original.equals(arg0);		
 	}	
 	

@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_Method")
+@ObjCClassName("Method")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Method extends NSObject {	
@@ -19,42 +19,42 @@ public class Method extends NSObject {
 	}	
 	
 	@Selector("valueWithString:withString:")	
-	public Method value(String arg0, String arg1) {
+	public Method valueWithStringwithString(String arg0, String arg1) {
 		Method self = (Method) Method.alloc().init();		
 		self.original = new org.objectweb.asm.commons.Method(arg0, arg1);		
 		return self;		
 	}	
 	
 	@Selector("valueWithString:withType:withType:")	
-	public Method value(String arg0, org.objectweb.asm.Type arg1, org.objectweb.asm.Type[] arg2) {
+	public Method valueWithStringwithTypewithType(String arg0, x.org.objectweb.asm.Type arg1, org.objectweb.asm.Type[] arg2) {
 		Method self = (Method) Method.alloc().init();		
-		self.original = new org.objectweb.asm.commons.Method(arg0, arg1, arg2);		
+		self.original = new org.objectweb.asm.commons.Method(arg0, arg1.original, arg2);		
 		return self;		
 	}	
 	
 	@Selector("getMethodWithMethod:")	
-	public static Method getMethod(java.lang.reflect.Method arg0) {
+	public static Method getMethodWithMethod(java.lang.reflect.Method arg0) {
 		Method ret = (Method) Method.alloc().init();
 		ret.original = org.objectweb.asm.commons.Method.getMethod(arg0);		
 		return ret;		
 	}	
 	
 	@Selector("getMethodWithConstructor:")	
-	public static Method getMethod(java.lang.reflect.Constructor arg0) {
+	public static Method getMethodWithConstructor(java.lang.reflect.Constructor arg0) {
 		Method ret = (Method) Method.alloc().init();
 		ret.original = org.objectweb.asm.commons.Method.getMethod(arg0);		
 		return ret;		
 	}	
 	
 	@Selector("getMethodWithString:")	
-	public static Method getMethod(String arg0) throws IllegalArgumentException {
+	public static Method getMethodWithString(String arg0) throws IllegalArgumentException {
 		Method ret = (Method) Method.alloc().init();
 		ret.original = org.objectweb.asm.commons.Method.getMethod(arg0);		
 		return ret;		
 	}	
 	
 	@Selector("getMethodWithString:withBoolean:")	
-	public static Method getMethod(String arg0, boolean arg1) throws IllegalArgumentException {
+	public static Method getMethodWithStringwithBoolean(String arg0, boolean arg1) throws IllegalArgumentException {
 		Method ret = (Method) Method.alloc().init();
 		ret.original = org.objectweb.asm.commons.Method.getMethod(arg0, arg1);		
 		return ret;		
@@ -88,7 +88,7 @@ public class Method extends NSObject {
 	}	
 	
 	@Selector("equalsWithObject:")	
-	public boolean equals(Object arg0) {
+	public boolean equalsWithObject(Object arg0) {
 		return original.equals(arg0);		
 	}	
 	

@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_ParameterNode")
+@ObjCClassName("ParameterNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class ParameterNode extends NSObject {	
@@ -19,9 +19,14 @@ public class ParameterNode extends NSObject {
 	}	
 	
 	@Selector("valueWithString:withInt:")	
-	public ParameterNode value(String arg0, int arg1) {
+	public ParameterNode valueWithStringwithInt(String arg0, int arg1) {
 		ParameterNode self = (ParameterNode) ParameterNode.alloc().init();		
 		self.original = new org.objectweb.asm.tree.ParameterNode(arg0, arg1);		
 		return self;		
+	}	
+	
+	@Selector("acceptWithMethodVisitor:")	
+	public void acceptWithMethodVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.MethodVisitor) arg0);		
 	}	
 }

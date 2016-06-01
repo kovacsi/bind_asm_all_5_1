@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_analysis_SimpleVerifier")
+@ObjCClassName("SimpleVerifier")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SimpleVerifier extends NSObject {	
@@ -26,38 +26,38 @@ public class SimpleVerifier extends NSObject {
 	}	
 	
 	@Selector("valueWithType:withType:withBoolean:")	
-	public SimpleVerifier value(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1, boolean arg2) {		
+	public SimpleVerifier valueWithTypewithTypewithBoolean(x.org.objectweb.asm.Type arg0, x.org.objectweb.asm.Type arg1, boolean arg2) {		
 		SimpleVerifier self = (SimpleVerifier) SimpleVerifier.alloc().init();		
-		self.original = new org.objectweb.asm.tree.analysis.SimpleVerifier(arg0, arg1, arg2);		
+		self.original = new org.objectweb.asm.tree.analysis.SimpleVerifier(arg0.original, arg1.original, arg2);		
 		return self;		
 	}	
 	
 	@Selector("valueWithType:withType:withList:withBoolean:")	
-	public SimpleVerifier value(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1, java.util.List arg2, boolean arg3) {		
+	public SimpleVerifier valueWithTypewithTypewithListwithBoolean(x.org.objectweb.asm.Type arg0, x.org.objectweb.asm.Type arg1, java.util.List arg2, boolean arg3) {		
 		SimpleVerifier self = (SimpleVerifier) SimpleVerifier.alloc().init();		
-		self.original = new org.objectweb.asm.tree.analysis.SimpleVerifier(arg0, arg1, arg2, arg3);		
+		self.original = new org.objectweb.asm.tree.analysis.SimpleVerifier(arg0.original, arg1.original, arg2, arg3);		
 		return self;		
 	}	
 	
 	@Selector("setClassLoaderWithClassLoader:")	
-	public void setClassLoader(ClassLoader arg0) {
+	public void setClassLoaderWithClassLoader(ClassLoader arg0) {
 		original.setClassLoader(arg0);		
 	}	
 	
 	@Selector("mergeWithBasicValue:withBasicValue:")	
-	public BasicValue merge(org.objectweb.asm.tree.analysis.BasicValue arg0, org.objectweb.asm.tree.analysis.BasicValue arg1) {
+	public BasicValue mergeWithBasicValuewithBasicValue(BasicValue arg0, BasicValue arg1) {
 		BasicValue ret = (BasicValue) BasicValue.alloc().init();
-		ret.original = original.merge(arg0, arg1);		
+		ret.original = original.merge(arg0.original, arg1.original);		
 		return ret;		
 	}	
 	
 	@Selector("mergeWithValue:withValue:")	
-	public Object merge(org.objectweb.asm.tree.analysis.Value arg0, org.objectweb.asm.tree.analysis.Value arg1) {
-		return original.merge(arg0, arg1);		
+	public Object mergeWithValuewithValue(Object arg0, Object arg1) {
+		return original.merge((org.objectweb.asm.tree.analysis.Value) arg0, (org.objectweb.asm.tree.analysis.Value) arg1);		
 	}	
 	
 	@Selector("newValueWithType:")	
-	public Object newValue(org.objectweb.asm.Type arg0) {
-		return original.newValue(arg0);		
+	public Object newValueWithType(x.org.objectweb.asm.Type arg0) {
+		return original.newValue(arg0.original);		
 	}	
 }

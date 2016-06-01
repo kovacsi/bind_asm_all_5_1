@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_xml_Processor")
+@ObjCClassName("Processor")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Processor extends NSObject {	
@@ -19,7 +19,7 @@ public class Processor extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withInt:withInputStream:withOutputStream:withSource:")	
-	public Processor value(int arg0, int arg1, java.io.InputStream arg2, java.io.OutputStream arg3, javax.xml.transform.Source arg4) {		
+	public Processor valueWithIntwithIntwithInputStreamwithOutputStreamwithSource(int arg0, int arg1, java.io.InputStream arg2, java.io.OutputStream arg3, javax.xml.transform.Source arg4) {		
 		Processor self = (Processor) Processor.alloc().init();		
 		self.original = new org.objectweb.asm.xml.Processor(arg0, arg1, arg2, arg3, arg4);		
 		return self;		
@@ -31,7 +31,7 @@ public class Processor extends NSObject {
 	}	
 	
 	@Selector("mainWithString:")	
-	public static void main(String[] arg0) throws Exception {
+	public static void mainWithString(String[] arg0) throws Exception {
 		org.objectweb.asm.xml.Processor.main(arg0);		
 	}	
 }

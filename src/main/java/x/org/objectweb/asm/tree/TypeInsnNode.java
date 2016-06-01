@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_TypeInsnNode")
+@ObjCClassName("TypeInsnNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class TypeInsnNode extends NSObject {	
@@ -19,19 +19,29 @@ public class TypeInsnNode extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withString:")	
-	public TypeInsnNode value(int arg0, String arg1) {
+	public TypeInsnNode valueWithIntwithString(int arg0, String arg1) {
 		TypeInsnNode self = (TypeInsnNode) TypeInsnNode.alloc().init();		
 		self.original = new org.objectweb.asm.tree.TypeInsnNode(arg0, arg1);		
 		return self;		
 	}	
 	
 	@Selector("setOpcodeWithInt:")	
-	public void setOpcode(int arg0) {		
+	public void setOpcodeWithInt(int arg0) {		
 		original.setOpcode(arg0);		
 	}	
 	
 	@Selector("getType")	
 	public int getType() {		
 		return original.getType();		
+	}	
+	
+	@Selector("acceptWithMethodVisitor:")	
+	public void acceptWithMethodVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.MethodVisitor) arg0);		
+	}	
+	
+	@Selector("cloneWithMap:")	
+	public Object cloneWithMap(java.util.Map arg0) {
+		return original.clone(arg0);		
 	}	
 }

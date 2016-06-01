@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_analysis_Frame")
+@ObjCClassName("Frame")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Frame extends NSObject {	
@@ -19,29 +19,29 @@ public class Frame extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withInt:")	
-	public Frame value(int arg0, int arg1) {		
+	public Frame valueWithIntwithInt(int arg0, int arg1) {		
 		Frame self = (Frame) Frame.alloc().init();		
 		self.original = new org.objectweb.asm.tree.analysis.Frame(arg0, arg1);		
 		return self;		
 	}	
 	
 	@Selector("valueWithFrame:")	
-	public Frame value(org.objectweb.asm.tree.analysis.Frame arg0) {		
+	public Frame valueWithFrame(Frame arg0) {
 		Frame self = (Frame) Frame.alloc().init();		
-		self.original = new org.objectweb.asm.tree.analysis.Frame(arg0);		
+		self.original = new org.objectweb.asm.tree.analysis.Frame(arg0.original);		
 		return self;		
 	}	
 	
 	@Selector("initWithFrame:")	
-	public Frame init(org.objectweb.asm.tree.analysis.Frame arg0) {
+	public Frame initWithFrame(Frame arg0) {
 		Frame ret = (Frame) Frame.alloc().init();
-		ret.original = original.init(arg0);		
+		ret.original = original.init(arg0.original);		
 		return ret;		
 	}	
 	
 	@Selector("setReturnWithValue:")	
-	public void setReturn(org.objectweb.asm.tree.analysis.Value arg0) {		
-		original.setReturn(arg0);		
+	public void setReturnWithValue(Object arg0) {
+		original.setReturn((org.objectweb.asm.tree.analysis.Value) arg0);		
 	}	
 	
 	@Selector("getLocals")	
@@ -55,13 +55,13 @@ public class Frame extends NSObject {
 	}	
 	
 	@Selector("getLocalWithInt:")	
-	public Object getLocal(int arg0) throws IndexOutOfBoundsException {
+	public Object getLocalWithInt(int arg0) throws IndexOutOfBoundsException {
 		return original.getLocal(arg0);		
 	}	
 	
 	@Selector("setLocalWithInt:withValue:")	
-	public void setLocal(int arg0, org.objectweb.asm.tree.analysis.Value arg1) throws IndexOutOfBoundsException {
-		original.setLocal(arg0, arg1);		
+	public void setLocalWithIntwithValue(int arg0, Object arg1) throws IndexOutOfBoundsException {
+		original.setLocal(arg0, (org.objectweb.asm.tree.analysis.Value) arg1);		
 	}	
 	
 	@Selector("getStackSize")	
@@ -70,7 +70,7 @@ public class Frame extends NSObject {
 	}	
 	
 	@Selector("getStackWithInt:")	
-	public Object getStack(int arg0) throws IndexOutOfBoundsException {
+	public Object getStackWithInt(int arg0) throws IndexOutOfBoundsException {
 		return original.getStack(arg0);		
 	}	
 	
@@ -85,13 +85,23 @@ public class Frame extends NSObject {
 	}	
 	
 	@Selector("pushWithValue:")	
-	public void push(org.objectweb.asm.tree.analysis.Value arg0) throws IndexOutOfBoundsException {
-		original.push(arg0);		
+	public void pushWithValue(Object arg0) throws IndexOutOfBoundsException {
+		original.push((org.objectweb.asm.tree.analysis.Value) arg0);		
+	}	
+	
+	@Selector("executeWithAbstractInsnNode:withInterpreter:")	
+	public void executeWithAbstractInsnNodewithInterpreter(Object arg0, Object arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		original.execute((org.objectweb.asm.tree.AbstractInsnNode) arg0, (org.objectweb.asm.tree.analysis.Interpreter) arg1);		
+	}	
+	
+	@Selector("mergeWithFrame:withInterpreter:")	
+	public boolean mergeWithFramewithInterpreter(Frame arg0, Object arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.merge(arg0.original, (org.objectweb.asm.tree.analysis.Interpreter) arg1);		
 	}	
 	
 	@Selector("mergeWithFrame:withBoolean:")	
-	public boolean merge(org.objectweb.asm.tree.analysis.Frame arg0, boolean[] arg1) {		
-		return original.merge(arg0, arg1);		
+	public boolean mergeWithFramewithBoolean(Frame arg0, boolean[] arg1) {
+		return original.merge(arg0.original, arg1);		
 	}	
 	
 	@Selector("toString")	

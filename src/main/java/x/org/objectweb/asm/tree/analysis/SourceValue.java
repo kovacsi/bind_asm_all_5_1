@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_analysis_SourceValue")
+@ObjCClassName("SourceValue")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SourceValue extends NSObject {	
@@ -19,14 +19,21 @@ public class SourceValue extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:")	
-	public SourceValue value(int arg0) {		
+	public SourceValue valueWithInt(int arg0) {		
 		SourceValue self = (SourceValue) SourceValue.alloc().init();		
 		self.original = new org.objectweb.asm.tree.analysis.SourceValue(arg0);		
 		return self;		
 	}	
 	
+	@Selector("valueWithInt:withAbstractInsnNode:")	
+	public SourceValue valueWithIntwithAbstractInsnNode(int arg0, Object arg1) {
+		SourceValue self = (SourceValue) SourceValue.alloc().init();		
+		self.original = new org.objectweb.asm.tree.analysis.SourceValue(arg0, (org.objectweb.asm.tree.AbstractInsnNode) arg1);		
+		return self;		
+	}	
+	
 	@Selector("valueWithInt:withSet:")	
-	public SourceValue value(int arg0, java.util.Set arg1) {		
+	public SourceValue valueWithIntwithSet(int arg0, java.util.Set arg1) {		
 		SourceValue self = (SourceValue) SourceValue.alloc().init();		
 		self.original = new org.objectweb.asm.tree.analysis.SourceValue(arg0, arg1);		
 		return self;		
@@ -38,7 +45,7 @@ public class SourceValue extends NSObject {
 	}	
 	
 	@Selector("equalsWithObject:")	
-	public boolean equals(Object arg0) {
+	public boolean equalsWithObject(Object arg0) {
 		return original.equals(arg0);		
 	}	
 	

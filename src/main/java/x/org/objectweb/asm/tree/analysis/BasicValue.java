@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_analysis_BasicValue")
+@ObjCClassName("BasicValue")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class BasicValue extends NSObject {	
@@ -19,9 +19,9 @@ public class BasicValue extends NSObject {
 	}	
 	
 	@Selector("valueWithType:")	
-	public BasicValue value(org.objectweb.asm.Type arg0) {		
+	public BasicValue valueWithType(x.org.objectweb.asm.Type arg0) {		
 		BasicValue self = (BasicValue) BasicValue.alloc().init();		
-		self.original = new org.objectweb.asm.tree.analysis.BasicValue(arg0);		
+		self.original = new org.objectweb.asm.tree.analysis.BasicValue(arg0.original);		
 		return self;		
 	}	
 	
@@ -43,7 +43,7 @@ public class BasicValue extends NSObject {
 	}	
 	
 	@Selector("equalsWithObject:")	
-	public boolean equals(Object arg0) {
+	public boolean equalsWithObject(Object arg0) {
 		return original.equals(arg0);		
 	}	
 	

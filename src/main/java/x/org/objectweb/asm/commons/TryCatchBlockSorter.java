@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_TryCatchBlockSorter")
+@ObjCClassName("TryCatchBlockSorter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class TryCatchBlockSorter extends NSObject {	
@@ -16,6 +16,13 @@ public class TryCatchBlockSorter extends NSObject {
 	
 	protected TryCatchBlockSorter(Pointer peer) {		
 		super(peer);		
+	}	
+	
+	@Selector("valueWithMethodVisitor:withInt:withString:withString:withString:withString:")	
+	public TryCatchBlockSorter valueWithMethodVisitorwithIntwithStringwithStringwithStringwithString(Object arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+		TryCatchBlockSorter self = (TryCatchBlockSorter) TryCatchBlockSorter.alloc().init();		
+		self.original = new org.objectweb.asm.commons.TryCatchBlockSorter((org.objectweb.asm.MethodVisitor) arg0, arg1, arg2, arg3, arg4, arg5);		
+		return self;		
 	}	
 	
 	@Selector("visitEnd")	

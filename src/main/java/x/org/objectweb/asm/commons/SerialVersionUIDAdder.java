@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_SerialVersionUIDAdder")
+@ObjCClassName("SerialVersionUIDAdder")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SerialVersionUIDAdder extends NSObject {	
@@ -18,13 +18,30 @@ public class SerialVersionUIDAdder extends NSObject {
 		super(peer);		
 	}	
 	
+	@Selector("valueWithClassVisitor:")	
+	public SerialVersionUIDAdder valueWithClassVisitor(Object arg0) {
+		SerialVersionUIDAdder self = (SerialVersionUIDAdder) SerialVersionUIDAdder.alloc().init();		
+		self.original = new org.objectweb.asm.commons.SerialVersionUIDAdder((org.objectweb.asm.ClassVisitor) arg0);		
+		return self;		
+	}	
+	
 	@Selector("visitWithInt:withInt:withString:withString:withString:withString:")	
-	public void visit(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	public void visitWithIntwithIntwithStringwithStringwithStringwithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);		
 	}	
 	
+	@Selector("visitMethodWithInt:withString:withString:withString:withString:")	
+	public Object visitMethodWithIntwithStringwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
+		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);		
+	}	
+	
+	@Selector("visitFieldWithInt:withString:withString:withString:withObject:")	
+	public Object visitFieldWithIntwithStringwithStringwithStringwithObject(int arg0, String arg1, String arg2, String arg3, Object arg4) {
+		return original.visitField(arg0, arg1, arg2, arg3, arg4);		
+	}	
+	
 	@Selector("visitInnerClassWithString:withString:withString:withInt:")	
-	public void visitInnerClass(String arg0, String arg1, String arg2, int arg3) {
+	public void visitInnerClassWithStringwithStringwithStringwithInt(String arg0, String arg1, String arg2, int arg3) {
 		original.visitInnerClass(arg0, arg1, arg2, arg3);		
 	}	
 	

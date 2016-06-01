@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_InsnList")
+@ObjCClassName("InsnList")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class InsnList extends NSObject {	
@@ -30,13 +30,43 @@ public class InsnList extends NSObject {
 		return original.size();		
 	}	
 	
+	@Selector("getFirst")	
+	public Object getFirst() {
+		return original.getFirst();		
+	}	
+	
+	@Selector("getLast")	
+	public Object getLast() {
+		return original.getLast();		
+	}	
+	
+	@Selector("getWithInt:")	
+	public Object getWithInt(int arg0) {
+		return original.get(arg0);		
+	}	
+	
+	@Selector("containsWithAbstractInsnNode:")	
+	public boolean containsWithAbstractInsnNode(Object arg0) {
+		return original.contains((org.objectweb.asm.tree.AbstractInsnNode) arg0);		
+	}	
+	
+	@Selector("indexOfWithAbstractInsnNode:")	
+	public int indexOfWithAbstractInsnNode(Object arg0) {
+		return original.indexOf((org.objectweb.asm.tree.AbstractInsnNode) arg0);		
+	}	
+	
+	@Selector("acceptWithMethodVisitor:")	
+	public void acceptWithMethodVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.MethodVisitor) arg0);		
+	}	
+	
 	@Selector("iterator")	
 	public java.util.ListIterator iterator() {		
 		return original.iterator();		
 	}	
 	
 	@Selector("iteratorWithInt:")	
-	public java.util.ListIterator iterator(int arg0) {		
+	public java.util.ListIterator iteratorWithInt(int arg0) {		
 		return original.iterator(arg0);		
 	}	
 	
@@ -45,14 +75,54 @@ public class InsnList extends NSObject {
 		return original.toArray();		
 	}	
 	
+	@Selector("setWithAbstractInsnNode:withAbstractInsnNode:")	
+	public void setWithAbstractInsnNodewithAbstractInsnNode(Object arg0, Object arg1) {
+		original.set((org.objectweb.asm.tree.AbstractInsnNode) arg0, (org.objectweb.asm.tree.AbstractInsnNode) arg1);		
+	}	
+	
+	@Selector("addWithAbstractInsnNode:")	
+	public void addWithAbstractInsnNode(Object arg0) {
+		original.add((org.objectweb.asm.tree.AbstractInsnNode) arg0);		
+	}	
+	
 	@Selector("addWithInsnList:")	
-	public void add(org.objectweb.asm.tree.InsnList arg0) {		
-		original.add(arg0);		
+	public void addWithInsnList(InsnList arg0) {
+		original.add(arg0.original);		
+	}	
+	
+	@Selector("insertWithAbstractInsnNode:")	
+	public void insertWithAbstractInsnNode(Object arg0) {
+		original.insert((org.objectweb.asm.tree.AbstractInsnNode) arg0);		
 	}	
 	
 	@Selector("insertWithInsnList:")	
-	public void insert(org.objectweb.asm.tree.InsnList arg0) {		
-		original.insert(arg0);		
+	public void insertWithInsnList(InsnList arg0) {
+		original.insert(arg0.original);		
+	}	
+	
+	@Selector("insertWithAbstractInsnNode:withAbstractInsnNode:")	
+	public void insertWithAbstractInsnNodewithAbstractInsnNode(Object arg0, Object arg1) {
+		original.insert((org.objectweb.asm.tree.AbstractInsnNode) arg0, (org.objectweb.asm.tree.AbstractInsnNode) arg1);		
+	}	
+	
+	@Selector("insertWithAbstractInsnNode:withInsnList:")	
+	public void insertWithAbstractInsnNodewithInsnList(Object arg0, InsnList arg1) {
+		original.insert((org.objectweb.asm.tree.AbstractInsnNode) arg0, arg1.original);		
+	}	
+	
+	@Selector("insertBeforeWithAbstractInsnNode:withAbstractInsnNode:")	
+	public void insertBeforeWithAbstractInsnNodewithAbstractInsnNode(Object arg0, Object arg1) {
+		original.insertBefore((org.objectweb.asm.tree.AbstractInsnNode) arg0, (org.objectweb.asm.tree.AbstractInsnNode) arg1);		
+	}	
+	
+	@Selector("insertBeforeWithAbstractInsnNode:withInsnList:")	
+	public void insertBeforeWithAbstractInsnNodewithInsnList(Object arg0, InsnList arg1) {
+		original.insertBefore((org.objectweb.asm.tree.AbstractInsnNode) arg0, arg1.original);		
+	}	
+	
+	@Selector("removeWithAbstractInsnNode:")	
+	public void removeWithAbstractInsnNode(Object arg0) {
+		original.remove((org.objectweb.asm.tree.AbstractInsnNode) arg0);		
 	}	
 	
 	@Selector("clear")	

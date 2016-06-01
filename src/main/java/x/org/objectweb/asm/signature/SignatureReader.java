@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_signature_SignatureReader")
+@ObjCClassName("SignatureReader")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SignatureReader extends NSObject {	
@@ -19,9 +19,19 @@ public class SignatureReader extends NSObject {
 	}	
 	
 	@Selector("valueWithString:")	
-	public SignatureReader value(String arg0) {
+	public SignatureReader valueWithString(String arg0) {
 		SignatureReader self = (SignatureReader) SignatureReader.alloc().init();		
 		self.original = new org.objectweb.asm.signature.SignatureReader(arg0);		
 		return self;		
+	}	
+	
+	@Selector("acceptWithSignatureVisitor:")	
+	public void acceptWithSignatureVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.signature.SignatureVisitor) arg0);		
+	}	
+	
+	@Selector("acceptTypeWithSignatureVisitor:")	
+	public void acceptTypeWithSignatureVisitor(Object arg0) {
+		original.acceptType((org.objectweb.asm.signature.SignatureVisitor) arg0);		
 	}	
 }

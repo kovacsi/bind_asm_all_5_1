@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_CodeSizeEvaluator")
+@ObjCClassName("CodeSizeEvaluator")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class CodeSizeEvaluator extends NSObject {	
@@ -16,6 +16,13 @@ public class CodeSizeEvaluator extends NSObject {
 	
 	protected CodeSizeEvaluator(Pointer peer) {		
 		super(peer);		
+	}	
+	
+	@Selector("valueWithMethodVisitor:")	
+	public CodeSizeEvaluator valueWithMethodVisitor(Object arg0) {
+		CodeSizeEvaluator self = (CodeSizeEvaluator) CodeSizeEvaluator.alloc().init();		
+		self.original = new org.objectweb.asm.commons.CodeSizeEvaluator((org.objectweb.asm.MethodVisitor) arg0);		
+		return self;		
 	}	
 	
 	@Selector("getMinSize")	
@@ -29,72 +36,72 @@ public class CodeSizeEvaluator extends NSObject {
 	}	
 	
 	@Selector("visitInsnWithInt:")	
-	public void visitInsn(int arg0) {		
+	public void visitInsnWithInt(int arg0) {		
 		original.visitInsn(arg0);		
 	}	
 	
 	@Selector("visitIntInsnWithInt:withInt:")	
-	public void visitIntInsn(int arg0, int arg1) {		
+	public void visitIntInsnWithIntwithInt(int arg0, int arg1) {		
 		original.visitIntInsn(arg0, arg1);		
 	}	
 	
 	@Selector("visitVarInsnWithInt:withInt:")	
-	public void visitVarInsn(int arg0, int arg1) {		
+	public void visitVarInsnWithIntwithInt(int arg0, int arg1) {		
 		original.visitVarInsn(arg0, arg1);		
 	}	
 	
 	@Selector("visitTypeInsnWithInt:withString:")	
-	public void visitTypeInsn(int arg0, String arg1) {
+	public void visitTypeInsnWithIntwithString(int arg0, String arg1) {
 		original.visitTypeInsn(arg0, arg1);		
 	}	
 	
 	@Selector("visitFieldInsnWithInt:withString:withString:withString:")	
-	public void visitFieldInsn(int arg0, String arg1, String arg2, String arg3) {
+	public void visitFieldInsnWithIntwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3) {
 		original.visitFieldInsn(arg0, arg1, arg2, arg3);		
 	}	
 	
 	@Selector("visitMethodInsnWithInt:withString:withString:withString:")	
-	public void visitMethodInsn(int arg0, String arg1, String arg2, String arg3) {
+	public void visitMethodInsnWithIntwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3) {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3);		
 	}	
 	
 	@Selector("visitMethodInsnWithInt:withString:withString:withString:withBoolean:")	
-	public void visitMethodInsn(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
+	public void visitMethodInsnWithIntwithStringwithStringwithStringwithBoolean(int arg0, String arg1, String arg2, String arg3, boolean arg4) {
 		original.visitMethodInsn(arg0, arg1, arg2, arg3, arg4);		
 	}	
 	
 	@Selector("visitInvokeDynamicInsnWithString:withString:withHandle:withObject:")	
-	public void visitInvokeDynamicInsn(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
-		original.visitInvokeDynamicInsn(arg0, arg1, arg2, arg3);		
+	public void visitInvokeDynamicInsnWithStringwithStringwithHandlewithObject(String arg0, String arg1, x.org.objectweb.asm.Handle arg2, Object[] arg3) {
+		original.visitInvokeDynamicInsn(arg0, arg1, arg2.original, arg3);		
 	}	
 	
 	@Selector("visitJumpInsnWithInt:withLabel:")	
-	public void visitJumpInsn(int arg0, org.objectweb.asm.Label arg1) {		
-		original.visitJumpInsn(arg0, arg1);		
+	public void visitJumpInsnWithIntwithLabel(int arg0, x.org.objectweb.asm.Label arg1) {		
+		original.visitJumpInsn(arg0, arg1.original);		
 	}	
 	
 	@Selector("visitLdcInsnWithObject:")	
-	public void visitLdcInsn(Object arg0) {
+	public void visitLdcInsnWithObject(Object arg0) {
 		original.visitLdcInsn(arg0);		
 	}	
 	
 	@Selector("visitIincInsnWithInt:withInt:")	
-	public void visitIincInsn(int arg0, int arg1) {		
+	public void visitIincInsnWithIntwithInt(int arg0, int arg1) {		
 		original.visitIincInsn(arg0, arg1);		
 	}	
 	
 	@Selector("visitTableSwitchInsnWithInt:withInt:withLabel:withLabel:")	
-	public void visitTableSwitchInsn(int arg0, int arg1, org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {		
-		original.visitTableSwitchInsn(arg0, arg1, arg2, arg3);		
+	public void visitTableSwitchInsnWithIntwithIntwithLabelwithLabel(int arg0, int arg1, x.org.objectweb.asm.Label arg2, org.objectweb.asm.Label[] arg3) {		
+		original.visitTableSwitchInsn(arg0, arg1, arg2.original, arg3);		
 	}	
 	
 	@Selector("visitLookupSwitchInsnWithLabel:withInt:withLabel:")	
-	public void visitLookupSwitchInsn(org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {		
-		original.visitLookupSwitchInsn(arg0, arg1, arg2);		
+	public void visitLookupSwitchInsnWithLabelwithIntwithLabel(x.org.objectweb.asm.Label arg0, int[] arg1, org.objectweb.asm.Label[] arg2) {		
+		original.visitLookupSwitchInsn(arg0.original, arg1, arg2);		
 	}	
 	
 	@Selector("visitMultiANewArrayInsnWithString:withInt:")	
-	public void visitMultiANewArrayInsn(String arg0, int arg1) {
+	public void visitMultiANewArrayInsnWithStringwithInt(String arg0, int arg1) {
 		original.visitMultiANewArrayInsn(arg0, arg1);		
 	}	
 }

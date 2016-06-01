@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_MultiANewArrayInsnNode")
+@ObjCClassName("MultiANewArrayInsnNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class MultiANewArrayInsnNode extends NSObject {	
@@ -19,7 +19,7 @@ public class MultiANewArrayInsnNode extends NSObject {
 	}	
 	
 	@Selector("valueWithString:withInt:")	
-	public MultiANewArrayInsnNode value(String arg0, int arg1) {
+	public MultiANewArrayInsnNode valueWithStringwithInt(String arg0, int arg1) {
 		MultiANewArrayInsnNode self = (MultiANewArrayInsnNode) MultiANewArrayInsnNode.alloc().init();		
 		self.original = new org.objectweb.asm.tree.MultiANewArrayInsnNode(arg0, arg1);		
 		return self;		
@@ -28,5 +28,15 @@ public class MultiANewArrayInsnNode extends NSObject {
 	@Selector("getType")	
 	public int getType() {		
 		return original.getType();		
+	}	
+	
+	@Selector("acceptWithMethodVisitor:")	
+	public void acceptWithMethodVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.MethodVisitor) arg0);		
+	}	
+	
+	@Selector("cloneWithMap:")	
+	public Object cloneWithMap(java.util.Map arg0) {
+		return original.clone(arg0);		
 	}	
 }

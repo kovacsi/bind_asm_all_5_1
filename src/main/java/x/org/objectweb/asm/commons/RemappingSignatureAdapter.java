@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_RemappingSignatureAdapter")
+@ObjCClassName("RemappingSignatureAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class RemappingSignatureAdapter extends NSObject {	
@@ -18,34 +18,86 @@ public class RemappingSignatureAdapter extends NSObject {
 		super(peer);		
 	}	
 	
+	@Selector("valueWithSignatureVisitor:withRemapper:")	
+	public RemappingSignatureAdapter valueWithSignatureVisitorwithRemapper(Object arg0, Object arg1) {
+		RemappingSignatureAdapter self = (RemappingSignatureAdapter) RemappingSignatureAdapter.alloc().init();		
+		self.original = new org.objectweb.asm.commons.RemappingSignatureAdapter((org.objectweb.asm.signature.SignatureVisitor) arg0, (org.objectweb.asm.commons.Remapper) arg1);		
+		return self;		
+	}	
+	
 	@Selector("visitClassTypeWithString:")	
-	public void visitClassType(String arg0) {
+	public void visitClassTypeWithString(String arg0) {
 		original.visitClassType(arg0);		
 	}	
 	
 	@Selector("visitInnerClassTypeWithString:")	
-	public void visitInnerClassType(String arg0) {
+	public void visitInnerClassTypeWithString(String arg0) {
 		original.visitInnerClassType(arg0);		
 	}	
 	
 	@Selector("visitFormalTypeParameterWithString:")	
-	public void visitFormalTypeParameter(String arg0) {
+	public void visitFormalTypeParameterWithString(String arg0) {
 		original.visitFormalTypeParameter(arg0);		
 	}	
 	
 	@Selector("visitTypeVariableWithString:")	
-	public void visitTypeVariable(String arg0) {
+	public void visitTypeVariableWithString(String arg0) {
 		original.visitTypeVariable(arg0);		
 	}	
 	
+	@Selector("visitArrayType")	
+	public Object visitArrayType() {
+		return original.visitArrayType();		
+	}	
+	
 	@Selector("visitBaseTypeWithChar:")	
-	public void visitBaseType(char arg0) {		
+	public void visitBaseTypeWithChar(char arg0) {		
 		original.visitBaseType(arg0);		
+	}	
+	
+	@Selector("visitClassBound")	
+	public Object visitClassBound() {
+		return original.visitClassBound();		
+	}	
+	
+	@Selector("visitExceptionType")	
+	public Object visitExceptionType() {
+		return original.visitExceptionType();		
+	}	
+	
+	@Selector("visitInterface")	
+	public Object visitInterface() {
+		return original.visitInterface();		
+	}	
+	
+	@Selector("visitInterfaceBound")	
+	public Object visitInterfaceBound() {
+		return original.visitInterfaceBound();		
+	}	
+	
+	@Selector("visitParameterType")	
+	public Object visitParameterType() {
+		return original.visitParameterType();		
+	}	
+	
+	@Selector("visitReturnType")	
+	public Object visitReturnType() {
+		return original.visitReturnType();		
+	}	
+	
+	@Selector("visitSuperclass")	
+	public Object visitSuperclass() {
+		return original.visitSuperclass();		
 	}	
 	
 	@Selector("visitTypeArgument")	
 	public void visitTypeArgument() {		
 		original.visitTypeArgument();		
+	}	
+	
+	@Selector("visitTypeArgumentWithChar:")	
+	public Object visitTypeArgumentWithChar(char arg0) {
+		return original.visitTypeArgument(arg0);		
 	}	
 	
 	@Selector("visitEnd")	

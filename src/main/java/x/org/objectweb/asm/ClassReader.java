@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_ClassReader")
+@ObjCClassName("ClassReader")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class ClassReader extends NSObject {	
@@ -19,14 +19,14 @@ public class ClassReader extends NSObject {
 	}	
 	
 	@Selector("valueWithByte:")	
-	public ClassReader value(byte[] arg0) {		
+	public ClassReader valueWithByte(byte[] arg0) {		
 		ClassReader self = (ClassReader) ClassReader.alloc().init();		
 		self.original = new org.objectweb.asm.ClassReader(arg0);		
 		return self;		
 	}	
 	
 	@Selector("valueWithByte:withInt:withInt:")	
-	public ClassReader value(byte[] arg0, int arg1, int arg2) {		
+	public ClassReader valueWithBytewithIntwithInt(byte[] arg0, int arg1, int arg2) {		
 		ClassReader self = (ClassReader) ClassReader.alloc().init();		
 		self.original = new org.objectweb.asm.ClassReader(arg0, arg1, arg2);		
 		return self;		
@@ -53,17 +53,27 @@ public class ClassReader extends NSObject {
 	}	
 	
 	@Selector("valueWithInputStream:")	
-	public ClassReader value(java.io.InputStream arg0) throws java.io.IOException {		
+	public ClassReader valueWithInputStream(java.io.InputStream arg0) throws java.io.IOException {		
 		ClassReader self = (ClassReader) ClassReader.alloc().init();		
 		self.original = new org.objectweb.asm.ClassReader(arg0);		
 		return self;		
 	}	
 	
 	@Selector("valueWithString:")	
-	public ClassReader value(String arg0) throws java.io.IOException {
+	public ClassReader valueWithString(String arg0) throws java.io.IOException {
 		ClassReader self = (ClassReader) ClassReader.alloc().init();		
 		self.original = new org.objectweb.asm.ClassReader(arg0);		
 		return self;		
+	}	
+	
+	@Selector("acceptWithClassVisitor:withInt:")	
+	public void acceptWithClassVisitorwithInt(Object arg0, int arg1) {
+		original.accept((org.objectweb.asm.ClassVisitor) arg0, arg1);		
+	}	
+	
+	@Selector("acceptWithClassVisitor:withAttribute:withInt:")	
+	public void acceptWithClassVisitorwithAttributewithInt(Object arg0, org.objectweb.asm.Attribute[] arg1, int arg2) {
+		original.accept((org.objectweb.asm.ClassVisitor) arg0, arg1, arg2);		
 	}	
 	
 	@Selector("getItemCount")	
@@ -72,7 +82,7 @@ public class ClassReader extends NSObject {
 	}	
 	
 	@Selector("getItemWithInt:")	
-	public int getItem(int arg0) {		
+	public int getItemWithInt(int arg0) {		
 		return original.getItem(arg0);		
 	}	
 	
@@ -82,42 +92,42 @@ public class ClassReader extends NSObject {
 	}	
 	
 	@Selector("readByteWithInt:")	
-	public int readByte(int arg0) {		
+	public int readByteWithInt(int arg0) {		
 		return original.readByte(arg0);		
 	}	
 	
 	@Selector("readUnsignedShortWithInt:")	
-	public int readUnsignedShort(int arg0) {		
+	public int readUnsignedShortWithInt(int arg0) {		
 		return original.readUnsignedShort(arg0);		
 	}	
 	
 	@Selector("readShortWithInt:")	
-	public short readShort(int arg0) {		
+	public short readShortWithInt(int arg0) {		
 		return original.readShort(arg0);		
 	}	
 	
 	@Selector("readIntWithInt:")	
-	public int readInt(int arg0) {		
+	public int readIntWithInt(int arg0) {		
 		return original.readInt(arg0);		
 	}	
 	
 	@Selector("readLongWithInt:")	
-	public long readLong(int arg0) {		
+	public long readLongWithInt(int arg0) {		
 		return original.readLong(arg0);		
 	}	
 	
 	@Selector("readUTF8WithInt:withChar:")	
-	public String readUTF8(int arg0, char[] arg1) {
+	public String readUTF8WithIntwithChar(int arg0, char[] arg1) {
 		return original.readUTF8(arg0, arg1);		
 	}	
 	
 	@Selector("readClassWithInt:withChar:")	
-	public String readClass(int arg0, char[] arg1) {
+	public String readClassWithIntwithChar(int arg0, char[] arg1) {
 		return original.readClass(arg0, arg1);		
 	}	
 	
 	@Selector("readConstWithInt:withChar:")	
-	public Object readConst(int arg0, char[] arg1) {
+	public Object readConstWithIntwithChar(int arg0, char[] arg1) {
 		return original.readConst(arg0, arg1);		
 	}	
 }

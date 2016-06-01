@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_JumpInsnNode")
+@ObjCClassName("JumpInsnNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class JumpInsnNode extends NSObject {	
@@ -19,19 +19,29 @@ public class JumpInsnNode extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withLabelNode:")	
-	public JumpInsnNode value(int arg0, org.objectweb.asm.tree.LabelNode arg1) {		
+	public JumpInsnNode valueWithIntwithLabelNode(int arg0, LabelNode arg1) {
 		JumpInsnNode self = (JumpInsnNode) JumpInsnNode.alloc().init();		
-		self.original = new org.objectweb.asm.tree.JumpInsnNode(arg0, arg1);		
+		self.original = new org.objectweb.asm.tree.JumpInsnNode(arg0, arg1.original);		
 		return self;		
 	}	
 	
 	@Selector("setOpcodeWithInt:")	
-	public void setOpcode(int arg0) {		
+	public void setOpcodeWithInt(int arg0) {		
 		original.setOpcode(arg0);		
 	}	
 	
 	@Selector("getType")	
 	public int getType() {		
 		return original.getType();		
+	}	
+	
+	@Selector("acceptWithMethodVisitor:")	
+	public void acceptWithMethodVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.MethodVisitor) arg0);		
+	}	
+	
+	@Selector("cloneWithMap:")	
+	public Object cloneWithMap(java.util.Map arg0) {
+		return original.clone(arg0);		
 	}	
 }

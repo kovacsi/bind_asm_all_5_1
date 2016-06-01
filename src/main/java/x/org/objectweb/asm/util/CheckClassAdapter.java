@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_util_CheckClassAdapter")
+@ObjCClassName("CheckClassAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class CheckClassAdapter extends NSObject {	
@@ -19,43 +19,77 @@ public class CheckClassAdapter extends NSObject {
 	}	
 	
 	@Selector("mainWithString:")	
-	public static void main(String[] arg0) throws Exception {
+	public static void mainWithString(String[] arg0) throws Exception {
 		org.objectweb.asm.util.CheckClassAdapter.main(arg0);		
 	}	
 	
 	@Selector("verifyWithClassReader:withClassLoader:withBoolean:withPrintWriter:")	
-	public static void verify(org.objectweb.asm.ClassReader arg0, ClassLoader arg1, boolean arg2, java.io.PrintWriter arg3) {
-		org.objectweb.asm.util.CheckClassAdapter.verify(arg0, arg1, arg2, arg3);		
+	public static void verifyWithClassReaderwithClassLoaderwithBooleanwithPrintWriter(x.org.objectweb.asm.ClassReader arg0, ClassLoader arg1, boolean arg2, java.io.PrintWriter arg3) {
+		org.objectweb.asm.util.CheckClassAdapter.verify(arg0.original, arg1, arg2, arg3);		
 	}	
 	
 	@Selector("verifyWithClassReader:withBoolean:withPrintWriter:")	
-	public static void verify(org.objectweb.asm.ClassReader arg0, boolean arg1, java.io.PrintWriter arg2) {		
-		org.objectweb.asm.util.CheckClassAdapter.verify(arg0, arg1, arg2);		
+	public static void verifyWithClassReaderwithBooleanwithPrintWriter(x.org.objectweb.asm.ClassReader arg0, boolean arg1, java.io.PrintWriter arg2) {		
+		org.objectweb.asm.util.CheckClassAdapter.verify(arg0.original, arg1, arg2);		
+	}	
+	
+	@Selector("valueWithClassVisitor:")	
+	public CheckClassAdapter valueWithClassVisitor(Object arg0) {
+		CheckClassAdapter self = (CheckClassAdapter) CheckClassAdapter.alloc().init();		
+		self.original = new org.objectweb.asm.util.CheckClassAdapter((org.objectweb.asm.ClassVisitor) arg0);		
+		return self;		
+	}	
+	
+	@Selector("valueWithClassVisitor:withBoolean:")	
+	public CheckClassAdapter valueWithClassVisitorwithBoolean(Object arg0, boolean arg1) {
+		CheckClassAdapter self = (CheckClassAdapter) CheckClassAdapter.alloc().init();		
+		self.original = new org.objectweb.asm.util.CheckClassAdapter((org.objectweb.asm.ClassVisitor) arg0, arg1);		
+		return self;		
 	}	
 	
 	@Selector("visitWithInt:withInt:withString:withString:withString:withString:")	
-	public void visit(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	public void visitWithIntwithIntwithStringwithStringwithStringwithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);		
 	}	
 	
 	@Selector("visitSourceWithString:withString:")	
-	public void visitSource(String arg0, String arg1) {
+	public void visitSourceWithStringwithString(String arg0, String arg1) {
 		original.visitSource(arg0, arg1);		
 	}	
 	
 	@Selector("visitOuterClassWithString:withString:withString:")	
-	public void visitOuterClass(String arg0, String arg1, String arg2) {
+	public void visitOuterClassWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.visitOuterClass(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("visitInnerClassWithString:withString:withString:withInt:")	
-	public void visitInnerClass(String arg0, String arg1, String arg2, int arg3) {
+	public void visitInnerClassWithStringwithStringwithStringwithInt(String arg0, String arg1, String arg2, int arg3) {
 		original.visitInnerClass(arg0, arg1, arg2, arg3);		
 	}	
 	
+	@Selector("visitFieldWithInt:withString:withString:withString:withObject:")	
+	public Object visitFieldWithIntwithStringwithStringwithStringwithObject(int arg0, String arg1, String arg2, String arg3, Object arg4) {
+		return original.visitField(arg0, arg1, arg2, arg3, arg4);		
+	}	
+	
+	@Selector("visitMethodWithInt:withString:withString:withString:withString:")	
+	public Object visitMethodWithIntwithStringwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
+		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);		
+	}	
+	
+	@Selector("visitAnnotationWithString:withBoolean:")	
+	public Object visitAnnotationWithStringwithBoolean(String arg0, boolean arg1) {
+		return original.visitAnnotation(arg0, arg1);		
+	}	
+	
+	@Selector("visitTypeAnnotationWithInt:withTypePath:withString:withBoolean:")	
+	public Object visitTypeAnnotationWithIntwithTypePathwithStringwithBoolean(int arg0, x.org.objectweb.asm.TypePath arg1, String arg2, boolean arg3) {
+		return original.visitTypeAnnotation(arg0, arg1.original, arg2, arg3);		
+	}	
+	
 	@Selector("visitAttributeWithAttribute:")	
-	public void visitAttribute(org.objectweb.asm.Attribute arg0) {		
-		original.visitAttribute(arg0);		
+	public void visitAttributeWithAttribute(x.org.objectweb.asm.Attribute arg0) {		
+		original.visitAttribute(arg0.original);		
 	}	
 	
 	@Selector("visitEnd")	
@@ -64,17 +98,17 @@ public class CheckClassAdapter extends NSObject {
 	}	
 	
 	@Selector("checkClassSignatureWithString:")	
-	public static void checkClassSignature(String arg0) {
+	public static void checkClassSignatureWithString(String arg0) {
 		org.objectweb.asm.util.CheckClassAdapter.checkClassSignature(arg0);		
 	}	
 	
 	@Selector("checkMethodSignatureWithString:")	
-	public static void checkMethodSignature(String arg0) {
+	public static void checkMethodSignatureWithString(String arg0) {
 		org.objectweb.asm.util.CheckClassAdapter.checkMethodSignature(arg0);		
 	}	
 	
 	@Selector("checkFieldSignatureWithString:")	
-	public static void checkFieldSignature(String arg0) {
+	public static void checkFieldSignatureWithString(String arg0) {
 		org.objectweb.asm.util.CheckClassAdapter.checkFieldSignature(arg0);		
 	}	
 }

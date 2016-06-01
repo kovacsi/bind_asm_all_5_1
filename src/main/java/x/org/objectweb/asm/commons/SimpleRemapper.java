@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_SimpleRemapper")
+@ObjCClassName("SimpleRemapper")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SimpleRemapper extends NSObject {	
@@ -19,36 +19,36 @@ public class SimpleRemapper extends NSObject {
 	}	
 	
 	@Selector("valueWithMap:")	
-	public SimpleRemapper value(java.util.Map arg0) {		
+	public SimpleRemapper valueWithMap(java.util.Map arg0) {		
 		SimpleRemapper self = (SimpleRemapper) SimpleRemapper.alloc().init();		
 		self.original = new org.objectweb.asm.commons.SimpleRemapper(arg0);		
 		return self;		
 	}	
 	
 	@Selector("valueWithString:withString:")	
-	public SimpleRemapper value(String arg0, String arg1) {
+	public SimpleRemapper valueWithStringwithString(String arg0, String arg1) {
 		SimpleRemapper self = (SimpleRemapper) SimpleRemapper.alloc().init();		
 		self.original = new org.objectweb.asm.commons.SimpleRemapper(arg0, arg1);		
 		return self;		
 	}	
 	
 	@Selector("mapMethodNameWithString:withString:withString:")	
-	public String mapMethodName(String arg0, String arg1, String arg2) {
+	public String mapMethodNameWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		return original.mapMethodName(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("mapInvokeDynamicMethodNameWithString:withString:")	
-	public String mapInvokeDynamicMethodName(String arg0, String arg1) {
+	public String mapInvokeDynamicMethodNameWithStringwithString(String arg0, String arg1) {
 		return original.mapInvokeDynamicMethodName(arg0, arg1);		
 	}	
 	
 	@Selector("mapFieldNameWithString:withString:withString:")	
-	public String mapFieldName(String arg0, String arg1, String arg2) {
+	public String mapFieldNameWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		return original.mapFieldName(arg0, arg1, arg2);		
 	}	
 	
 	@Selector("mapWithString:")	
-	public String map(String arg0) {
+	public String mapWithString(String arg0) {
 		return original.map(arg0);		
 	}	
 }

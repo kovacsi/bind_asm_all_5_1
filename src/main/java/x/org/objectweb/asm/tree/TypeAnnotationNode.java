@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_TypeAnnotationNode")
+@ObjCClassName("TypeAnnotationNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class TypeAnnotationNode extends NSObject {	
@@ -19,16 +19,16 @@ public class TypeAnnotationNode extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withTypePath:withString:")	
-	public TypeAnnotationNode value(int arg0, org.objectweb.asm.TypePath arg1, String arg2) {
+	public TypeAnnotationNode valueWithIntwithTypePathwithString(int arg0, x.org.objectweb.asm.TypePath arg1, String arg2) {
 		TypeAnnotationNode self = (TypeAnnotationNode) TypeAnnotationNode.alloc().init();		
-		self.original = new org.objectweb.asm.tree.TypeAnnotationNode(arg0, arg1, arg2);		
+		self.original = new org.objectweb.asm.tree.TypeAnnotationNode(arg0, arg1.original, arg2);		
 		return self;		
 	}	
 	
 	@Selector("valueWithInt:withInt:withTypePath:withString:")	
-	public TypeAnnotationNode value(int arg0, int arg1, org.objectweb.asm.TypePath arg2, String arg3) {
+	public TypeAnnotationNode valueWithIntwithIntwithTypePathwithString(int arg0, int arg1, x.org.objectweb.asm.TypePath arg2, String arg3) {
 		TypeAnnotationNode self = (TypeAnnotationNode) TypeAnnotationNode.alloc().init();		
-		self.original = new org.objectweb.asm.tree.TypeAnnotationNode(arg0, arg1, arg2, arg3);		
+		self.original = new org.objectweb.asm.tree.TypeAnnotationNode(arg0, arg1, arg2.original, arg3);		
 		return self;		
 	}	
 }

@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_FieldInsnNode")
+@ObjCClassName("FieldInsnNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class FieldInsnNode extends NSObject {	
@@ -19,19 +19,29 @@ public class FieldInsnNode extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withString:withString:withString:")	
-	public FieldInsnNode value(int arg0, String arg1, String arg2, String arg3) {
+	public FieldInsnNode valueWithIntwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3) {
 		FieldInsnNode self = (FieldInsnNode) FieldInsnNode.alloc().init();		
 		self.original = new org.objectweb.asm.tree.FieldInsnNode(arg0, arg1, arg2, arg3);		
 		return self;		
 	}	
 	
 	@Selector("setOpcodeWithInt:")	
-	public void setOpcode(int arg0) {		
+	public void setOpcodeWithInt(int arg0) {		
 		original.setOpcode(arg0);		
 	}	
 	
 	@Selector("getType")	
 	public int getType() {		
 		return original.getType();		
+	}	
+	
+	@Selector("acceptWithMethodVisitor:")	
+	public void acceptWithMethodVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.MethodVisitor) arg0);		
+	}	
+	
+	@Selector("cloneWithMap:")	
+	public Object cloneWithMap(java.util.Map arg0) {
+		return original.clone(arg0);		
 	}	
 }

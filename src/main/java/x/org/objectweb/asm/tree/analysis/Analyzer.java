@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_analysis_Analyzer")
+@ObjCClassName("Analyzer")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Analyzer extends NSObject {	
@@ -18,9 +18,16 @@ public class Analyzer extends NSObject {
 		super(peer);		
 	}	
 	
+	@Selector("valueWithInterpreter:")	
+	public Analyzer valueWithInterpreter(Object arg0) {
+		Analyzer self = (Analyzer) Analyzer.alloc().init();		
+		self.original = new org.objectweb.asm.tree.analysis.Analyzer((org.objectweb.asm.tree.analysis.Interpreter) arg0);		
+		return self;		
+	}	
+	
 	@Selector("analyzeWithString:withMethodNode:")	
-	public org.objectweb.asm.tree.analysis.Frame[] analyze(String arg0, org.objectweb.asm.tree.MethodNode arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
-		return original.analyze(arg0, arg1);		
+	public org.objectweb.asm.tree.analysis.Frame[] analyzeWithStringwithMethodNode(String arg0, x.org.objectweb.asm.tree.MethodNode arg1) throws org.objectweb.asm.tree.analysis.AnalyzerException {
+		return original.analyze(arg0, arg1.original);		
 	}	
 	
 	@Selector("getFrames")	
@@ -29,7 +36,7 @@ public class Analyzer extends NSObject {
 	}	
 	
 	@Selector("getHandlersWithInt:")	
-	public java.util.List getHandlers(int arg0) {		
+	public java.util.List getHandlersWithInt(int arg0) {		
 		return original.getHandlers(arg0);		
 	}	
 }

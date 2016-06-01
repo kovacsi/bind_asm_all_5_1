@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_GeneratorAdapter")
+@ObjCClassName("GeneratorAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class GeneratorAdapter extends NSObject {	
@@ -18,44 +18,65 @@ public class GeneratorAdapter extends NSObject {
 		super(peer);		
 	}	
 	
+	@Selector("valueWithMethodVisitor:withInt:withString:withString:")	
+	public GeneratorAdapter valueWithMethodVisitorwithIntwithStringwithString(Object arg0, int arg1, String arg2, String arg3) {
+		GeneratorAdapter self = (GeneratorAdapter) GeneratorAdapter.alloc().init();		
+		self.original = new org.objectweb.asm.commons.GeneratorAdapter((org.objectweb.asm.MethodVisitor) arg0, arg1, arg2, arg3);		
+		return self;		
+	}	
+	
+	@Selector("valueWithInt:withMethod:withMethodVisitor:")	
+	public GeneratorAdapter valueWithIntwithMethodwithMethodVisitor(int arg0, Method arg1, Object arg2) {
+		GeneratorAdapter self = (GeneratorAdapter) GeneratorAdapter.alloc().init();		
+		self.original = new org.objectweb.asm.commons.GeneratorAdapter(arg0, arg1.original, (org.objectweb.asm.MethodVisitor) arg2);		
+		return self;		
+	}	
+	
+	@Selector("valueWithInt:withMethod:withString:withType:withClassVisitor:")	
+	public GeneratorAdapter valueWithIntwithMethodwithStringwithTypewithClassVisitor(int arg0, Method arg1, String arg2, org.objectweb.asm.Type[] arg3, Object arg4) {
+		GeneratorAdapter self = (GeneratorAdapter) GeneratorAdapter.alloc().init();		
+		self.original = new org.objectweb.asm.commons.GeneratorAdapter(arg0, arg1.original, arg2, arg3, (org.objectweb.asm.ClassVisitor) arg4);		
+		return self;		
+	}	
+	
 	@Selector("pushWithBoolean:")	
-	public void push(boolean arg0) {		
+	public void pushWithBoolean(boolean arg0) {		
 		original.push(arg0);		
 	}	
 	
 	@Selector("pushWithInt:")	
-	public void push(int arg0) {		
+	public void pushWithInt(int arg0) {		
 		original.push(arg0);		
 	}	
 	
 	@Selector("pushWithLong:")	
-	public void push(long arg0) {		
+	public void pushWithLong(long arg0) {		
 		original.push(arg0);		
 	}	
 	
 	@Selector("pushWithFloat:")	
-	public void push(float arg0) {		
+	public void pushWithFloat(float arg0) {		
 		original.push(arg0);		
 	}	
 	
 	@Selector("pushWithDouble:")	
-	public void push(double arg0) {		
+	public void pushWithDouble(double arg0) {		
 		original.push(arg0);		
 	}	
 	
 	@Selector("pushWithString:")	
-	public void push(String arg0) {
+	public void pushWithString(String arg0) {
 		original.push(arg0);		
 	}	
 	
 	@Selector("pushWithType:")	
-	public void push(org.objectweb.asm.Type arg0) {		
-		original.push(arg0);		
+	public void pushWithType(x.org.objectweb.asm.Type arg0) {		
+		original.push(arg0.original);		
 	}	
 	
 	@Selector("pushWithHandle:")	
-	public void push(org.objectweb.asm.Handle arg0) {		
-		original.push(arg0);		
+	public void pushWithHandle(x.org.objectweb.asm.Handle arg0) {		
+		original.push(arg0.original);		
 	}	
 	
 	@Selector("loadThis")	
@@ -64,12 +85,12 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("loadArgWithInt:")	
-	public void loadArg(int arg0) {		
+	public void loadArgWithInt(int arg0) {		
 		original.loadArg(arg0);		
 	}	
 	
 	@Selector("loadArgsWithInt:withInt:")	
-	public void loadArgs(int arg0, int arg1) {		
+	public void loadArgsWithIntwithInt(int arg0, int arg1) {		
 		original.loadArgs(arg0, arg1);		
 	}	
 	
@@ -84,45 +105,45 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("storeArgWithInt:")	
-	public void storeArg(int arg0) {		
+	public void storeArgWithInt(int arg0) {		
 		original.storeArg(arg0);		
 	}	
 	
 	@Selector("getLocalTypeWithInt:")	
-	public x.org.objectweb.asm.Type getLocalType(int arg0) {		
+	public x.org.objectweb.asm.Type getLocalTypeWithInt(int arg0) {		
 		x.org.objectweb.asm.Type ret = (x.org.objectweb.asm.Type) x.org.objectweb.asm.Type.alloc().init();		
 		ret.original = original.getLocalType(arg0);		
 		return ret;		
 	}	
 	
 	@Selector("loadLocalWithInt:")	
-	public void loadLocal(int arg0) {		
+	public void loadLocalWithInt(int arg0) {		
 		original.loadLocal(arg0);		
 	}	
 	
 	@Selector("loadLocalWithInt:withType:")	
-	public void loadLocal(int arg0, org.objectweb.asm.Type arg1) {		
-		original.loadLocal(arg0, arg1);		
+	public void loadLocalWithIntwithType(int arg0, x.org.objectweb.asm.Type arg1) {		
+		original.loadLocal(arg0, arg1.original);		
 	}	
 	
 	@Selector("storeLocalWithInt:")	
-	public void storeLocal(int arg0) {		
+	public void storeLocalWithInt(int arg0) {		
 		original.storeLocal(arg0);		
 	}	
 	
 	@Selector("storeLocalWithInt:withType:")	
-	public void storeLocal(int arg0, org.objectweb.asm.Type arg1) {		
-		original.storeLocal(arg0, arg1);		
+	public void storeLocalWithIntwithType(int arg0, x.org.objectweb.asm.Type arg1) {		
+		original.storeLocal(arg0, arg1.original);		
 	}	
 	
 	@Selector("arrayLoadWithType:")	
-	public void arrayLoad(org.objectweb.asm.Type arg0) {		
-		original.arrayLoad(arg0);		
+	public void arrayLoadWithType(x.org.objectweb.asm.Type arg0) {		
+		original.arrayLoad(arg0.original);		
 	}	
 	
 	@Selector("arrayStoreWithType:")	
-	public void arrayStore(org.objectweb.asm.Type arg0) {		
-		original.arrayStore(arg0);		
+	public void arrayStoreWithType(x.org.objectweb.asm.Type arg0) {		
+		original.arrayStore(arg0.original);		
 	}	
 	
 	@Selector("pop")	
@@ -171,13 +192,13 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("swapWithType:withType:")	
-	public void swap(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1) {		
-		original.swap(arg0, arg1);		
+	public void swapWithTypewithType(x.org.objectweb.asm.Type arg0, x.org.objectweb.asm.Type arg1) {		
+		original.swap(arg0.original, arg1.original);		
 	}	
 	
 	@Selector("mathWithInt:withType:")	
-	public void math(int arg0, org.objectweb.asm.Type arg1) {		
-		original.math(arg0, arg1);		
+	public void mathWithIntwithType(int arg0, x.org.objectweb.asm.Type arg1) {		
+		original.math(arg0, arg1.original);		
 	}	
 	
 	@Selector("not")	
@@ -186,28 +207,28 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("iincWithInt:withInt:")	
-	public void iinc(int arg0, int arg1) {		
+	public void iincWithIntwithInt(int arg0, int arg1) {		
 		original.iinc(arg0, arg1);		
 	}	
 	
 	@Selector("castWithType:withType:")	
-	public void cast(org.objectweb.asm.Type arg0, org.objectweb.asm.Type arg1) {		
-		original.cast(arg0, arg1);		
+	public void castWithTypewithType(x.org.objectweb.asm.Type arg0, x.org.objectweb.asm.Type arg1) {		
+		original.cast(arg0.original, arg1.original);		
 	}	
 	
 	@Selector("boxWithType:")	
-	public void box(org.objectweb.asm.Type arg0) {		
-		original.box(arg0);		
+	public void boxWithType(x.org.objectweb.asm.Type arg0) {		
+		original.box(arg0.original);		
 	}	
 	
 	@Selector("valueOfWithType:")	
-	public void valueOf(org.objectweb.asm.Type arg0) {		
-		original.valueOf(arg0);		
+	public void valueOfWithType(x.org.objectweb.asm.Type arg0) {		
+		original.valueOf(arg0.original);		
 	}	
 	
 	@Selector("unboxWithType:")	
-	public void unbox(org.objectweb.asm.Type arg0) {		
-		original.unbox(arg0);		
+	public void unboxWithType(x.org.objectweb.asm.Type arg0) {		
+		original.unbox(arg0.original);		
 	}	
 	
 	@Selector("newLabel")	
@@ -218,8 +239,8 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("markWithLabel:")	
-	public void mark(org.objectweb.asm.Label arg0) {		
-		original.mark(arg0);		
+	public void markWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.mark(arg0.original);		
 	}	
 	
 	@Selector("mark")	
@@ -230,48 +251,48 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("ifCmpWithType:withInt:withLabel:")	
-	public void ifCmp(org.objectweb.asm.Type arg0, int arg1, org.objectweb.asm.Label arg2) {		
-		original.ifCmp(arg0, arg1, arg2);		
+	public void ifCmpWithTypewithIntwithLabel(x.org.objectweb.asm.Type arg0, int arg1, x.org.objectweb.asm.Label arg2) {		
+		original.ifCmp(arg0.original, arg1, arg2.original);		
 	}	
 	
 	@Selector("ifICmpWithInt:withLabel:")	
-	public void ifICmp(int arg0, org.objectweb.asm.Label arg1) {		
-		original.ifICmp(arg0, arg1);		
+	public void ifICmpWithIntwithLabel(int arg0, x.org.objectweb.asm.Label arg1) {		
+		original.ifICmp(arg0, arg1.original);		
 	}	
 	
 	@Selector("ifZCmpWithInt:withLabel:")	
-	public void ifZCmp(int arg0, org.objectweb.asm.Label arg1) {		
-		original.ifZCmp(arg0, arg1);		
+	public void ifZCmpWithIntwithLabel(int arg0, x.org.objectweb.asm.Label arg1) {		
+		original.ifZCmp(arg0, arg1.original);		
 	}	
 	
 	@Selector("ifNullWithLabel:")	
-	public void ifNull(org.objectweb.asm.Label arg0) {		
-		original.ifNull(arg0);		
+	public void ifNullWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifNull(arg0.original);		
 	}	
 	
 	@Selector("ifNonNullWithLabel:")	
-	public void ifNonNull(org.objectweb.asm.Label arg0) {		
-		original.ifNonNull(arg0);		
+	public void ifNonNullWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.ifNonNull(arg0.original);		
 	}	
 	
 	@Selector("goToWithLabel:")	
-	public void goTo(org.objectweb.asm.Label arg0) {		
-		original.goTo(arg0);		
+	public void goToWithLabel(x.org.objectweb.asm.Label arg0) {		
+		original.goTo(arg0.original);		
 	}	
 	
 	@Selector("retWithInt:")	
-	public void ret(int arg0) {		
+	public void retWithInt(int arg0) {		
 		original.ret(arg0);		
 	}	
 	
 	@Selector("tableSwitchWithInt:withTableSwitchGenerator:")	
-	public void tableSwitch(int[] arg0, org.objectweb.asm.commons.TableSwitchGenerator arg1) {		
-		original.tableSwitch(arg0, arg1);		
+	public void tableSwitchWithIntwithTableSwitchGenerator(int[] arg0, Object arg1) {
+		original.tableSwitch(arg0, (org.objectweb.asm.commons.TableSwitchGenerator) arg1);		
 	}	
 	
 	@Selector("tableSwitchWithInt:withTableSwitchGenerator:withBoolean:")	
-	public void tableSwitch(int[] arg0, org.objectweb.asm.commons.TableSwitchGenerator arg1, boolean arg2) {		
-		original.tableSwitch(arg0, arg1, arg2);		
+	public void tableSwitchWithIntwithTableSwitchGeneratorwithBoolean(int[] arg0, Object arg1, boolean arg2) {
+		original.tableSwitch(arg0, (org.objectweb.asm.commons.TableSwitchGenerator) arg1, arg2);		
 	}	
 	
 	@Selector("returnValue")	
@@ -280,58 +301,58 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("getStaticWithType:withString:withType:")	
-	public void getStatic(org.objectweb.asm.Type arg0, String arg1, org.objectweb.asm.Type arg2) {
-		original.getStatic(arg0, arg1, arg2);		
+	public void getStaticWithTypewithStringwithType(x.org.objectweb.asm.Type arg0, String arg1, x.org.objectweb.asm.Type arg2) {
+		original.getStatic(arg0.original, arg1, arg2.original);		
 	}	
 	
 	@Selector("putStaticWithType:withString:withType:")	
-	public void putStatic(org.objectweb.asm.Type arg0, String arg1, org.objectweb.asm.Type arg2) {
-		original.putStatic(arg0, arg1, arg2);		
+	public void putStaticWithTypewithStringwithType(x.org.objectweb.asm.Type arg0, String arg1, x.org.objectweb.asm.Type arg2) {
+		original.putStatic(arg0.original, arg1, arg2.original);		
 	}	
 	
 	@Selector("getFieldWithType:withString:withType:")	
-	public void getField(org.objectweb.asm.Type arg0, String arg1, org.objectweb.asm.Type arg2) {
-		original.getField(arg0, arg1, arg2);		
+	public void getFieldWithTypewithStringwithType(x.org.objectweb.asm.Type arg0, String arg1, x.org.objectweb.asm.Type arg2) {
+		original.getField(arg0.original, arg1, arg2.original);		
 	}	
 	
 	@Selector("putFieldWithType:withString:withType:")	
-	public void putField(org.objectweb.asm.Type arg0, String arg1, org.objectweb.asm.Type arg2) {
-		original.putField(arg0, arg1, arg2);		
+	public void putFieldWithTypewithStringwithType(x.org.objectweb.asm.Type arg0, String arg1, x.org.objectweb.asm.Type arg2) {
+		original.putField(arg0.original, arg1, arg2.original);		
 	}	
 	
 	@Selector("invokeVirtualWithType:withMethod:")	
-	public void invokeVirtual(org.objectweb.asm.Type arg0, org.objectweb.asm.commons.Method arg1) {		
-		original.invokeVirtual(arg0, arg1);		
+	public void invokeVirtualWithTypewithMethod(x.org.objectweb.asm.Type arg0, Method arg1) {
+		original.invokeVirtual(arg0.original, arg1.original);		
 	}	
 	
 	@Selector("invokeConstructorWithType:withMethod:")	
-	public void invokeConstructor(org.objectweb.asm.Type arg0, org.objectweb.asm.commons.Method arg1) {		
-		original.invokeConstructor(arg0, arg1);		
+	public void invokeConstructorWithTypewithMethod(x.org.objectweb.asm.Type arg0, Method arg1) {
+		original.invokeConstructor(arg0.original, arg1.original);		
 	}	
 	
 	@Selector("invokeStaticWithType:withMethod:")	
-	public void invokeStatic(org.objectweb.asm.Type arg0, org.objectweb.asm.commons.Method arg1) {		
-		original.invokeStatic(arg0, arg1);		
+	public void invokeStaticWithTypewithMethod(x.org.objectweb.asm.Type arg0, Method arg1) {
+		original.invokeStatic(arg0.original, arg1.original);		
 	}	
 	
 	@Selector("invokeInterfaceWithType:withMethod:")	
-	public void invokeInterface(org.objectweb.asm.Type arg0, org.objectweb.asm.commons.Method arg1) {		
-		original.invokeInterface(arg0, arg1);		
+	public void invokeInterfaceWithTypewithMethod(x.org.objectweb.asm.Type arg0, Method arg1) {
+		original.invokeInterface(arg0.original, arg1.original);		
 	}	
 	
 	@Selector("invokeDynamicWithString:withString:withHandle:withObject:")	
-	public void invokeDynamic(String arg0, String arg1, org.objectweb.asm.Handle arg2, Object[] arg3) {
-		original.invokeDynamic(arg0, arg1, arg2, arg3);		
+	public void invokeDynamicWithStringwithStringwithHandlewithObject(String arg0, String arg1, x.org.objectweb.asm.Handle arg2, Object[] arg3) {
+		original.invokeDynamic(arg0, arg1, arg2.original, arg3);		
 	}	
 	
 	@Selector("newInstanceWithType:")	
-	public void newInstance(org.objectweb.asm.Type arg0) {		
-		original.newInstance(arg0);		
+	public void newInstanceWithType(x.org.objectweb.asm.Type arg0) {		
+		original.newInstance(arg0.original);		
 	}	
 	
 	@Selector("newArrayWithType:")	
-	public void newArray(org.objectweb.asm.Type arg0) {		
-		original.newArray(arg0);		
+	public void newArrayWithType(x.org.objectweb.asm.Type arg0) {		
+		original.newArray(arg0.original);		
 	}	
 	
 	@Selector("arrayLength")	
@@ -345,18 +366,18 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("throwExceptionWithType:withString:")	
-	public void throwException(org.objectweb.asm.Type arg0, String arg1) {
-		original.throwException(arg0, arg1);		
+	public void throwExceptionWithTypewithString(x.org.objectweb.asm.Type arg0, String arg1) {
+		original.throwException(arg0.original, arg1);		
 	}	
 	
 	@Selector("checkCastWithType:")	
-	public void checkCast(org.objectweb.asm.Type arg0) {		
-		original.checkCast(arg0);		
+	public void checkCastWithType(x.org.objectweb.asm.Type arg0) {		
+		original.checkCast(arg0.original);		
 	}	
 	
 	@Selector("instanceOfWithType:")	
-	public void instanceOf(org.objectweb.asm.Type arg0) {		
-		original.instanceOf(arg0);		
+	public void instanceOfWithType(x.org.objectweb.asm.Type arg0) {		
+		original.instanceOf(arg0.original);		
 	}	
 	
 	@Selector("monitorEnter")	
@@ -375,7 +396,7 @@ public class GeneratorAdapter extends NSObject {
 	}	
 	
 	@Selector("catchExceptionWithLabel:withLabel:withType:")	
-	public void catchException(org.objectweb.asm.Label arg0, org.objectweb.asm.Label arg1, org.objectweb.asm.Type arg2) {		
-		original.catchException(arg0, arg1, arg2);		
+	public void catchExceptionWithLabelwithLabelwithType(x.org.objectweb.asm.Label arg0, x.org.objectweb.asm.Label arg1, x.org.objectweb.asm.Type arg2) {		
+		original.catchException(arg0.original, arg1.original, arg2.original);		
 	}	
 }

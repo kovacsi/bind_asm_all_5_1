@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_commons_StaticInitMerger")
+@ObjCClassName("StaticInitMerger")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class StaticInitMerger extends NSObject {	
@@ -18,9 +18,21 @@ public class StaticInitMerger extends NSObject {
 		super(peer);		
 	}	
 	
+	@Selector("valueWithString:withClassVisitor:")	
+	public StaticInitMerger valueWithStringwithClassVisitor(String arg0, Object arg1) {
+		StaticInitMerger self = (StaticInitMerger) StaticInitMerger.alloc().init();		
+		self.original = new org.objectweb.asm.commons.StaticInitMerger(arg0, (org.objectweb.asm.ClassVisitor) arg1);		
+		return self;		
+	}	
+	
 	@Selector("visitWithInt:withInt:withString:withString:withString:withString:")	
-	public void visit(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
+	public void visitWithIntwithIntwithStringwithStringwithStringwithString(int arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {
 		original.visit(arg0, arg1, arg2, arg3, arg4, arg5);		
+	}	
+	
+	@Selector("visitMethodWithInt:withString:withString:withString:withString:")	
+	public Object visitMethodWithIntwithStringwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3, String[] arg4) {
+		return original.visitMethod(arg0, arg1, arg2, arg3, arg4);		
 	}	
 	
 	@Selector("visitEnd")	

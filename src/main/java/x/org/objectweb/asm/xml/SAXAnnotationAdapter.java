@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_xml_SAXAnnotationAdapter")
+@ObjCClassName("SAXAnnotationAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SAXAnnotationAdapter extends NSObject {	
@@ -19,41 +19,51 @@ public class SAXAnnotationAdapter extends NSObject {
 	}	
 	
 	@Selector("valueWithSAXAdapter:withString:withInt:withString:withString:")	
-	public SAXAnnotationAdapter value(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4) {
+	public SAXAnnotationAdapter valueWithSAXAdapterwithStringwithIntwithStringwithString(SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4) {
 		SAXAnnotationAdapter self = (SAXAnnotationAdapter) SAXAnnotationAdapter.alloc().init();		
-		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0, arg1, arg2, arg3, arg4);		
+		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0.original, arg1, arg2, arg3, arg4);		
 		return self;		
 	}	
 	
 	@Selector("valueWithSAXAdapter:withString:withInt:withInt:withString:")	
-	public SAXAnnotationAdapter value(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, int arg3, String arg4) {
+	public SAXAnnotationAdapter valueWithSAXAdapterwithStringwithIntwithIntwithString(SAXAdapter arg0, String arg1, int arg2, int arg3, String arg4) {
 		SAXAnnotationAdapter self = (SAXAnnotationAdapter) SAXAnnotationAdapter.alloc().init();		
-		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0, arg1, arg2, arg3, arg4);		
+		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0.original, arg1, arg2, arg3, arg4);		
 		return self;		
 	}	
 	
 	@Selector("valueWithSAXAdapter:withString:withInt:withString:withString:withInt:withTypePath:")	
-	public SAXAnnotationAdapter value(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4, int arg5, org.objectweb.asm.TypePath arg6) {
+	public SAXAnnotationAdapter valueWithSAXAdapterwithStringwithIntwithStringwithStringwithIntwithTypePath(SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4, int arg5, x.org.objectweb.asm.TypePath arg6) {
 		SAXAnnotationAdapter self = (SAXAnnotationAdapter) SAXAnnotationAdapter.alloc().init();		
-		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0, arg1, arg2, arg3, arg4, arg5, arg6);		
+		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0.original, arg1, arg2, arg3, arg4, arg5, arg6.original);		
 		return self;		
 	}	
 	
 	@Selector("valueWithSAXAdapter:withString:withInt:withString:withString:withInt:withTypePath:withString:withString:withInt:")	
-	public SAXAnnotationAdapter value(org.objectweb.asm.xml.SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4, int arg5, org.objectweb.asm.TypePath arg6, String[] arg7, String[] arg8, int[] arg9) {
+	public SAXAnnotationAdapter valueWithSAXAdapterwithStringwithIntwithStringwithStringwithIntwithTypePathwithStringwithStringwithInt(SAXAdapter arg0, String arg1, int arg2, String arg3, String arg4, int arg5, x.org.objectweb.asm.TypePath arg6, String[] arg7, String[] arg8, int[] arg9) {
 		SAXAnnotationAdapter self = (SAXAnnotationAdapter) SAXAnnotationAdapter.alloc().init();		
-		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);		
+		self.original = new org.objectweb.asm.xml.SAXAnnotationAdapter(arg0.original, arg1, arg2, arg3, arg4, arg5, arg6.original, arg7, arg8, arg9);		
 		return self;		
 	}	
 	
 	@Selector("visitWithString:withObject:")	
-	public void visit(String arg0, Object arg1) {
+	public void visitWithStringwithObject(String arg0, Object arg1) {
 		original.visit(arg0, arg1);		
 	}	
 	
 	@Selector("visitEnumWithString:withString:withString:")	
-	public void visitEnum(String arg0, String arg1, String arg2) {
+	public void visitEnumWithStringwithStringwithString(String arg0, String arg1, String arg2) {
 		original.visitEnum(arg0, arg1, arg2);		
+	}	
+	
+	@Selector("visitAnnotationWithString:withString:")	
+	public Object visitAnnotationWithStringwithString(String arg0, String arg1) {
+		return original.visitAnnotation(arg0, arg1);		
+	}	
+	
+	@Selector("visitArrayWithString:")	
+	public Object visitArrayWithString(String arg0) {
+		return original.visitArray(arg0);		
 	}	
 	
 	@Selector("visitEnd")	

@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_TypePath")
+@ObjCClassName("TypePath")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class TypePath extends NSObject {	
@@ -24,17 +24,17 @@ public class TypePath extends NSObject {
 	}	
 	
 	@Selector("getStepWithInt:")	
-	public int getStep(int arg0) {		
+	public int getStepWithInt(int arg0) {		
 		return original.getStep(arg0);		
 	}	
 	
 	@Selector("getStepArgumentWithInt:")	
-	public int getStepArgument(int arg0) {		
+	public int getStepArgumentWithInt(int arg0) {		
 		return original.getStepArgument(arg0);		
 	}	
 	
 	@Selector("fromStringWithString:")	
-	public static TypePath fromString(String arg0) {
+	public static TypePath fromStringWithString(String arg0) {
 		TypePath ret = (TypePath) TypePath.alloc().init();
 		ret.original = org.objectweb.asm.TypePath.fromString(arg0);		
 		return ret;		

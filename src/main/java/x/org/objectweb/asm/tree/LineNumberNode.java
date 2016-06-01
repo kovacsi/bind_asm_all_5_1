@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_LineNumberNode")
+@ObjCClassName("LineNumberNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class LineNumberNode extends NSObject {	
@@ -19,14 +19,24 @@ public class LineNumberNode extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withLabelNode:")	
-	public LineNumberNode value(int arg0, org.objectweb.asm.tree.LabelNode arg1) {		
+	public LineNumberNode valueWithIntwithLabelNode(int arg0, LabelNode arg1) {
 		LineNumberNode self = (LineNumberNode) LineNumberNode.alloc().init();		
-		self.original = new org.objectweb.asm.tree.LineNumberNode(arg0, arg1);		
+		self.original = new org.objectweb.asm.tree.LineNumberNode(arg0, arg1.original);		
 		return self;		
 	}	
 	
 	@Selector("getType")	
 	public int getType() {		
 		return original.getType();		
+	}	
+	
+	@Selector("acceptWithMethodVisitor:")	
+	public void acceptWithMethodVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.MethodVisitor) arg0);		
+	}	
+	
+	@Selector("cloneWithMap:")	
+	public Object cloneWithMap(java.util.Map arg0) {
+		return original.clone(arg0);		
 	}	
 }

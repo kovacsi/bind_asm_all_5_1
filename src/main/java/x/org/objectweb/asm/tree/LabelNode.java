@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_objectweb_asm_tree_LabelNode")
+@ObjCClassName("LabelNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class LabelNode extends NSObject {	
@@ -26,9 +26,9 @@ public class LabelNode extends NSObject {
 	}	
 	
 	@Selector("valueWithLabel:")	
-	public LabelNode value(org.objectweb.asm.Label arg0) {		
+	public LabelNode valueWithLabel(x.org.objectweb.asm.Label arg0) {		
 		LabelNode self = (LabelNode) LabelNode.alloc().init();		
-		self.original = new org.objectweb.asm.tree.LabelNode(arg0);		
+		self.original = new org.objectweb.asm.tree.LabelNode(arg0.original);		
 		return self;		
 	}	
 	
@@ -42,6 +42,16 @@ public class LabelNode extends NSObject {
 		x.org.objectweb.asm.Label ret = (x.org.objectweb.asm.Label) x.org.objectweb.asm.Label.alloc().init();		
 		ret.original = original.getLabel();		
 		return ret;		
+	}	
+	
+	@Selector("acceptWithMethodVisitor:")	
+	public void acceptWithMethodVisitor(Object arg0) {
+		original.accept((org.objectweb.asm.MethodVisitor) arg0);		
+	}	
+	
+	@Selector("cloneWithMap:")	
+	public Object cloneWithMap(java.util.Map arg0) {
+		return original.clone(arg0);		
 	}	
 	
 	@Selector("resetLabel")	
