@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.tree;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("LocalVariableAnnotationNode")
+@ObjCClassName("JBLocalVariableAnnotationNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class LocalVariableAnnotationNode extends NSObject {	
@@ -17,6 +18,10 @@ public class LocalVariableAnnotationNode extends NSObject {
 	protected LocalVariableAnnotationNode(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native LocalVariableAnnotationNode alloc();	
 	
 	@Selector("valueWithInt:withTypePath:withLabelNode:withLabelNode:withInt:withString:")	
 	public LocalVariableAnnotationNode valueWithIntwithTypePathwithLabelNodewithLabelNodewithIntwithString(int arg0, x.org.objectweb.asm.TypePath arg1, org.objectweb.asm.tree.LabelNode[] arg2, org.objectweb.asm.tree.LabelNode[] arg3, int[] arg4, String arg5) {

@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.tree;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("ParameterNode")
+@ObjCClassName("JBParameterNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class ParameterNode extends NSObject {	
@@ -17,6 +18,10 @@ public class ParameterNode extends NSObject {
 	protected ParameterNode(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native ParameterNode alloc();	
 	
 	@Selector("valueWithString:withInt:")	
 	public ParameterNode valueWithStringwithInt(String arg0, int arg1) {

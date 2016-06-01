@@ -1,13 +1,14 @@
 package x.org.objectweb.asm;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("Handle")
+@ObjCClassName("JBHandle")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Handle extends NSObject {	
@@ -17,6 +18,10 @@ public class Handle extends NSObject {
 	protected Handle(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native Handle alloc();	
 	
 	@Selector("valueWithInt:withString:withString:withString:")	
 	public Handle valueWithIntwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3) {

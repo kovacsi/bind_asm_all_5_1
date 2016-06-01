@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.util;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("CheckFieldAdapter")
+@ObjCClassName("JBCheckFieldAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class CheckFieldAdapter extends NSObject {	
@@ -17,6 +18,10 @@ public class CheckFieldAdapter extends NSObject {
 	protected CheckFieldAdapter(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native CheckFieldAdapter alloc();	
 	
 	@Selector("valueWithFieldVisitor:")	
 	public CheckFieldAdapter valueWithFieldVisitor(Object arg0) {

@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.commons;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("AnalyzerAdapter")
+@ObjCClassName("JBAnalyzerAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class AnalyzerAdapter extends NSObject {	
@@ -17,6 +18,10 @@ public class AnalyzerAdapter extends NSObject {
 	protected AnalyzerAdapter(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native AnalyzerAdapter alloc();	
 	
 	@Selector("valueWithString:withInt:withString:withString:withMethodVisitor:")	
 	public AnalyzerAdapter valueWithStringwithIntwithStringwithStringwithMethodVisitor(String arg0, int arg1, String arg2, String arg3, Object arg4) {

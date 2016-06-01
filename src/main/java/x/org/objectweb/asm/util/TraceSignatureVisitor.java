@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.util;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("TraceSignatureVisitor")
+@ObjCClassName("JBTraceSignatureVisitor")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class TraceSignatureVisitor extends NSObject {	
@@ -17,6 +18,10 @@ public class TraceSignatureVisitor extends NSObject {
 	protected TraceSignatureVisitor(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native TraceSignatureVisitor alloc();	
 	
 	@Selector("valueWithInt:")	
 	public TraceSignatureVisitor valueWithInt(int arg0) {		

@@ -1,13 +1,14 @@
 package x.org.objectweb.asm;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("TypePath")
+@ObjCClassName("JBTypePath")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class TypePath extends NSObject {	
@@ -17,6 +18,10 @@ public class TypePath extends NSObject {
 	protected TypePath(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native TypePath alloc();	
 	
 	@Selector("getLength")	
 	public int getLength() {		

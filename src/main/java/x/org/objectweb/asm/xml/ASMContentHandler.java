@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.xml;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("ASMContentHandler")
+@ObjCClassName("JBASMContentHandler")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class ASMContentHandler extends NSObject {	
@@ -17,6 +18,10 @@ public class ASMContentHandler extends NSObject {
 	protected ASMContentHandler(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native ASMContentHandler alloc();	
 	
 	@Selector("valueWithClassVisitor:")	
 	public ASMContentHandler valueWithClassVisitor(Object arg0) {

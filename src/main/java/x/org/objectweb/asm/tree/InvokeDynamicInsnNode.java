@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.tree;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("InvokeDynamicInsnNode")
+@ObjCClassName("JBInvokeDynamicInsnNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class InvokeDynamicInsnNode extends NSObject {	
@@ -17,6 +18,10 @@ public class InvokeDynamicInsnNode extends NSObject {
 	protected InvokeDynamicInsnNode(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native InvokeDynamicInsnNode alloc();	
 	
 	@Selector("valueWithString:withString:withHandle:withObject:")	
 	public InvokeDynamicInsnNode valueWithStringwithStringwithHandlewithObject(String arg0, String arg1, x.org.objectweb.asm.Handle arg2, Object[] arg3) {

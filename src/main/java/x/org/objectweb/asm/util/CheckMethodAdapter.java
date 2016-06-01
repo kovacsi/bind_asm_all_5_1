@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.util;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("CheckMethodAdapter")
+@ObjCClassName("JBCheckMethodAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class CheckMethodAdapter extends NSObject {	
@@ -17,6 +18,10 @@ public class CheckMethodAdapter extends NSObject {
 	protected CheckMethodAdapter(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native CheckMethodAdapter alloc();	
 	
 	@Selector("valueWithMethodVisitor:")	
 	public CheckMethodAdapter valueWithMethodVisitor(Object arg0) {

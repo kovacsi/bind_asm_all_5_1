@@ -12,93 +12,93 @@
 		3C7DC24189B84EE8583C1AD5 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E576CB62AE0262C5C9811D8 /* MOE.framework */; };
 		6365C94055F409D2F5A8ECD3 /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EB3D2A4184B90C6D896A0 /* MainUI.storyboard */; };
 		72DECA512C8A878A93BD463E /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E576CB62AE0262C5C9811D8 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		991609E61CFEDE7B00D4A51C /* Analyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609381CFEDE7A00D4A51C /* Analyzer.m */; };
-		991609E71CFEDE7B00D4A51C /* AnalyzerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916093A1CFEDE7A00D4A51C /* AnalyzerAdapter.m */; };
-		991609E81CFEDE7B00D4A51C /* AnalyzerException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916093C1CFEDE7A00D4A51C /* AnalyzerException.m */; };
-		991609E91CFEDE7B00D4A51C /* AnnotationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916093E1CFEDE7A00D4A51C /* AnnotationNode.m */; };
-		991609EA1CFEDE7B00D4A51C /* AnnotationRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609401CFEDE7A00D4A51C /* AnnotationRemapper.m */; };
-		991609EB1CFEDE7B00D4A51C /* ASMContentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609421CFEDE7A00D4A51C /* ASMContentHandler.m */; };
-		991609EC1CFEDE7B00D4A51C /* ASMifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609441CFEDE7A00D4A51C /* ASMifier.m */; };
-		991609ED1CFEDE7B00D4A51C /* Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609461CFEDE7A00D4A51C /* Attribute.m */; };
-		991609EE1CFEDE7B00D4A51C /* BasicInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609481CFEDE7A00D4A51C /* BasicInterpreter.m */; };
-		991609EF1CFEDE7B00D4A51C /* BasicValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916094A1CFEDE7A00D4A51C /* BasicValue.m */; };
-		991609F01CFEDE7B00D4A51C /* BasicVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916094C1CFEDE7A00D4A51C /* BasicVerifier.m */; };
-		991609F11CFEDE7B00D4A51C /* ByteVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916094E1CFEDE7A00D4A51C /* ByteVector.m */; };
-		991609F21CFEDE7B00D4A51C /* CheckAnnotationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609501CFEDE7A00D4A51C /* CheckAnnotationAdapter.m */; };
-		991609F31CFEDE7B00D4A51C /* CheckClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609521CFEDE7A00D4A51C /* CheckClassAdapter.m */; };
-		991609F41CFEDE7B00D4A51C /* CheckFieldAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609541CFEDE7A00D4A51C /* CheckFieldAdapter.m */; };
-		991609F51CFEDE7B00D4A51C /* CheckMethodAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609561CFEDE7A00D4A51C /* CheckMethodAdapter.m */; };
-		991609F61CFEDE7B00D4A51C /* CheckSignatureAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609581CFEDE7A00D4A51C /* CheckSignatureAdapter.m */; };
-		991609F71CFEDE7B00D4A51C /* ClassNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916095A1CFEDE7A00D4A51C /* ClassNode.m */; };
-		991609F81CFEDE7B00D4A51C /* ClassReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916095C1CFEDE7A00D4A51C /* ClassReader.m */; };
-		991609F91CFEDE7B00D4A51C /* ClassRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916095E1CFEDE7A00D4A51C /* ClassRemapper.m */; };
-		991609FA1CFEDE7B00D4A51C /* ClassWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609601CFEDE7A00D4A51C /* ClassWriter.m */; };
-		991609FB1CFEDE7B00D4A51C /* CodeSizeEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609621CFEDE7A00D4A51C /* CodeSizeEvaluator.m */; };
-		991609FC1CFEDE7B00D4A51C /* FieldInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609641CFEDE7A00D4A51C /* FieldInsnNode.m */; };
-		991609FD1CFEDE7B00D4A51C /* FieldNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609661CFEDE7A00D4A51C /* FieldNode.m */; };
-		991609FE1CFEDE7B00D4A51C /* FieldRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609681CFEDE7A00D4A51C /* FieldRemapper.m */; };
-		991609FF1CFEDE7B00D4A51C /* Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916096A1CFEDE7A00D4A51C /* Frame.m */; };
-		99160A001CFEDE7B00D4A51C /* FrameNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916096C1CFEDE7A00D4A51C /* FrameNode.m */; };
-		99160A011CFEDE7B00D4A51C /* GeneratorAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916096E1CFEDE7A00D4A51C /* GeneratorAdapter.m */; };
-		99160A021CFEDE7B00D4A51C /* Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609701CFEDE7A00D4A51C /* Handle.m */; };
-		99160A031CFEDE7B00D4A51C /* IincInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609721CFEDE7A00D4A51C /* IincInsnNode.m */; };
-		99160A041CFEDE7B00D4A51C /* InnerClassNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609741CFEDE7A00D4A51C /* InnerClassNode.m */; };
-		99160A051CFEDE7B00D4A51C /* InsnList.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609761CFEDE7A00D4A51C /* InsnList.m */; };
-		99160A061CFEDE7B00D4A51C /* InsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609781CFEDE7A00D4A51C /* InsnNode.m */; };
-		99160A071CFEDE7B00D4A51C /* InstructionAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916097A1CFEDE7A00D4A51C /* InstructionAdapter.m */; };
-		99160A081CFEDE7B00D4A51C /* IntInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916097C1CFEDE7A00D4A51C /* IntInsnNode.m */; };
-		99160A091CFEDE7B00D4A51C /* InvokeDynamicInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916097E1CFEDE7A00D4A51C /* InvokeDynamicInsnNode.m */; };
-		99160A0A1CFEDE7B00D4A51C /* JSRInlinerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609801CFEDE7A00D4A51C /* JSRInlinerAdapter.m */; };
-		99160A0B1CFEDE7B00D4A51C /* JumpInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609821CFEDE7A00D4A51C /* JumpInsnNode.m */; };
-		99160A0C1CFEDE7B00D4A51C /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609841CFEDE7A00D4A51C /* Label.m */; };
-		99160A0D1CFEDE7B00D4A51C /* LabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609861CFEDE7A00D4A51C /* LabelNode.m */; };
-		99160A0E1CFEDE7B00D4A51C /* LdcInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609881CFEDE7A00D4A51C /* LdcInsnNode.m */; };
-		99160A0F1CFEDE7B00D4A51C /* LineNumberNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916098A1CFEDE7A00D4A51C /* LineNumberNode.m */; };
-		99160A101CFEDE7B00D4A51C /* LocalVariableAnnotationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916098C1CFEDE7A00D4A51C /* LocalVariableAnnotationNode.m */; };
-		99160A111CFEDE7B00D4A51C /* LocalVariableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916098E1CFEDE7A00D4A51C /* LocalVariableNode.m */; };
-		99160A121CFEDE7B00D4A51C /* LocalVariablesSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609901CFEDE7A00D4A51C /* LocalVariablesSorter.m */; };
-		99160A131CFEDE7B00D4A51C /* LookupSwitchInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609921CFEDE7A00D4A51C /* LookupSwitchInsnNode.m */; };
-		99160A141CFEDE7B00D4A51C /* Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609941CFEDE7A00D4A51C /* Method.m */; };
-		99160A151CFEDE7B00D4A51C /* MethodInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609961CFEDE7A00D4A51C /* MethodInsnNode.m */; };
-		99160A161CFEDE7B00D4A51C /* MethodNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609981CFEDE7A00D4A51C /* MethodNode.m */; };
-		99160A171CFEDE7B00D4A51C /* MethodRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916099A1CFEDE7A00D4A51C /* MethodRemapper.m */; };
-		99160A181CFEDE7B00D4A51C /* MultiANewArrayInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916099C1CFEDE7A00D4A51C /* MultiANewArrayInsnNode.m */; };
-		99160A191CFEDE7B00D4A51C /* ParameterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916099F1CFEDE7A00D4A51C /* ParameterNode.m */; };
-		99160A1A1CFEDE7B00D4A51C /* Processor.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609A11CFEDE7A00D4A51C /* Processor.m */; };
-		99160A1B1CFEDE7B00D4A51C /* RemappingAnnotationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609A31CFEDE7A00D4A51C /* RemappingAnnotationAdapter.m */; };
-		99160A1C1CFEDE7B00D4A51C /* RemappingClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609A51CFEDE7A00D4A51C /* RemappingClassAdapter.m */; };
-		99160A1D1CFEDE7B00D4A51C /* RemappingFieldAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609A71CFEDE7A00D4A51C /* RemappingFieldAdapter.m */; };
-		99160A1E1CFEDE7B00D4A51C /* RemappingMethodAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609A91CFEDE7A00D4A51C /* RemappingMethodAdapter.m */; };
-		99160A1F1CFEDE7B00D4A51C /* RemappingSignatureAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609AB1CFEDE7A00D4A51C /* RemappingSignatureAdapter.m */; };
-		99160A201CFEDE7B00D4A51C /* SAXAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609AD1CFEDE7A00D4A51C /* SAXAdapter.m */; };
-		99160A211CFEDE7B00D4A51C /* SAXAnnotationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609AF1CFEDE7A00D4A51C /* SAXAnnotationAdapter.m */; };
-		99160A221CFEDE7B00D4A51C /* SAXClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609B11CFEDE7A00D4A51C /* SAXClassAdapter.m */; };
-		99160A231CFEDE7B00D4A51C /* SAXCodeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609B31CFEDE7A00D4A51C /* SAXCodeAdapter.m */; };
-		99160A241CFEDE7B00D4A51C /* SAXFieldAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609B51CFEDE7A00D4A51C /* SAXFieldAdapter.m */; };
-		99160A251CFEDE7B00D4A51C /* SerialVersionUIDAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609B71CFEDE7A00D4A51C /* SerialVersionUIDAdder.m */; };
-		99160A261CFEDE7B00D4A51C /* SignatureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609B91CFEDE7A00D4A51C /* SignatureReader.m */; };
-		99160A271CFEDE7B00D4A51C /* SignatureRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609BB1CFEDE7A00D4A51C /* SignatureRemapper.m */; };
-		99160A281CFEDE7B00D4A51C /* SignatureWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609BD1CFEDE7B00D4A51C /* SignatureWriter.m */; };
-		99160A291CFEDE7B00D4A51C /* SimpleRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609BF1CFEDE7B00D4A51C /* SimpleRemapper.m */; };
-		99160A2A1CFEDE7B00D4A51C /* SimpleVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609C11CFEDE7B00D4A51C /* SimpleVerifier.m */; };
-		99160A2B1CFEDE7B00D4A51C /* SourceInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609C31CFEDE7B00D4A51C /* SourceInterpreter.m */; };
-		99160A2C1CFEDE7B00D4A51C /* SourceValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609C51CFEDE7B00D4A51C /* SourceValue.m */; };
-		99160A2D1CFEDE7B00D4A51C /* StaticInitMerger.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609C71CFEDE7B00D4A51C /* StaticInitMerger.m */; };
-		99160A2E1CFEDE7B00D4A51C /* TableSwitchInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609C91CFEDE7B00D4A51C /* TableSwitchInsnNode.m */; };
-		99160A2F1CFEDE7B00D4A51C /* Textifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609CB1CFEDE7B00D4A51C /* Textifier.m */; };
-		99160A301CFEDE7B00D4A51C /* TraceAnnotationVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609CD1CFEDE7B00D4A51C /* TraceAnnotationVisitor.m */; };
-		99160A311CFEDE7B00D4A51C /* TraceClassVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609CF1CFEDE7B00D4A51C /* TraceClassVisitor.m */; };
-		99160A321CFEDE7B00D4A51C /* TraceFieldVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609D11CFEDE7B00D4A51C /* TraceFieldVisitor.m */; };
-		99160A331CFEDE7B00D4A51C /* TraceMethodVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609D31CFEDE7B00D4A51C /* TraceMethodVisitor.m */; };
-		99160A341CFEDE7B00D4A51C /* TraceSignatureVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609D51CFEDE7B00D4A51C /* TraceSignatureVisitor.m */; };
-		99160A351CFEDE7B00D4A51C /* TryCatchBlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609D71CFEDE7B00D4A51C /* TryCatchBlockNode.m */; };
-		99160A361CFEDE7B00D4A51C /* TryCatchBlockSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609D91CFEDE7B00D4A51C /* TryCatchBlockSorter.m */; };
-		99160A371CFEDE7B00D4A51C /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609DB1CFEDE7B00D4A51C /* Type.m */; };
-		99160A381CFEDE7B00D4A51C /* TypeAnnotationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609DD1CFEDE7B00D4A51C /* TypeAnnotationNode.m */; };
-		99160A391CFEDE7B00D4A51C /* TypeInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609DF1CFEDE7B00D4A51C /* TypeInsnNode.m */; };
-		99160A3A1CFEDE7B00D4A51C /* TypePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609E11CFEDE7B00D4A51C /* TypePath.m */; };
-		99160A3B1CFEDE7B00D4A51C /* TypeReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609E31CFEDE7B00D4A51C /* TypeReference.m */; };
-		99160A3C1CFEDE7B00D4A51C /* VarInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609E51CFEDE7B00D4A51C /* VarInsnNode.m */; };
+		99160AED1CFF35DB00D4A51C /* JBASMContentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A3F1CFF35DB00D4A51C /* JBASMContentHandler.m */; };
+		99160AEE1CFF35DB00D4A51C /* JBASMifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A411CFF35DB00D4A51C /* JBASMifier.m */; };
+		99160AEF1CFF35DB00D4A51C /* JBAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A431CFF35DB00D4A51C /* JBAnalyzer.m */; };
+		99160AF01CFF35DB00D4A51C /* JBAnalyzerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A451CFF35DB00D4A51C /* JBAnalyzerAdapter.m */; };
+		99160AF11CFF35DB00D4A51C /* JBAnalyzerException.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A471CFF35DB00D4A51C /* JBAnalyzerException.m */; };
+		99160AF21CFF35DB00D4A51C /* JBAnnotationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A491CFF35DB00D4A51C /* JBAnnotationNode.m */; };
+		99160AF31CFF35DB00D4A51C /* JBAnnotationRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A4B1CFF35DB00D4A51C /* JBAnnotationRemapper.m */; };
+		99160AF41CFF35DB00D4A51C /* JBAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A4D1CFF35DB00D4A51C /* JBAttribute.m */; };
+		99160AF51CFF35DB00D4A51C /* JBBasicInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A4F1CFF35DB00D4A51C /* JBBasicInterpreter.m */; };
+		99160AF61CFF35DB00D4A51C /* JBBasicValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A511CFF35DB00D4A51C /* JBBasicValue.m */; };
+		99160AF71CFF35DB00D4A51C /* JBBasicVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A531CFF35DB00D4A51C /* JBBasicVerifier.m */; };
+		99160AF81CFF35DB00D4A51C /* JBByteVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A551CFF35DB00D4A51C /* JBByteVector.m */; };
+		99160AF91CFF35DB00D4A51C /* JBCheckAnnotationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A571CFF35DB00D4A51C /* JBCheckAnnotationAdapter.m */; };
+		99160AFA1CFF35DB00D4A51C /* JBCheckClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A591CFF35DB00D4A51C /* JBCheckClassAdapter.m */; };
+		99160AFB1CFF35DB00D4A51C /* JBCheckFieldAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A5B1CFF35DB00D4A51C /* JBCheckFieldAdapter.m */; };
+		99160AFC1CFF35DB00D4A51C /* JBCheckMethodAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A5D1CFF35DB00D4A51C /* JBCheckMethodAdapter.m */; };
+		99160AFD1CFF35DB00D4A51C /* JBCheckSignatureAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A5F1CFF35DB00D4A51C /* JBCheckSignatureAdapter.m */; };
+		99160AFE1CFF35DB00D4A51C /* JBClassNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A611CFF35DB00D4A51C /* JBClassNode.m */; };
+		99160AFF1CFF35DB00D4A51C /* JBClassReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A631CFF35DB00D4A51C /* JBClassReader.m */; };
+		99160B001CFF35DB00D4A51C /* JBClassRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A651CFF35DB00D4A51C /* JBClassRemapper.m */; };
+		99160B011CFF35DB00D4A51C /* JBClassWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A671CFF35DB00D4A51C /* JBClassWriter.m */; };
+		99160B021CFF35DB00D4A51C /* JBCodeSizeEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A691CFF35DB00D4A51C /* JBCodeSizeEvaluator.m */; };
+		99160B031CFF35DB00D4A51C /* JBFieldInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A6B1CFF35DB00D4A51C /* JBFieldInsnNode.m */; };
+		99160B041CFF35DB00D4A51C /* JBFieldNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A6D1CFF35DB00D4A51C /* JBFieldNode.m */; };
+		99160B051CFF35DB00D4A51C /* JBFieldRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A6F1CFF35DB00D4A51C /* JBFieldRemapper.m */; };
+		99160B061CFF35DB00D4A51C /* JBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A711CFF35DB00D4A51C /* JBFrame.m */; };
+		99160B071CFF35DB00D4A51C /* JBFrameNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A731CFF35DB00D4A51C /* JBFrameNode.m */; };
+		99160B081CFF35DB00D4A51C /* JBGeneratorAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A751CFF35DB00D4A51C /* JBGeneratorAdapter.m */; };
+		99160B091CFF35DB00D4A51C /* JBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A771CFF35DB00D4A51C /* JBHandle.m */; };
+		99160B0A1CFF35DB00D4A51C /* JBIincInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A791CFF35DB00D4A51C /* JBIincInsnNode.m */; };
+		99160B0B1CFF35DB00D4A51C /* JBInnerClassNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A7B1CFF35DB00D4A51C /* JBInnerClassNode.m */; };
+		99160B0C1CFF35DB00D4A51C /* JBInsnList.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A7D1CFF35DB00D4A51C /* JBInsnList.m */; };
+		99160B0D1CFF35DB00D4A51C /* JBInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A7F1CFF35DB00D4A51C /* JBInsnNode.m */; };
+		99160B0E1CFF35DB00D4A51C /* JBInstructionAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A811CFF35DB00D4A51C /* JBInstructionAdapter.m */; };
+		99160B0F1CFF35DB00D4A51C /* JBIntInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A831CFF35DB00D4A51C /* JBIntInsnNode.m */; };
+		99160B101CFF35DB00D4A51C /* JBInvokeDynamicInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A851CFF35DB00D4A51C /* JBInvokeDynamicInsnNode.m */; };
+		99160B111CFF35DB00D4A51C /* JBJSRInlinerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A871CFF35DB00D4A51C /* JBJSRInlinerAdapter.m */; };
+		99160B121CFF35DB00D4A51C /* JBJumpInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A891CFF35DB00D4A51C /* JBJumpInsnNode.m */; };
+		99160B131CFF35DB00D4A51C /* JBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A8B1CFF35DB00D4A51C /* JBLabel.m */; };
+		99160B141CFF35DB00D4A51C /* JBLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A8D1CFF35DB00D4A51C /* JBLabelNode.m */; };
+		99160B151CFF35DB00D4A51C /* JBLdcInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A8F1CFF35DB00D4A51C /* JBLdcInsnNode.m */; };
+		99160B161CFF35DB00D4A51C /* JBLineNumberNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A911CFF35DB00D4A51C /* JBLineNumberNode.m */; };
+		99160B171CFF35DB00D4A51C /* JBLocalVariableAnnotationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A931CFF35DB00D4A51C /* JBLocalVariableAnnotationNode.m */; };
+		99160B181CFF35DB00D4A51C /* JBLocalVariableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A951CFF35DB00D4A51C /* JBLocalVariableNode.m */; };
+		99160B191CFF35DB00D4A51C /* JBLocalVariablesSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A971CFF35DB00D4A51C /* JBLocalVariablesSorter.m */; };
+		99160B1A1CFF35DB00D4A51C /* JBLookupSwitchInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A991CFF35DB00D4A51C /* JBLookupSwitchInsnNode.m */; };
+		99160B1B1CFF35DB00D4A51C /* JBMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A9B1CFF35DB00D4A51C /* JBMethod.m */; };
+		99160B1C1CFF35DB00D4A51C /* JBMethodInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A9D1CFF35DB00D4A51C /* JBMethodInsnNode.m */; };
+		99160B1D1CFF35DB00D4A51C /* JBMethodNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160A9F1CFF35DB00D4A51C /* JBMethodNode.m */; };
+		99160B1E1CFF35DB00D4A51C /* JBMethodRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AA11CFF35DB00D4A51C /* JBMethodRemapper.m */; };
+		99160B1F1CFF35DB00D4A51C /* JBMultiANewArrayInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AA31CFF35DB00D4A51C /* JBMultiANewArrayInsnNode.m */; };
+		99160B201CFF35DB00D4A51C /* JBParameterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AA61CFF35DB00D4A51C /* JBParameterNode.m */; };
+		99160B211CFF35DB00D4A51C /* JBProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AA81CFF35DB00D4A51C /* JBProcessor.m */; };
+		99160B221CFF35DB00D4A51C /* JBRemappingAnnotationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AAA1CFF35DB00D4A51C /* JBRemappingAnnotationAdapter.m */; };
+		99160B231CFF35DB00D4A51C /* JBRemappingClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AAC1CFF35DB00D4A51C /* JBRemappingClassAdapter.m */; };
+		99160B241CFF35DB00D4A51C /* JBRemappingFieldAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AAE1CFF35DB00D4A51C /* JBRemappingFieldAdapter.m */; };
+		99160B251CFF35DB00D4A51C /* JBRemappingMethodAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AB01CFF35DB00D4A51C /* JBRemappingMethodAdapter.m */; };
+		99160B261CFF35DB00D4A51C /* JBRemappingSignatureAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AB21CFF35DB00D4A51C /* JBRemappingSignatureAdapter.m */; };
+		99160B271CFF35DB00D4A51C /* JBSAXAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AB41CFF35DB00D4A51C /* JBSAXAdapter.m */; };
+		99160B281CFF35DB00D4A51C /* JBSAXAnnotationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AB61CFF35DB00D4A51C /* JBSAXAnnotationAdapter.m */; };
+		99160B291CFF35DB00D4A51C /* JBSAXClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AB81CFF35DB00D4A51C /* JBSAXClassAdapter.m */; };
+		99160B2A1CFF35DB00D4A51C /* JBSAXCodeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ABA1CFF35DB00D4A51C /* JBSAXCodeAdapter.m */; };
+		99160B2B1CFF35DB00D4A51C /* JBSAXFieldAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ABC1CFF35DB00D4A51C /* JBSAXFieldAdapter.m */; };
+		99160B2C1CFF35DB00D4A51C /* JBSerialVersionUIDAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ABE1CFF35DB00D4A51C /* JBSerialVersionUIDAdder.m */; };
+		99160B2D1CFF35DB00D4A51C /* JBSignatureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AC01CFF35DB00D4A51C /* JBSignatureReader.m */; };
+		99160B2E1CFF35DB00D4A51C /* JBSignatureRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AC21CFF35DB00D4A51C /* JBSignatureRemapper.m */; };
+		99160B2F1CFF35DB00D4A51C /* JBSignatureWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AC41CFF35DB00D4A51C /* JBSignatureWriter.m */; };
+		99160B301CFF35DB00D4A51C /* JBSimpleRemapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AC61CFF35DB00D4A51C /* JBSimpleRemapper.m */; };
+		99160B311CFF35DB00D4A51C /* JBSimpleVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AC81CFF35DB00D4A51C /* JBSimpleVerifier.m */; };
+		99160B321CFF35DB00D4A51C /* JBSourceInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ACA1CFF35DB00D4A51C /* JBSourceInterpreter.m */; };
+		99160B331CFF35DB00D4A51C /* JBSourceValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ACC1CFF35DB00D4A51C /* JBSourceValue.m */; };
+		99160B341CFF35DB00D4A51C /* JBStaticInitMerger.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ACE1CFF35DB00D4A51C /* JBStaticInitMerger.m */; };
+		99160B351CFF35DB00D4A51C /* JBTableSwitchInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AD01CFF35DB00D4A51C /* JBTableSwitchInsnNode.m */; };
+		99160B361CFF35DB00D4A51C /* JBTextifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AD21CFF35DB00D4A51C /* JBTextifier.m */; };
+		99160B371CFF35DB00D4A51C /* JBTraceAnnotationVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AD41CFF35DB00D4A51C /* JBTraceAnnotationVisitor.m */; };
+		99160B381CFF35DB00D4A51C /* JBTraceClassVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AD61CFF35DB00D4A51C /* JBTraceClassVisitor.m */; };
+		99160B391CFF35DB00D4A51C /* JBTraceFieldVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AD81CFF35DB00D4A51C /* JBTraceFieldVisitor.m */; };
+		99160B3A1CFF35DB00D4A51C /* JBTraceMethodVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ADA1CFF35DB00D4A51C /* JBTraceMethodVisitor.m */; };
+		99160B3B1CFF35DB00D4A51C /* JBTraceSignatureVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ADC1CFF35DB00D4A51C /* JBTraceSignatureVisitor.m */; };
+		99160B3C1CFF35DB00D4A51C /* JBTryCatchBlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160ADE1CFF35DB00D4A51C /* JBTryCatchBlockNode.m */; };
+		99160B3D1CFF35DB00D4A51C /* JBTryCatchBlockSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AE01CFF35DB00D4A51C /* JBTryCatchBlockSorter.m */; };
+		99160B3E1CFF35DB00D4A51C /* JBType.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AE21CFF35DB00D4A51C /* JBType.m */; };
+		99160B3F1CFF35DB00D4A51C /* JBTypeAnnotationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AE41CFF35DB00D4A51C /* JBTypeAnnotationNode.m */; };
+		99160B401CFF35DB00D4A51C /* JBTypeInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AE61CFF35DB00D4A51C /* JBTypeInsnNode.m */; };
+		99160B411CFF35DB00D4A51C /* JBTypePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AE81CFF35DB00D4A51C /* JBTypePath.m */; };
+		99160B421CFF35DB00D4A51C /* JBTypeReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AEA1CFF35DB00D4A51C /* JBTypeReference.m */; };
+		99160B431CFF35DB00D4A51C /* JBVarInsnNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160AEC1CFF35DB00D4A51C /* JBVarInsnNode.m */; };
 		A32A48151A21BEF5C98C8D2E /* intel_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B1705E7D2AC885BAF6A35062 /* intel_logo.png */; };
 		B40BE065C529D74085B42D35 /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3691E5A55BC004CD4F47E8BB /* classlist.txt */; };
 		BA6F50EB8A6854E1C3998D67 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = 91AD226ED8C3EAC3AE7F5ACE /* application.jar */; };
@@ -144,181 +144,181 @@
 		76FB59A43E5EA27397DF756F /* bind_asm_all_5_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bind_asm_all_5_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AD226ED8C3EAC3AE7F5ACE /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/main/application.jar; sourceTree = SOURCE_ROOT; };
 		961AA28A6EFDD4BE67FE5D10 /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Test.plist"; path = "bind_asm_all_5_1-Test/Info-Test.plist"; sourceTree = "<group>"; };
-		991609371CFEDE7A00D4A51C /* Analyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analyzer.h; sourceTree = "<group>"; };
-		991609381CFEDE7A00D4A51C /* Analyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Analyzer.m; sourceTree = "<group>"; };
-		991609391CFEDE7A00D4A51C /* AnalyzerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyzerAdapter.h; sourceTree = "<group>"; };
-		9916093A1CFEDE7A00D4A51C /* AnalyzerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyzerAdapter.m; sourceTree = "<group>"; };
-		9916093B1CFEDE7A00D4A51C /* AnalyzerException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyzerException.h; sourceTree = "<group>"; };
-		9916093C1CFEDE7A00D4A51C /* AnalyzerException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyzerException.m; sourceTree = "<group>"; };
-		9916093D1CFEDE7A00D4A51C /* AnnotationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationNode.h; sourceTree = "<group>"; };
-		9916093E1CFEDE7A00D4A51C /* AnnotationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationNode.m; sourceTree = "<group>"; };
-		9916093F1CFEDE7A00D4A51C /* AnnotationRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationRemapper.h; sourceTree = "<group>"; };
-		991609401CFEDE7A00D4A51C /* AnnotationRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationRemapper.m; sourceTree = "<group>"; };
-		991609411CFEDE7A00D4A51C /* ASMContentHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMContentHandler.h; sourceTree = "<group>"; };
-		991609421CFEDE7A00D4A51C /* ASMContentHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMContentHandler.m; sourceTree = "<group>"; };
-		991609431CFEDE7A00D4A51C /* ASMifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMifier.h; sourceTree = "<group>"; };
-		991609441CFEDE7A00D4A51C /* ASMifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMifier.m; sourceTree = "<group>"; };
-		991609451CFEDE7A00D4A51C /* Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attribute.h; sourceTree = "<group>"; };
-		991609461CFEDE7A00D4A51C /* Attribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attribute.m; sourceTree = "<group>"; };
-		991609471CFEDE7A00D4A51C /* BasicInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicInterpreter.h; sourceTree = "<group>"; };
-		991609481CFEDE7A00D4A51C /* BasicInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicInterpreter.m; sourceTree = "<group>"; };
-		991609491CFEDE7A00D4A51C /* BasicValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicValue.h; sourceTree = "<group>"; };
-		9916094A1CFEDE7A00D4A51C /* BasicValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicValue.m; sourceTree = "<group>"; };
-		9916094B1CFEDE7A00D4A51C /* BasicVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicVerifier.h; sourceTree = "<group>"; };
-		9916094C1CFEDE7A00D4A51C /* BasicVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicVerifier.m; sourceTree = "<group>"; };
-		9916094D1CFEDE7A00D4A51C /* ByteVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteVector.h; sourceTree = "<group>"; };
-		9916094E1CFEDE7A00D4A51C /* ByteVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByteVector.m; sourceTree = "<group>"; };
-		9916094F1CFEDE7A00D4A51C /* CheckAnnotationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckAnnotationAdapter.h; sourceTree = "<group>"; };
-		991609501CFEDE7A00D4A51C /* CheckAnnotationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckAnnotationAdapter.m; sourceTree = "<group>"; };
-		991609511CFEDE7A00D4A51C /* CheckClassAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckClassAdapter.h; sourceTree = "<group>"; };
-		991609521CFEDE7A00D4A51C /* CheckClassAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckClassAdapter.m; sourceTree = "<group>"; };
-		991609531CFEDE7A00D4A51C /* CheckFieldAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckFieldAdapter.h; sourceTree = "<group>"; };
-		991609541CFEDE7A00D4A51C /* CheckFieldAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckFieldAdapter.m; sourceTree = "<group>"; };
-		991609551CFEDE7A00D4A51C /* CheckMethodAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMethodAdapter.h; sourceTree = "<group>"; };
-		991609561CFEDE7A00D4A51C /* CheckMethodAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMethodAdapter.m; sourceTree = "<group>"; };
-		991609571CFEDE7A00D4A51C /* CheckSignatureAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckSignatureAdapter.h; sourceTree = "<group>"; };
-		991609581CFEDE7A00D4A51C /* CheckSignatureAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckSignatureAdapter.m; sourceTree = "<group>"; };
-		991609591CFEDE7A00D4A51C /* ClassNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassNode.h; sourceTree = "<group>"; };
-		9916095A1CFEDE7A00D4A51C /* ClassNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassNode.m; sourceTree = "<group>"; };
-		9916095B1CFEDE7A00D4A51C /* ClassReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassReader.h; sourceTree = "<group>"; };
-		9916095C1CFEDE7A00D4A51C /* ClassReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassReader.m; sourceTree = "<group>"; };
-		9916095D1CFEDE7A00D4A51C /* ClassRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassRemapper.h; sourceTree = "<group>"; };
-		9916095E1CFEDE7A00D4A51C /* ClassRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassRemapper.m; sourceTree = "<group>"; };
-		9916095F1CFEDE7A00D4A51C /* ClassWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassWriter.h; sourceTree = "<group>"; };
-		991609601CFEDE7A00D4A51C /* ClassWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassWriter.m; sourceTree = "<group>"; };
-		991609611CFEDE7A00D4A51C /* CodeSizeEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeSizeEvaluator.h; sourceTree = "<group>"; };
-		991609621CFEDE7A00D4A51C /* CodeSizeEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeSizeEvaluator.m; sourceTree = "<group>"; };
-		991609631CFEDE7A00D4A51C /* FieldInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldInsnNode.h; sourceTree = "<group>"; };
-		991609641CFEDE7A00D4A51C /* FieldInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldInsnNode.m; sourceTree = "<group>"; };
-		991609651CFEDE7A00D4A51C /* FieldNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldNode.h; sourceTree = "<group>"; };
-		991609661CFEDE7A00D4A51C /* FieldNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldNode.m; sourceTree = "<group>"; };
-		991609671CFEDE7A00D4A51C /* FieldRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldRemapper.h; sourceTree = "<group>"; };
-		991609681CFEDE7A00D4A51C /* FieldRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldRemapper.m; sourceTree = "<group>"; };
-		991609691CFEDE7A00D4A51C /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
-		9916096A1CFEDE7A00D4A51C /* Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Frame.m; sourceTree = "<group>"; };
-		9916096B1CFEDE7A00D4A51C /* FrameNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameNode.h; sourceTree = "<group>"; };
-		9916096C1CFEDE7A00D4A51C /* FrameNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameNode.m; sourceTree = "<group>"; };
-		9916096D1CFEDE7A00D4A51C /* GeneratorAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorAdapter.h; sourceTree = "<group>"; };
-		9916096E1CFEDE7A00D4A51C /* GeneratorAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratorAdapter.m; sourceTree = "<group>"; };
-		9916096F1CFEDE7A00D4A51C /* Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handle.h; sourceTree = "<group>"; };
-		991609701CFEDE7A00D4A51C /* Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handle.m; sourceTree = "<group>"; };
-		991609711CFEDE7A00D4A51C /* IincInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IincInsnNode.h; sourceTree = "<group>"; };
-		991609721CFEDE7A00D4A51C /* IincInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IincInsnNode.m; sourceTree = "<group>"; };
-		991609731CFEDE7A00D4A51C /* InnerClassNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerClassNode.h; sourceTree = "<group>"; };
-		991609741CFEDE7A00D4A51C /* InnerClassNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerClassNode.m; sourceTree = "<group>"; };
-		991609751CFEDE7A00D4A51C /* InsnList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsnList.h; sourceTree = "<group>"; };
-		991609761CFEDE7A00D4A51C /* InsnList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsnList.m; sourceTree = "<group>"; };
-		991609771CFEDE7A00D4A51C /* InsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsnNode.h; sourceTree = "<group>"; };
-		991609781CFEDE7A00D4A51C /* InsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsnNode.m; sourceTree = "<group>"; };
-		991609791CFEDE7A00D4A51C /* InstructionAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionAdapter.h; sourceTree = "<group>"; };
-		9916097A1CFEDE7A00D4A51C /* InstructionAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionAdapter.m; sourceTree = "<group>"; };
-		9916097B1CFEDE7A00D4A51C /* IntInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntInsnNode.h; sourceTree = "<group>"; };
-		9916097C1CFEDE7A00D4A51C /* IntInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntInsnNode.m; sourceTree = "<group>"; };
-		9916097D1CFEDE7A00D4A51C /* InvokeDynamicInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvokeDynamicInsnNode.h; sourceTree = "<group>"; };
-		9916097E1CFEDE7A00D4A51C /* InvokeDynamicInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvokeDynamicInsnNode.m; sourceTree = "<group>"; };
-		9916097F1CFEDE7A00D4A51C /* JSRInlinerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRInlinerAdapter.h; sourceTree = "<group>"; };
-		991609801CFEDE7A00D4A51C /* JSRInlinerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRInlinerAdapter.m; sourceTree = "<group>"; };
-		991609811CFEDE7A00D4A51C /* JumpInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpInsnNode.h; sourceTree = "<group>"; };
-		991609821CFEDE7A00D4A51C /* JumpInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpInsnNode.m; sourceTree = "<group>"; };
-		991609831CFEDE7A00D4A51C /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
-		991609841CFEDE7A00D4A51C /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
-		991609851CFEDE7A00D4A51C /* LabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelNode.h; sourceTree = "<group>"; };
-		991609861CFEDE7A00D4A51C /* LabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelNode.m; sourceTree = "<group>"; };
-		991609871CFEDE7A00D4A51C /* LdcInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LdcInsnNode.h; sourceTree = "<group>"; };
-		991609881CFEDE7A00D4A51C /* LdcInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LdcInsnNode.m; sourceTree = "<group>"; };
-		991609891CFEDE7A00D4A51C /* LineNumberNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineNumberNode.h; sourceTree = "<group>"; };
-		9916098A1CFEDE7A00D4A51C /* LineNumberNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineNumberNode.m; sourceTree = "<group>"; };
-		9916098B1CFEDE7A00D4A51C /* LocalVariableAnnotationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalVariableAnnotationNode.h; sourceTree = "<group>"; };
-		9916098C1CFEDE7A00D4A51C /* LocalVariableAnnotationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalVariableAnnotationNode.m; sourceTree = "<group>"; };
-		9916098D1CFEDE7A00D4A51C /* LocalVariableNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalVariableNode.h; sourceTree = "<group>"; };
-		9916098E1CFEDE7A00D4A51C /* LocalVariableNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalVariableNode.m; sourceTree = "<group>"; };
-		9916098F1CFEDE7A00D4A51C /* LocalVariablesSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalVariablesSorter.h; sourceTree = "<group>"; };
-		991609901CFEDE7A00D4A51C /* LocalVariablesSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalVariablesSorter.m; sourceTree = "<group>"; };
-		991609911CFEDE7A00D4A51C /* LookupSwitchInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupSwitchInsnNode.h; sourceTree = "<group>"; };
-		991609921CFEDE7A00D4A51C /* LookupSwitchInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupSwitchInsnNode.m; sourceTree = "<group>"; };
-		991609931CFEDE7A00D4A51C /* Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Method.h; sourceTree = "<group>"; };
-		991609941CFEDE7A00D4A51C /* Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Method.m; sourceTree = "<group>"; };
-		991609951CFEDE7A00D4A51C /* MethodInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodInsnNode.h; sourceTree = "<group>"; };
-		991609961CFEDE7A00D4A51C /* MethodInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodInsnNode.m; sourceTree = "<group>"; };
-		991609971CFEDE7A00D4A51C /* MethodNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNode.h; sourceTree = "<group>"; };
-		991609981CFEDE7A00D4A51C /* MethodNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNode.m; sourceTree = "<group>"; };
-		991609991CFEDE7A00D4A51C /* MethodRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodRemapper.h; sourceTree = "<group>"; };
-		9916099A1CFEDE7A00D4A51C /* MethodRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodRemapper.m; sourceTree = "<group>"; };
-		9916099B1CFEDE7A00D4A51C /* MultiANewArrayInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiANewArrayInsnNode.h; sourceTree = "<group>"; };
-		9916099C1CFEDE7A00D4A51C /* MultiANewArrayInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiANewArrayInsnNode.m; sourceTree = "<group>"; };
-		9916099D1CFEDE7A00D4A51C /* Opcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opcodes.h; sourceTree = "<group>"; };
-		9916099E1CFEDE7A00D4A51C /* ParameterNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterNode.h; sourceTree = "<group>"; };
-		9916099F1CFEDE7A00D4A51C /* ParameterNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterNode.m; sourceTree = "<group>"; };
-		991609A01CFEDE7A00D4A51C /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
-		991609A11CFEDE7A00D4A51C /* Processor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Processor.m; sourceTree = "<group>"; };
-		991609A21CFEDE7A00D4A51C /* RemappingAnnotationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemappingAnnotationAdapter.h; sourceTree = "<group>"; };
-		991609A31CFEDE7A00D4A51C /* RemappingAnnotationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemappingAnnotationAdapter.m; sourceTree = "<group>"; };
-		991609A41CFEDE7A00D4A51C /* RemappingClassAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemappingClassAdapter.h; sourceTree = "<group>"; };
-		991609A51CFEDE7A00D4A51C /* RemappingClassAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemappingClassAdapter.m; sourceTree = "<group>"; };
-		991609A61CFEDE7A00D4A51C /* RemappingFieldAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemappingFieldAdapter.h; sourceTree = "<group>"; };
-		991609A71CFEDE7A00D4A51C /* RemappingFieldAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemappingFieldAdapter.m; sourceTree = "<group>"; };
-		991609A81CFEDE7A00D4A51C /* RemappingMethodAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemappingMethodAdapter.h; sourceTree = "<group>"; };
-		991609A91CFEDE7A00D4A51C /* RemappingMethodAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemappingMethodAdapter.m; sourceTree = "<group>"; };
-		991609AA1CFEDE7A00D4A51C /* RemappingSignatureAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemappingSignatureAdapter.h; sourceTree = "<group>"; };
-		991609AB1CFEDE7A00D4A51C /* RemappingSignatureAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemappingSignatureAdapter.m; sourceTree = "<group>"; };
-		991609AC1CFEDE7A00D4A51C /* SAXAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdapter.h; sourceTree = "<group>"; };
-		991609AD1CFEDE7A00D4A51C /* SAXAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdapter.m; sourceTree = "<group>"; };
-		991609AE1CFEDE7A00D4A51C /* SAXAnnotationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAnnotationAdapter.h; sourceTree = "<group>"; };
-		991609AF1CFEDE7A00D4A51C /* SAXAnnotationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAnnotationAdapter.m; sourceTree = "<group>"; };
-		991609B01CFEDE7A00D4A51C /* SAXClassAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXClassAdapter.h; sourceTree = "<group>"; };
-		991609B11CFEDE7A00D4A51C /* SAXClassAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXClassAdapter.m; sourceTree = "<group>"; };
-		991609B21CFEDE7A00D4A51C /* SAXCodeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXCodeAdapter.h; sourceTree = "<group>"; };
-		991609B31CFEDE7A00D4A51C /* SAXCodeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXCodeAdapter.m; sourceTree = "<group>"; };
-		991609B41CFEDE7A00D4A51C /* SAXFieldAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXFieldAdapter.h; sourceTree = "<group>"; };
-		991609B51CFEDE7A00D4A51C /* SAXFieldAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXFieldAdapter.m; sourceTree = "<group>"; };
-		991609B61CFEDE7A00D4A51C /* SerialVersionUIDAdder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialVersionUIDAdder.h; sourceTree = "<group>"; };
-		991609B71CFEDE7A00D4A51C /* SerialVersionUIDAdder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialVersionUIDAdder.m; sourceTree = "<group>"; };
-		991609B81CFEDE7A00D4A51C /* SignatureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureReader.h; sourceTree = "<group>"; };
-		991609B91CFEDE7A00D4A51C /* SignatureReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureReader.m; sourceTree = "<group>"; };
-		991609BA1CFEDE7A00D4A51C /* SignatureRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureRemapper.h; sourceTree = "<group>"; };
-		991609BB1CFEDE7A00D4A51C /* SignatureRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureRemapper.m; sourceTree = "<group>"; };
-		991609BC1CFEDE7B00D4A51C /* SignatureWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureWriter.h; sourceTree = "<group>"; };
-		991609BD1CFEDE7B00D4A51C /* SignatureWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureWriter.m; sourceTree = "<group>"; };
-		991609BE1CFEDE7B00D4A51C /* SimpleRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRemapper.h; sourceTree = "<group>"; };
-		991609BF1CFEDE7B00D4A51C /* SimpleRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRemapper.m; sourceTree = "<group>"; };
-		991609C01CFEDE7B00D4A51C /* SimpleVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleVerifier.h; sourceTree = "<group>"; };
-		991609C11CFEDE7B00D4A51C /* SimpleVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleVerifier.m; sourceTree = "<group>"; };
-		991609C21CFEDE7B00D4A51C /* SourceInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceInterpreter.h; sourceTree = "<group>"; };
-		991609C31CFEDE7B00D4A51C /* SourceInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceInterpreter.m; sourceTree = "<group>"; };
-		991609C41CFEDE7B00D4A51C /* SourceValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceValue.h; sourceTree = "<group>"; };
-		991609C51CFEDE7B00D4A51C /* SourceValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceValue.m; sourceTree = "<group>"; };
-		991609C61CFEDE7B00D4A51C /* StaticInitMerger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticInitMerger.h; sourceTree = "<group>"; };
-		991609C71CFEDE7B00D4A51C /* StaticInitMerger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticInitMerger.m; sourceTree = "<group>"; };
-		991609C81CFEDE7B00D4A51C /* TableSwitchInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSwitchInsnNode.h; sourceTree = "<group>"; };
-		991609C91CFEDE7B00D4A51C /* TableSwitchInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSwitchInsnNode.m; sourceTree = "<group>"; };
-		991609CA1CFEDE7B00D4A51C /* Textifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textifier.h; sourceTree = "<group>"; };
-		991609CB1CFEDE7B00D4A51C /* Textifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Textifier.m; sourceTree = "<group>"; };
-		991609CC1CFEDE7B00D4A51C /* TraceAnnotationVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceAnnotationVisitor.h; sourceTree = "<group>"; };
-		991609CD1CFEDE7B00D4A51C /* TraceAnnotationVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceAnnotationVisitor.m; sourceTree = "<group>"; };
-		991609CE1CFEDE7B00D4A51C /* TraceClassVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceClassVisitor.h; sourceTree = "<group>"; };
-		991609CF1CFEDE7B00D4A51C /* TraceClassVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceClassVisitor.m; sourceTree = "<group>"; };
-		991609D01CFEDE7B00D4A51C /* TraceFieldVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceFieldVisitor.h; sourceTree = "<group>"; };
-		991609D11CFEDE7B00D4A51C /* TraceFieldVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceFieldVisitor.m; sourceTree = "<group>"; };
-		991609D21CFEDE7B00D4A51C /* TraceMethodVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceMethodVisitor.h; sourceTree = "<group>"; };
-		991609D31CFEDE7B00D4A51C /* TraceMethodVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceMethodVisitor.m; sourceTree = "<group>"; };
-		991609D41CFEDE7B00D4A51C /* TraceSignatureVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceSignatureVisitor.h; sourceTree = "<group>"; };
-		991609D51CFEDE7B00D4A51C /* TraceSignatureVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceSignatureVisitor.m; sourceTree = "<group>"; };
-		991609D61CFEDE7B00D4A51C /* TryCatchBlockNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TryCatchBlockNode.h; sourceTree = "<group>"; };
-		991609D71CFEDE7B00D4A51C /* TryCatchBlockNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TryCatchBlockNode.m; sourceTree = "<group>"; };
-		991609D81CFEDE7B00D4A51C /* TryCatchBlockSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TryCatchBlockSorter.h; sourceTree = "<group>"; };
-		991609D91CFEDE7B00D4A51C /* TryCatchBlockSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TryCatchBlockSorter.m; sourceTree = "<group>"; };
-		991609DA1CFEDE7B00D4A51C /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
-		991609DB1CFEDE7B00D4A51C /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
-		991609DC1CFEDE7B00D4A51C /* TypeAnnotationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeAnnotationNode.h; sourceTree = "<group>"; };
-		991609DD1CFEDE7B00D4A51C /* TypeAnnotationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeAnnotationNode.m; sourceTree = "<group>"; };
-		991609DE1CFEDE7B00D4A51C /* TypeInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeInsnNode.h; sourceTree = "<group>"; };
-		991609DF1CFEDE7B00D4A51C /* TypeInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeInsnNode.m; sourceTree = "<group>"; };
-		991609E01CFEDE7B00D4A51C /* TypePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypePath.h; sourceTree = "<group>"; };
-		991609E11CFEDE7B00D4A51C /* TypePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypePath.m; sourceTree = "<group>"; };
-		991609E21CFEDE7B00D4A51C /* TypeReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeReference.h; sourceTree = "<group>"; };
-		991609E31CFEDE7B00D4A51C /* TypeReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeReference.m; sourceTree = "<group>"; };
-		991609E41CFEDE7B00D4A51C /* VarInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarInsnNode.h; sourceTree = "<group>"; };
-		991609E51CFEDE7B00D4A51C /* VarInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarInsnNode.m; sourceTree = "<group>"; };
+		99160A3E1CFF35DB00D4A51C /* JBASMContentHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBASMContentHandler.h; sourceTree = "<group>"; };
+		99160A3F1CFF35DB00D4A51C /* JBASMContentHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBASMContentHandler.m; sourceTree = "<group>"; };
+		99160A401CFF35DB00D4A51C /* JBASMifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBASMifier.h; sourceTree = "<group>"; };
+		99160A411CFF35DB00D4A51C /* JBASMifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBASMifier.m; sourceTree = "<group>"; };
+		99160A421CFF35DB00D4A51C /* JBAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAnalyzer.h; sourceTree = "<group>"; };
+		99160A431CFF35DB00D4A51C /* JBAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAnalyzer.m; sourceTree = "<group>"; };
+		99160A441CFF35DB00D4A51C /* JBAnalyzerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAnalyzerAdapter.h; sourceTree = "<group>"; };
+		99160A451CFF35DB00D4A51C /* JBAnalyzerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAnalyzerAdapter.m; sourceTree = "<group>"; };
+		99160A461CFF35DB00D4A51C /* JBAnalyzerException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAnalyzerException.h; sourceTree = "<group>"; };
+		99160A471CFF35DB00D4A51C /* JBAnalyzerException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAnalyzerException.m; sourceTree = "<group>"; };
+		99160A481CFF35DB00D4A51C /* JBAnnotationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAnnotationNode.h; sourceTree = "<group>"; };
+		99160A491CFF35DB00D4A51C /* JBAnnotationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAnnotationNode.m; sourceTree = "<group>"; };
+		99160A4A1CFF35DB00D4A51C /* JBAnnotationRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAnnotationRemapper.h; sourceTree = "<group>"; };
+		99160A4B1CFF35DB00D4A51C /* JBAnnotationRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAnnotationRemapper.m; sourceTree = "<group>"; };
+		99160A4C1CFF35DB00D4A51C /* JBAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBAttribute.h; sourceTree = "<group>"; };
+		99160A4D1CFF35DB00D4A51C /* JBAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBAttribute.m; sourceTree = "<group>"; };
+		99160A4E1CFF35DB00D4A51C /* JBBasicInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBasicInterpreter.h; sourceTree = "<group>"; };
+		99160A4F1CFF35DB00D4A51C /* JBBasicInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBasicInterpreter.m; sourceTree = "<group>"; };
+		99160A501CFF35DB00D4A51C /* JBBasicValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBasicValue.h; sourceTree = "<group>"; };
+		99160A511CFF35DB00D4A51C /* JBBasicValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBasicValue.m; sourceTree = "<group>"; };
+		99160A521CFF35DB00D4A51C /* JBBasicVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBasicVerifier.h; sourceTree = "<group>"; };
+		99160A531CFF35DB00D4A51C /* JBBasicVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBasicVerifier.m; sourceTree = "<group>"; };
+		99160A541CFF35DB00D4A51C /* JBByteVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBByteVector.h; sourceTree = "<group>"; };
+		99160A551CFF35DB00D4A51C /* JBByteVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBByteVector.m; sourceTree = "<group>"; };
+		99160A561CFF35DB00D4A51C /* JBCheckAnnotationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCheckAnnotationAdapter.h; sourceTree = "<group>"; };
+		99160A571CFF35DB00D4A51C /* JBCheckAnnotationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCheckAnnotationAdapter.m; sourceTree = "<group>"; };
+		99160A581CFF35DB00D4A51C /* JBCheckClassAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCheckClassAdapter.h; sourceTree = "<group>"; };
+		99160A591CFF35DB00D4A51C /* JBCheckClassAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCheckClassAdapter.m; sourceTree = "<group>"; };
+		99160A5A1CFF35DB00D4A51C /* JBCheckFieldAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCheckFieldAdapter.h; sourceTree = "<group>"; };
+		99160A5B1CFF35DB00D4A51C /* JBCheckFieldAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCheckFieldAdapter.m; sourceTree = "<group>"; };
+		99160A5C1CFF35DB00D4A51C /* JBCheckMethodAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCheckMethodAdapter.h; sourceTree = "<group>"; };
+		99160A5D1CFF35DB00D4A51C /* JBCheckMethodAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCheckMethodAdapter.m; sourceTree = "<group>"; };
+		99160A5E1CFF35DB00D4A51C /* JBCheckSignatureAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCheckSignatureAdapter.h; sourceTree = "<group>"; };
+		99160A5F1CFF35DB00D4A51C /* JBCheckSignatureAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCheckSignatureAdapter.m; sourceTree = "<group>"; };
+		99160A601CFF35DB00D4A51C /* JBClassNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBClassNode.h; sourceTree = "<group>"; };
+		99160A611CFF35DB00D4A51C /* JBClassNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBClassNode.m; sourceTree = "<group>"; };
+		99160A621CFF35DB00D4A51C /* JBClassReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBClassReader.h; sourceTree = "<group>"; };
+		99160A631CFF35DB00D4A51C /* JBClassReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBClassReader.m; sourceTree = "<group>"; };
+		99160A641CFF35DB00D4A51C /* JBClassRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBClassRemapper.h; sourceTree = "<group>"; };
+		99160A651CFF35DB00D4A51C /* JBClassRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBClassRemapper.m; sourceTree = "<group>"; };
+		99160A661CFF35DB00D4A51C /* JBClassWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBClassWriter.h; sourceTree = "<group>"; };
+		99160A671CFF35DB00D4A51C /* JBClassWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBClassWriter.m; sourceTree = "<group>"; };
+		99160A681CFF35DB00D4A51C /* JBCodeSizeEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCodeSizeEvaluator.h; sourceTree = "<group>"; };
+		99160A691CFF35DB00D4A51C /* JBCodeSizeEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCodeSizeEvaluator.m; sourceTree = "<group>"; };
+		99160A6A1CFF35DB00D4A51C /* JBFieldInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFieldInsnNode.h; sourceTree = "<group>"; };
+		99160A6B1CFF35DB00D4A51C /* JBFieldInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFieldInsnNode.m; sourceTree = "<group>"; };
+		99160A6C1CFF35DB00D4A51C /* JBFieldNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFieldNode.h; sourceTree = "<group>"; };
+		99160A6D1CFF35DB00D4A51C /* JBFieldNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFieldNode.m; sourceTree = "<group>"; };
+		99160A6E1CFF35DB00D4A51C /* JBFieldRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFieldRemapper.h; sourceTree = "<group>"; };
+		99160A6F1CFF35DB00D4A51C /* JBFieldRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFieldRemapper.m; sourceTree = "<group>"; };
+		99160A701CFF35DB00D4A51C /* JBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFrame.h; sourceTree = "<group>"; };
+		99160A711CFF35DB00D4A51C /* JBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFrame.m; sourceTree = "<group>"; };
+		99160A721CFF35DB00D4A51C /* JBFrameNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFrameNode.h; sourceTree = "<group>"; };
+		99160A731CFF35DB00D4A51C /* JBFrameNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFrameNode.m; sourceTree = "<group>"; };
+		99160A741CFF35DB00D4A51C /* JBGeneratorAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBGeneratorAdapter.h; sourceTree = "<group>"; };
+		99160A751CFF35DB00D4A51C /* JBGeneratorAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBGeneratorAdapter.m; sourceTree = "<group>"; };
+		99160A761CFF35DB00D4A51C /* JBHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBHandle.h; sourceTree = "<group>"; };
+		99160A771CFF35DB00D4A51C /* JBHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBHandle.m; sourceTree = "<group>"; };
+		99160A781CFF35DB00D4A51C /* JBIincInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBIincInsnNode.h; sourceTree = "<group>"; };
+		99160A791CFF35DB00D4A51C /* JBIincInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBIincInsnNode.m; sourceTree = "<group>"; };
+		99160A7A1CFF35DB00D4A51C /* JBInnerClassNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInnerClassNode.h; sourceTree = "<group>"; };
+		99160A7B1CFF35DB00D4A51C /* JBInnerClassNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInnerClassNode.m; sourceTree = "<group>"; };
+		99160A7C1CFF35DB00D4A51C /* JBInsnList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInsnList.h; sourceTree = "<group>"; };
+		99160A7D1CFF35DB00D4A51C /* JBInsnList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInsnList.m; sourceTree = "<group>"; };
+		99160A7E1CFF35DB00D4A51C /* JBInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInsnNode.h; sourceTree = "<group>"; };
+		99160A7F1CFF35DB00D4A51C /* JBInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInsnNode.m; sourceTree = "<group>"; };
+		99160A801CFF35DB00D4A51C /* JBInstructionAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInstructionAdapter.h; sourceTree = "<group>"; };
+		99160A811CFF35DB00D4A51C /* JBInstructionAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInstructionAdapter.m; sourceTree = "<group>"; };
+		99160A821CFF35DB00D4A51C /* JBIntInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBIntInsnNode.h; sourceTree = "<group>"; };
+		99160A831CFF35DB00D4A51C /* JBIntInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBIntInsnNode.m; sourceTree = "<group>"; };
+		99160A841CFF35DB00D4A51C /* JBInvokeDynamicInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInvokeDynamicInsnNode.h; sourceTree = "<group>"; };
+		99160A851CFF35DB00D4A51C /* JBInvokeDynamicInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInvokeDynamicInsnNode.m; sourceTree = "<group>"; };
+		99160A861CFF35DB00D4A51C /* JBJSRInlinerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBJSRInlinerAdapter.h; sourceTree = "<group>"; };
+		99160A871CFF35DB00D4A51C /* JBJSRInlinerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBJSRInlinerAdapter.m; sourceTree = "<group>"; };
+		99160A881CFF35DB00D4A51C /* JBJumpInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBJumpInsnNode.h; sourceTree = "<group>"; };
+		99160A891CFF35DB00D4A51C /* JBJumpInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBJumpInsnNode.m; sourceTree = "<group>"; };
+		99160A8A1CFF35DB00D4A51C /* JBLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLabel.h; sourceTree = "<group>"; };
+		99160A8B1CFF35DB00D4A51C /* JBLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLabel.m; sourceTree = "<group>"; };
+		99160A8C1CFF35DB00D4A51C /* JBLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLabelNode.h; sourceTree = "<group>"; };
+		99160A8D1CFF35DB00D4A51C /* JBLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLabelNode.m; sourceTree = "<group>"; };
+		99160A8E1CFF35DB00D4A51C /* JBLdcInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLdcInsnNode.h; sourceTree = "<group>"; };
+		99160A8F1CFF35DB00D4A51C /* JBLdcInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLdcInsnNode.m; sourceTree = "<group>"; };
+		99160A901CFF35DB00D4A51C /* JBLineNumberNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineNumberNode.h; sourceTree = "<group>"; };
+		99160A911CFF35DB00D4A51C /* JBLineNumberNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineNumberNode.m; sourceTree = "<group>"; };
+		99160A921CFF35DB00D4A51C /* JBLocalVariableAnnotationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLocalVariableAnnotationNode.h; sourceTree = "<group>"; };
+		99160A931CFF35DB00D4A51C /* JBLocalVariableAnnotationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLocalVariableAnnotationNode.m; sourceTree = "<group>"; };
+		99160A941CFF35DB00D4A51C /* JBLocalVariableNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLocalVariableNode.h; sourceTree = "<group>"; };
+		99160A951CFF35DB00D4A51C /* JBLocalVariableNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLocalVariableNode.m; sourceTree = "<group>"; };
+		99160A961CFF35DB00D4A51C /* JBLocalVariablesSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLocalVariablesSorter.h; sourceTree = "<group>"; };
+		99160A971CFF35DB00D4A51C /* JBLocalVariablesSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLocalVariablesSorter.m; sourceTree = "<group>"; };
+		99160A981CFF35DB00D4A51C /* JBLookupSwitchInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLookupSwitchInsnNode.h; sourceTree = "<group>"; };
+		99160A991CFF35DB00D4A51C /* JBLookupSwitchInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLookupSwitchInsnNode.m; sourceTree = "<group>"; };
+		99160A9A1CFF35DB00D4A51C /* JBMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMethod.h; sourceTree = "<group>"; };
+		99160A9B1CFF35DB00D4A51C /* JBMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMethod.m; sourceTree = "<group>"; };
+		99160A9C1CFF35DB00D4A51C /* JBMethodInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMethodInsnNode.h; sourceTree = "<group>"; };
+		99160A9D1CFF35DB00D4A51C /* JBMethodInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMethodInsnNode.m; sourceTree = "<group>"; };
+		99160A9E1CFF35DB00D4A51C /* JBMethodNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMethodNode.h; sourceTree = "<group>"; };
+		99160A9F1CFF35DB00D4A51C /* JBMethodNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMethodNode.m; sourceTree = "<group>"; };
+		99160AA01CFF35DB00D4A51C /* JBMethodRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMethodRemapper.h; sourceTree = "<group>"; };
+		99160AA11CFF35DB00D4A51C /* JBMethodRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMethodRemapper.m; sourceTree = "<group>"; };
+		99160AA21CFF35DB00D4A51C /* JBMultiANewArrayInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMultiANewArrayInsnNode.h; sourceTree = "<group>"; };
+		99160AA31CFF35DB00D4A51C /* JBMultiANewArrayInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMultiANewArrayInsnNode.m; sourceTree = "<group>"; };
+		99160AA41CFF35DB00D4A51C /* JBOpcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBOpcodes.h; sourceTree = "<group>"; };
+		99160AA51CFF35DB00D4A51C /* JBParameterNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBParameterNode.h; sourceTree = "<group>"; };
+		99160AA61CFF35DB00D4A51C /* JBParameterNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBParameterNode.m; sourceTree = "<group>"; };
+		99160AA71CFF35DB00D4A51C /* JBProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBProcessor.h; sourceTree = "<group>"; };
+		99160AA81CFF35DB00D4A51C /* JBProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBProcessor.m; sourceTree = "<group>"; };
+		99160AA91CFF35DB00D4A51C /* JBRemappingAnnotationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBRemappingAnnotationAdapter.h; sourceTree = "<group>"; };
+		99160AAA1CFF35DB00D4A51C /* JBRemappingAnnotationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBRemappingAnnotationAdapter.m; sourceTree = "<group>"; };
+		99160AAB1CFF35DB00D4A51C /* JBRemappingClassAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBRemappingClassAdapter.h; sourceTree = "<group>"; };
+		99160AAC1CFF35DB00D4A51C /* JBRemappingClassAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBRemappingClassAdapter.m; sourceTree = "<group>"; };
+		99160AAD1CFF35DB00D4A51C /* JBRemappingFieldAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBRemappingFieldAdapter.h; sourceTree = "<group>"; };
+		99160AAE1CFF35DB00D4A51C /* JBRemappingFieldAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBRemappingFieldAdapter.m; sourceTree = "<group>"; };
+		99160AAF1CFF35DB00D4A51C /* JBRemappingMethodAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBRemappingMethodAdapter.h; sourceTree = "<group>"; };
+		99160AB01CFF35DB00D4A51C /* JBRemappingMethodAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBRemappingMethodAdapter.m; sourceTree = "<group>"; };
+		99160AB11CFF35DB00D4A51C /* JBRemappingSignatureAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBRemappingSignatureAdapter.h; sourceTree = "<group>"; };
+		99160AB21CFF35DB00D4A51C /* JBRemappingSignatureAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBRemappingSignatureAdapter.m; sourceTree = "<group>"; };
+		99160AB31CFF35DB00D4A51C /* JBSAXAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSAXAdapter.h; sourceTree = "<group>"; };
+		99160AB41CFF35DB00D4A51C /* JBSAXAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSAXAdapter.m; sourceTree = "<group>"; };
+		99160AB51CFF35DB00D4A51C /* JBSAXAnnotationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSAXAnnotationAdapter.h; sourceTree = "<group>"; };
+		99160AB61CFF35DB00D4A51C /* JBSAXAnnotationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSAXAnnotationAdapter.m; sourceTree = "<group>"; };
+		99160AB71CFF35DB00D4A51C /* JBSAXClassAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSAXClassAdapter.h; sourceTree = "<group>"; };
+		99160AB81CFF35DB00D4A51C /* JBSAXClassAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSAXClassAdapter.m; sourceTree = "<group>"; };
+		99160AB91CFF35DB00D4A51C /* JBSAXCodeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSAXCodeAdapter.h; sourceTree = "<group>"; };
+		99160ABA1CFF35DB00D4A51C /* JBSAXCodeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSAXCodeAdapter.m; sourceTree = "<group>"; };
+		99160ABB1CFF35DB00D4A51C /* JBSAXFieldAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSAXFieldAdapter.h; sourceTree = "<group>"; };
+		99160ABC1CFF35DB00D4A51C /* JBSAXFieldAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSAXFieldAdapter.m; sourceTree = "<group>"; };
+		99160ABD1CFF35DB00D4A51C /* JBSerialVersionUIDAdder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSerialVersionUIDAdder.h; sourceTree = "<group>"; };
+		99160ABE1CFF35DB00D4A51C /* JBSerialVersionUIDAdder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSerialVersionUIDAdder.m; sourceTree = "<group>"; };
+		99160ABF1CFF35DB00D4A51C /* JBSignatureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSignatureReader.h; sourceTree = "<group>"; };
+		99160AC01CFF35DB00D4A51C /* JBSignatureReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSignatureReader.m; sourceTree = "<group>"; };
+		99160AC11CFF35DB00D4A51C /* JBSignatureRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSignatureRemapper.h; sourceTree = "<group>"; };
+		99160AC21CFF35DB00D4A51C /* JBSignatureRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSignatureRemapper.m; sourceTree = "<group>"; };
+		99160AC31CFF35DB00D4A51C /* JBSignatureWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSignatureWriter.h; sourceTree = "<group>"; };
+		99160AC41CFF35DB00D4A51C /* JBSignatureWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSignatureWriter.m; sourceTree = "<group>"; };
+		99160AC51CFF35DB00D4A51C /* JBSimpleRemapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSimpleRemapper.h; sourceTree = "<group>"; };
+		99160AC61CFF35DB00D4A51C /* JBSimpleRemapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSimpleRemapper.m; sourceTree = "<group>"; };
+		99160AC71CFF35DB00D4A51C /* JBSimpleVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSimpleVerifier.h; sourceTree = "<group>"; };
+		99160AC81CFF35DB00D4A51C /* JBSimpleVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSimpleVerifier.m; sourceTree = "<group>"; };
+		99160AC91CFF35DB00D4A51C /* JBSourceInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSourceInterpreter.h; sourceTree = "<group>"; };
+		99160ACA1CFF35DB00D4A51C /* JBSourceInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSourceInterpreter.m; sourceTree = "<group>"; };
+		99160ACB1CFF35DB00D4A51C /* JBSourceValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSourceValue.h; sourceTree = "<group>"; };
+		99160ACC1CFF35DB00D4A51C /* JBSourceValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSourceValue.m; sourceTree = "<group>"; };
+		99160ACD1CFF35DB00D4A51C /* JBStaticInitMerger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBStaticInitMerger.h; sourceTree = "<group>"; };
+		99160ACE1CFF35DB00D4A51C /* JBStaticInitMerger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBStaticInitMerger.m; sourceTree = "<group>"; };
+		99160ACF1CFF35DB00D4A51C /* JBTableSwitchInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTableSwitchInsnNode.h; sourceTree = "<group>"; };
+		99160AD01CFF35DB00D4A51C /* JBTableSwitchInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTableSwitchInsnNode.m; sourceTree = "<group>"; };
+		99160AD11CFF35DB00D4A51C /* JBTextifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTextifier.h; sourceTree = "<group>"; };
+		99160AD21CFF35DB00D4A51C /* JBTextifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTextifier.m; sourceTree = "<group>"; };
+		99160AD31CFF35DB00D4A51C /* JBTraceAnnotationVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTraceAnnotationVisitor.h; sourceTree = "<group>"; };
+		99160AD41CFF35DB00D4A51C /* JBTraceAnnotationVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTraceAnnotationVisitor.m; sourceTree = "<group>"; };
+		99160AD51CFF35DB00D4A51C /* JBTraceClassVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTraceClassVisitor.h; sourceTree = "<group>"; };
+		99160AD61CFF35DB00D4A51C /* JBTraceClassVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTraceClassVisitor.m; sourceTree = "<group>"; };
+		99160AD71CFF35DB00D4A51C /* JBTraceFieldVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTraceFieldVisitor.h; sourceTree = "<group>"; };
+		99160AD81CFF35DB00D4A51C /* JBTraceFieldVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTraceFieldVisitor.m; sourceTree = "<group>"; };
+		99160AD91CFF35DB00D4A51C /* JBTraceMethodVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTraceMethodVisitor.h; sourceTree = "<group>"; };
+		99160ADA1CFF35DB00D4A51C /* JBTraceMethodVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTraceMethodVisitor.m; sourceTree = "<group>"; };
+		99160ADB1CFF35DB00D4A51C /* JBTraceSignatureVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTraceSignatureVisitor.h; sourceTree = "<group>"; };
+		99160ADC1CFF35DB00D4A51C /* JBTraceSignatureVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTraceSignatureVisitor.m; sourceTree = "<group>"; };
+		99160ADD1CFF35DB00D4A51C /* JBTryCatchBlockNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTryCatchBlockNode.h; sourceTree = "<group>"; };
+		99160ADE1CFF35DB00D4A51C /* JBTryCatchBlockNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTryCatchBlockNode.m; sourceTree = "<group>"; };
+		99160ADF1CFF35DB00D4A51C /* JBTryCatchBlockSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTryCatchBlockSorter.h; sourceTree = "<group>"; };
+		99160AE01CFF35DB00D4A51C /* JBTryCatchBlockSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTryCatchBlockSorter.m; sourceTree = "<group>"; };
+		99160AE11CFF35DB00D4A51C /* JBType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBType.h; sourceTree = "<group>"; };
+		99160AE21CFF35DB00D4A51C /* JBType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBType.m; sourceTree = "<group>"; };
+		99160AE31CFF35DB00D4A51C /* JBTypeAnnotationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTypeAnnotationNode.h; sourceTree = "<group>"; };
+		99160AE41CFF35DB00D4A51C /* JBTypeAnnotationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTypeAnnotationNode.m; sourceTree = "<group>"; };
+		99160AE51CFF35DB00D4A51C /* JBTypeInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTypeInsnNode.h; sourceTree = "<group>"; };
+		99160AE61CFF35DB00D4A51C /* JBTypeInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTypeInsnNode.m; sourceTree = "<group>"; };
+		99160AE71CFF35DB00D4A51C /* JBTypePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTypePath.h; sourceTree = "<group>"; };
+		99160AE81CFF35DB00D4A51C /* JBTypePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTypePath.m; sourceTree = "<group>"; };
+		99160AE91CFF35DB00D4A51C /* JBTypeReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTypeReference.h; sourceTree = "<group>"; };
+		99160AEA1CFF35DB00D4A51C /* JBTypeReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTypeReference.m; sourceTree = "<group>"; };
+		99160AEB1CFF35DB00D4A51C /* JBVarInsnNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBVarInsnNode.h; sourceTree = "<group>"; };
+		99160AEC1CFF35DB00D4A51C /* JBVarInsnNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBVarInsnNode.m; sourceTree = "<group>"; };
 		9E576CB62AE0262C5C9811D8 /* MOE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOE.framework; sourceTree = MOE_FRAMEWORK_PATH; };
 		ACEF32447B28F672E69CFB44 /* bind_asm_all_5_1-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bind_asm_all_5_1-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1705E7D2AC885BAF6A35062 /* intel_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intel_logo.png; path = ../src/main/resources/intel_logo.png; sourceTree = SOURCE_ROOT; };
@@ -386,9 +386,192 @@
 			path = "bind_asm_all_5_1-Test";
 			sourceTree = "<group>";
 		};
+		99160A3D1CFF35DB00D4A51C /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				99160A3E1CFF35DB00D4A51C /* JBASMContentHandler.h */,
+				99160A3F1CFF35DB00D4A51C /* JBASMContentHandler.m */,
+				99160A401CFF35DB00D4A51C /* JBASMifier.h */,
+				99160A411CFF35DB00D4A51C /* JBASMifier.m */,
+				99160A421CFF35DB00D4A51C /* JBAnalyzer.h */,
+				99160A431CFF35DB00D4A51C /* JBAnalyzer.m */,
+				99160A441CFF35DB00D4A51C /* JBAnalyzerAdapter.h */,
+				99160A451CFF35DB00D4A51C /* JBAnalyzerAdapter.m */,
+				99160A461CFF35DB00D4A51C /* JBAnalyzerException.h */,
+				99160A471CFF35DB00D4A51C /* JBAnalyzerException.m */,
+				99160A481CFF35DB00D4A51C /* JBAnnotationNode.h */,
+				99160A491CFF35DB00D4A51C /* JBAnnotationNode.m */,
+				99160A4A1CFF35DB00D4A51C /* JBAnnotationRemapper.h */,
+				99160A4B1CFF35DB00D4A51C /* JBAnnotationRemapper.m */,
+				99160A4C1CFF35DB00D4A51C /* JBAttribute.h */,
+				99160A4D1CFF35DB00D4A51C /* JBAttribute.m */,
+				99160A4E1CFF35DB00D4A51C /* JBBasicInterpreter.h */,
+				99160A4F1CFF35DB00D4A51C /* JBBasicInterpreter.m */,
+				99160A501CFF35DB00D4A51C /* JBBasicValue.h */,
+				99160A511CFF35DB00D4A51C /* JBBasicValue.m */,
+				99160A521CFF35DB00D4A51C /* JBBasicVerifier.h */,
+				99160A531CFF35DB00D4A51C /* JBBasicVerifier.m */,
+				99160A541CFF35DB00D4A51C /* JBByteVector.h */,
+				99160A551CFF35DB00D4A51C /* JBByteVector.m */,
+				99160A561CFF35DB00D4A51C /* JBCheckAnnotationAdapter.h */,
+				99160A571CFF35DB00D4A51C /* JBCheckAnnotationAdapter.m */,
+				99160A581CFF35DB00D4A51C /* JBCheckClassAdapter.h */,
+				99160A591CFF35DB00D4A51C /* JBCheckClassAdapter.m */,
+				99160A5A1CFF35DB00D4A51C /* JBCheckFieldAdapter.h */,
+				99160A5B1CFF35DB00D4A51C /* JBCheckFieldAdapter.m */,
+				99160A5C1CFF35DB00D4A51C /* JBCheckMethodAdapter.h */,
+				99160A5D1CFF35DB00D4A51C /* JBCheckMethodAdapter.m */,
+				99160A5E1CFF35DB00D4A51C /* JBCheckSignatureAdapter.h */,
+				99160A5F1CFF35DB00D4A51C /* JBCheckSignatureAdapter.m */,
+				99160A601CFF35DB00D4A51C /* JBClassNode.h */,
+				99160A611CFF35DB00D4A51C /* JBClassNode.m */,
+				99160A621CFF35DB00D4A51C /* JBClassReader.h */,
+				99160A631CFF35DB00D4A51C /* JBClassReader.m */,
+				99160A641CFF35DB00D4A51C /* JBClassRemapper.h */,
+				99160A651CFF35DB00D4A51C /* JBClassRemapper.m */,
+				99160A661CFF35DB00D4A51C /* JBClassWriter.h */,
+				99160A671CFF35DB00D4A51C /* JBClassWriter.m */,
+				99160A681CFF35DB00D4A51C /* JBCodeSizeEvaluator.h */,
+				99160A691CFF35DB00D4A51C /* JBCodeSizeEvaluator.m */,
+				99160A6A1CFF35DB00D4A51C /* JBFieldInsnNode.h */,
+				99160A6B1CFF35DB00D4A51C /* JBFieldInsnNode.m */,
+				99160A6C1CFF35DB00D4A51C /* JBFieldNode.h */,
+				99160A6D1CFF35DB00D4A51C /* JBFieldNode.m */,
+				99160A6E1CFF35DB00D4A51C /* JBFieldRemapper.h */,
+				99160A6F1CFF35DB00D4A51C /* JBFieldRemapper.m */,
+				99160A701CFF35DB00D4A51C /* JBFrame.h */,
+				99160A711CFF35DB00D4A51C /* JBFrame.m */,
+				99160A721CFF35DB00D4A51C /* JBFrameNode.h */,
+				99160A731CFF35DB00D4A51C /* JBFrameNode.m */,
+				99160A741CFF35DB00D4A51C /* JBGeneratorAdapter.h */,
+				99160A751CFF35DB00D4A51C /* JBGeneratorAdapter.m */,
+				99160A761CFF35DB00D4A51C /* JBHandle.h */,
+				99160A771CFF35DB00D4A51C /* JBHandle.m */,
+				99160A781CFF35DB00D4A51C /* JBIincInsnNode.h */,
+				99160A791CFF35DB00D4A51C /* JBIincInsnNode.m */,
+				99160A7A1CFF35DB00D4A51C /* JBInnerClassNode.h */,
+				99160A7B1CFF35DB00D4A51C /* JBInnerClassNode.m */,
+				99160A7C1CFF35DB00D4A51C /* JBInsnList.h */,
+				99160A7D1CFF35DB00D4A51C /* JBInsnList.m */,
+				99160A7E1CFF35DB00D4A51C /* JBInsnNode.h */,
+				99160A7F1CFF35DB00D4A51C /* JBInsnNode.m */,
+				99160A801CFF35DB00D4A51C /* JBInstructionAdapter.h */,
+				99160A811CFF35DB00D4A51C /* JBInstructionAdapter.m */,
+				99160A821CFF35DB00D4A51C /* JBIntInsnNode.h */,
+				99160A831CFF35DB00D4A51C /* JBIntInsnNode.m */,
+				99160A841CFF35DB00D4A51C /* JBInvokeDynamicInsnNode.h */,
+				99160A851CFF35DB00D4A51C /* JBInvokeDynamicInsnNode.m */,
+				99160A861CFF35DB00D4A51C /* JBJSRInlinerAdapter.h */,
+				99160A871CFF35DB00D4A51C /* JBJSRInlinerAdapter.m */,
+				99160A881CFF35DB00D4A51C /* JBJumpInsnNode.h */,
+				99160A891CFF35DB00D4A51C /* JBJumpInsnNode.m */,
+				99160A8A1CFF35DB00D4A51C /* JBLabel.h */,
+				99160A8B1CFF35DB00D4A51C /* JBLabel.m */,
+				99160A8C1CFF35DB00D4A51C /* JBLabelNode.h */,
+				99160A8D1CFF35DB00D4A51C /* JBLabelNode.m */,
+				99160A8E1CFF35DB00D4A51C /* JBLdcInsnNode.h */,
+				99160A8F1CFF35DB00D4A51C /* JBLdcInsnNode.m */,
+				99160A901CFF35DB00D4A51C /* JBLineNumberNode.h */,
+				99160A911CFF35DB00D4A51C /* JBLineNumberNode.m */,
+				99160A921CFF35DB00D4A51C /* JBLocalVariableAnnotationNode.h */,
+				99160A931CFF35DB00D4A51C /* JBLocalVariableAnnotationNode.m */,
+				99160A941CFF35DB00D4A51C /* JBLocalVariableNode.h */,
+				99160A951CFF35DB00D4A51C /* JBLocalVariableNode.m */,
+				99160A961CFF35DB00D4A51C /* JBLocalVariablesSorter.h */,
+				99160A971CFF35DB00D4A51C /* JBLocalVariablesSorter.m */,
+				99160A981CFF35DB00D4A51C /* JBLookupSwitchInsnNode.h */,
+				99160A991CFF35DB00D4A51C /* JBLookupSwitchInsnNode.m */,
+				99160A9A1CFF35DB00D4A51C /* JBMethod.h */,
+				99160A9B1CFF35DB00D4A51C /* JBMethod.m */,
+				99160A9C1CFF35DB00D4A51C /* JBMethodInsnNode.h */,
+				99160A9D1CFF35DB00D4A51C /* JBMethodInsnNode.m */,
+				99160A9E1CFF35DB00D4A51C /* JBMethodNode.h */,
+				99160A9F1CFF35DB00D4A51C /* JBMethodNode.m */,
+				99160AA01CFF35DB00D4A51C /* JBMethodRemapper.h */,
+				99160AA11CFF35DB00D4A51C /* JBMethodRemapper.m */,
+				99160AA21CFF35DB00D4A51C /* JBMultiANewArrayInsnNode.h */,
+				99160AA31CFF35DB00D4A51C /* JBMultiANewArrayInsnNode.m */,
+				99160AA41CFF35DB00D4A51C /* JBOpcodes.h */,
+				99160AA51CFF35DB00D4A51C /* JBParameterNode.h */,
+				99160AA61CFF35DB00D4A51C /* JBParameterNode.m */,
+				99160AA71CFF35DB00D4A51C /* JBProcessor.h */,
+				99160AA81CFF35DB00D4A51C /* JBProcessor.m */,
+				99160AA91CFF35DB00D4A51C /* JBRemappingAnnotationAdapter.h */,
+				99160AAA1CFF35DB00D4A51C /* JBRemappingAnnotationAdapter.m */,
+				99160AAB1CFF35DB00D4A51C /* JBRemappingClassAdapter.h */,
+				99160AAC1CFF35DB00D4A51C /* JBRemappingClassAdapter.m */,
+				99160AAD1CFF35DB00D4A51C /* JBRemappingFieldAdapter.h */,
+				99160AAE1CFF35DB00D4A51C /* JBRemappingFieldAdapter.m */,
+				99160AAF1CFF35DB00D4A51C /* JBRemappingMethodAdapter.h */,
+				99160AB01CFF35DB00D4A51C /* JBRemappingMethodAdapter.m */,
+				99160AB11CFF35DB00D4A51C /* JBRemappingSignatureAdapter.h */,
+				99160AB21CFF35DB00D4A51C /* JBRemappingSignatureAdapter.m */,
+				99160AB31CFF35DB00D4A51C /* JBSAXAdapter.h */,
+				99160AB41CFF35DB00D4A51C /* JBSAXAdapter.m */,
+				99160AB51CFF35DB00D4A51C /* JBSAXAnnotationAdapter.h */,
+				99160AB61CFF35DB00D4A51C /* JBSAXAnnotationAdapter.m */,
+				99160AB71CFF35DB00D4A51C /* JBSAXClassAdapter.h */,
+				99160AB81CFF35DB00D4A51C /* JBSAXClassAdapter.m */,
+				99160AB91CFF35DB00D4A51C /* JBSAXCodeAdapter.h */,
+				99160ABA1CFF35DB00D4A51C /* JBSAXCodeAdapter.m */,
+				99160ABB1CFF35DB00D4A51C /* JBSAXFieldAdapter.h */,
+				99160ABC1CFF35DB00D4A51C /* JBSAXFieldAdapter.m */,
+				99160ABD1CFF35DB00D4A51C /* JBSerialVersionUIDAdder.h */,
+				99160ABE1CFF35DB00D4A51C /* JBSerialVersionUIDAdder.m */,
+				99160ABF1CFF35DB00D4A51C /* JBSignatureReader.h */,
+				99160AC01CFF35DB00D4A51C /* JBSignatureReader.m */,
+				99160AC11CFF35DB00D4A51C /* JBSignatureRemapper.h */,
+				99160AC21CFF35DB00D4A51C /* JBSignatureRemapper.m */,
+				99160AC31CFF35DB00D4A51C /* JBSignatureWriter.h */,
+				99160AC41CFF35DB00D4A51C /* JBSignatureWriter.m */,
+				99160AC51CFF35DB00D4A51C /* JBSimpleRemapper.h */,
+				99160AC61CFF35DB00D4A51C /* JBSimpleRemapper.m */,
+				99160AC71CFF35DB00D4A51C /* JBSimpleVerifier.h */,
+				99160AC81CFF35DB00D4A51C /* JBSimpleVerifier.m */,
+				99160AC91CFF35DB00D4A51C /* JBSourceInterpreter.h */,
+				99160ACA1CFF35DB00D4A51C /* JBSourceInterpreter.m */,
+				99160ACB1CFF35DB00D4A51C /* JBSourceValue.h */,
+				99160ACC1CFF35DB00D4A51C /* JBSourceValue.m */,
+				99160ACD1CFF35DB00D4A51C /* JBStaticInitMerger.h */,
+				99160ACE1CFF35DB00D4A51C /* JBStaticInitMerger.m */,
+				99160ACF1CFF35DB00D4A51C /* JBTableSwitchInsnNode.h */,
+				99160AD01CFF35DB00D4A51C /* JBTableSwitchInsnNode.m */,
+				99160AD11CFF35DB00D4A51C /* JBTextifier.h */,
+				99160AD21CFF35DB00D4A51C /* JBTextifier.m */,
+				99160AD31CFF35DB00D4A51C /* JBTraceAnnotationVisitor.h */,
+				99160AD41CFF35DB00D4A51C /* JBTraceAnnotationVisitor.m */,
+				99160AD51CFF35DB00D4A51C /* JBTraceClassVisitor.h */,
+				99160AD61CFF35DB00D4A51C /* JBTraceClassVisitor.m */,
+				99160AD71CFF35DB00D4A51C /* JBTraceFieldVisitor.h */,
+				99160AD81CFF35DB00D4A51C /* JBTraceFieldVisitor.m */,
+				99160AD91CFF35DB00D4A51C /* JBTraceMethodVisitor.h */,
+				99160ADA1CFF35DB00D4A51C /* JBTraceMethodVisitor.m */,
+				99160ADB1CFF35DB00D4A51C /* JBTraceSignatureVisitor.h */,
+				99160ADC1CFF35DB00D4A51C /* JBTraceSignatureVisitor.m */,
+				99160ADD1CFF35DB00D4A51C /* JBTryCatchBlockNode.h */,
+				99160ADE1CFF35DB00D4A51C /* JBTryCatchBlockNode.m */,
+				99160ADF1CFF35DB00D4A51C /* JBTryCatchBlockSorter.h */,
+				99160AE01CFF35DB00D4A51C /* JBTryCatchBlockSorter.m */,
+				99160AE11CFF35DB00D4A51C /* JBType.h */,
+				99160AE21CFF35DB00D4A51C /* JBType.m */,
+				99160AE31CFF35DB00D4A51C /* JBTypeAnnotationNode.h */,
+				99160AE41CFF35DB00D4A51C /* JBTypeAnnotationNode.m */,
+				99160AE51CFF35DB00D4A51C /* JBTypeInsnNode.h */,
+				99160AE61CFF35DB00D4A51C /* JBTypeInsnNode.m */,
+				99160AE71CFF35DB00D4A51C /* JBTypePath.h */,
+				99160AE81CFF35DB00D4A51C /* JBTypePath.m */,
+				99160AE91CFF35DB00D4A51C /* JBTypeReference.h */,
+				99160AEA1CFF35DB00D4A51C /* JBTypeReference.m */,
+				99160AEB1CFF35DB00D4A51C /* JBVarInsnNode.h */,
+				99160AEC1CFF35DB00D4A51C /* JBVarInsnNode.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
 		9B4471F4BA79E05435ACE56F /* bind_asm_all_5_1 */ = {
 			isa = PBXGroup;
 			children = (
+				99160A3D1CFF35DB00D4A51C /* objc */,
 				E3F98A21645B468FA14A7EB0 /* Supporting Files */,
 			);
 			path = bind_asm_all_5_1;
@@ -415,181 +598,6 @@
 				40C62EFC2AA7DD0D28ABA52F /* LaunchScreen.xib */,
 				B1705E7D2AC885BAF6A35062 /* intel_logo.png */,
 				3D7EB3D2A4184B90C6D896A0 /* MainUI.storyboard */,
-				991609371CFEDE7A00D4A51C /* Analyzer.h */,
-				991609381CFEDE7A00D4A51C /* Analyzer.m */,
-				991609391CFEDE7A00D4A51C /* AnalyzerAdapter.h */,
-				9916093A1CFEDE7A00D4A51C /* AnalyzerAdapter.m */,
-				9916093B1CFEDE7A00D4A51C /* AnalyzerException.h */,
-				9916093C1CFEDE7A00D4A51C /* AnalyzerException.m */,
-				9916093D1CFEDE7A00D4A51C /* AnnotationNode.h */,
-				9916093E1CFEDE7A00D4A51C /* AnnotationNode.m */,
-				9916093F1CFEDE7A00D4A51C /* AnnotationRemapper.h */,
-				991609401CFEDE7A00D4A51C /* AnnotationRemapper.m */,
-				991609411CFEDE7A00D4A51C /* ASMContentHandler.h */,
-				991609421CFEDE7A00D4A51C /* ASMContentHandler.m */,
-				991609431CFEDE7A00D4A51C /* ASMifier.h */,
-				991609441CFEDE7A00D4A51C /* ASMifier.m */,
-				991609451CFEDE7A00D4A51C /* Attribute.h */,
-				991609461CFEDE7A00D4A51C /* Attribute.m */,
-				991609471CFEDE7A00D4A51C /* BasicInterpreter.h */,
-				991609481CFEDE7A00D4A51C /* BasicInterpreter.m */,
-				991609491CFEDE7A00D4A51C /* BasicValue.h */,
-				9916094A1CFEDE7A00D4A51C /* BasicValue.m */,
-				9916094B1CFEDE7A00D4A51C /* BasicVerifier.h */,
-				9916094C1CFEDE7A00D4A51C /* BasicVerifier.m */,
-				9916094D1CFEDE7A00D4A51C /* ByteVector.h */,
-				9916094E1CFEDE7A00D4A51C /* ByteVector.m */,
-				9916094F1CFEDE7A00D4A51C /* CheckAnnotationAdapter.h */,
-				991609501CFEDE7A00D4A51C /* CheckAnnotationAdapter.m */,
-				991609511CFEDE7A00D4A51C /* CheckClassAdapter.h */,
-				991609521CFEDE7A00D4A51C /* CheckClassAdapter.m */,
-				991609531CFEDE7A00D4A51C /* CheckFieldAdapter.h */,
-				991609541CFEDE7A00D4A51C /* CheckFieldAdapter.m */,
-				991609551CFEDE7A00D4A51C /* CheckMethodAdapter.h */,
-				991609561CFEDE7A00D4A51C /* CheckMethodAdapter.m */,
-				991609571CFEDE7A00D4A51C /* CheckSignatureAdapter.h */,
-				991609581CFEDE7A00D4A51C /* CheckSignatureAdapter.m */,
-				991609591CFEDE7A00D4A51C /* ClassNode.h */,
-				9916095A1CFEDE7A00D4A51C /* ClassNode.m */,
-				9916095B1CFEDE7A00D4A51C /* ClassReader.h */,
-				9916095C1CFEDE7A00D4A51C /* ClassReader.m */,
-				9916095D1CFEDE7A00D4A51C /* ClassRemapper.h */,
-				9916095E1CFEDE7A00D4A51C /* ClassRemapper.m */,
-				9916095F1CFEDE7A00D4A51C /* ClassWriter.h */,
-				991609601CFEDE7A00D4A51C /* ClassWriter.m */,
-				991609611CFEDE7A00D4A51C /* CodeSizeEvaluator.h */,
-				991609621CFEDE7A00D4A51C /* CodeSizeEvaluator.m */,
-				991609631CFEDE7A00D4A51C /* FieldInsnNode.h */,
-				991609641CFEDE7A00D4A51C /* FieldInsnNode.m */,
-				991609651CFEDE7A00D4A51C /* FieldNode.h */,
-				991609661CFEDE7A00D4A51C /* FieldNode.m */,
-				991609671CFEDE7A00D4A51C /* FieldRemapper.h */,
-				991609681CFEDE7A00D4A51C /* FieldRemapper.m */,
-				991609691CFEDE7A00D4A51C /* Frame.h */,
-				9916096A1CFEDE7A00D4A51C /* Frame.m */,
-				9916096B1CFEDE7A00D4A51C /* FrameNode.h */,
-				9916096C1CFEDE7A00D4A51C /* FrameNode.m */,
-				9916096D1CFEDE7A00D4A51C /* GeneratorAdapter.h */,
-				9916096E1CFEDE7A00D4A51C /* GeneratorAdapter.m */,
-				9916096F1CFEDE7A00D4A51C /* Handle.h */,
-				991609701CFEDE7A00D4A51C /* Handle.m */,
-				991609711CFEDE7A00D4A51C /* IincInsnNode.h */,
-				991609721CFEDE7A00D4A51C /* IincInsnNode.m */,
-				991609731CFEDE7A00D4A51C /* InnerClassNode.h */,
-				991609741CFEDE7A00D4A51C /* InnerClassNode.m */,
-				991609751CFEDE7A00D4A51C /* InsnList.h */,
-				991609761CFEDE7A00D4A51C /* InsnList.m */,
-				991609771CFEDE7A00D4A51C /* InsnNode.h */,
-				991609781CFEDE7A00D4A51C /* InsnNode.m */,
-				991609791CFEDE7A00D4A51C /* InstructionAdapter.h */,
-				9916097A1CFEDE7A00D4A51C /* InstructionAdapter.m */,
-				9916097B1CFEDE7A00D4A51C /* IntInsnNode.h */,
-				9916097C1CFEDE7A00D4A51C /* IntInsnNode.m */,
-				9916097D1CFEDE7A00D4A51C /* InvokeDynamicInsnNode.h */,
-				9916097E1CFEDE7A00D4A51C /* InvokeDynamicInsnNode.m */,
-				9916097F1CFEDE7A00D4A51C /* JSRInlinerAdapter.h */,
-				991609801CFEDE7A00D4A51C /* JSRInlinerAdapter.m */,
-				991609811CFEDE7A00D4A51C /* JumpInsnNode.h */,
-				991609821CFEDE7A00D4A51C /* JumpInsnNode.m */,
-				991609831CFEDE7A00D4A51C /* Label.h */,
-				991609841CFEDE7A00D4A51C /* Label.m */,
-				991609851CFEDE7A00D4A51C /* LabelNode.h */,
-				991609861CFEDE7A00D4A51C /* LabelNode.m */,
-				991609871CFEDE7A00D4A51C /* LdcInsnNode.h */,
-				991609881CFEDE7A00D4A51C /* LdcInsnNode.m */,
-				991609891CFEDE7A00D4A51C /* LineNumberNode.h */,
-				9916098A1CFEDE7A00D4A51C /* LineNumberNode.m */,
-				9916098B1CFEDE7A00D4A51C /* LocalVariableAnnotationNode.h */,
-				9916098C1CFEDE7A00D4A51C /* LocalVariableAnnotationNode.m */,
-				9916098D1CFEDE7A00D4A51C /* LocalVariableNode.h */,
-				9916098E1CFEDE7A00D4A51C /* LocalVariableNode.m */,
-				9916098F1CFEDE7A00D4A51C /* LocalVariablesSorter.h */,
-				991609901CFEDE7A00D4A51C /* LocalVariablesSorter.m */,
-				991609911CFEDE7A00D4A51C /* LookupSwitchInsnNode.h */,
-				991609921CFEDE7A00D4A51C /* LookupSwitchInsnNode.m */,
-				991609931CFEDE7A00D4A51C /* Method.h */,
-				991609941CFEDE7A00D4A51C /* Method.m */,
-				991609951CFEDE7A00D4A51C /* MethodInsnNode.h */,
-				991609961CFEDE7A00D4A51C /* MethodInsnNode.m */,
-				991609971CFEDE7A00D4A51C /* MethodNode.h */,
-				991609981CFEDE7A00D4A51C /* MethodNode.m */,
-				991609991CFEDE7A00D4A51C /* MethodRemapper.h */,
-				9916099A1CFEDE7A00D4A51C /* MethodRemapper.m */,
-				9916099B1CFEDE7A00D4A51C /* MultiANewArrayInsnNode.h */,
-				9916099C1CFEDE7A00D4A51C /* MultiANewArrayInsnNode.m */,
-				9916099D1CFEDE7A00D4A51C /* Opcodes.h */,
-				9916099E1CFEDE7A00D4A51C /* ParameterNode.h */,
-				9916099F1CFEDE7A00D4A51C /* ParameterNode.m */,
-				991609A01CFEDE7A00D4A51C /* Processor.h */,
-				991609A11CFEDE7A00D4A51C /* Processor.m */,
-				991609A21CFEDE7A00D4A51C /* RemappingAnnotationAdapter.h */,
-				991609A31CFEDE7A00D4A51C /* RemappingAnnotationAdapter.m */,
-				991609A41CFEDE7A00D4A51C /* RemappingClassAdapter.h */,
-				991609A51CFEDE7A00D4A51C /* RemappingClassAdapter.m */,
-				991609A61CFEDE7A00D4A51C /* RemappingFieldAdapter.h */,
-				991609A71CFEDE7A00D4A51C /* RemappingFieldAdapter.m */,
-				991609A81CFEDE7A00D4A51C /* RemappingMethodAdapter.h */,
-				991609A91CFEDE7A00D4A51C /* RemappingMethodAdapter.m */,
-				991609AA1CFEDE7A00D4A51C /* RemappingSignatureAdapter.h */,
-				991609AB1CFEDE7A00D4A51C /* RemappingSignatureAdapter.m */,
-				991609AC1CFEDE7A00D4A51C /* SAXAdapter.h */,
-				991609AD1CFEDE7A00D4A51C /* SAXAdapter.m */,
-				991609AE1CFEDE7A00D4A51C /* SAXAnnotationAdapter.h */,
-				991609AF1CFEDE7A00D4A51C /* SAXAnnotationAdapter.m */,
-				991609B01CFEDE7A00D4A51C /* SAXClassAdapter.h */,
-				991609B11CFEDE7A00D4A51C /* SAXClassAdapter.m */,
-				991609B21CFEDE7A00D4A51C /* SAXCodeAdapter.h */,
-				991609B31CFEDE7A00D4A51C /* SAXCodeAdapter.m */,
-				991609B41CFEDE7A00D4A51C /* SAXFieldAdapter.h */,
-				991609B51CFEDE7A00D4A51C /* SAXFieldAdapter.m */,
-				991609B61CFEDE7A00D4A51C /* SerialVersionUIDAdder.h */,
-				991609B71CFEDE7A00D4A51C /* SerialVersionUIDAdder.m */,
-				991609B81CFEDE7A00D4A51C /* SignatureReader.h */,
-				991609B91CFEDE7A00D4A51C /* SignatureReader.m */,
-				991609BA1CFEDE7A00D4A51C /* SignatureRemapper.h */,
-				991609BB1CFEDE7A00D4A51C /* SignatureRemapper.m */,
-				991609BC1CFEDE7B00D4A51C /* SignatureWriter.h */,
-				991609BD1CFEDE7B00D4A51C /* SignatureWriter.m */,
-				991609BE1CFEDE7B00D4A51C /* SimpleRemapper.h */,
-				991609BF1CFEDE7B00D4A51C /* SimpleRemapper.m */,
-				991609C01CFEDE7B00D4A51C /* SimpleVerifier.h */,
-				991609C11CFEDE7B00D4A51C /* SimpleVerifier.m */,
-				991609C21CFEDE7B00D4A51C /* SourceInterpreter.h */,
-				991609C31CFEDE7B00D4A51C /* SourceInterpreter.m */,
-				991609C41CFEDE7B00D4A51C /* SourceValue.h */,
-				991609C51CFEDE7B00D4A51C /* SourceValue.m */,
-				991609C61CFEDE7B00D4A51C /* StaticInitMerger.h */,
-				991609C71CFEDE7B00D4A51C /* StaticInitMerger.m */,
-				991609C81CFEDE7B00D4A51C /* TableSwitchInsnNode.h */,
-				991609C91CFEDE7B00D4A51C /* TableSwitchInsnNode.m */,
-				991609CA1CFEDE7B00D4A51C /* Textifier.h */,
-				991609CB1CFEDE7B00D4A51C /* Textifier.m */,
-				991609CC1CFEDE7B00D4A51C /* TraceAnnotationVisitor.h */,
-				991609CD1CFEDE7B00D4A51C /* TraceAnnotationVisitor.m */,
-				991609CE1CFEDE7B00D4A51C /* TraceClassVisitor.h */,
-				991609CF1CFEDE7B00D4A51C /* TraceClassVisitor.m */,
-				991609D01CFEDE7B00D4A51C /* TraceFieldVisitor.h */,
-				991609D11CFEDE7B00D4A51C /* TraceFieldVisitor.m */,
-				991609D21CFEDE7B00D4A51C /* TraceMethodVisitor.h */,
-				991609D31CFEDE7B00D4A51C /* TraceMethodVisitor.m */,
-				991609D41CFEDE7B00D4A51C /* TraceSignatureVisitor.h */,
-				991609D51CFEDE7B00D4A51C /* TraceSignatureVisitor.m */,
-				991609D61CFEDE7B00D4A51C /* TryCatchBlockNode.h */,
-				991609D71CFEDE7B00D4A51C /* TryCatchBlockNode.m */,
-				991609D81CFEDE7B00D4A51C /* TryCatchBlockSorter.h */,
-				991609D91CFEDE7B00D4A51C /* TryCatchBlockSorter.m */,
-				991609DA1CFEDE7B00D4A51C /* Type.h */,
-				991609DB1CFEDE7B00D4A51C /* Type.m */,
-				991609DC1CFEDE7B00D4A51C /* TypeAnnotationNode.h */,
-				991609DD1CFEDE7B00D4A51C /* TypeAnnotationNode.m */,
-				991609DE1CFEDE7B00D4A51C /* TypeInsnNode.h */,
-				991609DF1CFEDE7B00D4A51C /* TypeInsnNode.m */,
-				991609E01CFEDE7B00D4A51C /* TypePath.h */,
-				991609E11CFEDE7B00D4A51C /* TypePath.m */,
-				991609E21CFEDE7B00D4A51C /* TypeReference.h */,
-				991609E31CFEDE7B00D4A51C /* TypeReference.m */,
-				991609E41CFEDE7B00D4A51C /* VarInsnNode.h */,
-				991609E51CFEDE7B00D4A51C /* VarInsnNode.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -727,94 +735,94 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				991609F01CFEDE7B00D4A51C /* BasicVerifier.m in Sources */,
-				991609F41CFEDE7B00D4A51C /* CheckFieldAdapter.m in Sources */,
-				991609FD1CFEDE7B00D4A51C /* FieldNode.m in Sources */,
-				99160A131CFEDE7B00D4A51C /* LookupSwitchInsnNode.m in Sources */,
-				99160A1D1CFEDE7B00D4A51C /* RemappingFieldAdapter.m in Sources */,
-				99160A141CFEDE7B00D4A51C /* Method.m in Sources */,
-				99160A311CFEDE7B00D4A51C /* TraceClassVisitor.m in Sources */,
-				99160A331CFEDE7B00D4A51C /* TraceMethodVisitor.m in Sources */,
-				99160A041CFEDE7B00D4A51C /* InnerClassNode.m in Sources */,
-				99160A1B1CFEDE7B00D4A51C /* RemappingAnnotationAdapter.m in Sources */,
-				99160A201CFEDE7B00D4A51C /* SAXAdapter.m in Sources */,
-				99160A191CFEDE7B00D4A51C /* ParameterNode.m in Sources */,
-				99160A181CFEDE7B00D4A51C /* MultiANewArrayInsnNode.m in Sources */,
-				991609EA1CFEDE7B00D4A51C /* AnnotationRemapper.m in Sources */,
-				991609EB1CFEDE7B00D4A51C /* ASMContentHandler.m in Sources */,
-				99160A271CFEDE7B00D4A51C /* SignatureRemapper.m in Sources */,
-				99160A251CFEDE7B00D4A51C /* SerialVersionUIDAdder.m in Sources */,
-				99160A351CFEDE7B00D4A51C /* TryCatchBlockNode.m in Sources */,
-				99160A281CFEDE7B00D4A51C /* SignatureWriter.m in Sources */,
-				991609E71CFEDE7B00D4A51C /* AnalyzerAdapter.m in Sources */,
-				99160A301CFEDE7B00D4A51C /* TraceAnnotationVisitor.m in Sources */,
-				99160A211CFEDE7B00D4A51C /* SAXAnnotationAdapter.m in Sources */,
-				991609F11CFEDE7B00D4A51C /* ByteVector.m in Sources */,
+				99160B211CFF35DB00D4A51C /* JBProcessor.m in Sources */,
+				99160B3B1CFF35DB00D4A51C /* JBTraceSignatureVisitor.m in Sources */,
+				99160B381CFF35DB00D4A51C /* JBTraceClassVisitor.m in Sources */,
+				99160B3C1CFF35DB00D4A51C /* JBTryCatchBlockNode.m in Sources */,
+				99160B3E1CFF35DB00D4A51C /* JBType.m in Sources */,
+				99160AF01CFF35DB00D4A51C /* JBAnalyzerAdapter.m in Sources */,
+				99160B261CFF35DB00D4A51C /* JBRemappingSignatureAdapter.m in Sources */,
+				99160B401CFF35DB00D4A51C /* JBTypeInsnNode.m in Sources */,
+				99160AED1CFF35DB00D4A51C /* JBASMContentHandler.m in Sources */,
+				99160B331CFF35DB00D4A51C /* JBSourceValue.m in Sources */,
+				99160AF71CFF35DB00D4A51C /* JBBasicVerifier.m in Sources */,
+				99160B0F1CFF35DB00D4A51C /* JBIntInsnNode.m in Sources */,
+				99160B041CFF35DB00D4A51C /* JBFieldNode.m in Sources */,
+				99160B1C1CFF35DB00D4A51C /* JBMethodInsnNode.m in Sources */,
+				99160AFA1CFF35DB00D4A51C /* JBCheckClassAdapter.m in Sources */,
+				99160B2A1CFF35DB00D4A51C /* JBSAXCodeAdapter.m in Sources */,
+				99160B121CFF35DB00D4A51C /* JBJumpInsnNode.m in Sources */,
+				99160B2B1CFF35DB00D4A51C /* JBSAXFieldAdapter.m in Sources */,
+				99160B3A1CFF35DB00D4A51C /* JBTraceMethodVisitor.m in Sources */,
+				99160B1D1CFF35DB00D4A51C /* JBMethodNode.m in Sources */,
+				99160B151CFF35DB00D4A51C /* JBLdcInsnNode.m in Sources */,
+				99160B1E1CFF35DB00D4A51C /* JBMethodRemapper.m in Sources */,
+				99160B251CFF35DB00D4A51C /* JBRemappingMethodAdapter.m in Sources */,
+				99160B091CFF35DB00D4A51C /* JBHandle.m in Sources */,
+				99160AF91CFF35DB00D4A51C /* JBCheckAnnotationAdapter.m in Sources */,
+				99160AF21CFF35DB00D4A51C /* JBAnnotationNode.m in Sources */,
+				99160B111CFF35DB00D4A51C /* JBJSRInlinerAdapter.m in Sources */,
+				99160B301CFF35DB00D4A51C /* JBSimpleRemapper.m in Sources */,
+				99160B201CFF35DB00D4A51C /* JBParameterNode.m in Sources */,
+				99160AF51CFF35DB00D4A51C /* JBBasicInterpreter.m in Sources */,
+				99160B001CFF35DB00D4A51C /* JBClassRemapper.m in Sources */,
+				99160AFC1CFF35DB00D4A51C /* JBCheckMethodAdapter.m in Sources */,
+				99160B011CFF35DB00D4A51C /* JBClassWriter.m in Sources */,
+				99160AF81CFF35DB00D4A51C /* JBByteVector.m in Sources */,
+				99160B131CFF35DB00D4A51C /* JBLabel.m in Sources */,
+				99160AEF1CFF35DB00D4A51C /* JBAnalyzer.m in Sources */,
+				99160B341CFF35DB00D4A51C /* JBStaticInitMerger.m in Sources */,
+				99160AF31CFF35DB00D4A51C /* JBAnnotationRemapper.m in Sources */,
+				99160B351CFF35DB00D4A51C /* JBTableSwitchInsnNode.m in Sources */,
+				99160B291CFF35DB00D4A51C /* JBSAXClassAdapter.m in Sources */,
+				99160B0E1CFF35DB00D4A51C /* JBInstructionAdapter.m in Sources */,
+				99160B0A1CFF35DB00D4A51C /* JBIincInsnNode.m in Sources */,
+				99160AFF1CFF35DB00D4A51C /* JBClassReader.m in Sources */,
+				99160B0B1CFF35DB00D4A51C /* JBInnerClassNode.m in Sources */,
+				99160AF61CFF35DB00D4A51C /* JBBasicValue.m in Sources */,
+				99160AF11CFF35DB00D4A51C /* JBAnalyzerException.m in Sources */,
+				99160B181CFF35DB00D4A51C /* JBLocalVariableNode.m in Sources */,
+				99160B0C1CFF35DB00D4A51C /* JBInsnList.m in Sources */,
+				99160B391CFF35DB00D4A51C /* JBTraceFieldVisitor.m in Sources */,
 				E31E659591BDF8BA90F8A83B /* main.cpp in Sources */,
-				991609FA1CFEDE7B00D4A51C /* ClassWriter.m in Sources */,
-				99160A261CFEDE7B00D4A51C /* SignatureReader.m in Sources */,
-				99160A3A1CFEDE7B00D4A51C /* TypePath.m in Sources */,
-				99160A071CFEDE7B00D4A51C /* InstructionAdapter.m in Sources */,
-				991609FF1CFEDE7B00D4A51C /* Frame.m in Sources */,
-				991609E91CFEDE7B00D4A51C /* AnnotationNode.m in Sources */,
-				99160A011CFEDE7B00D4A51C /* GeneratorAdapter.m in Sources */,
-				99160A2B1CFEDE7B00D4A51C /* SourceInterpreter.m in Sources */,
-				99160A121CFEDE7B00D4A51C /* LocalVariablesSorter.m in Sources */,
-				99160A361CFEDE7B00D4A51C /* TryCatchBlockSorter.m in Sources */,
-				99160A001CFEDE7B00D4A51C /* FrameNode.m in Sources */,
-				991609F91CFEDE7B00D4A51C /* ClassRemapper.m in Sources */,
-				99160A2C1CFEDE7B00D4A51C /* SourceValue.m in Sources */,
-				991609F31CFEDE7B00D4A51C /* CheckClassAdapter.m in Sources */,
-				99160A2E1CFEDE7B00D4A51C /* TableSwitchInsnNode.m in Sources */,
-				99160A171CFEDE7B00D4A51C /* MethodRemapper.m in Sources */,
-				99160A111CFEDE7B00D4A51C /* LocalVariableNode.m in Sources */,
-				991609F61CFEDE7B00D4A51C /* CheckSignatureAdapter.m in Sources */,
-				99160A101CFEDE7B00D4A51C /* LocalVariableAnnotationNode.m in Sources */,
-				99160A0C1CFEDE7B00D4A51C /* Label.m in Sources */,
-				99160A061CFEDE7B00D4A51C /* InsnNode.m in Sources */,
-				99160A391CFEDE7B00D4A51C /* TypeInsnNode.m in Sources */,
-				99160A0A1CFEDE7B00D4A51C /* JSRInlinerAdapter.m in Sources */,
-				99160A051CFEDE7B00D4A51C /* InsnList.m in Sources */,
-				99160A091CFEDE7B00D4A51C /* InvokeDynamicInsnNode.m in Sources */,
-				99160A151CFEDE7B00D4A51C /* MethodInsnNode.m in Sources */,
-				99160A0D1CFEDE7B00D4A51C /* LabelNode.m in Sources */,
-				991609EC1CFEDE7B00D4A51C /* ASMifier.m in Sources */,
-				99160A0E1CFEDE7B00D4A51C /* LdcInsnNode.m in Sources */,
-				99160A0F1CFEDE7B00D4A51C /* LineNumberNode.m in Sources */,
-				99160A031CFEDE7B00D4A51C /* IincInsnNode.m in Sources */,
-				99160A341CFEDE7B00D4A51C /* TraceSignatureVisitor.m in Sources */,
-				99160A381CFEDE7B00D4A51C /* TypeAnnotationNode.m in Sources */,
-				99160A2F1CFEDE7B00D4A51C /* Textifier.m in Sources */,
-				991609EF1CFEDE7B00D4A51C /* BasicValue.m in Sources */,
-				99160A371CFEDE7B00D4A51C /* Type.m in Sources */,
-				99160A1F1CFEDE7B00D4A51C /* RemappingSignatureAdapter.m in Sources */,
-				99160A2D1CFEDE7B00D4A51C /* StaticInitMerger.m in Sources */,
-				991609F71CFEDE7B00D4A51C /* ClassNode.m in Sources */,
-				99160A231CFEDE7B00D4A51C /* SAXCodeAdapter.m in Sources */,
-				99160A161CFEDE7B00D4A51C /* MethodNode.m in Sources */,
-				991609F21CFEDE7B00D4A51C /* CheckAnnotationAdapter.m in Sources */,
-				991609E61CFEDE7B00D4A51C /* Analyzer.m in Sources */,
-				991609E81CFEDE7B00D4A51C /* AnalyzerException.m in Sources */,
-				991609FB1CFEDE7B00D4A51C /* CodeSizeEvaluator.m in Sources */,
-				99160A1E1CFEDE7B00D4A51C /* RemappingMethodAdapter.m in Sources */,
-				991609ED1CFEDE7B00D4A51C /* Attribute.m in Sources */,
-				99160A081CFEDE7B00D4A51C /* IntInsnNode.m in Sources */,
-				99160A1A1CFEDE7B00D4A51C /* Processor.m in Sources */,
-				99160A3B1CFEDE7B00D4A51C /* TypeReference.m in Sources */,
-				99160A0B1CFEDE7B00D4A51C /* JumpInsnNode.m in Sources */,
-				991609FC1CFEDE7B00D4A51C /* FieldInsnNode.m in Sources */,
-				991609FE1CFEDE7B00D4A51C /* FieldRemapper.m in Sources */,
-				99160A291CFEDE7B00D4A51C /* SimpleRemapper.m in Sources */,
-				99160A321CFEDE7B00D4A51C /* TraceFieldVisitor.m in Sources */,
-				99160A3C1CFEDE7B00D4A51C /* VarInsnNode.m in Sources */,
-				991609F81CFEDE7B00D4A51C /* ClassReader.m in Sources */,
-				99160A221CFEDE7B00D4A51C /* SAXClassAdapter.m in Sources */,
-				99160A1C1CFEDE7B00D4A51C /* RemappingClassAdapter.m in Sources */,
-				99160A2A1CFEDE7B00D4A51C /* SimpleVerifier.m in Sources */,
-				99160A021CFEDE7B00D4A51C /* Handle.m in Sources */,
-				99160A241CFEDE7B00D4A51C /* SAXFieldAdapter.m in Sources */,
-				991609F51CFEDE7B00D4A51C /* CheckMethodAdapter.m in Sources */,
-				991609EE1CFEDE7B00D4A51C /* BasicInterpreter.m in Sources */,
+				99160AEE1CFF35DB00D4A51C /* JBASMifier.m in Sources */,
+				99160B221CFF35DB00D4A51C /* JBRemappingAnnotationAdapter.m in Sources */,
+				99160B241CFF35DB00D4A51C /* JBRemappingFieldAdapter.m in Sources */,
+				99160B031CFF35DB00D4A51C /* JBFieldInsnNode.m in Sources */,
+				99160B3D1CFF35DB00D4A51C /* JBTryCatchBlockSorter.m in Sources */,
+				99160B161CFF35DB00D4A51C /* JBLineNumberNode.m in Sources */,
+				99160B061CFF35DB00D4A51C /* JBFrame.m in Sources */,
+				99160B1F1CFF35DB00D4A51C /* JBMultiANewArrayInsnNode.m in Sources */,
+				99160B0D1CFF35DB00D4A51C /* JBInsnNode.m in Sources */,
+				99160B1B1CFF35DB00D4A51C /* JBMethod.m in Sources */,
+				99160B231CFF35DB00D4A51C /* JBRemappingClassAdapter.m in Sources */,
+				99160B081CFF35DB00D4A51C /* JBGeneratorAdapter.m in Sources */,
+				99160AFD1CFF35DB00D4A51C /* JBCheckSignatureAdapter.m in Sources */,
+				99160B1A1CFF35DB00D4A51C /* JBLookupSwitchInsnNode.m in Sources */,
+				99160B321CFF35DB00D4A51C /* JBSourceInterpreter.m in Sources */,
+				99160AF41CFF35DB00D4A51C /* JBAttribute.m in Sources */,
+				99160B171CFF35DB00D4A51C /* JBLocalVariableAnnotationNode.m in Sources */,
+				99160B371CFF35DB00D4A51C /* JBTraceAnnotationVisitor.m in Sources */,
+				99160B051CFF35DB00D4A51C /* JBFieldRemapper.m in Sources */,
+				99160B421CFF35DB00D4A51C /* JBTypeReference.m in Sources */,
+				99160B2D1CFF35DB00D4A51C /* JBSignatureReader.m in Sources */,
+				99160B021CFF35DB00D4A51C /* JBCodeSizeEvaluator.m in Sources */,
+				99160B2F1CFF35DB00D4A51C /* JBSignatureWriter.m in Sources */,
+				99160B311CFF35DB00D4A51C /* JBSimpleVerifier.m in Sources */,
+				99160B2C1CFF35DB00D4A51C /* JBSerialVersionUIDAdder.m in Sources */,
+				99160B281CFF35DB00D4A51C /* JBSAXAnnotationAdapter.m in Sources */,
+				99160B101CFF35DB00D4A51C /* JBInvokeDynamicInsnNode.m in Sources */,
+				99160B431CFF35DB00D4A51C /* JBVarInsnNode.m in Sources */,
+				99160B141CFF35DB00D4A51C /* JBLabelNode.m in Sources */,
+				99160B361CFF35DB00D4A51C /* JBTextifier.m in Sources */,
+				99160B071CFF35DB00D4A51C /* JBFrameNode.m in Sources */,
+				99160AFE1CFF35DB00D4A51C /* JBClassNode.m in Sources */,
+				99160B411CFF35DB00D4A51C /* JBTypePath.m in Sources */,
+				99160B2E1CFF35DB00D4A51C /* JBSignatureRemapper.m in Sources */,
+				99160B3F1CFF35DB00D4A51C /* JBTypeAnnotationNode.m in Sources */,
+				99160B191CFF35DB00D4A51C /* JBLocalVariablesSorter.m in Sources */,
+				99160B271CFF35DB00D4A51C /* JBSAXAdapter.m in Sources */,
+				99160AFB1CFF35DB00D4A51C /* JBCheckFieldAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

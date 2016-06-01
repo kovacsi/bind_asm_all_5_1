@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.util;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("CheckClassAdapter")
+@ObjCClassName("JBCheckClassAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class CheckClassAdapter extends NSObject {	
@@ -17,6 +18,10 @@ public class CheckClassAdapter extends NSObject {
 	protected CheckClassAdapter(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native CheckClassAdapter alloc();	
 	
 	@Selector("mainWithString:")	
 	public static void mainWithString(String[] arg0) throws Exception {

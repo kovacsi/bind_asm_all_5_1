@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.tree;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("AnnotationNode")
+@ObjCClassName("JBAnnotationNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class AnnotationNode extends NSObject {	
@@ -17,6 +18,10 @@ public class AnnotationNode extends NSObject {
 	protected AnnotationNode(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native AnnotationNode alloc();	
 	
 	@Selector("valueWithString:")	
 	public AnnotationNode valueWithString(String arg0) {

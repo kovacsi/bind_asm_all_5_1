@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.commons;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("TryCatchBlockSorter")
+@ObjCClassName("JBTryCatchBlockSorter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class TryCatchBlockSorter extends NSObject {	
@@ -17,6 +18,10 @@ public class TryCatchBlockSorter extends NSObject {
 	protected TryCatchBlockSorter(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native TryCatchBlockSorter alloc();	
 	
 	@Selector("valueWithMethodVisitor:withInt:withString:withString:withString:withString:")	
 	public TryCatchBlockSorter valueWithMethodVisitorwithIntwithStringwithStringwithStringwithString(Object arg0, int arg1, String arg2, String arg3, String arg4, String[] arg5) {

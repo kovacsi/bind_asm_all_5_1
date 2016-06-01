@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.signature;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("SignatureWriter")
+@ObjCClassName("JBSignatureWriter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SignatureWriter extends NSObject {	
@@ -17,6 +18,10 @@ public class SignatureWriter extends NSObject {
 	protected SignatureWriter(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native SignatureWriter alloc();	
 	
 	@Selector("value")	
 	public SignatureWriter value() {		

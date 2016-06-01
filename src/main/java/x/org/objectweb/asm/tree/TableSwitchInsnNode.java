@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.tree;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("TableSwitchInsnNode")
+@ObjCClassName("JBTableSwitchInsnNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class TableSwitchInsnNode extends NSObject {	
@@ -17,6 +18,10 @@ public class TableSwitchInsnNode extends NSObject {
 	protected TableSwitchInsnNode(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native TableSwitchInsnNode alloc();	
 	
 	@Selector("valueWithInt:withInt:withLabelNode:withLabelNode:")	
 	public TableSwitchInsnNode valueWithIntwithIntwithLabelNodewithLabelNode(int arg0, int arg1, LabelNode arg2, org.objectweb.asm.tree.LabelNode[] arg3) {

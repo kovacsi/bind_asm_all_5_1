@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.tree;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("FieldInsnNode")
+@ObjCClassName("JBFieldInsnNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class FieldInsnNode extends NSObject {	
@@ -17,6 +18,10 @@ public class FieldInsnNode extends NSObject {
 	protected FieldInsnNode(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native FieldInsnNode alloc();	
 	
 	@Selector("valueWithInt:withString:withString:withString:")	
 	public FieldInsnNode valueWithIntwithStringwithStringwithString(int arg0, String arg1, String arg2, String arg3) {

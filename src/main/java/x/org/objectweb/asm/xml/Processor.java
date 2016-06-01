@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.xml;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("Processor")
+@ObjCClassName("JBProcessor")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Processor extends NSObject {	
@@ -17,6 +18,10 @@ public class Processor extends NSObject {
 	protected Processor(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native Processor alloc();	
 	
 	@Selector("valueWithInt:withInt:withInputStream:withOutputStream:withSource:")	
 	public Processor valueWithIntwithIntwithInputStreamwithOutputStreamwithSource(int arg0, int arg1, java.io.InputStream arg2, java.io.OutputStream arg3, javax.xml.transform.Source arg4) {		

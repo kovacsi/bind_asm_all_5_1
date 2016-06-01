@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.tree;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("LdcInsnNode")
+@ObjCClassName("JBLdcInsnNode")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class LdcInsnNode extends NSObject {	
@@ -17,6 +18,10 @@ public class LdcInsnNode extends NSObject {
 	protected LdcInsnNode(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native LdcInsnNode alloc();	
 	
 	@Selector("valueWithObject:")	
 	public LdcInsnNode valueWithObject(Object arg0) {

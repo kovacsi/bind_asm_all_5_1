@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.tree.analysis;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("BasicValue")
+@ObjCClassName("JBBasicValue")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class BasicValue extends NSObject {	
@@ -17,6 +18,10 @@ public class BasicValue extends NSObject {
 	protected BasicValue(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native BasicValue alloc();	
 	
 	@Selector("valueWithType:")	
 	public BasicValue valueWithType(x.org.objectweb.asm.Type arg0) {		

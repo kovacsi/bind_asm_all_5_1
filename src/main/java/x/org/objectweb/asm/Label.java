@@ -1,13 +1,14 @@
 package x.org.objectweb.asm;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("Label")
+@ObjCClassName("JBLabel")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Label extends NSObject {	
@@ -17,6 +18,10 @@ public class Label extends NSObject {
 	protected Label(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native Label alloc();	
 	
 	@Selector("value")	
 	public Label value() {		

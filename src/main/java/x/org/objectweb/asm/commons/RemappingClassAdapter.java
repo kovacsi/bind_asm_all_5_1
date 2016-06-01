@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.commons;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("RemappingClassAdapter")
+@ObjCClassName("JBRemappingClassAdapter")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class RemappingClassAdapter extends NSObject {	
@@ -17,6 +18,10 @@ public class RemappingClassAdapter extends NSObject {
 	protected RemappingClassAdapter(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native RemappingClassAdapter alloc();	
 	
 	@Selector("valueWithClassVisitor:withRemapper:")	
 	public RemappingClassAdapter valueWithClassVisitorwithRemapper(Object arg0, Object arg1) {

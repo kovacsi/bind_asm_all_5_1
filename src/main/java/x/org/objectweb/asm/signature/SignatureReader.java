@@ -1,13 +1,14 @@
 package x.org.objectweb.asm.signature;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("SignatureReader")
+@ObjCClassName("JBSignatureReader")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class SignatureReader extends NSObject {	
@@ -17,6 +18,10 @@ public class SignatureReader extends NSObject {
 	protected SignatureReader(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native SignatureReader alloc();	
 	
 	@Selector("valueWithString:")	
 	public SignatureReader valueWithString(String arg0) {
